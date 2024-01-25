@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_99",
+    "prefLabel": "winograd_q_99",
+    "description": "winograd_q_99 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The guy in the uniform ",
+                "value": "correct"
+            },
+            {
+                "name": "Jim",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "99. I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy. Who looked very unhappy?"
+    }
+}

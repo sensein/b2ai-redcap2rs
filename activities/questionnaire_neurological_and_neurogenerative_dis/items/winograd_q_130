@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_130",
+    "prefLabel": "winograd_q_130",
+    "description": "winograd_q_130 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The backpack ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The newspaper",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "130. Since it was raining, I carried the newspaper in my backpack to keep it dry. What was I trying to keep dry?"
+    }
+}

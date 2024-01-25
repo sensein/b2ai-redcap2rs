@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_168",
+    "prefLabel": "winograd_q_168",
+    "description": "winograd_q_168 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Tina ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Terpsichore",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "168. The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce. Which name was too hard to pronounce?"
+    }
+}

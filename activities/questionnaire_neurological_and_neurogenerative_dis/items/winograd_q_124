@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_124",
+    "prefLabel": "winograd_q_124",
+    "description": "winograd_q_124 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The readers ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The books",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "124. Many people start to read Paul's books and can't put them down. They are popular because Paul writes so well. Who or what are popular?"
+    }
+}

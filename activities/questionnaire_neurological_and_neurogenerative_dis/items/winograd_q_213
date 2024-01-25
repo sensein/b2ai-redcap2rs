@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_213",
+    "prefLabel": "winograd_q_213",
+    "description": "winograd_q_213 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bill ",
+                "value": "correct"
+            },
+            {
+                "name": "Bert",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "213. Bill thinks that calling attention to himself was rude to Bert. Who called attention to himself?"
+    }
+}

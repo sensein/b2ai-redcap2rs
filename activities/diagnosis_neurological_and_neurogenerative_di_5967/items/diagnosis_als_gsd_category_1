@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_gsd_category_1",
+    "prefLabel": "diagnosis_als_gsd_category_1",
+    "description": "diagnosis_als_gsd_category_1 of diagnosis_neurological_and_neurogenerative_di_5967",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No ",
+                "value": " no"
+            },
+            {
+                "name": "Not certain",
+                "value": " notCertain"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis\nDoes the patient meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on:"
+    },
+    "question": {
+        "en": "(1) Progressive motor impairment documented by history or repeated clinical assessment, preceded by normal motor function;"
+    }
+}

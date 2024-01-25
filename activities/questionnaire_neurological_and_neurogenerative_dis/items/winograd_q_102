@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_102",
+    "prefLabel": "winograd_q_102",
+    "description": "winograd_q_102 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The worm ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The fish",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "102. The fish ate the worm. It was hungry. What was hungry?"
+    }
+}

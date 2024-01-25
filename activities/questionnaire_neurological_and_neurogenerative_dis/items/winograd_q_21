@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_21",
+    "prefLabel": "winograd_q_21",
+    "description": "winograd_q_21 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Tom ",
+                "value": "correct"
+            },
+            {
+                "name": "Ray",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "21. Tom threw his schoolbag down to Ray after he reached the top of the stairs. Who reached the top of the stairs?"
+    }
+}

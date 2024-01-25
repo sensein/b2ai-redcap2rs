@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stroop_item_time_9",
+    "prefLabel": "stroop_item_time_9",
+    "description": "stroop_item_time_9 of questionnaire_neurological_and_neurogenerativ_919a",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Item 9\nTime Start"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_treatment_surgery",
+    "prefLabel": "diagnosis_as_treatment_surgery",
+    "description": "diagnosis_as_treatment_surgery of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Endoscopic intervention with Laser and Balloon dilation and steroid injection ",
+                "value": "endoscopicIntervention"
+            },
+            {
+                "name": "Endoscopic laser wedge excision ",
+                "value": " endoscopicExcision"
+            },
+            {
+                "name": "Laryngotracheal reconstruction ",
+                "value": " laryngotrachealReconstruction"
+            },
+            {
+                "name": "Laryngotracheoplasty (Maddern procedure) ",
+                "value": " laryngotracheoplasty"
+            },
+            {
+                "name": "Tracheostomy",
+                "value": " tracheostomy"
+            }
+        ]
+    },
+    "question": {
+        "en": "Surgery options"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_treatment_surgery",
+            "isVis": " diagnosis_as_treatment   == 'surgery'"
+        }
+    ]
+}

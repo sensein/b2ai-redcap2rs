@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_122",
+    "prefLabel": "winograd_q_122",
+    "description": "winograd_q_122 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The old house ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The new house",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "122. Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday. Which house will he be moving into?"
+    }
+}

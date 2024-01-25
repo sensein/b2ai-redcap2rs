@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_128",
+    "prefLabel": "winograd_q_128",
+    "description": "winograd_q_128 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The chair ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The piano",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "128. Sam pulled up a chair to the piano, but it was broken, so he had to sing instead. What was broken?"
+    }
+}

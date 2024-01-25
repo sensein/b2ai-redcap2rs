@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_134",
+    "prefLabel": "winograd_q_134",
+    "description": "winograd_q_134 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The flag ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The sand castle",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "134. This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked it down. What did the the tide knock down?"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_etiology",
+    "prefLabel": "diagnosis_parkinsons_etiology",
+    "description": "diagnosis_parkinsons_etiology of diagnosis_neurological_and_neurogenerative_di_ee01",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Idiopathic (unknown cause) ",
+                "value": "idiopathic"
+            },
+            {
+                "name": "Familial Parkinson's Disease ",
+                "value": " familialParkinsonsDisease"
+            },
+            {
+                "name": "Environmental factors",
+                "value": " environmentalFactors"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the suspected or known etiology of Parkinson's disease in the patient?"
+    }
+}

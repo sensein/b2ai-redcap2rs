@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_treatment_in_office",
+    "prefLabel": "diagnosis_as_treatment_in_office",
+    "description": "diagnosis_as_treatment_in_office of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Steroid injection(s) ",
+                "value": "steroidInjection"
+            },
+            {
+                "name": "In-office dilation ",
+                "value": " dilation"
+            },
+            {
+                "name": "In-office laser",
+                "value": " laser"
+            }
+        ]
+    },
+    "question": {
+        "en": "In-office treatment options"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_treatment_in_office",
+            "isVis": " diagnosis_as_treatment   == 'inOfficeTreatment'"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_145",
+    "prefLabel": "winograd_q_145",
+    "description": "winograd_q_145 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The beach ",
+                "value": "correct"
+            },
+            {
+                "name": "The lake",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "145. We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim. Which was a dangerous place to swim?"
+    }
+}

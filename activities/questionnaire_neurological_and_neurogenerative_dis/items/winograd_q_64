@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_64",
+    "prefLabel": "winograd_q_64",
+    "description": "winograd_q_64 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The meeting ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The train",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "64. My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, it was delayed, so it worked out. What was delayed?"
+    }
+}

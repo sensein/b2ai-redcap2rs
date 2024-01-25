@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_etiology",
+    "prefLabel": "diagnosis_as_etiology",
+    "description": "diagnosis_as_etiology of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not certain / TBD ",
+                "value": "tbd"
+            },
+            {
+                "name": "Iatrogenic (surgery/intubation) ",
+                "value": " iatrogenic"
+            },
+            {
+                "name": "Idiopathic ",
+                "value": " idiopathic"
+            },
+            {
+                "name": "Auto-immune / granulomatous disease ",
+                "value": " autoImmune"
+            },
+            {
+                "name": "Radiation ",
+                "value": " radiation"
+            },
+            {
+                "name": "Other",
+                "value": " other"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the etiology?"
+    }
+}

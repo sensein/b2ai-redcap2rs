@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stroop_item_correct_5",
+    "prefLabel": "stroop_item_correct_5",
+    "description": "stroop_item_correct_5 of questionnaire_neurological_and_neurogenerativ_919a",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "question": {
+        "en": "Item 5\nCorrect?"
+    }
+}

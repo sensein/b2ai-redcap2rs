@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_38",
+    "prefLabel": "winograd_q_38",
+    "description": "winograd_q_38 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The sack of potatoes ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The bag of flour",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "38. The sack of potatoes had been placed below the bag of flour, so it had to be moved first. What had to be moved first?"
+    }
+}

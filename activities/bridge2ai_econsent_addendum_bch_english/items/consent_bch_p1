@@ -1,0 +1,13 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "consent_bch_p1",
+    "prefLabel": "consent_bch_p1",
+    "description": "consent_bch_p1 of bridge2ai_econsent_addendum_bch_english",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_gsd_yes",
+    "prefLabel": "diagnosis_as_gsd_yes",
+    "description": "diagnosis_as_gsd_yes of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Confirmed by bronchoscopy/laryngoscopy ",
+                "value": "bronchoscopy"
+            },
+            {
+                "name": "Confirmed by CT imaging",
+                "value": " ct"
+            }
+        ]
+    },
+    "question": {
+        "en": "Confirmed by"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_gsd_yes",
+            "isVis": " diagnosis_as_gsd   == \"yes\""
+        }
+    ]
+}

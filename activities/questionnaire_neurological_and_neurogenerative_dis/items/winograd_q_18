@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_18",
+    "prefLabel": "winograd_q_18",
+    "description": "winograd_q_18 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The ball ",
+                "value": "correct"
+            },
+            {
+                "name": "The table",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "18. The large ball crashed right through the table because it was made of styrofoam. What was made of styrofoam?"
+    }
+}

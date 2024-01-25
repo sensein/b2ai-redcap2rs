@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_dp",
+    "prefLabel": "diagnosis_als_dp",
+    "description": "diagnosis_als_dp of diagnosis_neurological_and_neurogenerative_di_5967",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Early Stage ",
+                "value": "earlyStage"
+            },
+            {
+                "name": "Intermediate Stage ",
+                "value": " intermediateStage"
+            },
+            {
+                "name": "Advanced Stage",
+                "value": " advancedStage"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "5. Disease Progression"
+    },
+    "question": {
+        "en": "Please provide information on the current stage and progression of ALS:"
+    }
+}

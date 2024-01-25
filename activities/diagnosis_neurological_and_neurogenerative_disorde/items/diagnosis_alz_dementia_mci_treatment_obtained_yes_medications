@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications",
+    "prefLabel": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications",
+    "description": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications of diagnosis_neurological_and_neurogenerative_disorde",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Medications:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications",
+            "isVis": " diagnosis_alz_dementia_mci_treatment_obtained   == 'yes' &&  diagnosis_alz_dementia_mci_treatment_obtained_yes(medications)   == 1"
+        }
+    ]
+}

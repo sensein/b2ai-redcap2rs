@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_228",
+    "prefLabel": "winograd_q_228",
+    "description": "winograd_q_228 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Beth ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Sally",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "228. Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized. Who apologized?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_253",
+    "prefLabel": "winograd_q_253",
+    "description": "winograd_q_253 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Tommy ",
+                "value": "correct"
+            },
+            {
+                "name": "Ollie",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "253. As Ollie carried Tommy up the long winding steps, his legs dangled. Whose legs dangled?"
+    }
+}

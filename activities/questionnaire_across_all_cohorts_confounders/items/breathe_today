@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "breathe_today",
+    "prefLabel": "breathe_today",
+    "description": "breathe_today of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "question": {
+        "en": "Are you having difficulty breathing today?"
+    },
+    "visibility": [
+        {
+            "variableName": "breathe_today",
+            "isVis": " eligible_studies___4   == 1"
+        }
+    ]
+}

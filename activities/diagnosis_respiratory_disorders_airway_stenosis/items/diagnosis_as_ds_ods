@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_ds_ods",
+    "prefLabel": "diagnosis_as_ds_ods",
+    "description": "diagnosis_as_ds_ods of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Mild ",
+                "value": "mild"
+            },
+            {
+                "name": "Moderate ",
+                "value": " moderate"
+            },
+            {
+                "name": "Severe",
+                "value": " severe"
+            }
+        ]
+    },
+    "question": {
+        "en": "How would you subjectively classify the overall degree of stenosis?"
+    }
+}

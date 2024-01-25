@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_270",
+    "prefLabel": "winograd_q_270",
+    "description": "winograd_q_270 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Robert ",
+                "value": "incorrect"
+            },
+            {
+                "name": "James",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "270. James asked Robert for a favor but he was refused. Who was refused?"
+    }
+}

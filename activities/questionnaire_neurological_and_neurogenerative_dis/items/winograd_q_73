@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_73",
+    "prefLabel": "winograd_q_73",
+    "description": "winograd_q_73 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Mary ",
+                "value": "correct"
+            },
+            {
+                "name": "Ann",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "73. Ann asked Mary what time the library closes, but she had forgotten. Who had forgotten?"
+    }
+}

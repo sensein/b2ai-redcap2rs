@@ -11,16 +11,28 @@
         "valueType": "xsd:integer",
         "choices": [
             {
+                "name": "BCH ",
+                "value": "bch"
+            },
+            {
+                "name": "MIT ",
+                "value": " mit"
+            },
+            {
+                "name": "Mt. Sinai ",
+                "value": " mt_sinai"
+            },
+            {
                 "name": "USF ",
-                "value": "USF"
+                "value": " usf"
             },
             {
-                "name": "WCM ",
-                "value": " WCM"
+                "name": "VUMC ",
+                "value": " vumc"
             },
             {
-                "name": "MIT",
-                "value": " MIT"
+                "name": "WCM",
+                "value": " wcm"
             }
         ]
     },

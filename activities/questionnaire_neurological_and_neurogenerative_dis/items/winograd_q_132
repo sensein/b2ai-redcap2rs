@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_132",
+    "prefLabel": "winograd_q_132",
+    "description": "winograd_q_132 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The book ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The article",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "132. Sara borrowed the book from the library because she needs it for an article she is working on. She writes it when she gets home from work. What does Sara writes when she gets home from work?"
+    }
+}

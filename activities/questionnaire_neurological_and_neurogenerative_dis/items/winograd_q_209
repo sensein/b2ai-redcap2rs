@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_209",
+    "prefLabel": "winograd_q_209",
+    "description": "winograd_q_209 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The table ",
+                "value": "correct"
+            },
+            {
+                "name": "The doorway",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "209. The table won't fit through the doorway because it is too wide. What is too wide?"
+    }
+}

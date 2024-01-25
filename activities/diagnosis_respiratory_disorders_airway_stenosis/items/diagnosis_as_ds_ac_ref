@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_ds_ac_ref",
+    "prefLabel": "diagnosis_as_ds_ac_ref",
+    "description": "diagnosis_as_ds_ac_ref of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)\nPicture for reference"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_ds_ac_ref",
+            "isVis": " diagnosis_as_ds   == 'supraglotticStenosis'"
+        }
+    ]
+}

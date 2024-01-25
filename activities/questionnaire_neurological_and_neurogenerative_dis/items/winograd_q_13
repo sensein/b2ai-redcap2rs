@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_13",
+    "prefLabel": "winograd_q_13",
+    "description": "winograd_q_13 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Frank ",
+                "value": "correct"
+            },
+            {
+                "name": "Bill",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "13. Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition. Who was the winner of the competition?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_174",
+    "prefLabel": "winograd_q_174",
+    "description": "winograd_q_174 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Fred ",
+                "value": "incorrect"
+            },
+            {
+                "name": "My great-grandfather",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "174. Fred is the only man still alive who remembers my great-grandfather. He was a remarkable man. Who was a remarkable man?"
+    }
+}

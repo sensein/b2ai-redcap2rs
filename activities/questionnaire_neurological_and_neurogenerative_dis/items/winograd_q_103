@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_103",
+    "prefLabel": "winograd_q_103",
+    "description": "winograd_q_103 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The key ",
+                "value": "correct"
+            },
+            {
+                "name": "The chewing gum",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "103. I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in. What couldn't I get in?"
+    }
+}

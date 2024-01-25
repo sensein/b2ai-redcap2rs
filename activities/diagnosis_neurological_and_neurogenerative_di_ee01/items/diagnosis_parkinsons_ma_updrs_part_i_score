@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_ma_updrs_part_i_score",
+    "prefLabel": "diagnosis_parkinsons_ma_updrs_part_i_score",
+    "description": "diagnosis_parkinsons_ma_updrs_part_i_score of diagnosis_neurological_and_neurogenerative_di_ee01",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Part I (Intellectual function, mood, behavior) score:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_parkinsons_ma_updrs_part_i_score",
+            "isVis": " diagnosis_parkinsons_ma_uprds   == 'partI'"
+        }
+    ]
+}

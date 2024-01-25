@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_24",
+    "prefLabel": "winograd_q_24",
+    "description": "winograd_q_24 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Sue ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Sally",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "24. Although they ran at about the same speed, Sue beat Sally because she had such a bad start. Who had a bad start?"
+    }
+}

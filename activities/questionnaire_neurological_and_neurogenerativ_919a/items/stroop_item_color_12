@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stroop_item_color_12",
+    "prefLabel": "stroop_item_color_12",
+    "description": "stroop_item_color_12 of questionnaire_neurological_and_neurogenerativ_919a",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "red ",
+                "value": "red"
+            },
+            {
+                "name": "green ",
+                "value": " green"
+            },
+            {
+                "name": "blue ",
+                "value": " blue"
+            },
+            {
+                "name": "purple ",
+                "value": " purple"
+            },
+            {
+                "name": "brown",
+                "value": " brown"
+            }
+        ]
+    },
+    "question": {
+        "en": "Item 12\nColor"
+    }
+}

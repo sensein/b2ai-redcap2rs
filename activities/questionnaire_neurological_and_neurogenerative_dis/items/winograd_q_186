@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_186",
+    "prefLabel": "winograd_q_186",
+    "description": "winograd_q_186 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The prehistoric humans ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The archaeologists",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "186. Archaeologists have concluded that humans lived in Laputa 20,000 years ago. They hunted for evidence on the river banks. Who hunted for evidence?"
+    }
+}

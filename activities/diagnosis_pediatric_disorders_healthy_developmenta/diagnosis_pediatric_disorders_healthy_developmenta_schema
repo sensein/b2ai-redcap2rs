@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "diagnosis_pediatric_disorders_healthy_developmenta_schema",
+    "prefLabel": "diagnosis_pediatric_disorders_healthy_developmenta",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/diagnosis_healthy_developmentally_typical_children_ci"
+        ],
+        "addProperties": [
+            {
+                "variableName": "diagnosis_healthy_developmentally_typical_children_ci",
+                "isAbout": "items/diagnosis_healthy_developmentally_typical_children_ci",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

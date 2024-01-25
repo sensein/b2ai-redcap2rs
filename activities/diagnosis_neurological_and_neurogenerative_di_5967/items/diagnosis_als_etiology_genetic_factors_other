@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_etiology_genetic_factors_other",
+    "prefLabel": "diagnosis_als_etiology_genetic_factors_other",
+    "description": "diagnosis_als_etiology_genetic_factors_other of diagnosis_neurological_and_neurogenerative_di_5967",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"Other genetic factors\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_etiology_genetic_factors_other",
+            "isVis": " diagnosis_als_etiology_genetic_factors(other)   == 1"
+        }
+    ]
+}

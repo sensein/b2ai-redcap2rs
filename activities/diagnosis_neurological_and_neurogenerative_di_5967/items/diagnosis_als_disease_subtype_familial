@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_disease_subtype_familial",
+    "prefLabel": "diagnosis_als_disease_subtype_familial",
+    "description": "diagnosis_als_disease_subtype_familial of diagnosis_neurological_and_neurogenerative_di_5967",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"Familial ALS\", please specify the genetic mutation if known:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_disease_subtype_familial",
+            "isVis": " diagnosis_als_disease_subtype   == 'familialAls'"
+        }
+    ]
+}

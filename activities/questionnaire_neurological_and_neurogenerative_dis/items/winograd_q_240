@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_240",
+    "prefLabel": "winograd_q_240",
+    "description": "winograd_q_240 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bill ",
+                "value": "incorrect"
+            },
+            {
+                "name": "John",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "240. Bill passed the half-empty plate to John because he was hungry. Who was hungry?"
+    }
+}

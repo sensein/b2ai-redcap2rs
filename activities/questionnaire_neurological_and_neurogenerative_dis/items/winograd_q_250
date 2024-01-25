@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_250",
+    "prefLabel": "winograd_q_250",
+    "description": "winograd_q_250 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Donna ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Lily",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "250. Lily spoke to Donna, breaking her silence. Whose silence?"
+    }
+}

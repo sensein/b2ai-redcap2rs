@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_138",
+    "prefLabel": "winograd_q_138",
+    "description": "winograd_q_138 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Jane invited Susan ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Susan invited Jane",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "138. Jane knocked on the door, and Susan answered it. She invited her to come in. Who invited whom?"
+    }
+}

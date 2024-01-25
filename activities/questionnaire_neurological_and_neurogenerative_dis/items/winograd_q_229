@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_229",
+    "prefLabel": "winograd_q_229",
+    "description": "winograd_q_229 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Jim ",
+                "value": "correct"
+            },
+            {
+                "name": "The barman",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "229. Jim signaled the barman and gestured toward his empty glass. Whose empty glass?"
+    }
+}

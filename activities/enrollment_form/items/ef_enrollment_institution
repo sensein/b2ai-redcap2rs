@@ -12,11 +12,11 @@
         "choices": [
             {
                 "name": "BCH ",
-                "value": "BCH"
+                "value": "bch"
             },
             {
                 "name": "MIT ",
-                "value": " MIT"
+                "value": " mit"
             },
             {
                 "name": "Mt. Sinai ",
@@ -24,15 +24,15 @@
             },
             {
                 "name": "USF ",
-                "value": " USF"
+                "value": " usf"
             },
             {
                 "name": "VUMC ",
-                "value": " VUMC"
+                "value": " vumc"
             },
             {
                 "name": "WCM",
-                "value": " WCM"
+                "value": " wcm"
             }
         ]
     },

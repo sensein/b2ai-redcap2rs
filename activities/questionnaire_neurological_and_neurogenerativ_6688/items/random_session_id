@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "random_session_id",
+    "prefLabel": "random_session_id",
+    "description": "random_session_id of questionnaire_neurological_and_neurogenerativ_6688",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
+    "question": {
+        "en": "Session ID"
+    }
+}

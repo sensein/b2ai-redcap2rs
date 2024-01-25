@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_205",
+    "prefLabel": "winograd_q_205",
+    "description": "winograd_q_205 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The coffee ",
+                "value": "correct"
+            },
+            {
+                "name": "The pen",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "205. I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full of ink. What got full of ink?"
+    }
+}

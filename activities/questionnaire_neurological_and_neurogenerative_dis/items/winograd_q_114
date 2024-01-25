@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_114",
+    "prefLabel": "winograd_q_114",
+    "description": "winograd_q_114 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "John ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The juggler",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "114. John was jogging through the park when he saw a man juggling watermelons. He was very impressive. Who was impressive?"
+    }
+}

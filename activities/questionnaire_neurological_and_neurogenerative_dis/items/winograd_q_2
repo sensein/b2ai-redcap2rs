@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_2",
+    "prefLabel": "winograd_q_2",
+    "description": "winograd_q_2 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The city councilmen ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The demonstrators",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "2. The city councilmen refused the demonstrators a permit because they advocated violence. Who advocated violence?"
+    }
+}

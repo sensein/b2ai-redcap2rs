@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_95",
+    "prefLabel": "winograd_q_95",
+    "description": "winograd_q_95 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Anne ",
+                "value": "correct"
+            },
+            {
+                "name": "Anne's daughter",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "95. Anne gave birth to a daughter last month. She is a very charming woman. Who is a very charming woman?"
+    }
+}

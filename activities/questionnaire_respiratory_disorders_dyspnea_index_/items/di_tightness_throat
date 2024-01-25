@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "di_47",
+    "prefLabel": "di_47",
+    "description": "di_47 of questionnaire_respiratory_disorders_dyspnea_index_",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Almost never ",
+                "value": " almostNever"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Almost always ",
+                "value": " almostAlways"
+            },
+            {
+                "name": "Always",
+                "value": " always"
+            }
+        ]
+    },
+    "question": {
+        "en": "I feel tightness in my throat when I am having my breathing problem."
+    }
+}

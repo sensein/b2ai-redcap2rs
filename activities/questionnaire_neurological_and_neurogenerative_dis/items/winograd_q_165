@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_165",
+    "prefLabel": "winograd_q_165",
+    "description": "winograd_q_165 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "His eyes ",
+                "value": "correct"
+            },
+            {
+                "name": "His hands",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "165. Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped. What did Fred opened?"
+    }
+}

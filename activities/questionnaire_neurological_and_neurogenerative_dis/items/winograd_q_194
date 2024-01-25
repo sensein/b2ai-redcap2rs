@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_194",
+    "prefLabel": "winograd_q_194",
+    "description": "winograd_q_194 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The cake ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The refrigerator",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "194. I put the cake away in the refrigerator. It has a lot of leftovers in it. What has a lot of leftovers?"
+    }
+}
