@@ -6,11 +6,11 @@ This repository contains the version-controlled implementation of the Bridge2AI 
 
 For each REDCap data dictionary version, we did the following
 
-1. Removal of Previous Elements
+### 1. Removal of Previous Elements
 
 All existing protocols, activities, and items from the previous version were deleted to ensure a clean starting point for the new version. This step was critical to clearly document which elements were removed between versions
 
-2. Convert to reproschema format
+### 2. Convert to reproschema format
 
 Install the tool `reproschema-py` 
 ```
@@ -23,7 +23,7 @@ Convert the data dictionary
 reproschema redcap2reproschema [b2ai-redcap-data-dictionary.csv] [redcap2rs.ymal]
 ```
 
-3. Git add and commit
+### 3. Git add and commit
 
 Add and commit the newly converted reproschema
 ```
@@ -31,14 +31,14 @@ git add .
 git commit -m "converted b2ai redcap data dictionary version xx to reproschema"
 ```
 
-4. Version tagging
+### 4. Version tagging
 
 After committing the changes, each version was tagged to mark the release point in the repository's history. For example:
 ```
 git tag -a 1.0.0 -m "redcap data dictionary version 1.0 to reproschema"
 ```
 
-5. Git push
+### 5. Git push
 
 Push the current tag to remote
 ```
