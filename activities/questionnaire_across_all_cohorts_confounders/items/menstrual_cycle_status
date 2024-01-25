@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "menstrual_cycle_status",
+    "prefLabel": "menstrual_cycle_status",
+    "description": "menstrual_cycle_status of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Menstruating ",
+                "value": "menstruating"
+            },
+            {
+                "name": "Premenstrual ",
+                "value": " premenstrual"
+            },
+            {
+                "name": "Postmenstrual ",
+                "value": " postmenstrual"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "Where in your cycle are you?(We ask because this may affect your voice.)"
+    },
+    "visibility": [
+        {
+            "variableName": "menstrual_cycle_status",
+            "isVis": " menstruate  =='2'"
+        }
+    ]
+}

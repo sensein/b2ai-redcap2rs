@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ptsd_adult_38",
+    "prefLabel": "ptsd_adult_38",
+    "description": "ptsd_adult_38 of questionnaire_mood_disorders_ptsd_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0=Not at all ",
+                "value": 0
+            },
+            {
+                "name": "1=A little bit ",
+                "value": 1
+            },
+            {
+                "name": "2=Moderately ",
+                "value": 2
+            },
+            {
+                "name": "3=Quite a bit ",
+                "value": 3
+            },
+            {
+                "name": "4=Extremely",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Feeling very emotionally upset when something reminded you of a stressful experience?"
+    }
+}

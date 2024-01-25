@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "drinks_today_number",
+    "prefLabel": "drinks_today_number",
+    "description": "drinks_today_number of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How many drinks have you had today?"
+    },
+    "visibility": [
+        {
+            "variableName": "drinks_today_number",
+            "isVis": " alcohol_today  ==\"1\""
+        }
+    ]
+}

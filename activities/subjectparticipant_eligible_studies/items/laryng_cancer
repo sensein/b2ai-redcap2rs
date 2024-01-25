@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "voice_disorders_151",
+    "prefLabel": "voice_disorders_151",
+    "description": "voice_disorders_151 of subjectparticipant_eligible_studies",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Unchecked ",
+                "value": 0
+            },
+            {
+                "name": "Checked",
+                "value": 1
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Do you have any of these conditions, diagnosed by a clinician?(Check all that apply if you currently have the condition)Voice Disorders"
+    },
+    "question": {
+        "en": "Laryngeal cancer"
+    }
+}

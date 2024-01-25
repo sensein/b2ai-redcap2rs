@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "disabilities_others",
+    "prefLabel": "disabilities_others",
+    "description": "disabilities_others of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please specify your disability(ies)? Consider those that are visible to others and those that are not visible to others."
+    },
+    "visibility": [
+        {
+            "variableName": "disabilities_others",
+            "isVis": " disability_status   == 2 ||  disability_status   == 3"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "current_psych_tx",
+    "prefLabel": "current_psych_tx",
+    "description": "current_psych_tx of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "Do you currently receive treatment for these conditions?"
+    },
+    "visibility": [
+        {
+            "variableName": "current_psych_tx",
+            "isVis": " psychiatric_symptoms___1   == \"1\" or\n psychiatric_symptoms___2   == \"1\" or\n psychiatric_symptoms___3   == \"1\" or\n psychiatric_diagnosis___1   == \"1\" or\n psychiatric_diagnosis___2   == \"1\" or\n psychiatric_diagnosis___3   == \"1\" or\n psychiatric_diagnosis___4   == \"1\" or\n psychiatric_diagnosis___5   == \"1\" or\n psychiatric_diagnosis___6   == \"1\" or\n psychiatric_diagnosis___7   == \"1\" or\n psychiatric_diagnosis___8   == \"1\" or\n psychiatric_diagnosis___9   == \"1\" or\n psychiatric_diagnosis___10   == \"1\" or\n psychiatric_diagnosis___11   == \"1\" or\n psychiatric_diagnosis___12   == \"1\" or\n psychiatric_diagnosis___13   == \"1\" or\n psychiatric_diagnosis___14   == \"1\" or\n psychiatric_diagnosis___15   == \"1\""
+        }
+    ]
+}

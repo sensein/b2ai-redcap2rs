@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_fluent_languages",
+    "prefLabel": "ef_fluent_languages",
+    "description": "ef_fluent_languages of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Do you speak any additional language(s) fluently (similar to a native speaker)?"
+    }
+}

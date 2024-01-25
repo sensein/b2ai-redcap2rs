@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_other_reason_decline",
+    "prefLabel": "ef_other_reason_decline",
+    "description": "ef_other_reason_decline of enrollment_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If \"Other\" reason for declining enrollment, please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "ef_other_reason_decline",
+            "isVis": " ef_reason_decline_enroll  ==\"5\""
+        }
+    ]
+}

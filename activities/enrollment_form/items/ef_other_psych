@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_mood_psych_dis_495",
+    "prefLabel": "ef_mood_psych_dis_495",
+    "description": "ef_mood_psych_dis_495 of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Unchecked ",
+                "value": 0
+            },
+            {
+                "name": "Checked",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Other psychiatric disorder"
+    }
+}

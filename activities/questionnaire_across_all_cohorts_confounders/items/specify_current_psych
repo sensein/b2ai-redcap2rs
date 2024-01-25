@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "specify_current_psych",
+    "prefLabel": "specify_current_psych",
+    "description": "specify_current_psych of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Which ones do you currently have? (please specify)"
+    },
+    "visibility": [
+        {
+            "variableName": "specify_current_psych",
+            "isVis": " current_psych  ==2"
+        }
+    ]
+}

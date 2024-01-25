@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "immigration_status",
+    "prefLabel": "immigration_status",
+    "description": "immigration_status of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "US citizen ",
+                "value": 1
+            },
+            {
+                "name": "US permanent resident [Green card holder] ",
+                "value": 2
+            },
+            {
+                "name": "Non-citizen US national ",
+                "value": 3
+            },
+            {
+                "name": "Refugee ",
+                "value": 4
+            },
+            {
+                "name": "Asylum seeker ",
+                "value": 5
+            },
+            {
+                "name": "Non-immigrant student ",
+                "value": 6
+            },
+            {
+                "name": "Non-immigrant worker ",
+                "value": 7
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 8
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your immigration status?"
+    }
+}

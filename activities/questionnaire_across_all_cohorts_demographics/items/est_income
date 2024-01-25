@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "est_income",
+    "prefLabel": "est_income",
+    "description": "est_income of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "What is your estimated annual household income?"
+    },
+    "visibility": [
+        {
+            "variableName": "est_income",
+            "isVis": " income_share  =='1'"
+        }
+    ]
+}

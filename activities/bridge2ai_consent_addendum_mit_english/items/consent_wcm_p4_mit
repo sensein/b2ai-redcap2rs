@@ -1,0 +1,13 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "consent_wcm_p4_mit",
+    "prefLabel": "consent_wcm_p4_mit",
+    "description": "consent_wcm_p4_mit of bridge2ai_consent_addendum_mit_english",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

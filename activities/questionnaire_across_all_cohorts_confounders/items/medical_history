@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "medical_history",
+    "prefLabel": "medical_history",
+    "description": "medical_history of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "EAR, NOSE, THROAT MEDICAL HISTORYDo you have any of these voice, communication, or hearing conditions or had any of the interventions mentioned below? (check all that apply)"
+    },
+    "question": {
+        "en": "Medical History"
+    }
+}

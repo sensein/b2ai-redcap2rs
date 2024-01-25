@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "last_name",
+    "prefLabel": "last_name",
+    "description": "last_name of subjectparticipant_contact_information",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Last Name"
+    },
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

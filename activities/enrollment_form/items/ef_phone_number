@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_phone_number",
+    "prefLabel": "ef_phone_number",
+    "description": "ef_phone_number of enrollment_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Phone Number"
+    },
+    "additionalNotesObj": [
+        {
+            "source": "redcap",
+            "column": "Field Note",
+            "value": "###-###-####"
+        }
+    ],
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

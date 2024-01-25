@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "psychiatric_symptoms",
+    "prefLabel": "psychiatric_symptoms",
+    "description": "psychiatric_symptoms of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "PSYCHIATRIC CONDITIONS\n\nHave you been diagnosed with any of these mental health conditions by a clinician? (check all that apply)"
+    },
+    "question": {
+        "en": "Psychiatric Symptoms"
+    }
+}

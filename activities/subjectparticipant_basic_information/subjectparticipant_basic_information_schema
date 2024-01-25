@@ -1,0 +1,70 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "subjectparticipant_basic_information_schema",
+    "prefLabel": "subjectparticipant_basic_information",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/record_id",
+            "items/selected_language",
+            "items/consent_status",
+            "items/withdrawn_consent_reason",
+            "items/withdrawn_consent_date",
+            "items/enrolled",
+            "items/enrollment_reason",
+            "items/enrollment_institution",
+            "items/researcher_email"
+        ],
+        "addProperties": [
+            {
+                "variableName": "record_id",
+                "isAbout": "items/record_id",
+                "isVis": true
+            },
+            {
+                "variableName": "selected_language",
+                "isAbout": "items/selected_language",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_status",
+                "isAbout": "items/consent_status",
+                "isVis": true
+            },
+            {
+                "variableName": "withdrawn_consent_reason",
+                "isAbout": "items/withdrawn_consent_reason",
+                "isVis": " consent_status   == 3"
+            },
+            {
+                "variableName": "withdrawn_consent_date",
+                "isAbout": "items/withdrawn_consent_date",
+                "isVis": " consent_status   == 3"
+            },
+            {
+                "variableName": "enrolled",
+                "isAbout": "items/enrolled",
+                "isVis": true
+            },
+            {
+                "variableName": "enrollment_reason",
+                "isAbout": "items/enrollment_reason",
+                "isVis": " enrolled   == 1"
+            },
+            {
+                "variableName": "enrollment_institution",
+                "isAbout": "items/enrollment_institution",
+                "isVis": true
+            },
+            {
+                "variableName": "researcher_email",
+                "isAbout": "items/researcher_email",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

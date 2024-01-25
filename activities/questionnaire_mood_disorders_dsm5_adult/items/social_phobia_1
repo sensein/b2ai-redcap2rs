@@ -1,0 +1,47 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_5_adult_social_phobia1_46",
+    "prefLabel": "dsm_5_adult_social_phobia1_46",
+    "description": "dsm_5_adult_social_phobia1_46 of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 0
+            },
+            {
+                "name": "Occasionally ",
+                "value": 1
+            },
+            {
+                "name": "Half of the time ",
+                "value": 2
+            },
+            {
+                "name": "Most of the time ",
+                "value": 3
+            },
+            {
+                "name": "All of the time",
+                "value": 4
+            }
+        ]
+    },
+    "preamble": {
+        "en": "DSM-5 Adult (Social Phobia)\n\nThe following questions ask about thoughts, feelings, and behaviors that you may have had about social situations. Usual social situations include: public speaking, speaking in meetings, attending social events or parties, introducing yourself to others, having conversations, giving and receiving compliments, making requests of others, and eating and writing in public.\n\nDuring the PAST 7 DAYS, I have..."
+    },
+    "question": {
+        "en": "felt moments of sudden terror, fear, or fright in social situations"
+    },
+    "visibility": [
+        {
+            "variableName": "social_phobia_1",
+            "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+        }
+    ]
+}

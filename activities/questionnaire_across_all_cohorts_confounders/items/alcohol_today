@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "alcohol_today",
+    "prefLabel": "alcohol_today",
+    "description": "alcohol_today of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you drunk alcohol today?"
+    },
+    "visibility": [
+        {
+            "variableName": "alcohol_today",
+            "isVis": " alcohol_yn  ==\"1\""
+        }
+    ]
+}

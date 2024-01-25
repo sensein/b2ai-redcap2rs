@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "consent_wcm_rs_signature",
+    "prefLabel": "consent_wcm_rs_signature",
+    "description": "consent_wcm_rs_signature of bridge2ai_consent_addendum_wcm_researcher_statemen",
+    "ui": {
+        "inputType": "file"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Signature of Person Obtaining Informed Consent"
+    }
+}

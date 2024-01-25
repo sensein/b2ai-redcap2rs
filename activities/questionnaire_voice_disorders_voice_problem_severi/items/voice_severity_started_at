@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "voice_severity_started_at",
+    "prefLabel": "voice_severity_started_at",
+    "description": "voice_severity_started_at of questionnaire_voice_disorders_voice_problem_severi",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Started At"
+    }
+}

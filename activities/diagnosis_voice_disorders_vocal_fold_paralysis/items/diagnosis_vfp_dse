@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_dse",
+    "prefLabel": "diagnosis_vfp_dse",
+    "description": "diagnosis_vfp_dse of diagnosis_voice_disorders_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Small ",
+                "value": 1
+            },
+            {
+                "name": "Moderate ",
+                "value": 2
+            },
+            {
+                "name": "Large",
+                "value": 3
+            }
+        ]
+    },
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
+    "question": {
+        "en": "Degree of Glottic Gap"
+    }
+}

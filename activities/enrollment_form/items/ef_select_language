@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_select_language",
+    "prefLabel": "ef_select_language",
+    "description": "ef_select_language of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": 1
+            },
+            {
+                "name": "Espa\u00f1ol ",
+                "value": 2
+            },
+            {
+                "name": "Fran\u00e7ais",
+                "value": 3
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Select a language"
+    },
+    "question": {
+        "en": "Select a language"
+    }
+}

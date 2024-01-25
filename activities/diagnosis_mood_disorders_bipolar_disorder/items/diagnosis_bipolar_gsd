@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_bipolar_gsd",
+    "prefLabel": "diagnosis_bipolar_gsd",
+    "description": "diagnosis_bipolar_gsd of diagnosis_mood_disorders_bipolar_disorder",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bipolar I disorder ",
+                "value": "bipolar_1"
+            },
+            {
+                "name": "Bipolar II disorder ",
+                "value": " bipolar_2"
+            },
+            {
+                "name": "Cyclothymic disorder (cyclothymia) ",
+                "value": " cyclothymia"
+            },
+            {
+                "name": "Other specified and unspecified bipolar and related disorders",
+                "value": " other"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
+    "question": {
+        "en": "Diagnosis"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "disability_status",
+    "prefLabel": "disability_status",
+    "description": "disability_status of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Able-bodied ",
+                "value": "ableBodied"
+            },
+            {
+                "name": "Disabled",
+                "value": " disabledAbleToWork",
+                "schema:image": "able to work .png"
+            },
+            {
+                "name": "Disabled",
+                "value": " disabledUnableToWork",
+                "schema:image": "unable to work .png"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your disability status?"
+    }
+}

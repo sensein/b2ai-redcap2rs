@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "vhi_10_50",
+    "prefLabel": "vhi_10_50",
+    "description": "vhi_10_50 of questionnaire_across_all_cohorts_voice_handicap_in",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Almost Never ",
+                "value": " almostNever"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Almost Always ",
+                "value": " almostAlways"
+            },
+            {
+                "name": "Always",
+                "value": " always"
+            }
+        ]
+    },
+    "question": {
+        "en": "My voice problem causes me to lose income."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "others_household_specify",
+    "prefLabel": "others_household_specify",
+    "description": "others_household_specify of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If \"others\" live in your household, please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "others_household_specify",
+            "isVis": " other_live_with  ==\"1\""
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "menstruate",
+    "prefLabel": "menstruate",
+    "description": "menstruate of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Does not apply ",
+                "value": 1
+            },
+            {
+                "name": "Yes ",
+                "value": 2
+            },
+            {
+                "name": "I am pregnant ",
+                "value": 3
+            },
+            {
+                "name": "I have an IUD ",
+                "value": 4
+            },
+            {
+                "name": "I have gone through menopause ",
+                "value": 5
+            },
+            {
+                "name": "Other (Please specify)",
+                "value": 6
+            }
+        ]
+    },
+    "preamble": {
+        "en": "GYNECOLOGICAL"
+    },
+    "question": {
+        "en": "Do you menstruate?"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "tired_measure",
+    "prefLabel": "tired_measure",
+    "description": "tired_measure of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0 ",
+                "value": 0
+            },
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ",
+                "value": 9
+            },
+            {
+                "name": "10",
+                "value": 10
+            }
+        ]
+    },
+    "preamble": {
+        "en": "TIREDNESS"
+    },
+    "question": {
+        "en": "How tired are you?0=not tired at all, 10=extremely tired"
+    }
+}

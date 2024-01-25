@@ -1,0 +1,152 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_mood_disorders_panas_schema",
+    "prefLabel": "questionnaire_mood_disorders_panas",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/panas_session_id",
+            "items/panas_started_at",
+            "items/panas_completed_at",
+            "items/panas_duration",
+            "items/upset",
+            "items/hostile",
+            "items/alert",
+            "items/ashamed",
+            "items/inspired",
+            "items/nervous",
+            "items/determined",
+            "items/attentive",
+            "items/afraid",
+            "items/active"
+        ],
+        "addProperties": [
+            {
+                "variableName": "panas_session_id",
+                "isAbout": "items/panas_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_started_at",
+                "isAbout": "items/panas_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_completed_at",
+                "isAbout": "items/panas_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_duration",
+                "isAbout": "items/panas_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "upset",
+                "isAbout": "items/upset",
+                "isVis": true
+            },
+            {
+                "variableName": "hostile",
+                "isAbout": "items/hostile",
+                "isVis": true
+            },
+            {
+                "variableName": "alert",
+                "isAbout": "items/alert",
+                "isVis": true
+            },
+            {
+                "variableName": "ashamed",
+                "isAbout": "items/ashamed",
+                "isVis": true
+            },
+            {
+                "variableName": "inspired",
+                "isAbout": "items/inspired",
+                "isVis": true
+            },
+            {
+                "variableName": "nervous",
+                "isAbout": "items/nervous",
+                "isVis": true
+            },
+            {
+                "variableName": "determined",
+                "isAbout": "items/determined",
+                "isVis": true
+            },
+            {
+                "variableName": "attentive",
+                "isAbout": "items/attentive",
+                "isVis": true
+            },
+            {
+                "variableName": "afraid",
+                "isAbout": "items/afraid",
+                "isVis": true
+            },
+            {
+                "variableName": "active",
+                "isAbout": "items/active",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    },
+    "matrixInfo": [
+        {
+            "variableName": "upset",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "hostile",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "alert",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ashamed",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "inspired",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "nervous",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "determined",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "attentive",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "afraid",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "active",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        }
+    ]
+}

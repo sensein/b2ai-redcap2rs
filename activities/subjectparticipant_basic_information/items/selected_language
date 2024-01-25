@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "selected_language",
+    "prefLabel": "selected_language",
+    "description": "selected_language of subjectparticipant_basic_information",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": 1
+            },
+            {
+                "name": "Espa\u00f1ol ",
+                "value": 2
+            },
+            {
+                "name": "Fran\u00e7ais",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "session_site",
+    "prefLabel": "session_site",
+    "description": "session_site of session",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "USF ",
+                "value": "USF"
+            },
+            {
+                "name": "WCM ",
+                "value": " WCM"
+            },
+            {
+                "name": "MIT",
+                "value": " MIT"
+            }
+        ]
+    },
+    "question": {
+        "en": "Session Site?"
+    }
+}

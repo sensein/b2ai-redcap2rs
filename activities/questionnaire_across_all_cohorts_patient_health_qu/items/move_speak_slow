@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq_9_53",
+    "prefLabel": "phq_9_53",
+    "description": "phq_9_53 of questionnaire_across_all_cohorts_patient_health_qu",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all ",
+                "value": 0
+            },
+            {
+                "name": "Several days ",
+                "value": 1
+            },
+            {
+                "name": "More than half the days ",
+                "value": 2
+            },
+            {
+                "name": "Nearly every day",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual."
+    }
+}

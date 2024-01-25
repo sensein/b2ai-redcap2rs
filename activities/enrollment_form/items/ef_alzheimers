@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_neuro_neurodeg_dis_257",
+    "prefLabel": "ef_neuro_neurodeg_dis_257",
+    "description": "ef_neuro_neurodeg_dis_257 of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Unchecked ",
+                "value": 0
+            },
+            {
+                "name": "Checked",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Alzheimer's"
+    }
+}

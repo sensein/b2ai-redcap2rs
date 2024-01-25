@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_5_adult_621",
+    "prefLabel": "dsm_5_adult_621",
+    "description": "dsm_5_adult_621 of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0=None (Not at all) ",
+                "value": 0
+            },
+            {
+                "name": "1=Slight (Rare",
+                "value": 1,
+                "schema:image": "less than a day or two) .png"
+            },
+            {
+                "name": "2=Mild (Several days) ",
+                "value": 2
+            },
+            {
+                "name": "3=Moderate (More than half the days) ",
+                "value": 3
+            },
+            {
+                "name": "4=Severe (Nearly every day)",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Using any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?"
+    }
+}

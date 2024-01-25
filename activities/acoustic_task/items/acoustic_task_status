@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "acoustic_task_status",
+    "prefLabel": "acoustic_task_status",
+    "description": "acoustic_task_status of acoustic_task",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Skipped ",
+                "value": 1
+            },
+            {
+                "name": "Completed",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Acoustic Task Status"
+    }
+}

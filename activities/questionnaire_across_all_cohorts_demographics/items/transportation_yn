@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "transportation_yn",
+    "prefLabel": "transportation_yn",
+    "description": "transportation_yn of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "Do you have a reliable mode of transportation?"
+    }
+}

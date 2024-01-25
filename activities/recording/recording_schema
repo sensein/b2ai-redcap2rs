@@ -1,0 +1,82 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "recording_schema",
+    "prefLabel": "recording",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/recording_id",
+            "items/recording_acoustic_task_id",
+            "items/recording_session_id",
+            "items/recording_name",
+            "items/recording_filepath",
+            "items/recording_storage_account",
+            "items/recording_file_share",
+            "items/recording_duration",
+            "items/recording_size",
+            "items/recording_created_at",
+            "items/recording_profile"
+        ],
+        "addProperties": [
+            {
+                "variableName": "recording_id",
+                "isAbout": "items/recording_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_acoustic_task_id",
+                "isAbout": "items/recording_acoustic_task_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_session_id",
+                "isAbout": "items/recording_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_name",
+                "isAbout": "items/recording_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_filepath",
+                "isAbout": "items/recording_filepath",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_storage_account",
+                "isAbout": "items/recording_storage_account",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_file_share",
+                "isAbout": "items/recording_file_share",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_duration",
+                "isAbout": "items/recording_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_size",
+                "isAbout": "items/recording_size",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_created_at",
+                "isAbout": "items/recording_created_at",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile",
+                "isAbout": "items/recording_profile",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "eligible_studies",
+    "prefLabel": "eligible_studies",
+    "description": "eligible_studies of subjectparticipant_eligible_studies",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Eligible Studies"
+    },
+    "question": {
+        "en": "Eligible Studies"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_voice_disorders_voice_problem_severi_schema",
+    "prefLabel": "questionnaire_voice_disorders_voice_problem_severi",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/voice_severity_session_id",
+            "items/voice_severity_started_at",
+            "items/voice_severity_completed_at",
+            "items/voice_severity_duration",
+            "items/describe_the_severity_of_a"
+        ],
+        "addProperties": [
+            {
+                "variableName": "voice_severity_session_id",
+                "isAbout": "items/voice_severity_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_started_at",
+                "isAbout": "items/voice_severity_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_completed_at",
+                "isAbout": "items/voice_severity_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_duration",
+                "isAbout": "items/voice_severity_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "describe_the_severity_of_a",
+                "isAbout": "items/describe_the_severity_of_a",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

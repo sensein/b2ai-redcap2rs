@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mood_psych_dis_217",
+    "prefLabel": "mood_psych_dis_217",
+    "description": "mood_psych_dis_217 of subjectparticipant_eligible_studies",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Unchecked ",
+                "value": 0
+            },
+            {
+                "name": "Checked",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Schizophrenia"
+    }
+}

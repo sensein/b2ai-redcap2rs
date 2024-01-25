@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_started_at",
+    "prefLabel": "ef_started_at",
+    "description": "ef_started_at of enrollment_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Enrollment Form - Metadata"
+    },
+    "question": {
+        "en": "Enrollment Form Started At"
+    }
+}

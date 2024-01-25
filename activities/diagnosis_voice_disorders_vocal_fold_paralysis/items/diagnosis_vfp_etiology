@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_etiology",
+    "prefLabel": "diagnosis_vfp_etiology",
+    "description": "diagnosis_vfp_etiology of diagnosis_voice_disorders_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Idiopathic ",
+                "value": 1
+            },
+            {
+                "name": "Iatrogenic (surgery/intubation) ",
+                "value": 2
+            },
+            {
+                "name": "Tumor invading RLN ",
+                "value": 3
+            },
+            {
+                "name": "Radiation",
+                "value": 4
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the etiology?"
+    }
+}

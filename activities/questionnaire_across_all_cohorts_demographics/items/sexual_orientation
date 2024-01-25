@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sexual_orientation",
+    "prefLabel": "sexual_orientation",
+    "description": "sexual_orientation of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bisexual ",
+                "value": "bisexual"
+            },
+            {
+                "name": "Heterosexual ",
+                "value": " heterosexual"
+            },
+            {
+                "name": "Homosexual ",
+                "value": " homosexual"
+            },
+            {
+                "name": "Other (Please specify) ",
+                "value": " other"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your sexual orientation?"
+    }
+}

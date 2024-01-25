@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "tough_to_work",
+    "prefLabel": "tough_to_work",
+    "description": "tough_to_work of questionnaire_across_all_cohorts_gad7_anxiety",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not difficult at all ",
+                "value": 0
+            },
+            {
+                "name": "Somewhat difficult ",
+                "value": 1
+            },
+            {
+                "name": "Very difficult ",
+                "value": 2
+            },
+            {
+                "name": "Extremely difficult",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "How difficult have they made it for you to do your work, take care of things at home, or get along with other people?"
+    },
+    "visibility": [
+        {
+            "variableName": "tough_to_work",
+            "isVis": " nervous_anxious  > 1 or\n cant_control_worry  > 1 || \n worry_too_much  > 1 or\n trouble_relaxing  > 1 or\n hard_to_sit_still  > 1 || \n easily_agitated  > 1 or\n afraid_of_things  > 1"
+        }
+    ]
+}

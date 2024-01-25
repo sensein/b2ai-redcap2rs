@@ -1,0 +1,68 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "edu_level",
+    "prefLabel": "edu_level",
+    "description": "edu_level of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No education ",
+                "value": 1
+            },
+            {
+                "name": "Some elementary school ",
+                "value": 2
+            },
+            {
+                "name": "Some high school ",
+                "value": 3
+            },
+            {
+                "name": "High school diploma ",
+                "value": 4
+            },
+            {
+                "name": "Some college ",
+                "value": 5
+            },
+            {
+                "name": "Associate's degree ",
+                "value": 6
+            },
+            {
+                "name": "Bachelor's degree ",
+                "value": 7
+            },
+            {
+                "name": "Some post-graduate work ",
+                "value": 8
+            },
+            {
+                "name": "Graduate degree ",
+                "value": 9
+            },
+            {
+                "name": "Other (Please specify) ",
+                "value": 10
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 11
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your highest level of education?"
+    },
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

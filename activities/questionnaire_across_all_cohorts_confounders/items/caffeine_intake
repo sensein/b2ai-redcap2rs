@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "caffeine_intake",
+    "prefLabel": "caffeine_intake",
+    "description": "caffeine_intake of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "CAFFEINE INTAKE"
+    },
+    "question": {
+        "en": "How many 8 oz / 230 ml / (small) cups of coffee OR shots of espresso OR caffeinated teas have you had today?"
+    }
+}

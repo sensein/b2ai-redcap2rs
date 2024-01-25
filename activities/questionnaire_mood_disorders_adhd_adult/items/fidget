@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "adhd_adult_158",
+    "prefLabel": "adhd_adult_158",
+    "description": "adhd_adult_158 of questionnaire_mood_disorders_adhd_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Rarely ",
+                "value": " rarely"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Often ",
+                "value": " often"
+            },
+            {
+                "name": "Very Often",
+                "value": " veryOften"
+            }
+        ]
+    },
+    "question": {
+        "en": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?"
+    }
+}

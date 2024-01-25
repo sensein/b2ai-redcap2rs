@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "other_transportation",
+    "prefLabel": "other_transportation",
+    "description": "other_transportation of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"other\" transportation, please specify."
+    },
+    "visibility": [
+        {
+            "variableName": "other_transportation",
+            "isVis": " primary_transportation  ==\"8\""
+        }
+    ]
+}

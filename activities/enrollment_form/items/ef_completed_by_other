@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_completed_by_other",
+    "prefLabel": "ef_completed_by_other",
+    "description": "ef_completed_by_other of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Check the boxes to all that apply:"
+    },
+    "visibility": [
+        {
+            "variableName": "ef_completed_by_other",
+            "isVis": " ef_completed_by_self   == false"
+        }
+    ]
+}

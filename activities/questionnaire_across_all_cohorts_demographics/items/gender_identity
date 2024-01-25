@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "gender_identity",
+    "prefLabel": "gender_identity",
+    "description": "gender_identity of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Cis Man: same gender as the sex assigned at birth ",
+                "value": "man"
+            },
+            {
+                "name": "Cis Woman: same gender as the sex assigned at birth ",
+                "value": " woman"
+            },
+            {
+                "name": "Non-binary ",
+                "value": " nonBinary"
+            },
+            {
+                "name": "Trans man ",
+                "value": " transMan"
+            },
+            {
+                "name": "Trans woman ",
+                "value": " transWoman"
+            },
+            {
+                "name": "Other (please specify) ",
+                "value": " other"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Patient Demographics"
+    },
+    "question": {
+        "en": "What is your gender identity?"
+    }
+}

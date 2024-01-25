@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_primary_language_other",
+    "prefLabel": "ef_primary_language_other",
+    "description": "ef_primary_language_other of enrollment_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If primary language is \"other\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "ef_primary_language_other",
+            "isVis": " ef_primary_language   == '4'"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "voice_activity",
+    "prefLabel": "voice_activity",
+    "description": "voice_activity of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "VOICE ACTIVITY"
+    },
+    "question": {
+        "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)"
+    }
+}

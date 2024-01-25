@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dental_tx",
+    "prefLabel": "dental_tx",
+    "description": "dental_tx of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Do you currently have any tooth loss, dentures, retainers or braces? (Please specify)"
+    },
+    "visibility": [
+        {
+            "variableName": "dental_tx",
+            "isVis": " dental_problems  =='1'"
+        }
+    ]
+}

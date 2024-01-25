@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "acoustic_task_duration",
+    "prefLabel": "acoustic_task_duration",
+    "description": "acoustic_task_duration of acoustic_task",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Acoustic Task Duration (seconds)"
+    }
+}

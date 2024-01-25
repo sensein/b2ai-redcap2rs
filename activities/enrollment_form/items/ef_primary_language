@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_primary_language",
+    "prefLabel": "ef_primary_language",
+    "description": "ef_primary_language of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": 1
+            },
+            {
+                "name": "French ",
+                "value": 2
+            },
+            {
+                "name": "Spanish ",
+                "value": 3
+            },
+            {
+                "name": "Other (Please specify below)",
+                "value": 4
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Tell us about yourself"
+    },
+    "question": {
+        "en": "What is your primary language?"
+    }
+}

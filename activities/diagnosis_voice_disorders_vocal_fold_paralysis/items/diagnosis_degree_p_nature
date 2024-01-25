@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_degree_p_nature",
+    "prefLabel": "diagnosis_degree_p_nature",
+    "description": "diagnosis_degree_p_nature of diagnosis_voice_disorders_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Pitch\n(Indicate the nature of the abnormality):"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "other_raceeth_specify",
+    "prefLabel": "other_raceeth_specify",
+    "description": "other_raceeth_specify of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If race/ethnicity not listed above, please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "other_raceeth_specify",
+            "isVis": " race_ethnicity___22   == \"1\""
+        }
+    ]
+}

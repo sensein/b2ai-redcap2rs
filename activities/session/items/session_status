@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "session_status",
+    "prefLabel": "session_status",
+    "description": "session_status of session",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In Progress ",
+                "value": 1
+            },
+            {
+                "name": "Completed",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Session Status"
+    }
+}

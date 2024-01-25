@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_5_adult_social_phobia1_50",
+    "prefLabel": "dsm_5_adult_social_phobia1_50",
+    "description": "dsm_5_adult_social_phobia1_50 of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 0
+            },
+            {
+                "name": "Occasionally ",
+                "value": 1
+            },
+            {
+                "name": "Half of the time ",
+                "value": 2
+            },
+            {
+                "name": "Most of the time ",
+                "value": 3
+            },
+            {
+                "name": "All of the time",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "felt tense muscles, felt on edge or restless, or had trouble relaxing in social situations"
+    },
+    "visibility": [
+        {
+            "variableName": "social_phobia_5",
+            "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+        }
+    ]
+}

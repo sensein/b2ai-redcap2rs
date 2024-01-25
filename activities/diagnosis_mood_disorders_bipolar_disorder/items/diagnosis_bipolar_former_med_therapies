@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_bipolar_former_med_therapies",
+    "prefLabel": "diagnosis_bipolar_former_med_therapies",
+    "description": "diagnosis_bipolar_former_med_therapies of diagnosis_mood_disorders_bipolar_disorder",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "List any former medications/therapies"
+    }
+}

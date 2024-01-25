@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "q5_active",
+    "prefLabel": "q5_active",
+    "description": "q5_active of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I have not been more active (either socially",
+                "value": 0
+            },
+            {
+                "name": "I have occasionally been more active than usual. ",
+                "value": 1
+            },
+            {
+                "name": "I have often been more active than usual. ",
+                "value": 2
+            },
+            {
+                "name": "I have frequently been more active than usual. ",
+                "value": 3
+            },
+            {
+                "name": "I am constantly more active or on the go all the time.",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Question 5"
+    },
+    "visibility": [
+        {
+            "variableName": "q5_active",
+            "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "unit",
+    "prefLabel": "unit",
+    "description": "unit of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Metric ",
+                "value": 1
+            },
+            {
+                "name": "Imperial",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Unit"
+    }
+}
