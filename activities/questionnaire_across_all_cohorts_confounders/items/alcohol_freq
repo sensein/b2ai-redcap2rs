@@ -11,23 +11,23 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Never ",
+                "name": "Monthly or less ",
                 "value": 1
             },
             {
-                "name": "Monthly or less ",
+                "name": "2 - 4 times a month ",
                 "value": 2
             },
             {
-                "name": "2 - 4 times a month ",
+                "name": "2 - 3 times a week ",
                 "value": 3
             },
             {
-                "name": "2 - 3 times a week ",
+                "name": "4 or more times a week ",
                 "value": 4
             },
             {
-                "name": "4 or more times a week",
+                "name": "Prefer not to answer",
                 "value": 5
             }
         ]
@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "alcohol_freq",
-            "isVis": " alcohol_yn  ==\"1\""
+            "isVis": " alcohol_yn  ==\"yes\""
         }
     ]
 }

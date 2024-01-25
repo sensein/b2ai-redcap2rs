@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ef_resp_dis_115",
-    "prefLabel": "ef_resp_dis_115",
-    "description": "ef_resp_dis_115 of enrollment_form",
+    "@id": "ef_resp_dis_92",
+    "prefLabel": "ef_resp_dis_92",
+    "description": "ef_resp_dis_92 of enrollment_form",
     "ui": {
         "inputType": "radio"
     },
@@ -21,6 +21,6 @@
         ]
     },
     "question": {
-        "en": "Airway Stenosis"
+        "en": "Airway stenosis (for example: subglottic stenosis; laryngeal stenosis)"
     }
 }

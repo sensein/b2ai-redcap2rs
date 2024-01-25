@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "menstrual_cycle_status",
-            "isVis": " menstruate  =='2'"
+            "isVis": " menstruate  =='yes'"
         }
     ]
 }

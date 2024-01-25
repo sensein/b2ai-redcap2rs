@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ef_mood_psych_dis_493",
-    "prefLabel": "ef_mood_psych_dis_493",
-    "description": "ef_mood_psych_dis_493 of enrollment_form",
+    "@id": "ef_mood_psych_dis_428",
+    "prefLabel": "ef_mood_psych_dis_428",
+    "description": "ef_mood_psych_dis_428 of enrollment_form",
     "ui": {
         "inputType": "radio"
     },

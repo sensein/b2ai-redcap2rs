@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "seasonal_allergies",
+    "prefLabel": "seasonal_allergies",
+    "description": "seasonal_allergies of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "preamble": {
+        "en": "ALLERGIES OR COLD SYMPTOMS"
+    },
+    "question": {
+        "en": "Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?"
+    }
+}

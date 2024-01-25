@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "resp_dis_22",
-    "prefLabel": "resp_dis_22",
-    "description": "resp_dis_22 of subjectparticipant_eligible_studies",
+    "@id": "resp_dis_24",
+    "prefLabel": "resp_dis_24",
+    "description": "resp_dis_24 of subjectparticipant_eligible_studies",
     "ui": {
         "inputType": "radio"
     },

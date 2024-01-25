@@ -11,8 +11,12 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "USA",
+                "name": "USA ",
                 "value": 1
+            },
+            {
+                "name": "Canada",
+                "value": 2
             }
         ]
     },

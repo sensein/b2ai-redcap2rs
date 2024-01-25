@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ef_peds_dis_39",
-    "prefLabel": "ef_peds_dis_39",
-    "description": "ef_peds_dis_39 of enrollment_form",
+    "@id": "ef_peds_dis_31",
+    "prefLabel": "ef_peds_dis_31",
+    "description": "ef_peds_dis_31 of enrollment_form",
     "ui": {
         "inputType": "radio"
     },

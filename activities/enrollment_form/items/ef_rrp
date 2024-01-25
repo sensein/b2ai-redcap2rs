@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ef_voice_disorders_244",
-    "prefLabel": "ef_voice_disorders_244",
-    "description": "ef_voice_disorders_244 of enrollment_form",
+    "@id": "ef_voice_disorders_208",
+    "prefLabel": "ef_voice_disorders_208",
+    "description": "ef_voice_disorders_208 of enrollment_form",
     "ui": {
         "inputType": "radio"
     },

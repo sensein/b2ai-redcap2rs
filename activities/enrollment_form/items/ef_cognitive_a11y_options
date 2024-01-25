@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_cognitive_a11y_options",
+    "prefLabel": "ef_cognitive_a11y_options",
+    "description": "ef_cognitive_a11y_options of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Yes, I would like to use some of the accessibility features of the app"
+    },
+    "visibility": [
+        {
+            "variableName": "ef_cognitive_a11y_options",
+            "isVis": " ef_any_cognitive_challeges   == '1'"
+        }
+    ]
+}

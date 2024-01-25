@@ -19,8 +19,12 @@
                 "value": " past"
             },
             {
-                "name": "I currently smoke",
+                "name": "I currently smoke ",
                 "value": " currently"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
             }
         ]
     },
@@ -30,7 +34,7 @@
     "visibility": [
         {
             "variableName": "smoking_hx",
-            "isVis": " dementia  ! == \"1\""
+            "isVis": " alz_dementia_mci  ! == \"1\""
         }
     ]
 }

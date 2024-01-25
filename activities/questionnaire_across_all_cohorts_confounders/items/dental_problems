@@ -21,9 +21,9 @@
         ]
     },
     "preamble": {
-        "en": "ORAL OR DENTAL PROBLEMS"
+        "en": "DENTAL PROBLEMS"
     },
     "question": {
-        "en": "Do you have any oral or dental problems that might affect speech?"
+        "en": "Do you have any dental problems that might affect speech?"
     }
 }

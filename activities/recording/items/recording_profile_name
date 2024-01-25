@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "recording_profile_name",
+    "prefLabel": "recording_profile_name",
+    "description": "recording_profile_name of recording",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Speech ",
+                "value": "speech"
+            },
+            {
+                "name": "Breathe ",
+                "value": " breathe"
+            },
+            {
+                "name": "Cough",
+                "value": " cough"
+            }
+        ]
+    },
+    "question": {
+        "en": "Recording Profile Name"
+    }
+}

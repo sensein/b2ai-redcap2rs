@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ef_completed_by",
+    "prefLabel": "ef_completed_by",
+    "description": "ef_completed_by of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Who is participating in completing this survey?"
+    },
+    "question": {
+        "en": "Check all that apply"
+    }
+}

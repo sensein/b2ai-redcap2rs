@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "physcial_health_group_218",
-    "prefLabel": "physcial_health_group_218",
-    "description": "physcial_health_group_218 of questionnaire_across_all_cohorts_confounders",
+    "@id": "physcial_health_group_242",
+    "prefLabel": "physcial_health_group_242",
+    "description": "physcial_health_group_242 of questionnaire_across_all_cohorts_confounders",
     "ui": {
         "inputType": "radio"
     },

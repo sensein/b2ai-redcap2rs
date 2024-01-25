@@ -11,7 +11,10 @@
         "valueType": "xsd:string",
         "choices": null
     },
+    "preamble": {
+        "en": "NEUROLOGICAL MEDICAL HISTORY\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+    },
     "question": {
-        "en": "Neurological history"
+        "en": "Neurological Medical History"
     }
 }

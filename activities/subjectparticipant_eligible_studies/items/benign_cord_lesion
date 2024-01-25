@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "voice_disorders_155",
-    "prefLabel": "voice_disorders_155",
-    "description": "voice_disorders_155 of subjectparticipant_eligible_studies",
+    "@id": "voice_disorders_137",
+    "prefLabel": "voice_disorders_137",
+    "description": "voice_disorders_137 of subjectparticipant_eligible_studies",
     "ui": {
         "inputType": "radio"
     },
@@ -21,6 +21,6 @@
         ]
     },
     "question": {
-        "en": "Benign vocal cord lesion"
+        "en": "Lesions of the vocal cord (nodule, polyp, cyst)"
     }
 }

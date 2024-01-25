@@ -30,49 +30,54 @@
                 "prefLabel": "Enrollment Form"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_english/bridge2ai_consent_main_icf_usf_english_schema",
-                "variableName": "bridge2ai_consent_main_icf_usf_english_schema",
-                "prefLabel": "Bridge2Ai Consent Main Icf Usf English"
+                "isAbout": "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
+                "variableName": "bridge2ai_paper_consent_all_sites_english_schema",
+                "prefLabel": "Bridge2Ai Paper Consent All Sites English"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_researcher_statemen/bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
-                "variableName": "bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
-                "prefLabel": "Bridge2Ai Consent Main Icf Usf Researcher Statemen"
+                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
+                "variableName": "bridge2ai_econsent_main_icf_usf_english_schema",
+                "prefLabel": "Bridge2Ai Econsent Main Icf Usf English"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_combined_pdf_main_icf_usf/bridge2ai_consent_combined_pdf_main_icf_usf_schema",
-                "variableName": "bridge2ai_consent_combined_pdf_main_icf_usf_schema",
-                "prefLabel": "Bridge2Ai Consent Combined Pdf Main Icf Usf"
+                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+                "variableName": "bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+                "prefLabel": "Bridge2Ai Econsent Main Icf Usf Researcher Stateme"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_english/bridge2ai_consent_addendum_wcm_english_schema",
-                "variableName": "bridge2ai_consent_addendum_wcm_english_schema",
-                "prefLabel": "Bridge2Ai Consent Addendum Wcm English"
+                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+                "variableName": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+                "prefLabel": "Bridge2Ai Econsent Combined Pdf Main Icf Usf"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_researcher_statemen/bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
-                "variableName": "bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
-                "prefLabel": "Bridge2Ai Consent Addendum Wcm Researcher Statemen"
+                "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
+                "variableName": "bridge2ai_econsent_addendum_wcm_english_schema",
+                "prefLabel": "Bridge2Ai Econsent Addendum Wcm English"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_wcm/bridge2ai_consent_combined_pdf_addendum_wcm_schema",
-                "variableName": "bridge2ai_consent_combined_pdf_addendum_wcm_schema",
-                "prefLabel": "Bridge2Ai Consent Combined Pdf Addendum Wcm"
+                "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+                "variableName": "bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+                "prefLabel": "Bridge2Ai Econsent Addendum Wcm Researcher Stateme"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_addendum_mit_english/bridge2ai_consent_addendum_mit_english_schema",
-                "variableName": "bridge2ai_consent_addendum_mit_english_schema",
-                "prefLabel": "Bridge2Ai Consent Addendum Mit English"
+                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
+                "variableName": "bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
+                "prefLabel": "Bridge2Ai Econsent Combined Pdf Addendum Wcm"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_addendum_mit_researcher_statemen/bridge2ai_consent_addendum_mit_researcher_statemen_schema",
-                "variableName": "bridge2ai_consent_addendum_mit_researcher_statemen_schema",
-                "prefLabel": "Bridge2Ai Consent Addendum Mit Researcher Statemen"
+                "isAbout": "../activities/bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_schema",
+                "variableName": "bridge2ai_econsent_addendum_mit_english_schema",
+                "prefLabel": "Bridge2Ai Econsent Addendum Mit English"
             },
             {
-                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_mit/bridge2ai_consent_combined_pdf_addendum_mit_schema",
-                "variableName": "bridge2ai_consent_combined_pdf_addendum_mit_schema",
-                "prefLabel": "Bridge2Ai Consent Combined Pdf Addendum Mit"
+                "isAbout": "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
+                "variableName": "bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
+                "prefLabel": "Bridge2Ai Econsent Addendum Mit Researcher Stateme"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+                "variableName": "bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+                "prefLabel": "Bridge2Ai Econsent Combined Pdf Addendum Mit"
             },
             {
                 "isAbout": "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
@@ -170,15 +175,16 @@
             "subjectparticipant_contact_information",
             "subjectparticipant_eligible_studies",
             "enrollment_form",
-            "bridge2ai_consent_main_icf_usf_english",
-            "bridge2ai_consent_main_icf_usf_researcher_statemen",
-            "bridge2ai_consent_combined_pdf_main_icf_usf",
-            "bridge2ai_consent_addendum_wcm_english",
-            "bridge2ai_consent_addendum_wcm_researcher_statemen",
-            "bridge2ai_consent_combined_pdf_addendum_wcm",
-            "bridge2ai_consent_addendum_mit_english",
-            "bridge2ai_consent_addendum_mit_researcher_statemen",
-            "bridge2ai_consent_combined_pdf_addendum_mit",
+            "bridge2ai_paper_consent_all_sites_english",
+            "bridge2ai_econsent_main_icf_usf_english",
+            "bridge2ai_econsent_main_icf_usf_researcher_stateme",
+            "bridge2ai_econsent_combined_pdf_main_icf_usf",
+            "bridge2ai_econsent_addendum_wcm_english",
+            "bridge2ai_econsent_addendum_wcm_researcher_stateme",
+            "bridge2ai_econsent_combined_pdf_addendum_wcm",
+            "bridge2ai_econsent_addendum_mit_english",
+            "bridge2ai_econsent_addendum_mit_researcher_stateme",
+            "bridge2ai_econsent_combined_pdf_addendum_mit",
             "diagnosis_voice_disorders_vocal_fold_paralysis",
             "diagnosis_mood_disorders_bipolar_disorder",
             "diagnosis_mood_disorders_depression_or_major_depre",
@@ -204,15 +210,16 @@
             "subjectparticipant_contact_information": true,
             "subjectparticipant_eligible_studies": true,
             "enrollment_form": true,
-            "bridge2ai_consent_main_icf_usf_english": true,
-            "bridge2ai_consent_main_icf_usf_researcher_statemen": true,
-            "bridge2ai_consent_combined_pdf_main_icf_usf": true,
-            "bridge2ai_consent_addendum_wcm_english": true,
-            "bridge2ai_consent_addendum_wcm_researcher_statemen": true,
-            "bridge2ai_consent_combined_pdf_addendum_wcm": true,
-            "bridge2ai_consent_addendum_mit_english": true,
-            "bridge2ai_consent_addendum_mit_researcher_statemen": true,
-            "bridge2ai_consent_combined_pdf_addendum_mit": true,
+            "bridge2ai_paper_consent_all_sites_english": true,
+            "bridge2ai_econsent_main_icf_usf_english": true,
+            "bridge2ai_econsent_main_icf_usf_researcher_stateme": true,
+            "bridge2ai_econsent_combined_pdf_main_icf_usf": true,
+            "bridge2ai_econsent_addendum_wcm_english": true,
+            "bridge2ai_econsent_addendum_wcm_researcher_stateme": true,
+            "bridge2ai_econsent_combined_pdf_addendum_wcm": true,
+            "bridge2ai_econsent_addendum_mit_english": true,
+            "bridge2ai_econsent_addendum_mit_researcher_stateme": true,
+            "bridge2ai_econsent_combined_pdf_addendum_mit": true,
             "diagnosis_voice_disorders_vocal_fold_paralysis": true,
             "diagnosis_mood_disorders_bipolar_disorder": true,
             "diagnosis_mood_disorders_depression_or_major_depre": true,

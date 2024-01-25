@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ethnicity",
+    "prefLabel": "ethnicity",
+    "description": "ethnicity of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hispanic or Latino ",
+                "value": "yes"
+            },
+            {
+                "name": "Not Hispanic or Latino ",
+                "value": " no"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your ethnic or cultural origin?"
+    }
+}

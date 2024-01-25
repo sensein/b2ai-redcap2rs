@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "paper_consent_enrollment_institution",
+    "prefLabel": "paper_consent_enrollment_institution",
+    "description": "paper_consent_enrollment_institution of bridge2ai_paper_consent_all_sites_english",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "BCH ",
+                "value": "BCH"
+            },
+            {
+                "name": "MIT ",
+                "value": " MIT"
+            },
+            {
+                "name": "Mt. Sinai ",
+                "value": " mt_sinai"
+            },
+            {
+                "name": "USF ",
+                "value": " USF"
+            },
+            {
+                "name": "VUMC ",
+                "value": " VUMC"
+            },
+            {
+                "name": "WCM",
+                "value": " WCM"
+            }
+        ]
+    },
+    "question": {
+        "en": "Enrollment Institution"
+    }
+}

@@ -5,18 +5,22 @@
     "prefLabel": "alcohol_yn",
     "description": "alcohol_yn of questionnaire_across_all_cohorts_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:boolean",
+        "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Yes",
-                "value": 1
+                "name": "Yes ",
+                "value": "yes"
             },
             {
-                "name": "No",
-                "value": 0
+                "name": "No ",
+                "value": " no"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
             }
         ]
     },

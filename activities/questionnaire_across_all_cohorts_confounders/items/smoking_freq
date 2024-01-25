@@ -27,8 +27,12 @@
                 "value": " fewMonth"
             },
             {
-                "name": "A few times a year",
+                "name": "A few times a year ",
                 "value": " fewYear"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
             }
         ]
     },
@@ -38,7 +42,7 @@
     "visibility": [
         {
             "variableName": "smoking_freq",
-            "isVis": " smoking_hx  ==\"2\" ||  smoking_hx  ==\"3\""
+            "isVis": " smoking_hx  ==\"past\" ||  smoking_hx  ==\"currently\""
         }
     ]
 }

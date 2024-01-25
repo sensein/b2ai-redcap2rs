@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hormone_use",
+    "prefLabel": "hormone_use",
+    "description": "hormone_use of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Hormone use"
+    },
+    "visibility": [
+        {
+            "variableName": "hormone_use",
+            "isVis": " medications___7  ==\"1\""
+        }
+    ]
+}

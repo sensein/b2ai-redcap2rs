@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "infection_disease",
+    "prefLabel": "infection_disease",
+    "description": "infection_disease of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Infectious disease"
+    },
+    "visibility": [
+        {
+            "variableName": "infection_disease",
+            "isVis": " circulatory_med_history___3  ==\"1\""
+        }
+    ]
+}

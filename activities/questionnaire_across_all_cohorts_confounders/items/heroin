@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "substance_use_options_493",
-    "prefLabel": "substance_use_options_493",
-    "description": "substance_use_options_493 of questionnaire_across_all_cohorts_confounders",
+    "@id": "substance_use_options_663",
+    "prefLabel": "substance_use_options_663",
+    "description": "substance_use_options_663 of questionnaire_across_all_cohorts_confounders",
     "ui": {
         "inputType": "radio"
     },
@@ -33,7 +33,7 @@
         ]
     },
     "question": {
-        "en": "Heroin"
+        "en": "Heroin or other opioids, including synthetic opioids like fentanyl"
     },
     "visibility": [
         {

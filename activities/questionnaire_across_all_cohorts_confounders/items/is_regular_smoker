@@ -29,7 +29,7 @@
     "visibility": [
         {
             "variableName": "is_regular_smoker",
-            "isVis": " dementia   == \"1\""
+            "isVis": " alz_dementia_mci   == \"1\""
         }
     ]
 }

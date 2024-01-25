@@ -15,28 +15,24 @@
                 "value": 1
             },
             {
-                "name": "Live with parent/care giver ",
+                "name": "Own home ",
                 "value": 2
             },
             {
-                "name": "Own home ",
+                "name": "Rent home ",
                 "value": 3
             },
             {
-                "name": "Rent home ",
+                "name": "Skilled nursing facility/nursing home ",
                 "value": 4
             },
             {
-                "name": "Skilled nursing facility/nursing home ",
+                "name": "Unhoused-temporarily ",
                 "value": 5
             },
             {
-                "name": "Unhoused-temporarily ",
-                "value": 6
-            },
-            {
                 "name": "Unhoused-permanently",
-                "value": 7
+                "value": 6
             }
         ]
     },

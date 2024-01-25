@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ef_mood_psych_dis_483",
-    "prefLabel": "ef_mood_psych_dis_483",
-    "description": "ef_mood_psych_dis_483 of enrollment_form",
+    "@id": "ef_mood_psych_dis_422",
+    "prefLabel": "ef_mood_psych_dis_422",
+    "description": "ef_mood_psych_dis_422 of enrollment_form",
     "ui": {
         "inputType": "radio"
     },
@@ -21,6 +21,6 @@
         ]
     },
     "question": {
-        "en": "Generalized Anxiety Disorder (GAD)"
+        "en": "Anxiety disorder"
     }
 }

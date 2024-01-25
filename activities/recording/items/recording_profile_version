@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "recording_profile_version",
+    "prefLabel": "recording_profile_version",
+    "description": "recording_profile_version of recording",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "v1.0.0",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Recording Profile Version"
+    }
+}

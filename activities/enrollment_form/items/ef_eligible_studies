@@ -11,6 +11,9 @@
         "valueType": "xsd:string",
         "choices": null
     },
+    "preamble": {
+        "en": "Eligible Studies"
+    },
     "question": {
         "en": "Eligible Studies"
     }

@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "substance_use_options_487",
-    "prefLabel": "substance_use_options_487",
-    "description": "substance_use_options_487 of questionnaire_across_all_cohorts_confounders",
+    "@id": "substance_use_options_657",
+    "prefLabel": "substance_use_options_657",
+    "description": "substance_use_options_657 of questionnaire_across_all_cohorts_confounders",
     "ui": {
         "inputType": "radio"
     },

@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "current_neuro_dx",
-            "isVis": " neurological_symptoms___1   == \"1\" or\n neurological_symptoms___2   == \"1\" or\n neurological_symptoms___3   == \"1\" or\n neurological_history___1   == \"1\" or\n neurological_history___2   == \"1\" or\n neurological_history___3   == \"1\" or\n neurological_history___4   == \"1\" or\n neurological_history___5   == \"1\" or\n neurological_history___6   == \"1\" or\n neurological_history___7   == \"1\" or\n neurological_history___8   == \"1\" or\n neurological_history___9   == \"1\""
+            "isVis": " neurological_history___1   == \"1\" or\n neurological_history___2   == \"1\" or\n neurological_history___3   == \"1\" or\n neurological_history___4   == \"1\" or\n neurological_history___5   == \"1\" or\n neurological_history___6   == \"1\""
         }
     ]
 }

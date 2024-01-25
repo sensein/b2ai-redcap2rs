@@ -11,27 +11,19 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Cis Man: same gender as the sex assigned at birth ",
-                "value": "man"
+                "name": "Female gender identity ",
+                "value": "female"
             },
             {
-                "name": "Cis Woman: same gender as the sex assigned at birth ",
-                "value": " woman"
+                "name": "Male gender identity ",
+                "value": " male"
             },
             {
-                "name": "Non-binary ",
+                "name": "Non-binary or genderqueer gender identity ",
                 "value": " nonBinary"
             },
             {
-                "name": "Trans man ",
-                "value": " transMan"
-            },
-            {
-                "name": "Trans woman ",
-                "value": " transWoman"
-            },
-            {
-                "name": "Other (please specify) ",
+                "name": "Other ",
                 "value": " other"
             },
             {

@@ -12,27 +12,19 @@
         "choices": [
             {
                 "name": "Does not apply ",
-                "value": 1
+                "value": "doesNotApply"
             },
             {
                 "name": "Yes ",
-                "value": 2
+                "value": " yes"
             },
             {
-                "name": "I am pregnant ",
-                "value": 3
+                "name": "No ",
+                "value": " no"
             },
             {
-                "name": "I have an IUD ",
-                "value": 4
-            },
-            {
-                "name": "I have gone through menopause ",
-                "value": 5
-            },
-            {
-                "name": "Other (Please specify)",
-                "value": 6
+                "name": "Prefer no to answer",
+                "value": " noAnswer"
             }
         ]
     },

@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "current_recovery_alcohol",
-            "isVis": " alcohol_yn  ==\"1\""
+            "isVis": " alcohol_yn  ==\"yes\" ||  alcohol_yn  ==\"noAnswer\""
         }
     ]
 }

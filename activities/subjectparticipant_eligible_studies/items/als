@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "neuro_neurodeg_dis_151",
-    "prefLabel": "neuro_neurodeg_dis_151",
-    "description": "neuro_neurodeg_dis_151 of subjectparticipant_eligible_studies",
+    "@id": "neuro_neurodeg_dis_71",
+    "prefLabel": "neuro_neurodeg_dis_71",
+    "description": "neuro_neurodeg_dis_71 of subjectparticipant_eligible_studies",
     "ui": {
         "inputType": "radio"
     },

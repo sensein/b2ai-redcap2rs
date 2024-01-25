@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "neuro_neurodeg_dis_153",
-    "prefLabel": "neuro_neurodeg_dis_153",
-    "description": "neuro_neurodeg_dis_153 of subjectparticipant_eligible_studies",
+    "@id": "neuro_neurodeg_dis_72",
+    "prefLabel": "neuro_neurodeg_dis_72",
+    "description": "neuro_neurodeg_dis_72 of subjectparticipant_eligible_studies",
     "ui": {
         "inputType": "radio"
     },
@@ -21,6 +21,6 @@
         ]
     },
     "question": {
-        "en": "Parkinson's"
+        "en": "Parkinson's disease"
     }
 }

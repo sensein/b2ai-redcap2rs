@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "researcher_name",
+    "prefLabel": "researcher_name",
+    "description": "researcher_name of bridge2ai_econsent_main_icf_usf_researcher_stateme",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Printed Name of Person Obtaining Informed Consent"
+    }
+}

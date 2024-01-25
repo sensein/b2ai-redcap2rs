@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_paper_consent_all_sites_english_schema",
+    "prefLabel": "bridge2ai_paper_consent_all_sites_english",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/paper_consent_notes",
+            "items/paper_consent_pdf_all_sites",
+            "items/paper_consent_enrollment_institution",
+            "items/paper_consent_uploaded_by"
+        ],
+        "addProperties": [
+            {
+                "variableName": "paper_consent_notes",
+                "isAbout": "items/paper_consent_notes",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_pdf_all_sites",
+                "isAbout": "items/paper_consent_pdf_all_sites",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_enrollment_institution",
+                "isAbout": "items/paper_consent_enrollment_institution",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_uploaded_by",
+                "isAbout": "items/paper_consent_uploaded_by",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

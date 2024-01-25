@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "paper_consent_notes",
+    "prefLabel": "paper_consent_notes",
+    "description": "paper_consent_notes of bridge2ai_paper_consent_all_sites_english",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Paper Consent Form for all Sites"
+    },
+    "question": {
+        "en": "Fill out Instructions\n1. Upload the .pdf of the paper consent.\n2. Select the Enrollment Institution.\n3. Paper Consent Uploaded By is automatically calculated\n4. Once all the fields are entered mark this form as \"Complete\"\n\nIf uploading a paper consent form instead of eConsent, navigate to Form \"Subject/Participant - Basic Information\" and update Consent Status to \"Consented\""
+    }
+}

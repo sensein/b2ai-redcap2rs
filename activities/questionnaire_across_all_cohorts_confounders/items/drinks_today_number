@@ -11,7 +11,7 @@
         "valueType": "xsd:string"
     },
     "question": {
-        "en": "How many drinks have you had today?"
+        "en": "How many drinks did you have?"
     },
     "visibility": [
         {

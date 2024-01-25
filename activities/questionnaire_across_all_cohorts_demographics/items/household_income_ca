@@ -1,0 +1,60 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "household_income_ca",
+    "prefLabel": "household_income_ca",
+    "description": "household_income_ca of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "< $15,000 ",
+                "value": 1
+            },
+            {
+                "name": "$15,000 to $29,999 ",
+                "value": 2
+            },
+            {
+                "name": "$30,000 to $$49,999 ",
+                "value": 3
+            },
+            {
+                "name": "$50,000 to $99,999 ",
+                "value": 4
+            },
+            {
+                "name": "$100,000 to $149,999 ",
+                "value": 5
+            },
+            {
+                "name": "$150,000 to $199,999 ",
+                "value": 6
+            },
+            {
+                "name": "$200,000 to $249,999 ",
+                "value": 7
+            },
+            {
+                "name": ">$250,000 ",
+                "value": 8
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 9
+            }
+        ]
+    },
+    "question": {
+        "en": "What was your total household income last year (CAD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc."
+    },
+    "visibility": [
+        {
+            "variableName": "household_income_ca",
+            "isVis": " country  ==\"2\""
+        }
+    ]
+}

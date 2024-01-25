@@ -18,7 +18,10 @@
             "items/recording_duration",
             "items/recording_size",
             "items/recording_created_at",
-            "items/recording_profile"
+            "items/recording_profile_name",
+            "items/recording_profile_version",
+            "items/recording_input_gain",
+            "items/recording_microphone"
         ],
         "addProperties": [
             {
@@ -72,8 +75,23 @@
                 "isVis": true
             },
             {
-                "variableName": "recording_profile",
-                "isAbout": "items/recording_profile",
+                "variableName": "recording_profile_name",
+                "isAbout": "items/recording_profile_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile_version",
+                "isAbout": "items/recording_profile_version",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_input_gain",
+                "isAbout": "items/recording_input_gain",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_microphone",
+                "isAbout": "items/recording_microphone",
                 "isVis": true
             }
         ],

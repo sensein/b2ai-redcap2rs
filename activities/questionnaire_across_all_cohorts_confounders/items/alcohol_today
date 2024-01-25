@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "alcohol_today",
-            "isVis": " alcohol_yn  ==\"1\""
+            "isVis": " alcohol_yn  ==\"yes\""
         }
     ]
 }

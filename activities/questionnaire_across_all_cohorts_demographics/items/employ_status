@@ -11,6 +11,9 @@
         "valueType": "xsd:string",
         "choices": null
     },
+    "preamble": {
+        "en": "Employment Status"
+    },
     "question": {
         "en": "What is your employment status?\n\nChoose all that apply"
     }

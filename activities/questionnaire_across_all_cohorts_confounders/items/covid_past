@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "covid_past",
+    "prefLabel": "covid_past",
+    "description": "covid_past of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you had COVID in the past month?"
+    },
+    "visibility": [
+        {
+            "variableName": "covid_past",
+            "isVis": " covid(past_year)  ==\"1\""
+        }
+    ]
+}

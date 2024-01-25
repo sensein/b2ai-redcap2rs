@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "mood_psych_dis_222",
-    "prefLabel": "mood_psych_dis_222",
-    "description": "mood_psych_dis_222 of subjectparticipant_eligible_studies",
+    "@id": "mood_psych_dis_213",
+    "prefLabel": "mood_psych_dis_213",
+    "description": "mood_psych_dis_213 of subjectparticipant_eligible_studies",
     "ui": {
         "inputType": "radio"
     },
