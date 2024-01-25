@@ -42,5 +42,10 @@ git tag -a 1.0.0 -m "redcap data dictionary version 1.0 to reproschema"
 
 Push the current tag to remote
 ```
-git push
+# push the tag
+git push origin <tag_name>
+# push the content
+git push 
+# if there is a conflict, you can use --force
+git push -f
 ```
