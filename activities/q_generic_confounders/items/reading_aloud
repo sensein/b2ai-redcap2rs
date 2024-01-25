@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading_aloud",
+    "prefLabel": "reading_aloud",
+    "description": "reading_aloud of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Excellent ",
+                "value": "excellent"
+            },
+            {
+                "name": "Very good ",
+                "value": " veryGood"
+            },
+            {
+                "name": "Good ",
+                "value": " good"
+            },
+            {
+                "name": "Fair ",
+                "value": " fair"
+            },
+            {
+                "name": "Poor",
+                "value": " poor"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "READING ACTIVITY"
+    },
+    "question": {
+        "en": "\"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?\""
+    }
+}

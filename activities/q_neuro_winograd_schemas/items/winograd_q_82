@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_82",
+    "prefLabel": "winograd_q_82",
+    "description": "winograd_q_82 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bob ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Charlie",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "82. Bob paid for Charlie's college education. He is very grateful. Who is grateful?"
+    }
+}

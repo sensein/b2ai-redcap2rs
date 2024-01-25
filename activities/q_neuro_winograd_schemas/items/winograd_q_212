@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_212",
+    "prefLabel": "winograd_q_212",
+    "description": "winograd_q_212 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The jacket ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The sweater",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "212. Grace was happy to trade me her sweater for my jacket. She thinks it looks dowdy on her. What looks dowdy on Grace?"
+    }
+}

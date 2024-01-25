@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_46",
+    "prefLabel": "winograd_q_46",
+    "description": "winograd_q_46 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The younger students ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The older students",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "46. The older students were bullying the younger ones, so we punished them. Whom did we punished?"
+    }
+}

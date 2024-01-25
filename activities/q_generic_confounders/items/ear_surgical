@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ear_surgical",
+    "prefLabel": "ear_surgical",
+    "description": "ear_surgical of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+    },
+    "question": {
+        "en": "Ear"
+    }
+}

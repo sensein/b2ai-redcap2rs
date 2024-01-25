@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_179",
+    "prefLabel": "winograd_q_179",
+    "description": "winograd_q_179 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In Sparta ",
+                "value": "correct"
+            },
+            {
+                "name": "In Troy",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "179. Elizabeth moved her company from Sparta to Troy to save money on taxes; the taxes are much higher there. Where are the taxes higher?"
+    }
+}

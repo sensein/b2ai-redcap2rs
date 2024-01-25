@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_262",
+    "prefLabel": "winograd_q_262",
+    "description": "winograd_q_262 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Kate ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Dr. Adams",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "262. Dr. Adams informed Kate that she had retired and presented several options for future treatment. Who had retired?"
+    }
+}

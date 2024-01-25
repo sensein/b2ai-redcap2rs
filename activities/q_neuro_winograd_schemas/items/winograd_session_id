@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_session_id",
+    "prefLabel": "winograd_session_id",
+    "description": "winograd_session_id of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
+    "question": {
+        "en": "Session ID"
+    }
+}

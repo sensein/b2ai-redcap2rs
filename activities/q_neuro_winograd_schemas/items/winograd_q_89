@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_89",
+    "prefLabel": "winograd_q_89",
+    "description": "winograd_q_89 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The con artist ",
+                "value": "correct"
+            },
+            {
+                "name": "Sam",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "89. If the con artist has succeeded in fooling Sam, he would have gotten a lot of money. Who would have gotten the money?"
+    }
+}

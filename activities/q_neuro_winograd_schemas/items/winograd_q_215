@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_215",
+    "prefLabel": "winograd_q_215",
+    "description": "winograd_q_215 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bill is taking care of John ",
+                "value": "correct"
+            },
+            {
+                "name": "John is taking care of Bill",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "215. John hired Bill to take care of him. Who is taking care of whom?"
+    }
+}

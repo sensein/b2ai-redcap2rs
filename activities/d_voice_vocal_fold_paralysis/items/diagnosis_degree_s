@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_degree_s",
+    "prefLabel": "diagnosis_degree_s",
+    "description": "diagnosis_degree_s of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "slider"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Strain"
+    }
+}

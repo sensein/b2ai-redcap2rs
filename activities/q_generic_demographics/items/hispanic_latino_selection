@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hispanic_latino_selection",
+    "prefLabel": "hispanic_latino_selection",
+    "description": "hispanic_latino_selection of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Check all that apply"
+    },
+    "visibility": [
+        {
+            "variableName": "hispanic_latino_selection",
+            "isVis": " ethnicity   == \"yes\""
+        }
+    ]
+}

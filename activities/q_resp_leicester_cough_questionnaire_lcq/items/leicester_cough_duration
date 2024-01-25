@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "leicester_cough_duration",
+    "prefLabel": "leicester_cough_duration",
+    "description": "leicester_cough_duration of q_resp_leicester_cough_questionnaire_lcq",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    }
+}

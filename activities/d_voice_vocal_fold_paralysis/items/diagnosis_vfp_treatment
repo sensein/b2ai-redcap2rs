@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_treatment",
+    "prefLabel": "diagnosis_vfp_treatment",
+    "description": "diagnosis_vfp_treatment of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Surgery ",
+                "value": 1
+            },
+            {
+                "name": "Speech therapy ",
+                "value": 2
+            },
+            {
+                "name": "No treatment",
+                "value": 3
+            }
+        ]
+    },
+    "preamble": {
+        "en": "5. Treatment obtained"
+    },
+    "question": {
+        "en": "Has the patient undergone any treatment for his condition?"
+    }
+}

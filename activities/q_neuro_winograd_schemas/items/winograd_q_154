@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_154",
+    "prefLabel": "winograd_q_154",
+    "description": "winograd_q_154 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Cooper ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Thomson",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "154. Thomson visited Cooper's grave in 17 At that date he had been travelling for five years. Who had been travelling for five years?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_248",
+    "prefLabel": "winograd_q_248",
+    "description": "winograd_q_248 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Toby ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Billy",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "248. Billy cried because Toby wouldn't accept his toy. Who owned the toy?"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "current_neuro_dx",
+    "prefLabel": "current_neuro_dx",
+    "description": "current_neuro_dx of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 1
+            },
+            {
+                "name": "Only some ",
+                "value": 2
+            },
+            {
+                "name": "All",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
+    },
+    "visibility": [
+        {
+            "variableName": "current_neuro_dx",
+            "isVis": " neurological_history___1   == \"1\" or\n neurological_history___2   == \"1\" or\n neurological_history___3   == \"1\" or\n neurological_history___4   == \"1\" or\n neurological_history___5   == \"1\" or\n neurological_history___6   == \"1\""
+        }
+    ]
+}

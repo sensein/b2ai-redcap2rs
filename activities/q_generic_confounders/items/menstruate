@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "menstruate",
+    "prefLabel": "menstruate",
+    "description": "menstruate of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Does not apply ",
+                "value": "doesNotApply"
+            },
+            {
+                "name": "Yes ",
+                "value": " yes"
+            },
+            {
+                "name": "No ",
+                "value": " no"
+            },
+            {
+                "name": "Prefer no to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "GYNECOLOGICAL"
+    },
+    "question": {
+        "en": "Do you menstruate?"
+    }
+}

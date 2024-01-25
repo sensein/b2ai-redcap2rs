@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_ds_mcg",
+    "prefLabel": "diagnosis_as_ds_mcg",
+    "description": "diagnosis_as_ds_mcg of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Grade I ",
+                "value": "gradeI"
+            },
+            {
+                "name": "Grade II ",
+                "value": " gradeII"
+            },
+            {
+                "name": "Grade III ",
+                "value": " gradeIII"
+            },
+            {
+                "name": "Grade IV",
+                "value": " gradeIV"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
+    "question": {
+        "en": "Degree of Stenosis (Myer-Cotton Grade)"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_ds_mcg",
+            "isVis": " diagnosis_as_ds   == 'subgloticStenosis'"
+        }
+    ]
+}

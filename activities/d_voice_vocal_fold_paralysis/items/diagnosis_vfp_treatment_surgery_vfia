@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_treatment_surgery_vfia",
+    "prefLabel": "diagnosis_vfp_treatment_surgery_vfia",
+    "description": "diagnosis_vfp_treatment_surgery_vfia of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Caha ",
+                "value": 1
+            },
+            {
+                "name": "Gel ",
+                "value": 2
+            },
+            {
+                "name": "Hyaluronic Acid augmentation ",
+                "value": 3
+            },
+            {
+                "name": "Fat injection",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Vocal fold injection augmentation - Subcategory"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_vfp_treatment_surgery_vfia",
+            "isVis": " diagnosis_vfp_treatment_surgery   == 2"
+        }
+    ]
+}

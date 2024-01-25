@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_etiology_genetic_factors",
+    "prefLabel": "diagnosis_als_etiology_genetic_factors",
+    "description": "diagnosis_als_etiology_genetic_factors of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Genetic Factors"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_etiology_genetic_factors",
+            "isVis": " diagnosis_als_etiology(genetic_factors)   == 1"
+        }
+    ]
+}

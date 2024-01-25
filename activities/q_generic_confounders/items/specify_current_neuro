@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "specify_current_neuro",
+    "prefLabel": "specify_current_neuro",
+    "description": "specify_current_neuro of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Which ones do you currently have? (please specify)"
+    },
+    "visibility": [
+        {
+            "variableName": "specify_current_neuro",
+            "isVis": " current_neuro_dx  ==2"
+        }
+    ]
+}

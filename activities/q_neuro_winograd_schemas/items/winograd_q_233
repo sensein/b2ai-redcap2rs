@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_233",
+    "prefLabel": "winograd_q_233",
+    "description": "winograd_q_233 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Ralph's ",
+                "value": "correct"
+            },
+            {
+                "name": "Tom's",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "233. Tom said 'Check' to Ralph as he took his bishop. Whose bishop did Tom take?"
+    }
+}

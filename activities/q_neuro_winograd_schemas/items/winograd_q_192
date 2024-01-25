@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_192",
+    "prefLabel": "winograd_q_192",
+    "description": "winograd_q_192 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The gang ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The police",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "192. The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood. Who was trying to stop the drug trade?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_4",
+    "prefLabel": "winograd_q_4",
+    "description": "winograd_q_4 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The suitcase ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The trophy",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "4. The trophy doesn't fit into the brown suitcase because it's too large. What is too large?"
+    }
+}

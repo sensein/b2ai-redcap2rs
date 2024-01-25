@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_treatment_and_management_yes_medications",
+    "prefLabel": "diagnosis_als_treatment_and_management_yes_medications",
+    "description": "diagnosis_als_treatment_and_management_yes_medications of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Medications (if applicable):"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_treatment_and_management_yes_medications",
+            "isVis": " diagnosis_als_treatment_and_management   == 'yes' &&  diagnosis_als_treatment_and_management_yes(medications)   == 1"
+        }
+    ]
+}

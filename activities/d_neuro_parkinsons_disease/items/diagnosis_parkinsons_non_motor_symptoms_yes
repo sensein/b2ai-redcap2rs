@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_non_motor_symptoms_yes",
+    "prefLabel": "diagnosis_parkinsons_non_motor_symptoms_yes",
+    "description": "diagnosis_parkinsons_non_motor_symptoms_yes of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"Yes\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_parkinsons_non_motor_symptoms_yes",
+            "isVis": " diagnosis_parkinsons_non_motor_symptoms   == 'yes'"
+        }
+    ]
+}

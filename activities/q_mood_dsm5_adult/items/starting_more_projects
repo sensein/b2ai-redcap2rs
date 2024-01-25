@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_5_adult_603",
+    "prefLabel": "dsm_5_adult_603",
+    "description": "dsm_5_adult_603 of q_mood_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0=None (Not at all) ",
+                "value": 0
+            },
+            {
+                "name": "1=Slight (Rare",
+                "value": 1,
+                "schema:image": "less than a day or two) .png"
+            },
+            {
+                "name": "2=Mild (Several days) ",
+                "value": 2
+            },
+            {
+                "name": "3=Moderate (More than half the days) ",
+                "value": 3
+            },
+            {
+                "name": "4=Severe (Nearly every day)",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Starting lots more projects than usual or doing more risky things than usual?"
+    }
+}

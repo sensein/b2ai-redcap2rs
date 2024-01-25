@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ptsd_duration",
+    "prefLabel": "ptsd_duration",
+    "description": "ptsd_duration of q_mood_ptsd_adult",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    }
+}

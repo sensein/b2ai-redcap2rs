@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "smoking_types",
+    "prefLabel": "smoking_types",
+    "description": "smoking_types of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Please select smoking types used (Check all that apply)"
+    },
+    "visibility": [
+        {
+            "variableName": "smoking_types",
+            "isVis": " smoking_hx  ==\"past\" ||  smoking_hx  == \"currently\""
+        }
+    ]
+}

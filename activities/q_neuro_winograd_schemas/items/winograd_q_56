@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_56",
+    "prefLabel": "winograd_q_56",
+    "description": "winograd_q_56 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In the garage ",
+                "value": "incorrect"
+            },
+            {
+                "name": "In the house",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "56. The police left the house and went into the garage, after they found the murder weapon. Where did they find the murder weapon?"
+    }
+}

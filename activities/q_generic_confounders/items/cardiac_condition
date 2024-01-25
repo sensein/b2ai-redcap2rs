@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "cardiac_condition",
+    "prefLabel": "cardiac_condition",
+    "description": "cardiac_condition of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Cardiac condition"
+    },
+    "visibility": [
+        {
+            "variableName": "cardiac_condition",
+            "isVis": " circulatory_conditions___2  ==\"1\""
+        }
+    ]
+}

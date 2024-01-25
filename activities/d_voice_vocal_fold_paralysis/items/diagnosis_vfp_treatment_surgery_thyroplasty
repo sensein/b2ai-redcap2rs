@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_treatment_surgery_thyroplasty",
+    "prefLabel": "diagnosis_vfp_treatment_surgery_thyroplasty",
+    "description": "diagnosis_vfp_treatment_surgery_thyroplasty of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Goretex ",
+                "value": 1
+            },
+            {
+                "name": "Silastic",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Thyroplasty - Subcategory"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty",
+            "isVis": " diagnosis_vfp_treatment_surgery   == 1"
+        }
+    ]
+}

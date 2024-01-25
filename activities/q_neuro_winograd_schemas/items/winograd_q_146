@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_146",
+    "prefLabel": "winograd_q_146",
+    "description": "winograd_q_146 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The beach ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The lake",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "146. We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim. Which was a safer place to swim?"
+    }
+}

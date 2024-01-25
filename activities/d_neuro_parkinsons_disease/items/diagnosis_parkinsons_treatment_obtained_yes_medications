@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_treatment_obtained_yes_medications",
+    "prefLabel": "diagnosis_parkinsons_treatment_obtained_yes_medications",
+    "description": "diagnosis_parkinsons_treatment_obtained_yes_medications of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Medications:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications",
+            "isVis": " diagnosis_parkinsons_treatment_obtained   == 'yes' &&  diagnosis_parkinsons_treatment_obtained_yes(medications)   == 1"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "other_smoking_specify",
+    "prefLabel": "other_smoking_specify",
+    "description": "other_smoking_specify of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"other\" for smoking type, please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "other_smoking_specify",
+            "isVis": " smoking_types___7  ==\"1\""
+        }
+    ]
+}

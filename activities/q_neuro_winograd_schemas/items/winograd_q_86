@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_86",
+    "prefLabel": "winograd_q_86",
+    "description": "winograd_q_86 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bob ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Adam",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "86. Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, he would have lost. Who would have lost?"
+    }
+}

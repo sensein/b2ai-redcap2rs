@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "specify_gender_identity",
+    "prefLabel": "specify_gender_identity",
+    "description": "specify_gender_identity of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Cis: same gender as the sex assigned at birth ",
+                "value": "cis"
+            },
+            {
+                "name": "Trans",
+                "value": " trans"
+            }
+        ]
+    },
+    "question": {
+        "en": "Please specify gender identity"
+    },
+    "visibility": [
+        {
+            "variableName": "specify_gender_identity",
+            "isVis": " gender_identity  ==\"female\" ||  gender_identity  ==\"male\""
+        }
+    ]
+}

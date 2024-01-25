@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "seasonal_allergies_options",
+    "prefLabel": "seasonal_allergies_options",
+    "description": "seasonal_allergies_options of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Check all that apply:"
+    },
+    "visibility": [
+        {
+            "variableName": "seasonal_allergies_options",
+            "isVis": " seasonal_allergies  ==\"1\""
+        }
+    ]
+}

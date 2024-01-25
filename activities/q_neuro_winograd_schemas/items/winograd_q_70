@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_70",
+    "prefLabel": "winograd_q_70",
+    "description": "winograd_q_70 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The rain ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The concert",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "70. In the middle of the outdoor concert, the rain started falling, but it continued until 10. What continued until 10?"
+    }
+}

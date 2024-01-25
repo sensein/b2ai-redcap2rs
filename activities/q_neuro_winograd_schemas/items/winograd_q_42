@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_42",
+    "prefLabel": "winograd_q_42",
+    "description": "winograd_q_42 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The bottle ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The table",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "42. I was trying to balance the bottle upside down on the table, but I couldn't do it because it was so uneven. What was uneven?"
+    }
+}

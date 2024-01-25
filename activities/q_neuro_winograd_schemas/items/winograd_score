@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_score",
+    "prefLabel": "winograd_score",
+    "description": "winograd_score of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Winograd Schema Scoring"
+    },
+    "question": {
+        "en": "Winograd Schema Score"
+    }
+}

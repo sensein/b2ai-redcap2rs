@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_19",
+    "prefLabel": "winograd_q_19",
+    "description": "winograd_q_19 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "John ",
+                "value": "correct"
+            },
+            {
+                "name": "Billy",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "19. John couldn't see the stage with Billy in front of him because he is so short. Who is so short?"
+    }
+}

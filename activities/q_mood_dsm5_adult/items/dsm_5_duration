@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dsm_5_duration",
+    "prefLabel": "dsm_5_duration",
+    "description": "dsm_5_duration of q_mood_dsm5_adult",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    }
+}

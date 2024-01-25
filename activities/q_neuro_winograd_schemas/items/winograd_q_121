@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_121",
+    "prefLabel": "winograd_q_121",
+    "description": "winograd_q_121 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The old house ",
+                "value": "correct"
+            },
+            {
+                "name": "The new house",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "121. Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday. Which house will he be moving out of?"
+    }
+}

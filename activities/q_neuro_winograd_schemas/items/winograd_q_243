@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_243",
+    "prefLabel": "winograd_q_243",
+    "description": "winograd_q_243 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The boy's ",
+                "value": "correct"
+            },
+            {
+                "name": "The man's",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "243. The man lifted the boy onto his bunk bed. Whose bunk bed?"
+    }
+}

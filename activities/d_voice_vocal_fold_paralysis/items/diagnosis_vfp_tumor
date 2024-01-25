@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_tumor",
+    "prefLabel": "diagnosis_vfp_tumor",
+    "description": "diagnosis_vfp_tumor of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Brain ",
+                "value": 1
+            },
+            {
+                "name": "Chest ",
+                "value": 2
+            },
+            {
+                "name": "Neck",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Tumor invading RLN - Subcategory"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_vfp_tumor",
+            "isVis": " diagnosis_vfp_etiology   == 3"
+        }
+    ]
+}

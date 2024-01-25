@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "random_recording_acoustic_task_id",
+    "prefLabel": "random_recording_acoustic_task_id",
+    "description": "random_recording_acoustic_task_id of q_neuro_random_item_generation",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Acoustic Task ID"
+    }
+}

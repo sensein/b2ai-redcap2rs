@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "substance_use_options_699",
+    "prefLabel": "substance_use_options_699",
+    "description": "substance_use_options_699 of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all ",
+                "value": "none"
+            },
+            {
+                "name": "One or two days ",
+                "value": " oneOrTwoDays"
+            },
+            {
+                "name": "Several days ",
+                "value": " severalDays"
+            },
+            {
+                "name": "More than half the days ",
+                "value": " moreThanHalfTheDays"
+            },
+            {
+                "name": "Nearly every day",
+                "value": " nearlyEveryDay"
+            }
+        ]
+    },
+    "question": {
+        "en": "Marijuana"
+    },
+    "visibility": [
+        {
+            "variableName": "marijuana",
+            "isVis": " recreational_drug_use  ==\"1\""
+        }
+    ]
+}

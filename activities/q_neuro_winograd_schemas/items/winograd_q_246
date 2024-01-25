@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_246",
+    "prefLabel": "winograd_q_246",
+    "description": "winograd_q_246 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The girl's ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The woman's",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "246. Stretching her back, the woman smiled at the girl. Whose back did the woman stretch?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_41",
+    "prefLabel": "winograd_q_41",
+    "description": "winograd_q_41 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The bottle ",
+                "value": "correct"
+            },
+            {
+                "name": "The table",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "41. I was trying to balance the bottle upside down on the table, but I couldn't do it because it was so top-heavy. What was top-heavy?"
+    }
+}

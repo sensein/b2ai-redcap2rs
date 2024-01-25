@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "stroop_recording_acoustic_task_id",
+    "prefLabel": "stroop_recording_acoustic_task_id",
+    "description": "stroop_recording_acoustic_task_id of q_neuro_wordcolor_stroop",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Acoustic Task ID"
+    }
+}

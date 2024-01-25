@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "physcial_health_group_235",
+    "prefLabel": "physcial_health_group_235",
+    "description": "physcial_health_group_235 of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": "none"
+            },
+            {
+                "name": "Mild ",
+                "value": " mild"
+            },
+            {
+                "name": "Moderate ",
+                "value": " moderate"
+            },
+            {
+                "name": "Severe ",
+                "value": " severe"
+            },
+            {
+                "name": "Extreme or cannot do",
+                "value": " extreme"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "PHYSICAL HEALTH\n\t\t\nIn the past 30 days, how much difficulty did you have in:"
+    },
+    "question": {
+        "en": "Standing for long periods such as 30 minutes?"
+    }
+}

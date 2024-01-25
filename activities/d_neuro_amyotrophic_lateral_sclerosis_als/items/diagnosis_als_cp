@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_cp",
+    "prefLabel": "diagnosis_als_cp",
+    "description": "diagnosis_als_cp of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "4. Clinical Presentation"
+    },
+    "question": {
+        "en": "Describe the clinical features and symptoms of ALS in the patient:"
+    }
+}

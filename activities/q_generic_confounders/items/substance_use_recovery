@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "substance_use_recovery",
+    "prefLabel": "substance_use_recovery",
+    "description": "substance_use_recovery of q_generic_confounders",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "Are you currently in recovery for substance use?"
+    },
+    "visibility": [
+        {
+            "variableName": "substance_use_recovery",
+            "isVis": " recreational_drug_use  ==\"1\""
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_140",
+    "prefLabel": "winograd_q_140",
+    "description": "winograd_q_140 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Sam ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Adam",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "140. Sam took French classes from Adam, because he was known to speak it fluently. Who was known to speak French fluently?"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "employ_status",
+    "prefLabel": "employ_status",
+    "description": "employ_status of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Employment Status"
+    },
+    "question": {
+        "en": "What is your employment status?\n\nChoose all that apply"
+    }
+}

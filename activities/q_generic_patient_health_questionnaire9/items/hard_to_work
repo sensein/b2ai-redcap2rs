@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hard_to_work",
+    "prefLabel": "hard_to_work",
+    "description": "hard_to_work of q_generic_patient_health_questionnaire9",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not difficult at all ",
+                "value": 0
+            },
+            {
+                "name": "Somewhat difficult ",
+                "value": 1
+            },
+            {
+                "name": "Very difficult ",
+                "value": 2
+            },
+            {
+                "name": "Extremely difficult",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "How difficult have they made it for you to do your work, take care of things at home, or get along with other people?"
+    },
+    "visibility": [
+        {
+            "variableName": "hard_to_work",
+            "isVis": " no_interest  > 0 or\n feeling_depressed  > 0 or\n trouble_sleeping  > 0 or\n no_energy  > 0 or\n no_appetite  > 0 or\n feeling_bad_self  > 0 or\n trouble_concentrate  > 0 or\n move_speak_slow  > 0 or\n thoughts_death  > 0"
+        }
+    ]
+}

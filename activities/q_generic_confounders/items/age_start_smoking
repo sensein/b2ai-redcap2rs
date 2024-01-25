@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "age_start_smoking",
+    "prefLabel": "age_start_smoking",
+    "description": "age_start_smoking of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "At what age did you start smoking?"
+    },
+    "visibility": [
+        {
+            "variableName": "age_start_smoking",
+            "isVis": " smoking_hx  ==\"past\" ||  smoking_hx  ==\"currently\""
+        }
+    ]
+}

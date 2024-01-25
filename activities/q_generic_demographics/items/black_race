@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "black_race",
+    "prefLabel": "black_race",
+    "description": "black_race of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Black or African American"
+    },
+    "visibility": [
+        {
+            "variableName": "black_race",
+            "isVis": " race___3  ==\"1\""
+        }
+    ]
+}

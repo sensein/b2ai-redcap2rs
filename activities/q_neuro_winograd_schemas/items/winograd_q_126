@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_126",
+    "prefLabel": "winograd_q_126",
+    "description": "winograd_q_126 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The piece ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The flute",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "126. Mary took out her flute and played one of her favorite pieces. She has had it since she was a child. What has Mary had since she was a child?"
+    }
+}

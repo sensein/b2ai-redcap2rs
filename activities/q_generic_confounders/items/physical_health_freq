@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "physical_health_freq",
+    "prefLabel": "physical_health_freq",
+    "description": "physical_health_freq of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Overall, in the past 30 days, how many days were these difficulties present?"
+    },
+    "additionalNotesObj": [
+        {
+            "source": "redcap",
+            "column": "Field Note",
+            "value": "days"
+        }
+    ]
+}

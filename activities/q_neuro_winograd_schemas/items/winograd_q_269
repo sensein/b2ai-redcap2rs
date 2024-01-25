@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_269",
+    "prefLabel": "winograd_q_269",
+    "description": "winograd_q_269 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Robert ",
+                "value": "correct"
+            },
+            {
+                "name": "James",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "269. James asked Robert for a favor but he refused. Who refused?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_29",
+    "prefLabel": "winograd_q_29",
+    "description": "winograd_q_29 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Anna ",
+                "value": "correct"
+            },
+            {
+                "name": "Lucy",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "29. Anna did a lot better than her good friend Lucy on the test because she had studied so hard. Who studied hard?"
+    }
+}

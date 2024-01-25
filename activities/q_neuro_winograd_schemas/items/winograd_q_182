@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_182",
+    "prefLabel": "winograd_q_182",
+    "description": "winograd_q_182 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Springfield ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Franklin",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "182. Esther figures that she will save shipping costs if she builds her factory in Springfield instead of Franklin, because none of her customers live there. In which town do none of Esther's customers live?"
+    }
+}

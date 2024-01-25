@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_33",
+    "prefLabel": "winograd_q_33",
+    "description": "winograd_q_33 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Frank ",
+                "value": "correct"
+            },
+            {
+                "name": "Tom",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "33. Frank was upset with Tom because the toaster he had bought from him didn't work. Who had bought the toaster?"
+    }
+}

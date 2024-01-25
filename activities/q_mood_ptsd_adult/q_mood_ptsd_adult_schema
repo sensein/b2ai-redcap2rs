@@ -1,0 +1,153 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "q_mood_ptsd_adult_schema",
+    "prefLabel": "q_mood_ptsd_adult",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/ptsd_session_id",
+            "items/ptsd_started_at",
+            "items/ptsd_completed_at",
+            "items/ptsd_duration",
+            "items/traumatic_event",
+            "items/traumatic_event_date",
+            "items/flashbacks",
+            "items/emotionally_upset",
+            "items/avoiding_reminders",
+            "items/thinking_stressful_event",
+            "items/neg_emotional_state",
+            "items/losing_interest",
+            "items/super_alert",
+            "items/feeling_jumpy",
+            "items/irritable"
+        ],
+        "addProperties": [
+            {
+                "variableName": "ptsd_session_id",
+                "isAbout": "items/ptsd_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "ptsd_started_at",
+                "isAbout": "items/ptsd_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "ptsd_completed_at",
+                "isAbout": "items/ptsd_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "ptsd_duration",
+                "isAbout": "items/ptsd_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "traumatic_event",
+                "isAbout": "items/traumatic_event",
+                "isVis": true
+            },
+            {
+                "variableName": "traumatic_event_date",
+                "isAbout": "items/traumatic_event_date",
+                "isVis": true
+            },
+            {
+                "variableName": "flashbacks",
+                "isAbout": "items/flashbacks",
+                "isVis": true
+            },
+            {
+                "variableName": "emotionally_upset",
+                "isAbout": "items/emotionally_upset",
+                "isVis": true
+            },
+            {
+                "variableName": "avoiding_reminders",
+                "isAbout": "items/avoiding_reminders",
+                "isVis": true
+            },
+            {
+                "variableName": "thinking_stressful_event",
+                "isAbout": "items/thinking_stressful_event",
+                "isVis": true
+            },
+            {
+                "variableName": "neg_emotional_state",
+                "isAbout": "items/neg_emotional_state",
+                "isVis": true
+            },
+            {
+                "variableName": "losing_interest",
+                "isAbout": "items/losing_interest",
+                "isVis": true
+            },
+            {
+                "variableName": "super_alert",
+                "isAbout": "items/super_alert",
+                "isVis": true
+            },
+            {
+                "variableName": "feeling_jumpy",
+                "isAbout": "items/feeling_jumpy",
+                "isVis": true
+            },
+            {
+                "variableName": "irritable",
+                "isAbout": "items/irritable",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    },
+    "matrixInfo": [
+        {
+            "variableName": "flashbacks",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "emotionally_upset",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "avoiding_reminders",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "thinking_stressful_event",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "neg_emotional_state",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "losing_interest",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "super_alert",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_jumpy",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "irritable",
+            "matrixGroupName": "ptsd_adult",
+            "matrixRanking": ""
+        }
+    ]
+}

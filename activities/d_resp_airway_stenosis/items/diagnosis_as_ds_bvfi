@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_ds_bvfi",
+    "prefLabel": "diagnosis_as_ds_bvfi",
+    "description": "diagnosis_as_ds_bvfi of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Posterior Glottic Stenosis ",
+                "value": "posteriorGlotticStenosis"
+            },
+            {
+                "name": "Bilateral Vocal Fold Paralysis ",
+                "value": " bilateralVocalFoldParalysis"
+            },
+            {
+                "name": "To be Determined/Not certain",
+                "value": " tbd"
+            }
+        ]
+    },
+    "question": {
+        "en": "Bilateral Vocal fold immobility Subtype"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_ds_bvfi",
+            "isVis": " diagnosis_as_ds   == 'bilateralVocalFoldImmobility'"
+        }
+    ]
+}

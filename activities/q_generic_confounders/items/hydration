@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hydration",
+    "prefLabel": "hydration",
+    "description": "hydration of q_generic_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "HYDRATION"
+    },
+    "question": {
+        "en": "How many small (8oz or 230ml) cups of water do you drink on a typical day?"
+    }
+}

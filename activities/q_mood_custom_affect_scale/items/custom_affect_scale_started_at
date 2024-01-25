@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "custom_affect_scale_started_at",
+    "prefLabel": "custom_affect_scale_started_at",
+    "description": "custom_affect_scale_started_at of q_mood_custom_affect_scale",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Started At"
+    }
+}

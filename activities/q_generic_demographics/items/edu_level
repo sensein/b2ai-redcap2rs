@@ -1,0 +1,75 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "edu_level",
+    "prefLabel": "edu_level",
+    "description": "edu_level of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No formal education ",
+                "value": 1
+            },
+            {
+                "name": "Some elementary school ",
+                "value": 2
+            },
+            {
+                "name": "Some secondary or high school education ",
+                "value": 3
+            },
+            {
+                "name": "High School or secondary school degree complete ",
+                "value": 4
+            },
+            {
+                "name": "Some college education ",
+                "value": 5
+            },
+            {
+                "name": "Associate's or technical degree complete ",
+                "value": 6
+            },
+            {
+                "name": "College or baccalaureate degree complete ",
+                "value": 7
+            },
+            {
+                "name": "Some post-baccalaureate education ",
+                "value": 8
+            },
+            {
+                "name": "Graduate or professional degree complete ",
+                "value": 9
+            },
+            {
+                "name": "Doctoral or post graduate education ",
+                "value": 10
+            },
+            {
+                "name": "Other ",
+                "value": 11
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 12
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Education"
+    },
+    "question": {
+        "en": "What is your highest level of education?"
+    },
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

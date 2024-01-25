@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_193",
+    "prefLabel": "winograd_q_193",
+    "description": "winograd_q_193 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The cake ",
+                "value": "correct"
+            },
+            {
+                "name": "The refrigerator",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "193. I put the cake away in the refrigerator. It has a lot of butter in it. What has a lot of butter?"
+    }
+}

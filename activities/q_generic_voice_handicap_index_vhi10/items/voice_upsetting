@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "vhi_10_53",
+    "prefLabel": "vhi_10_53",
+    "description": "vhi_10_53 of q_generic_voice_handicap_index_vhi10",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Almost Never ",
+                "value": " almostNever"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Almost Always ",
+                "value": " almostAlways"
+            },
+            {
+                "name": "Always",
+                "value": " always"
+            }
+        ]
+    },
+    "question": {
+        "en": "My voice problem upsets me."
+    }
+}

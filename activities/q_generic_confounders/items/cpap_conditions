@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "cpap_conditions",
+    "prefLabel": "cpap_conditions",
+    "description": "cpap_conditions of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Are you currently using CPAP or supplemental oxygen? (check all that apply)"
+    }
+}

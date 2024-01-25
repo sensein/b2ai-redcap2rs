@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_etiology_environmental_factors",
+    "prefLabel": "diagnosis_als_etiology_environmental_factors",
+    "description": "diagnosis_als_etiology_environmental_factors of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"Environmental factors\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_etiology_environmental_factors",
+            "isVis": " diagnosis_als_etiology(environmental_factors)   == 1"
+        }
+    ]
+}

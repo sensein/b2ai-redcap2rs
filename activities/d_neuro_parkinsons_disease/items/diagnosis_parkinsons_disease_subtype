@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_disease_subtype",
+    "prefLabel": "diagnosis_parkinsons_disease_subtype",
+    "description": "diagnosis_parkinsons_disease_subtype of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Idiopathic Parkinson's Disease (IPD) ",
+                "value": "ipd"
+            },
+            {
+                "name": "Multiple System Atrophy (MSA) ",
+                "value": " msa"
+            },
+            {
+                "name": "Progressive Supranuclear Palsy (PSP) ",
+                "value": " psp"
+            },
+            {
+                "name": "Corticobasal Degeneration (CBD) ",
+                "value": " cbd"
+            },
+            {
+                "name": "Dementia with Lewy Bodies (DLB) ",
+                "value": " dlb"
+            },
+            {
+                "name": "Other Parkinsonism or Atypical Parkinsonism ",
+                "value": " other"
+            },
+            {
+                "name": "Not Sure / Undetermined",
+                "value": " notSure"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "2. Disease Type"
+    },
+    "question": {
+        "en": "Specify the subtype of Parkinson's Disease in the patient:"
+    }
+}

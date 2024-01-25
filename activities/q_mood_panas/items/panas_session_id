@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "panas_session_id",
+    "prefLabel": "panas_session_id",
+    "description": "panas_session_id of q_mood_panas",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
+    "question": {
+        "en": "Session ID"
+    }
+}

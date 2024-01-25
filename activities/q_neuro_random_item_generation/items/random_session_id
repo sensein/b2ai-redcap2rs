@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "random_session_id",
+    "prefLabel": "random_session_id",
+    "description": "random_session_id of q_neuro_random_item_generation",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
+    "question": {
+        "en": "Session ID"
+    }
+}

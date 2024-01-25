@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_199",
+    "prefLabel": "winograd_q_199",
+    "description": "winograd_q_199 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The oatmeal cookies ",
+                "value": "correct"
+            },
+            {
+                "name": "The chocolate chip",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "199. Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make more of them. Which cookie should we make more of, next time?"
+    }
+}

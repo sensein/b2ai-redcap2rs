@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_bipolar_subtype_active_depression",
+    "prefLabel": "diagnosis_bipolar_subtype_active_depression",
+    "description": "diagnosis_bipolar_subtype_active_depression of d_mood_depression_or_major_depressive_disorder",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Active ",
+                "value": "active"
+            },
+            {
+                "name": "Recurrent",
+                "value": " recurrent"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3.\tDisease Subtype"
+    },
+    "question": {
+        "en": "Disease Subtype"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dyspnea_index_duration",
+    "prefLabel": "dyspnea_index_duration",
+    "description": "dyspnea_index_duration of q_resp_dyspnea_index_di",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    }
+}

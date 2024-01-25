@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ear_med_history",
+    "prefLabel": "ear_med_history",
+    "description": "ear_med_history of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "EAR, NOSE, THROAT MEDICAL HISTORYDo you have any of these voice, communication, or hearing conditions? (check all that apply)"
+    },
+    "question": {
+        "en": "Ear"
+    }
+}

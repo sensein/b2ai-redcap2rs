@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_167",
+    "prefLabel": "winograd_q_167",
+    "description": "winograd_q_167 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Tina ",
+                "value": "correct"
+            },
+            {
+                "name": "Terpsichore",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "167. The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce. Which name was easier to pronounce?"
+    }
+}

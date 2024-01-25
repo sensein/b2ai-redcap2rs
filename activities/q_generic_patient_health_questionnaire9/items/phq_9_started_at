@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "phq_9_started_at",
+    "prefLabel": "phq_9_started_at",
+    "description": "phq_9_started_at of q_generic_patient_health_questionnaire9",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Started At"
+    }
+}

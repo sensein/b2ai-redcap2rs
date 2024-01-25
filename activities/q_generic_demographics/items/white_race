@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "white_race",
+    "prefLabel": "white_race",
+    "description": "white_race of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "White"
+    },
+    "visibility": [
+        {
+            "variableName": "white_race",
+            "isVis": " race___5  ==\"1\""
+        }
+    ]
+}

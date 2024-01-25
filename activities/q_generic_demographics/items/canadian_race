@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "canadian_race",
+    "prefLabel": "canadian_race",
+    "description": "canadian_race of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Canadian Indigenous or Aboriginal"
+    },
+    "visibility": [
+        {
+            "variableName": "canadian_race",
+            "isVis": " race___6  ==\"1\""
+        }
+    ]
+}

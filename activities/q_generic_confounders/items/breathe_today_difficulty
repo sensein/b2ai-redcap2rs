@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "breathe_today_difficulty",
+    "prefLabel": "breathe_today_difficulty",
+    "description": "breathe_today_difficulty of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Slight Difficulty ",
+                "value": "slightDifficulty"
+            },
+            {
+                "name": "Moderate Difficulty ",
+                "value": " moderateDifficulty"
+            },
+            {
+                "name": "Significant Difficulty",
+                "value": " significantDifficulty"
+            }
+        ]
+    },
+    "question": {
+        "en": "Please specify the level of difficulty"
+    },
+    "visibility": [
+        {
+            "variableName": "breathe_today_difficulty",
+            "isVis": " eligible_studies___4   == 1 &&  breathe_today   == 'yes'"
+        }
+    ]
+}

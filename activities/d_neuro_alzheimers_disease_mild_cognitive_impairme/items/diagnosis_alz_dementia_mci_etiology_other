@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_alz_dementia_mci_etiology_other",
+    "prefLabel": "diagnosis_alz_dementia_mci_etiology_other",
+    "description": "diagnosis_alz_dementia_mci_etiology_other of d_neuro_alzheimers_disease_mild_cognitive_impairme",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"other\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_alz_dementia_mci_etiology_other",
+            "isVis": " diagnosis_alz_dementia_mci_etiology(other)   == 1"
+        }
+    ]
+}

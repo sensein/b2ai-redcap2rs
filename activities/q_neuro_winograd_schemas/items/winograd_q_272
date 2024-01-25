@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_272",
+    "prefLabel": "winograd_q_272",
+    "description": "winograd_q_272 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Shatov ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Kirilov",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "272. Kirilov ceded the presidency to Shatov because he was less popular. Who was less popular?"
+    }
+}

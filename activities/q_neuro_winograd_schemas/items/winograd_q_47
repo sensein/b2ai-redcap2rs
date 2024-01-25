@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_47",
+    "prefLabel": "winograd_q_47",
+    "description": "winograd_q_47 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The cup ",
+                "value": "correct"
+            },
+            {
+                "name": "The bottle",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "47. I poured water from the bottle into the cup until it was full. What was full?"
+    }
+}

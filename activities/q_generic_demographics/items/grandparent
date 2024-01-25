@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "live_with_household_34",
+    "prefLabel": "live_with_household_34",
+    "description": "live_with_household_34 of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "One or more grandparent"
+    },
+    "visibility": [
+        {
+            "variableName": "grandparent",
+            "isVis": " household_count >0"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_bipolar_gsd_oquw",
+    "prefLabel": "diagnosis_bipolar_gsd_oquw",
+    "description": "diagnosis_bipolar_gsd_oquw of d_mood_bipolar_disorder",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Patient Health Questionnaire (PHQ-9) ",
+                "value": "phq9"
+            },
+            {
+                "name": "HAM-D ",
+                "value": " hamD"
+            },
+            {
+                "name": "Beck Depression Inventory (BDI) ",
+                "value": " bdi"
+            },
+            {
+                "name": "Other",
+                "value": " other"
+            }
+        ]
+    },
+    "question": {
+        "en": "Which objective questionnaire was used?"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_bipolar_gsd_oquw",
+            "isVis": " diagnosis_bipolar_gsd_oqu  ==\"1\""
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_31",
+    "prefLabel": "winograd_q_31",
+    "description": "winograd_q_31 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The firemen ",
+                "value": "correct"
+            },
+            {
+                "name": "The police",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "31. The firemen arrived after the police because they were coming from so far away. Who came from far away?"
+    }
+}

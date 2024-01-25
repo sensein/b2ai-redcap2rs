@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_als_treatment_and_management_yes_supportive_care_other",
+    "prefLabel": "diagnosis_als_treatment_and_management_yes_supportive_care_other",
+    "description": "diagnosis_als_treatment_and_management_yes_supportive_care_other of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"Other\", please specify:"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_als_treatment_and_management_yes_supportive_care_other",
+            "isVis": " diagnosis_als_treatment_and_management   == 'yes' &&  diagnosis_als_treatment_and_management_yes(supportive_care)   == 1 &&  diagnosis_als_treatment_and_management_yes_supportive_care(other)   == 1"
+        }
+    ]
+}

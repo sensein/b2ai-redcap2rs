@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_226",
+    "prefLabel": "winograd_q_226",
+    "description": "winograd_q_226 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Joe ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The detective",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "226. Joe paid the detective after he delivered the final report on the case. Who delivered the final report?"
+    }
+}

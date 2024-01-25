@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_116",
+    "prefLabel": "winograd_q_116",
+    "description": "winograd_q_116 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bob ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Carl",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "116. Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. Who was concerned?"
+    }
+}

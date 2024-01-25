@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_gsd_category_3_calculation",
+    "prefLabel": "diagnosis_parkinsons_gsd_category_3_calculation",
+    "description": "diagnosis_parkinsons_gsd_category_3_calculation of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Category 3 Criteria Met"
+    }
+}

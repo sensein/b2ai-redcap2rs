@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "asian_race",
+    "prefLabel": "asian_race",
+    "description": "asian_race of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Asian"
+    },
+    "visibility": [
+        {
+            "variableName": "asian_race",
+            "isVis": " race___2  ==\"1\""
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "panas_46",
+    "prefLabel": "panas_46",
+    "description": "panas_46 of q_mood_panas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5",
+                "value": 5
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Thinking about yourself and how you normally feel, to what extent do you generally feel?\n\nInterval measure: never 1 2 3 4 5 always"
+    },
+    "question": {
+        "en": "Upset"
+    }
+}

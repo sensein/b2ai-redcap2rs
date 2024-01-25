@@ -1,0 +1,48 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "alcohol_amt",
+    "prefLabel": "alcohol_amt",
+    "description": "alcohol_amt of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0 - 2 ",
+                "value": 1
+            },
+            {
+                "name": "3 - 4 ",
+                "value": 2
+            },
+            {
+                "name": "5 - 6 ",
+                "value": 3
+            },
+            {
+                "name": "7 - 9 ",
+                "value": 4
+            },
+            {
+                "name": "10 or more ",
+                "value": 5
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 6
+            }
+        ]
+    },
+    "question": {
+        "en": "How many drinks containing alcohol do you have on a typical day when you are drinking?One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor"
+    },
+    "visibility": [
+        {
+            "variableName": "alcohol_amt",
+            "isVis": " alcohol_yn  ==\"yes\""
+        }
+    ]
+}

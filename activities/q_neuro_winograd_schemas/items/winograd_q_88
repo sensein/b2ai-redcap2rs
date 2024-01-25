@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_88",
+    "prefLabel": "winograd_q_88",
+    "description": "winograd_q_88 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bob ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Adam",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "88. Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, he would be gone by this time. Who would be gone?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_109",
+    "prefLabel": "winograd_q_109",
+    "description": "winograd_q_109 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The teller ",
+                "value": "correct"
+            },
+            {
+                "name": "The customer",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "109. The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the emergency room. Who was taken to the emergency room?"
+    }
+}

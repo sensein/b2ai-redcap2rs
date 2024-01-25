@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "gad_7_completed_at",
+    "prefLabel": "gad_7_completed_at",
+    "description": "gad_7_completed_at of q_generic_gad7_anxiety",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Completed At"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "voice_severity_completed_at",
+    "prefLabel": "voice_severity_completed_at",
+    "description": "voice_severity_completed_at of q_voice_voice_problem_severity",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Questionnaire Completed At"
+    }
+}

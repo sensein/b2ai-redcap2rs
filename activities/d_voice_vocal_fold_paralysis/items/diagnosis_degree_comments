@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_degree_comments",
+    "prefLabel": "diagnosis_degree_comments",
+    "description": "diagnosis_degree_comments of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Normal ",
+                "value": 1
+            },
+            {
+                "name": "Other",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Comments about resonance"
+    }
+}

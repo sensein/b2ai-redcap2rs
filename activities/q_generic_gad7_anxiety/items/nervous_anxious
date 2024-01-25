@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "gad_7_anxiety_29",
+    "prefLabel": "gad_7_anxiety_29",
+    "description": "gad_7_anxiety_29 of q_generic_gad7_anxiety",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all ",
+                "value": 0
+            },
+            {
+                "name": "Several days ",
+                "value": 1
+            },
+            {
+                "name": "More than half the days ",
+                "value": 2
+            },
+            {
+                "name": "Nearly every day",
+                "value": 3
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Over the last two weeks, how often have you been bothered by the following problems?"
+    },
+    "question": {
+        "en": "Feeling nervous, anxious, or on edge."
+    }
+}

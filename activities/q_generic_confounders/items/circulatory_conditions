@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "circulatory_conditions",
+    "prefLabel": "circulatory_conditions",
+    "description": "circulatory_conditions of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "CIRCULATORY AND OTHER CONDITIONS"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)"
+    }
+}

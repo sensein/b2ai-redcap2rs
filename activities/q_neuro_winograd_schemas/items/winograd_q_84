@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_84",
+    "prefLabel": "winograd_q_84",
+    "description": "winograd_q_84 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bob ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Charlie",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "84. Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very ungrateful. Who is ungrateful?"
+    }
+}

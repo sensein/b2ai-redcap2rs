@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_178",
+    "prefLabel": "winograd_q_178",
+    "description": "winograd_q_178 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yakutsk ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Kamchatka",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "178. In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, they were defeated within weeks. Who was defeated?"
+    }
+}

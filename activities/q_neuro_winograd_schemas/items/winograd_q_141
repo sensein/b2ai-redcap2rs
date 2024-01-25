@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_141",
+    "prefLabel": "winograd_q_141",
+    "description": "winograd_q_141 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The lake ",
+                "value": "correct"
+            },
+            {
+                "name": "The path",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "141. The path to the lake was blocked, so we couldn't reach it. What couldn't we reach?"
+    }
+}

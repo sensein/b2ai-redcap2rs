@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_217",
+    "prefLabel": "winograd_q_217",
+    "description": "winograd_q_217 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "John ",
+                "value": "correct"
+            },
+            {
+                "name": "Bill",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "217. John promised Bill to leave, so an hour later he left. Who left?"
+    }
+}

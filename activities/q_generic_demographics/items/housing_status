@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "housing_status",
+    "prefLabel": "housing_status",
+    "description": "housing_status of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Assisted living ",
+                "value": 1
+            },
+            {
+                "name": "Own home ",
+                "value": 3
+            },
+            {
+                "name": "Rent home ",
+                "value": 4
+            },
+            {
+                "name": "Skilled nursing facility/nursing home ",
+                "value": 5
+            },
+            {
+                "name": "Unhoused-temporarily ",
+                "value": 6
+            },
+            {
+                "name": "Unhoused-permanently",
+                "value": 7
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your current housing status?"
+    }
+}

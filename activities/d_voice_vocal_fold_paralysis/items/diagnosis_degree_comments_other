@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_degree_comments_other",
+    "prefLabel": "diagnosis_degree_comments_other",
+    "description": "diagnosis_degree_comments_other of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please specify"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_degree_comments_other",
+            "isVis": " diagnosis_degree_comments   == 2"
+        }
+    ]
+}

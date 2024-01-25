@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_71",
+    "prefLabel": "winograd_q_71",
+    "description": "winograd_q_71 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The knife ",
+                "value": "correct"
+            },
+            {
+                "name": "The rag",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "71. I used an old rag to clean the knife, and then I put it in the drawer. What did I put in the drawer?"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "vocabulary_item_correct_1",
+    "prefLabel": "vocabulary_item_correct_1",
+    "description": "vocabulary_item_correct_1 of q_neuro_productive_vocabulary",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "question": {
+        "en": "Item 1\nCorrect?"
+    }
+}

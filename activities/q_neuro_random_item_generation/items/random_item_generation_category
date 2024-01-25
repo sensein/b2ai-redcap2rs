@@ -1,0 +1,61 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "random_item_generation_category",
+    "prefLabel": "random_item_generation_category",
+    "description": "random_item_generation_category of q_neuro_random_item_generation",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Numbers ",
+                "value": "numbers"
+            },
+            {
+                "name": "Letters ",
+                "value": " letters"
+            },
+            {
+                "name": "First names ",
+                "value": " firstNames"
+            },
+            {
+                "name": "City names ",
+                "value": " cityNames"
+            },
+            {
+                "name": "Country names ",
+                "value": " countryNames"
+            },
+            {
+                "name": "Jobs ",
+                "value": " jobs"
+            },
+            {
+                "name": "Fruits ",
+                "value": " fruits"
+            },
+            {
+                "name": "Drinks ",
+                "value": " drinks"
+            },
+            {
+                "name": "Animals ",
+                "value": " animals"
+            },
+            {
+                "name": "English words starting with \"t\"",
+                "value": " wordStartingWithT"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Random item generation / semantic fluency"
+    },
+    "question": {
+        "en": "Random item generation category"
+    }
+}

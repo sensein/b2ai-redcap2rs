@@ -1,0 +1,36 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_as_ds_ac_grade_4",
+    "prefLabel": "diagnosis_as_ds_ac_grade_4",
+    "description": "diagnosis_as_ds_ac_grade_4 of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Grade 4T ",
+                "value": "grade4t"
+            },
+            {
+                "name": "Grade 4G ",
+                "value": " grade4g"
+            },
+            {
+                "name": "Grade 4TG",
+                "value": " grade4tg"
+            }
+        ]
+    },
+    "question": {
+        "en": "Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)"
+    },
+    "visibility": [
+        {
+            "variableName": "diagnosis_as_ds_ac_grade_4",
+            "isVis": " diagnosis_as_ds   == 'supraglotticStenosis' &&  diagnosis_as_ds_ac   == 'gradeIV'"
+        }
+    ]
+}

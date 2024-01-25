@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_vfp_ds",
+    "prefLabel": "diagnosis_vfp_ds",
+    "description": "diagnosis_vfp_ds of d_voice_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Left ",
+                "value": 1
+            },
+            {
+                "name": "Right",
+                "value": 2
+            }
+        ]
+    },
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
+    "question": {
+        "en": "Which side is the paralysis?"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_parkinsons_non_motor_symptoms",
+    "prefLabel": "diagnosis_parkinsons_non_motor_symptoms",
+    "description": "diagnosis_parkinsons_non_motor_symptoms of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "6. Non-Motor Symptoms"
+    },
+    "question": {
+        "en": "Are there significant non-motor symptoms associated with Parkinson's disease in the patient?"
+    }
+}

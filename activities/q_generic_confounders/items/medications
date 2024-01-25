@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "medications",
+    "prefLabel": "medications",
+    "description": "medications of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "MEDICATIONS"
+    },
+    "question": {
+        "en": "Do you currently take or use any of these medications or substances? (Check all that apply)"
+    }
+}

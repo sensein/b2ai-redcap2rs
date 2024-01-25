@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "diagnosis_alz_dementia_mci_gsd_cognitive_testing",
+    "prefLabel": "diagnosis_alz_dementia_mci_gsd_cognitive_testing",
+    "description": "diagnosis_alz_dementia_mci_gsd_cognitive_testing of d_neuro_alzheimers_disease_mild_cognitive_impairme",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Cognitive Testing:"
+    }
+}

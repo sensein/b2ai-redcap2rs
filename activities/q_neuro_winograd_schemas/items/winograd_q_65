@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "winograd_q_65",
+    "prefLabel": "winograd_q_65",
+    "description": "winograd_q_65 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The stage ",
+                "value": "correct"
+            },
+            {
+                "name": "The pillar",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "65. There is a pillar between me and the stage, and I can't see it. What can't I see?"
+    }
+}
