@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "alcohol_freq",
-            "isVis": " alcohol_yn  ==\"yes\""
+            "isVis": "alcohol_yn =='yes'"
         }
     ]
 }

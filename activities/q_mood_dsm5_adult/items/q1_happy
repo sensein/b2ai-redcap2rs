@@ -41,7 +41,7 @@
     "visibility": [
         {
             "variableName": "q1_happy",
-            "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+            "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
         }
     ]
 }

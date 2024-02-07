@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "specify_gender_identity",
-            "isVis": " gender_identity  ==\"female\" ||  gender_identity  ==\"male\""
+            "isVis": "gender_identity =='female' || gender_identity =='male'"
         }
     ]
 }

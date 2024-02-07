@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "ef_physical_a11y_options",
-            "isVis": " ef_any_physical_challenges   == '1'"
+            "isVis": "ef_any_physical_challenges == '1'"
         }
     ]
 }

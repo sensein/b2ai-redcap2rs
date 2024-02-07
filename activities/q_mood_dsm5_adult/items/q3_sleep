@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "q3_sleep",
-            "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+            "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
         }
     ]
 }

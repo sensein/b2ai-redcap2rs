@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "others_household_specify",
-            "isVis": " other_live_with  ==\"1\""
+            "isVis": "other_live_with =='1'"
         }
     ]
 }

@@ -5,7 +5,7 @@
     "prefLabel": "substance_use_recovery",
     "description": "substance_use_recovery of q_generic_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "substance_use_recovery",
-            "isVis": " recreational_drug_use  ==\"1\""
+            "isVis": "recreational_drug_use =='1'"
         }
     ]
 }

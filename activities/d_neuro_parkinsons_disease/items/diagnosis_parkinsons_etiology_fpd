@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_etiology_fpd",
-            "isVis": " diagnosis_parkinsons_etiology   == 'familialParkinsonsDisease'"
+            "isVis": "diagnosis_parkinsons_etiology == 'familialParkinsonsDisease'"
         }
     ]
 }

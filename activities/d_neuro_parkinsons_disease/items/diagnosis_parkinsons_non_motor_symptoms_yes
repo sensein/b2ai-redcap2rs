@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_non_motor_symptoms_yes",
-            "isVis": " diagnosis_parkinsons_non_motor_symptoms   == 'yes'"
+            "isVis": "diagnosis_parkinsons_non_motor_symptoms == 'yes'"
         }
     ]
 }

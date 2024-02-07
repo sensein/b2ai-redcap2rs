@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_treatment_obtained_yes",
-            "isVis": " diagnosis_parkinsons_treatment_obtained   == 'yes'"
+            "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes'"
         }
     ]
 }

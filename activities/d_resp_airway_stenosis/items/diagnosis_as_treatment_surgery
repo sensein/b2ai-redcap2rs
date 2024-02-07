@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_treatment_surgery",
-            "isVis": " diagnosis_as_treatment   == 'surgery'"
+            "isVis": "diagnosis_as_treatment == 'surgery'"
         }
     ]
 }

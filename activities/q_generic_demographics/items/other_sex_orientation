@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_sex_orientation",
-            "isVis": " sexual_orientation  =='other'"
+            "isVis": "sexual_orientation =='other'"
         }
     ]
 }

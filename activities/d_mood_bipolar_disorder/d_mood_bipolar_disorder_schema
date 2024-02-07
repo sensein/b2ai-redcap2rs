@@ -5,7 +5,7 @@
     "prefLabel": "d_mood_bipolar_disorder",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/diagnosis_bipolar_gsd",
@@ -41,12 +41,12 @@
             {
                 "variableName": "diagnosis_bipolar_gsd_oquw",
                 "isAbout": "items/diagnosis_bipolar_gsd_oquw",
-                "isVis": " diagnosis_bipolar_gsd_oqu  ==\"1\""
+                "isVis": "diagnosis_bipolar_gsd_oqu =='1'"
             },
             {
                 "variableName": "diagnosis_bipolar_gsd_oqu_other",
                 "isAbout": "items/diagnosis_bipolar_gsd_oqu_other",
-                "isVis": " diagnosis_bipolar_gsd_oquw  ==\"other\""
+                "isVis": "diagnosis_bipolar_gsd_oquw =='other'"
             },
             {
                 "variableName": "diagnosis_bipolar_active_problems",

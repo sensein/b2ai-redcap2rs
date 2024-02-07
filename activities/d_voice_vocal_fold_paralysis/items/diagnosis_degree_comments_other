@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_degree_comments_other",
-            "isVis": " diagnosis_degree_comments   == 2"
+            "isVis": "diagnosis_degree_comments == 2"
         }
     ]
 }

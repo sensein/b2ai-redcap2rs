@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_etiology_gf",
-            "isVis": " diagnosis_alz_dementia_mci_etiology(genetic_factors)   == 1"
+            "isVis": "diagnosis_alz_dementia_mci_etiology(genetic_factors) == 1"
         }
     ]
 }

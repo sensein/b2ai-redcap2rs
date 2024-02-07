@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_race_specify",
-            "isVis": " race___7   == \"1\""
+            "isVis": "race___7 == '1'"
         }
     ]
 }

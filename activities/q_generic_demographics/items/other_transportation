@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_transportation",
-            "isVis": " primary_transportation  ==\"8\""
+            "isVis": "primary_transportation =='8'"
         }
     ]
 }

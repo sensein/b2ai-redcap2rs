@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "smoking_hx",
-            "isVis": " alz_dementia_mci  ! == \"1\""
+            "isVis": "alz_dementia_mci ! == '1'"
         }
     ]
 }

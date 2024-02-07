@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_voice_activity",
-            "isVis": " voice_activity___7   == \"1\""
+            "isVis": "voice_activity___7 == '1'"
         }
     ]
 }

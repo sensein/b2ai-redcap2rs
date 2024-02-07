@@ -5,7 +5,7 @@
     "prefLabel": "d_resp_airway_stenosis",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/diagnosis_as_pft",
@@ -38,7 +38,7 @@
             {
                 "variableName": "diagnosis_as_pft_document",
                 "isAbout": "items/diagnosis_as_pft_document",
-                "isVis": " diagnosis_as_pft   == \"yes\""
+                "isVis": "diagnosis_as_pft == 'yes'"
             },
             {
                 "variableName": "diagnosis_as_gsd",
@@ -48,7 +48,7 @@
             {
                 "variableName": "diagnosis_as_gsd_yes",
                 "isAbout": "items/diagnosis_as_gsd_yes",
-                "isVis": " diagnosis_as_gsd   == \"yes\""
+                "isVis": "diagnosis_as_gsd == 'yes'"
             },
             {
                 "variableName": "diagnosis_as_ds",
@@ -58,7 +58,7 @@
             {
                 "variableName": "diagnosis_as_ds_bvfi",
                 "isAbout": "items/diagnosis_as_ds_bvfi",
-                "isVis": " diagnosis_as_ds   == 'bilateralVocalFoldImmobility'"
+                "isVis": "diagnosis_as_ds == 'bilateralVocalFoldImmobility'"
             },
             {
                 "variableName": "diagnosis_as_etiology",
@@ -68,47 +68,47 @@
             {
                 "variableName": "diagnosis_as_etiology_auto_immune",
                 "isAbout": "items/diagnosis_as_etiology_auto_immune",
-                "isVis": " diagnosis_as_etiology   == 'autoImmune'"
+                "isVis": "diagnosis_as_etiology == 'autoImmune'"
             },
             {
                 "variableName": "diagnosis_as_etiology_other",
                 "isAbout": "items/diagnosis_as_etiology_other",
-                "isVis": " diagnosis_as_etiology   == 'other'"
+                "isVis": "diagnosis_as_etiology == 'other'"
             },
             {
                 "variableName": "diagnosis_as_ds_mcg",
                 "isAbout": "items/diagnosis_as_ds_mcg",
-                "isVis": " diagnosis_as_ds   == 'subgloticStenosis'"
+                "isVis": "diagnosis_as_ds == 'subgloticStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_mcg_ref",
                 "isAbout": "items/diagnosis_as_ds_mcg_ref",
-                "isVis": " diagnosis_as_ds   == 'subgloticStenosis'"
+                "isVis": "diagnosis_as_ds == 'subgloticStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_ac_ref",
                 "isAbout": "items/diagnosis_as_ds_ac_ref",
-                "isVis": " diagnosis_as_ds   == 'supraglotticStenosis'"
+                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_bc",
                 "isAbout": "items/diagnosis_as_ds_bc",
-                "isVis": " diagnosis_as_ds   == 'glotticStenosis' ||  diagnosis_as_ds   == 'trachealStenosis'"
+                "isVis": "diagnosis_as_ds == 'glotticStenosis' || diagnosis_as_ds == 'trachealStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_ac",
                 "isAbout": "items/diagnosis_as_ds_ac",
-                "isVis": " diagnosis_as_ds   == 'supraglotticStenosis'"
+                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_bc_ref",
                 "isAbout": "items/diagnosis_as_ds_bc_ref",
-                "isVis": " diagnosis_as_ds   == 'glotticStenosis' ||  diagnosis_as_ds   == 'trachealStenosis'"
+                "isVis": "diagnosis_as_ds == 'glotticStenosis' || diagnosis_as_ds == 'trachealStenosis'"
             },
             {
                 "variableName": "diagnosis_as_ds_ac_grade_4",
                 "isAbout": "items/diagnosis_as_ds_ac_grade_4",
-                "isVis": " diagnosis_as_ds   == 'supraglotticStenosis' &&  diagnosis_as_ds_ac   == 'gradeIV'"
+                "isVis": "diagnosis_as_ds == 'supraglotticStenosis' && diagnosis_as_ds_ac == 'gradeIV'"
             },
             {
                 "variableName": "diagnosis_as_ds_ods",
@@ -123,12 +123,12 @@
             {
                 "variableName": "diagnosis_as_treatment_surgery",
                 "isAbout": "items/diagnosis_as_treatment_surgery",
-                "isVis": " diagnosis_as_treatment   == 'surgery'"
+                "isVis": "diagnosis_as_treatment == 'surgery'"
             },
             {
                 "variableName": "diagnosis_as_treatment_in_office",
                 "isAbout": "items/diagnosis_as_treatment_in_office",
-                "isVis": " diagnosis_as_treatment   == 'inOfficeTreatment'"
+                "isVis": "diagnosis_as_treatment == 'inOfficeTreatment'"
             }
         ],
         "shuffle": false

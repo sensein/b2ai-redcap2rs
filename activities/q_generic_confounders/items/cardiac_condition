@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "cardiac_condition",
-            "isVis": " circulatory_conditions___2  ==\"1\""
+            "isVis": "circulatory_conditions___2 =='1'"
         }
     ]
 }

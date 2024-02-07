@@ -41,7 +41,7 @@
     "visibility": [
         {
             "variableName": "social_phobia_1",
-            "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+            "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
         }
     ]
 }

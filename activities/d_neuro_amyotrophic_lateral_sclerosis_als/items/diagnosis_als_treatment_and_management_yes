@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_treatment_and_management_yes",
-            "isVis": " diagnosis_als_treatment_and_management   == 'yes'"
+            "isVis": "diagnosis_als_treatment_and_management == 'yes'"
         }
     ]
 }

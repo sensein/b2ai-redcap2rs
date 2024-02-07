@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_depression_clinical_subcategory",
-            "isVis": " diagnosis_depression_gsd   == \"clinical_depression\""
+            "isVis": "diagnosis_depression_gsd == 'clinical_depression'"
         }
     ]
 }

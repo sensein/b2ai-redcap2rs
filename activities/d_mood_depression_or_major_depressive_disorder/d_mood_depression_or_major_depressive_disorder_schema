@@ -5,7 +5,7 @@
     "prefLabel": "d_mood_depression_or_major_depressive_disorder",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/diagnosis_depression_gsd",
@@ -32,7 +32,7 @@
             {
                 "variableName": "diagnosis_depression_clinical_subcategory",
                 "isAbout": "items/diagnosis_depression_clinical_subcategory",
-                "isVis": " diagnosis_depression_gsd   == \"clinical_depression\""
+                "isVis": "diagnosis_depression_gsd == 'clinical_depression'"
             },
             {
                 "variableName": "diagnosis_depression_gsd_interview",
@@ -47,12 +47,12 @@
             {
                 "variableName": "diagnosis_depression_gsd_oquw",
                 "isAbout": "items/diagnosis_depression_gsd_oquw",
-                "isVis": " diagnosis_depression_gsd_oqu  ==\"1\""
+                "isVis": "diagnosis_depression_gsd_oqu =='1'"
             },
             {
                 "variableName": "diagnosis_depression_gsd_oqu_other",
                 "isAbout": "items/diagnosis_depression_gsd_oqu_other",
-                "isVis": " diagnosis_depression_gsd_oquw  ==\"other\""
+                "isVis": "diagnosis_depression_gsd_oquw =='other'"
             },
             {
                 "variableName": "diagnosis_bipolar_active_problems_depression",

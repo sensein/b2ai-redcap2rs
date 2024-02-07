@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "cough_today",
-            "isVis": " eligible_studies___4   == 1"
+            "isVis": "eligible_studies___4 == 1"
         }
     ]
 }

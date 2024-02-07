@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "current_neuro_dx",
-            "isVis": " neurological_history___1   == \"1\" or\n neurological_history___2   == \"1\" or\n neurological_history___3   == \"1\" or\n neurological_history___4   == \"1\" or\n neurological_history___5   == \"1\" or\n neurological_history___6   == \"1\""
+            "isVis": "neurological_history___1 == '1' or neurological_history___2 == '1' or neurological_history___3 == '1' or neurological_history___4 == '1' or neurological_history___5 == '1' or neurological_history___6 == '1'"
         }
     ]
 }

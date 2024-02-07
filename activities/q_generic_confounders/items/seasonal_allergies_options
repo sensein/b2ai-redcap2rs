@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "seasonal_allergies_options",
-            "isVis": " seasonal_allergies  ==\"1\""
+            "isVis": "seasonal_allergies =='1'"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_disease_subtype_other",
-            "isVis": " diagnosis_parkinsons_disease_subtype   == 'other'"
+            "isVis": "diagnosis_parkinsons_disease_subtype == 'other'"
         }
     ]
 }

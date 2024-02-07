@@ -42,7 +42,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_vfp_iatrogenic",
-            "isVis": " diagnosis_vfp_etiology   == 2"
+            "isVis": "diagnosis_vfp_etiology == 2"
         }
     ]
 }

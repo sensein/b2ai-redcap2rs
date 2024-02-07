@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "assistance_programs_usa",
-            "isVis": " country   ==\"1\""
+            "isVis": "country =='1'"
         }
     ]
 }

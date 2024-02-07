@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "ef_other_reason_decline",
-            "isVis": " ef_reason_decline_enroll  ==\"5\""
+            "isVis": "ef_reason_decline_enroll =='5'"
         }
     ]
 }

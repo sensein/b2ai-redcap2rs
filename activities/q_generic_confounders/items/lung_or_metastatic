@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "lung_or_metastatic",
-            "isVis": " respiratory_conditions___2  ==\"1\""
+            "isVis": "respiratory_conditions___2 =='1'"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_etiology_genetic_factors_other",
-            "isVis": " diagnosis_als_etiology_genetic_factors(other)   == 1"
+            "isVis": "diagnosis_als_etiology_genetic_factors(other) == 1"
         }
     ]
 }

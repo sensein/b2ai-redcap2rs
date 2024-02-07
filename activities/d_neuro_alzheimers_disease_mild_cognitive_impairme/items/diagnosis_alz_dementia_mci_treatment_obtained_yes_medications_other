@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications_other",
-            "isVis": " diagnosis_alz_dementia_mci_treatment_obtained   == 'yes' &&  diagnosis_alz_dementia_mci_treatment_obtained_yes(medications)   == 1 &&  diagnosis_alz_dementia_mci_treatment_obtained_yes_medications(other)   == 1"
+            "isVis": "diagnosis_alz_dementia_mci_treatment_obtained == 'yes' && diagnosis_alz_dementia_mci_treatment_obtained_yes(medications) == 1 && diagnosis_alz_dementia_mci_treatment_obtained_yes_medications(other) == 1"
         }
     ]
 }

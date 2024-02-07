@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty",
-            "isVis": " diagnosis_vfp_treatment_surgery   == 1"
+            "isVis": "diagnosis_vfp_treatment_surgery == 1"
         }
     ]
 }

@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "asian_race",
-            "isVis": " race___2  ==\"1\""
+            "isVis": "race___2 =='1'"
         }
     ]
 }

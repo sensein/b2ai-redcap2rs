@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "withdrawn_consent_reason",
-            "isVis": " consent_status   == 3"
+            "isVis": "consent_status == 3"
         }
     ]
 }

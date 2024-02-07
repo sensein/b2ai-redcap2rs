@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_menstruate_specify",
-            "isVis": " menstruate_no   == \"other\""
+            "isVis": "menstruate_no == 'other'"
         }
     ]
 }

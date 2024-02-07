@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "grandparent",
-            "isVis": " household_count >0"
+            "isVis": "household_count >0"
         }
     ]
 }

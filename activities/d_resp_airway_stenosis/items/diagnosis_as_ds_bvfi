@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_ds_bvfi",
-            "isVis": " diagnosis_as_ds   == 'bilateralVocalFoldImmobility'"
+            "isVis": "diagnosis_as_ds == 'bilateralVocalFoldImmobility'"
         }
     ]
 }

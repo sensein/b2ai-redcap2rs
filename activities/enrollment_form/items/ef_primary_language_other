@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "ef_primary_language_other",
-            "isVis": " ef_primary_language   == '4'"
+            "isVis": "ef_primary_language == '4'"
         }
     ]
 }

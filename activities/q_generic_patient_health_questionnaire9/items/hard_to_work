@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "hard_to_work",
-            "isVis": " no_interest  > 0 or\n feeling_depressed  > 0 or\n trouble_sleeping  > 0 or\n no_energy  > 0 or\n no_appetite  > 0 or\n feeling_bad_self  > 0 or\n trouble_concentrate  > 0 or\n move_speak_slow  > 0 or\n thoughts_death  > 0"
+            "isVis": "no_interest > 0 or feeling_depressed > 0 or trouble_sleeping > 0 or no_energy > 0 or no_appetite > 0 or feeling_bad_self > 0 or trouble_concentrate > 0 or move_speak_slow > 0 or thoughts_death > 0"
         }
     ]
 }

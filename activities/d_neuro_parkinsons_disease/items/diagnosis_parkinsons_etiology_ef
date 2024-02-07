@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_etiology_ef",
-            "isVis": " diagnosis_parkinsons_etiology   == 'environmentalFactors'"
+            "isVis": "diagnosis_parkinsons_etiology == 'environmentalFactors'"
         }
     ]
 }

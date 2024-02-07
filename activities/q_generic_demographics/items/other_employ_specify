@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_employ_specify",
-            "isVis": " employ_status___9   == \"1\""
+            "isVis": "employ_status___9 == '1'"
         }
     ]
 }

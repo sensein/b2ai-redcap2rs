@@ -5,7 +5,7 @@
     "prefLabel": "contact_info_stored",
     "description": "contact_info_stored of subjectparticipant_contact_information",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

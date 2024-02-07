@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_ma_other",
-            "isVis": " diagnosis_parkinsons_ma(other)   == 1"
+            "isVis": "diagnosis_parkinsons_ma(other) == 1"
         }
     ]
 }

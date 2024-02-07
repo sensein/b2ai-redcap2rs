@@ -29,7 +29,7 @@
     "visibility": [
         {
             "variableName": "spouse_partner_sig_other",
-            "isVis": " household_count >0"
+            "isVis": "household_count >0"
         }
     ]
 }

@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "ef_cognitive_a11y_options",
-            "isVis": " ef_any_cognitive_challeges   == '1'"
+            "isVis": "ef_any_cognitive_challeges == '1'"
         }
     ]
 }

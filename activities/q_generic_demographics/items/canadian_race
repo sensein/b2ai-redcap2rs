@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "canadian_race",
-            "isVis": " race___6  ==\"1\""
+            "isVis": "race___6 =='1'"
         }
     ]
 }

@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "ef_hearing_a11y_options",
-            "isVis": " ef_any_hearing_related_req   == '1'"
+            "isVis": "ef_any_hearing_related_req == '1'"
         }
     ]
 }

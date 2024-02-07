@@ -5,7 +5,7 @@
     "prefLabel": "ef_any_hearing_related_req",
     "description": "ef_any_hearing_related_req of enrollment_form",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

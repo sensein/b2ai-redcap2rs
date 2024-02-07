@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_etiology_other",
-            "isVis": " diagnosis_as_etiology   == 'other'"
+            "isVis": "diagnosis_as_etiology == 'other'"
         }
     ]
 }

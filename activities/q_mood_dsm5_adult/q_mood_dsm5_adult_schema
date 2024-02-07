@@ -5,7 +5,7 @@
     "prefLabel": "q_mood_dsm5_adult",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/dsm_5_session_id",
@@ -190,77 +190,77 @@
             {
                 "variableName": "q1_happy",
                 "isAbout": "items/q1_happy",
-                "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
             },
             {
                 "variableName": "q2_self_confident",
                 "isAbout": "items/q2_self_confident",
-                "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
             },
             {
                 "variableName": "q3_sleep",
                 "isAbout": "items/q3_sleep",
-                "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
             },
             {
                 "variableName": "q4_talk",
                 "isAbout": "items/q4_talk",
-                "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
             },
             {
                 "variableName": "q5_active",
                 "isAbout": "items/q5_active",
-                "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
             },
             {
                 "variableName": "social_phobia_1",
                 "isAbout": "items/social_phobia_1",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_2",
                 "isAbout": "items/social_phobia_2",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_3",
                 "isAbout": "items/social_phobia_3",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_4",
                 "isAbout": "items/social_phobia_4",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_5",
                 "isAbout": "items/social_phobia_5",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_6",
                 "isAbout": "items/social_phobia_6",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_7",
                 "isAbout": "items/social_phobia_7",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_8",
                 "isAbout": "items/social_phobia_8",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_9",
                 "isAbout": "items/social_phobia_9",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             },
             {
                 "variableName": "social_phobia_10",
                 "isAbout": "items/social_phobia_10",
-                "isVis": " feeling_nervous  >= 2 ||  feeling_panic  >= 2 ||  avoiding_situations  >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
             }
         ],
         "shuffle": false

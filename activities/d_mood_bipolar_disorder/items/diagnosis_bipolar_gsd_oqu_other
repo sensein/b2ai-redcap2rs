@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_bipolar_gsd_oqu_other",
-            "isVis": " diagnosis_bipolar_gsd_oquw  ==\"other\""
+            "isVis": "diagnosis_bipolar_gsd_oquw =='other'"
         }
     ]
 }

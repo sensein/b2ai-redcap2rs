@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_treatment_and_management_yes_medications_other",
-            "isVis": " diagnosis_als_treatment_and_management   == 'yes' &&  diagnosis_als_treatment_and_management_yes(medications)   == 1 &&  diagnosis_als_treatment_and_management_yes_medications(other)   == 1"
+            "isVis": "diagnosis_als_treatment_and_management == 'yes' && diagnosis_als_treatment_and_management_yes(medications) == 1 && diagnosis_als_treatment_and_management_yes_medications(other) == 1"
         }
     ]
 }

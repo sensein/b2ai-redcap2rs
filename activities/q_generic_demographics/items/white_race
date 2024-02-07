@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "white_race",
-            "isVis": " race___5  ==\"1\""
+            "isVis": "race___5 =='1'"
         }
     ]
 }

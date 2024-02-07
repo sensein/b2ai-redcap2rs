@@ -5,7 +5,7 @@
     "prefLabel": "enrollment_form",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/ef_select_language",
@@ -82,7 +82,7 @@
             {
                 "variableName": "ef_vision_a11y_options",
                 "isAbout": "items/ef_vision_a11y_options",
-                "isVis": " ef_any_vision_related_req   == '1'"
+                "isVis": "ef_any_vision_related_req == '1'"
             },
             {
                 "variableName": "ef_any_hearing_related_req",
@@ -92,7 +92,7 @@
             {
                 "variableName": "ef_hearing_a11y_options",
                 "isAbout": "items/ef_hearing_a11y_options",
-                "isVis": " ef_any_hearing_related_req   == '1'"
+                "isVis": "ef_any_hearing_related_req == '1'"
             },
             {
                 "variableName": "ef_any_physical_challenges",
@@ -102,7 +102,7 @@
             {
                 "variableName": "ef_physical_a11y_options",
                 "isAbout": "items/ef_physical_a11y_options",
-                "isVis": " ef_any_physical_challenges   == '1'"
+                "isVis": "ef_any_physical_challenges == '1'"
             },
             {
                 "variableName": "ef_any_cognitive_challeges",
@@ -112,7 +112,7 @@
             {
                 "variableName": "ef_cognitive_a11y_options",
                 "isAbout": "items/ef_cognitive_a11y_options",
-                "isVis": " ef_any_cognitive_challeges   == '1'"
+                "isVis": "ef_any_cognitive_challeges == '1'"
             },
             {
                 "variableName": "ef_completed_by",
@@ -127,7 +127,7 @@
             {
                 "variableName": "ef_primary_language_other",
                 "isAbout": "items/ef_primary_language_other",
-                "isVis": " ef_primary_language   == '4'"
+                "isVis": "ef_primary_language == '4'"
             },
             {
                 "variableName": "ef_fluent_languages",
@@ -137,7 +137,7 @@
             {
                 "variableName": "ef_fluent_language_other",
                 "isAbout": "items/ef_fluent_language_other",
-                "isVis": " ef_fluent_languages___5   == '1'"
+                "isVis": "ef_fluent_languages___5 == '1'"
             },
             {
                 "variableName": "ef_dob",
@@ -332,12 +332,12 @@
             {
                 "variableName": "ef_reason_decline_enroll",
                 "isAbout": "items/ef_reason_decline_enroll",
-                "isVis": " ef_enrollment  ==\"Decline\""
+                "isVis": "ef_enrollment =='Decline'"
             },
             {
                 "variableName": "ef_other_reason_decline",
                 "isAbout": "items/ef_other_reason_decline",
-                "isVis": " ef_reason_decline_enroll  ==\"5\""
+                "isVis": "ef_reason_decline_enroll =='5'"
             },
             {
                 "variableName": "ef_enrollment_institution",

@@ -5,7 +5,7 @@
     "prefLabel": "alcohol_today",
     "description": "alcohol_today of q_generic_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "alcohol_today",
-            "isVis": " alcohol_yn  ==\"yes\""
+            "isVis": "alcohol_yn =='yes'"
         }
     ]
 }

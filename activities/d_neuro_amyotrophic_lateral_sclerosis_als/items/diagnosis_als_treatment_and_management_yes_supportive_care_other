@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_treatment_and_management_yes_supportive_care_other",
-            "isVis": " diagnosis_als_treatment_and_management   == 'yes' &&  diagnosis_als_treatment_and_management_yes(supportive_care)   == 1 &&  diagnosis_als_treatment_and_management_yes_supportive_care(other)   == 1"
+            "isVis": "diagnosis_als_treatment_and_management == 'yes' && diagnosis_als_treatment_and_management_yes(supportive_care) == 1 && diagnosis_als_treatment_and_management_yes_supportive_care(other) == 1"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "ef_fluent_language_other",
-            "isVis": " ef_fluent_languages___5   == '1'"
+            "isVis": "ef_fluent_languages___5 == '1'"
         }
     ]
 }

@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_ds_ac_grade_4",
-            "isVis": " diagnosis_as_ds   == 'supraglotticStenosis' &&  diagnosis_as_ds_ac   == 'gradeIV'"
+            "isVis": "diagnosis_as_ds == 'supraglotticStenosis' && diagnosis_as_ds_ac == 'gradeIV'"
         }
     ]
 }

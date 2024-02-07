@@ -54,7 +54,7 @@
     "visibility": [
         {
             "variableName": "household_income_ca",
-            "isVis": " country  ==\"2\""
+            "isVis": "country =='2'"
         }
     ]
 }

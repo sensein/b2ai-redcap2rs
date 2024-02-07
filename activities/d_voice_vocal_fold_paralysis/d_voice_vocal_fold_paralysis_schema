@@ -5,7 +5,7 @@
     "prefLabel": "d_voice_vocal_fold_paralysis",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/diagnosis_vfp_gsd",
@@ -57,12 +57,12 @@
             {
                 "variableName": "diagnosis_vfp_iatrogenic",
                 "isAbout": "items/diagnosis_vfp_iatrogenic",
-                "isVis": " diagnosis_vfp_etiology   == 2"
+                "isVis": "diagnosis_vfp_etiology == 2"
             },
             {
                 "variableName": "diagnosis_vfp_tumor",
                 "isAbout": "items/diagnosis_vfp_tumor",
-                "isVis": " diagnosis_vfp_etiology   == 3"
+                "isVis": "diagnosis_vfp_etiology == 3"
             },
             {
                 "variableName": "diagnosis_vfp_dse",
@@ -157,7 +157,7 @@
             {
                 "variableName": "diagnosis_degree_comments_other",
                 "isAbout": "items/diagnosis_degree_comments_other",
-                "isVis": " diagnosis_degree_comments   == 2"
+                "isVis": "diagnosis_degree_comments == 2"
             },
             {
                 "variableName": "diagnosis_degree_comments_other_2",
@@ -172,17 +172,17 @@
             {
                 "variableName": "diagnosis_vfp_treatment_surgery",
                 "isAbout": "items/diagnosis_vfp_treatment_surgery",
-                "isVis": " diagnosis_vfp_treatment   == 1"
+                "isVis": "diagnosis_vfp_treatment == 1"
             },
             {
                 "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty",
                 "isAbout": "items/diagnosis_vfp_treatment_surgery_thyroplasty",
-                "isVis": " diagnosis_vfp_treatment_surgery   == 1"
+                "isVis": "diagnosis_vfp_treatment_surgery == 1"
             },
             {
                 "variableName": "diagnosis_vfp_treatment_surgery_vfia",
                 "isAbout": "items/diagnosis_vfp_treatment_surgery_vfia",
-                "isVis": " diagnosis_vfp_treatment_surgery   == 2"
+                "isVis": "diagnosis_vfp_treatment_surgery == 2"
             }
         ],
         "shuffle": false

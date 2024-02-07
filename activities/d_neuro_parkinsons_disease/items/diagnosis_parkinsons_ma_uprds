@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_ma_uprds",
-            "isVis": " diagnosis_parkinsons_ma(updrs)   == 1"
+            "isVis": "diagnosis_parkinsons_ma(updrs) == 1"
         }
     ]
 }

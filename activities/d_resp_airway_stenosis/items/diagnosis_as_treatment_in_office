@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_treatment_in_office",
-            "isVis": " diagnosis_as_treatment   == 'inOfficeTreatment'"
+            "isVis": "diagnosis_as_treatment == 'inOfficeTreatment'"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "other_edu_level",
-            "isVis": " edu_level  ==\"11\""
+            "isVis": "edu_level =='11'"
         }
     ]
 }

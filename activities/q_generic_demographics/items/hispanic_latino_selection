@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "hispanic_latino_selection",
-            "isVis": " ethnicity   == \"yes\""
+            "isVis": "ethnicity == 'yes'"
         }
     ]
 }

@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_ds_bc",
-            "isVis": " diagnosis_as_ds   == 'glotticStenosis' ||  diagnosis_as_ds   == 'trachealStenosis'"
+            "isVis": "diagnosis_as_ds == 'glotticStenosis' || diagnosis_as_ds == 'trachealStenosis'"
         }
     ]
 }

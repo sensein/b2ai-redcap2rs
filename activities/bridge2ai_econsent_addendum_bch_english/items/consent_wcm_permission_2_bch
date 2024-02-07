@@ -5,7 +5,7 @@
     "prefLabel": "consent_wcm_permission_2_bch",
     "description": "consent_wcm_permission_2_bch of bridge2ai_econsent_addendum_bch_english",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

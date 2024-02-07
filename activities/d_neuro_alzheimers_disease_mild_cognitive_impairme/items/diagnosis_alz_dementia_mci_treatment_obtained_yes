@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_treatment_obtained_yes",
-            "isVis": " diagnosis_alz_dementia_mci_treatment_obtained   == 'yes'"
+            "isVis": "diagnosis_alz_dementia_mci_treatment_obtained == 'yes'"
         }
     ]
 }

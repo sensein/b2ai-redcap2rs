@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "financial_assistance_usa",
-            "isVis": " country   ==\"1\""
+            "isVis": "country =='1'"
         }
     ]
 }

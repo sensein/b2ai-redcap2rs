@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_etiology_other",
-            "isVis": " diagnosis_alz_dementia_mci_etiology(other)   == 1"
+            "isVis": "diagnosis_alz_dementia_mci_etiology(other) == 1"
         }
     ]
 }

@@ -42,7 +42,7 @@
     "visibility": [
         {
             "variableName": "smoking_freq",
-            "isVis": " smoking_hx  ==\"past\" ||  smoking_hx  ==\"currently\""
+            "isVis": "smoking_hx =='past' || smoking_hx =='currently'"
         }
     ]
 }

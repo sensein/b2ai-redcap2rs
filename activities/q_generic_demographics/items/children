@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "children",
-            "isVis": " household_count >0"
+            "isVis": "household_count >0"
         }
     ]
 }

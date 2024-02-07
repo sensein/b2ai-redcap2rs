@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_vfp_tumor",
-            "isVis": " diagnosis_vfp_etiology   == 3"
+            "isVis": "diagnosis_vfp_etiology == 3"
         }
     ]
 }

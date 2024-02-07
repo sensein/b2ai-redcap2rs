@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "smoking_types",
-            "isVis": " smoking_hx  ==\"past\" ||  smoking_hx  == \"currently\""
+            "isVis": "smoking_hx =='past' || smoking_hx == 'currently'"
         }
     ]
 }

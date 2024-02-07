@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "dental_tx",
-            "isVis": " dental_problems  =='1'"
+            "isVis": "dental_problems =='1'"
         }
     ]
 }

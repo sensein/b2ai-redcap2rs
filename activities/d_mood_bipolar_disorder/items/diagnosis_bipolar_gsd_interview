@@ -5,7 +5,7 @@
     "prefLabel": "diagnosis_bipolar_gsd_interview",
     "description": "diagnosis_bipolar_gsd_interview of d_mood_bipolar_disorder",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

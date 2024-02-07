@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "pain_medication",
-            "isVis": " medications___11  ==\"1\""
+            "isVis": "medications___11 =='1'"
         }
     ]
 }

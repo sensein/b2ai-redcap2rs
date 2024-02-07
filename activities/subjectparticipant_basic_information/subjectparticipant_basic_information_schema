@@ -5,7 +5,7 @@
     "prefLabel": "subjectparticipant_basic_information",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/record_id",
@@ -37,12 +37,12 @@
             {
                 "variableName": "withdrawn_consent_reason",
                 "isAbout": "items/withdrawn_consent_reason",
-                "isVis": " consent_status   == 3"
+                "isVis": "consent_status == 3"
             },
             {
                 "variableName": "withdrawn_consent_date",
                 "isAbout": "items/withdrawn_consent_date",
-                "isVis": " consent_status   == 3"
+                "isVis": "consent_status == 3"
             },
             {
                 "variableName": "enrolled",
@@ -52,7 +52,7 @@
             {
                 "variableName": "enrollment_reason",
                 "isAbout": "items/enrollment_reason",
-                "isVis": " enrolled   == 1"
+                "isVis": "enrolled == 1"
             },
             {
                 "variableName": "enrollment_institution",

@@ -5,7 +5,7 @@
     "prefLabel": "is_regular_smoker",
     "description": "is_regular_smoker of q_generic_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",
@@ -29,7 +29,7 @@
     "visibility": [
         {
             "variableName": "is_regular_smoker",
-            "isVis": " alz_dementia_mci   == \"1\""
+            "isVis": "alz_dementia_mci == '1'"
         }
     ]
 }

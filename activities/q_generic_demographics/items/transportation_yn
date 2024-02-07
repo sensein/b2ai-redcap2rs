@@ -5,7 +5,7 @@
     "prefLabel": "transportation_yn",
     "description": "transportation_yn of q_generic_demographics",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

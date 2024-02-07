@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_ds_mcg_ref",
-            "isVis": " diagnosis_as_ds   == 'subgloticStenosis'"
+            "isVis": "diagnosis_as_ds == 'subgloticStenosis'"
         }
     ]
 }

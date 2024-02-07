@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "native_american_race",
-            "isVis": " race___1   == \"1\""
+            "isVis": "race___1 == '1'"
         }
     ]
 }

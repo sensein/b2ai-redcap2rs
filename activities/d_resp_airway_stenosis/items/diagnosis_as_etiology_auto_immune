@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_etiology_auto_immune",
-            "isVis": " diagnosis_as_etiology   == 'autoImmune'"
+            "isVis": "diagnosis_as_etiology == 'autoImmune'"
         }
     ]
 }

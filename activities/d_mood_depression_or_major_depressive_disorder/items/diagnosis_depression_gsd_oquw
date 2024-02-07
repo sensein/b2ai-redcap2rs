@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_depression_gsd_oquw",
-            "isVis": " diagnosis_depression_gsd_oqu  ==\"1\""
+            "isVis": "diagnosis_depression_gsd_oqu =='1'"
         }
     ]
 }

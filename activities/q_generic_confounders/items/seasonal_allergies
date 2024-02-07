@@ -5,7 +5,7 @@
     "prefLabel": "seasonal_allergies",
     "description": "seasonal_allergies of q_generic_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

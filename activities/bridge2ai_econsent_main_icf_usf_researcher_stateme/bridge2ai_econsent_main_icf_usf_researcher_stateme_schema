@@ -5,7 +5,7 @@
     "prefLabel": "bridge2ai_econsent_main_icf_usf_researcher_stateme",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/researcher_statement2",

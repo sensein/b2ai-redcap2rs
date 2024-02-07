@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_vfp_treatment_surgery",
-            "isVis": " diagnosis_vfp_treatment   == 1"
+            "isVis": "diagnosis_vfp_treatment == 1"
         }
     ]
 }

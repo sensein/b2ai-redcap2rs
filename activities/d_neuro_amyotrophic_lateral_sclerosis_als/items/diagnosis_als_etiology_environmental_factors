@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_etiology_environmental_factors",
-            "isVis": " diagnosis_als_etiology(environmental_factors)   == 1"
+            "isVis": "diagnosis_als_etiology(environmental_factors) == 1"
         }
     ]
 }

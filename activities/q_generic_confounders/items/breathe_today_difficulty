@@ -30,7 +30,7 @@
     "visibility": [
         {
             "variableName": "breathe_today_difficulty",
-            "isVis": " eligible_studies___4   == 1 &&  breathe_today   == 'yes'"
+            "isVis": "eligible_studies___4 == 1 && breathe_today == 'yes'"
         }
     ]
 }

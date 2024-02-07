@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "q2_self_confident",
-            "isVis": " sleeping_less  >= 2 ||  starting_more_projects  >= 2"
+            "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
         }
     ]
 }

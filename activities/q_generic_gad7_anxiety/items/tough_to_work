@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "tough_to_work",
-            "isVis": " nervous_anxious  > 0 or\n cant_control_worry  > 0 || \n worry_too_much  > 0 or\n trouble_relaxing  > 0 or\n hard_to_sit_still  > 0 || \n easily_agitated  > 0 or\n afraid_of_things  > 0"
+            "isVis": "nervous_anxious > 0 or cant_control_worry > 0 || worry_too_much > 0 or trouble_relaxing > 0 or hard_to_sit_still > 0 || easily_agitated > 0 or afraid_of_things > 0"
         }
     ]
 }

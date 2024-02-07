@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "ef_vision_a11y_options",
-            "isVis": " ef_any_vision_related_req   == '1'"
+            "isVis": "ef_any_vision_related_req == '1'"
         }
     ]
 }

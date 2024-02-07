@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_dt_other",
-            "isVis": " diagnosis_alz_dementia_mci_dt   == 'other'"
+            "isVis": "diagnosis_alz_dementia_mci_dt == 'other'"
         }
     ]
 }

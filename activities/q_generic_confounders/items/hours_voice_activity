@@ -23,7 +23,7 @@
     "visibility": [
         {
             "variableName": "hours_voice_activity",
-            "isVis": " voice_activity___1   == \"1\" or\n voice_activity___2   == \"1\" or\n voice_activity___3   == \"1\" or\n voice_activity___4   == \"1\" or\n voice_activity___5   == \"1\" or\n voice_activity___6   == \"1\" or\n voice_activity___7   == \"1\""
+            "isVis": "voice_activity___1 == '1' or voice_activity___2 == '1' or voice_activity___3 == '1' or voice_activity___4 == '1' or voice_activity___5 == '1' or voice_activity___6 == '1' or voice_activity___7 == '1'"
         }
     ]
 }

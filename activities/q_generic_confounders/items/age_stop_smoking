@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "age_stop_smoking",
-            "isVis": " smoking_hx  ==\"past\""
+            "isVis": "smoking_hx =='past'"
         }
     ]
 }

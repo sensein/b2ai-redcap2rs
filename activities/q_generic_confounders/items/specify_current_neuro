@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "specify_current_neuro",
-            "isVis": " current_neuro_dx  ==2"
+            "isVis": "current_neuro_dx ==2"
         }
     ]
 }

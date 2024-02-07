@@ -5,7 +5,7 @@
     "prefLabel": "recreational_drug_use",
     "description": "recreational_drug_use of q_generic_confounders",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:boolean",

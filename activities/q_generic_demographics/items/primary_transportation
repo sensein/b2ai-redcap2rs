@@ -50,7 +50,7 @@
     "visibility": [
         {
             "variableName": "primary_transportation",
-            "isVis": " transportation_yn  ==\"1\""
+            "isVis": "transportation_yn =='1'"
         }
     ]
 }

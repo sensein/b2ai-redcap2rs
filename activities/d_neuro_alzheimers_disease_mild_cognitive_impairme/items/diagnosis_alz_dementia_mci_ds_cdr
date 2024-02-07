@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_alz_dementia_mci_ds_cdr",
-            "isVis": " diagnosis_alz_dementia_mci_ds(cdr)   == 1"
+            "isVis": "diagnosis_alz_dementia_mci_ds(cdr) == 1"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_als_disease_subtype_familial",
-            "isVis": " diagnosis_als_disease_subtype   == 'familialAls'"
+            "isVis": "diagnosis_als_disease_subtype == 'familialAls'"
         }
     ]
 }

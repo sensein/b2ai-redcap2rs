@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "menstruate_no",
-            "isVis": " menstruate  ==\"no\""
+            "isVis": "menstruate =='no'"
         }
     ]
 }

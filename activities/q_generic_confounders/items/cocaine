@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "cocaine",
-            "isVis": " recreational_drug_use  ==\"1\""
+            "isVis": "recreational_drug_use =='1'"
         }
     ]
 }

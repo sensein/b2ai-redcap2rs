@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_pft_document",
-            "isVis": " diagnosis_as_pft   == \"yes\""
+            "isVis": "diagnosis_as_pft == 'yes'"
         }
     ]
 }

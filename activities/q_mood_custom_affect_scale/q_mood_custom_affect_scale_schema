@@ -5,7 +5,7 @@
     "prefLabel": "q_mood_custom_affect_scale",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/custom_affect_scale_session_id",

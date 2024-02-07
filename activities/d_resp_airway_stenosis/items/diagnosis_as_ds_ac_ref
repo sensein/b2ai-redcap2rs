@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_as_ds_ac_ref",
-            "isVis": " diagnosis_as_ds   == 'supraglotticStenosis'"
+            "isVis": "diagnosis_as_ds == 'supraglotticStenosis'"
         }
     ]
 }

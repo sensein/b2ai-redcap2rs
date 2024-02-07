@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "enrollment_reason",
-            "isVis": " enrolled   == 1"
+            "isVis": "enrolled == 1"
         }
     ]
 }

@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "diagnosis_parkinsons_ma_updrs_part_i_score",
-            "isVis": " diagnosis_parkinsons_ma_uprds   == 'partI'"
+            "isVis": "diagnosis_parkinsons_ma_uprds == 'partI'"
         }
     ]
 }

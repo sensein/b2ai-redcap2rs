@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "hormone_use",
-            "isVis": " medications___7  ==\"1\""
+            "isVis": "medications___7 =='1'"
         }
     ]
 }

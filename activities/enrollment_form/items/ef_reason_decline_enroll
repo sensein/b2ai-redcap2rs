@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "ef_reason_decline_enroll",
-            "isVis": " ef_enrollment  ==\"Decline\""
+            "isVis": "ef_enrollment =='Decline'"
         }
     ]
 }

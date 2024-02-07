@@ -5,7 +5,7 @@
     "prefLabel": "q_generic_voice_handicap_index_vhi10",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "3.1.0",
     "ui": {
         "order": [
             "items/vhi_session_id",

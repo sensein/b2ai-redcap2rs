@@ -16,7 +16,7 @@
     "visibility": [
         {
             "variableName": "infection_disease",
-            "isVis": " circulatory_med_history___3  ==\"1\""
+            "isVis": "circulatory_med_history___3 =='1'"
         }
     ]
 }
