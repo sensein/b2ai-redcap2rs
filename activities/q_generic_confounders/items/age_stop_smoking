@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "age_stop_smoking",
     "prefLabel": "age_stop_smoking",
     "description": "age_stop_smoking of q_generic_confounders",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "At what age did you stop?"
-    },
-    "visibility": [
-        {
-            "variableName": "age_stop_smoking",
-            "isVis": "smoking_hx =='past'"
-        }
-    ]
+    }
 }

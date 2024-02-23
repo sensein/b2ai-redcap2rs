@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "financial_assistance_ca",
     "prefLabel": "financial_assistance_ca",
     "description": "financial_assistance_ca of q_generic_demographics",
@@ -26,11 +26,5 @@
     },
     "question": {
         "en": "Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed below."
-    },
-    "visibility": [
-        {
-            "variableName": "financial_assistance_ca",
-            "isVis": "country =='2'"
-        }
-    ]
+    }
 }

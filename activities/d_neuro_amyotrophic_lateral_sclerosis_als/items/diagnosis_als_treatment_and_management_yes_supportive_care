@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_als_treatment_and_management_yes_supportive_care",
     "prefLabel": "diagnosis_als_treatment_and_management_yes_supportive_care",
     "description": "diagnosis_als_treatment_and_management_yes_supportive_care of d_neuro_amyotrophic_lateral_sclerosis_als",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "Supportive Care:"
-    },
-    "visibility": [
-        {
-            "variableName": "diagnosis_als_treatment_and_management_yes_supportive_care",
-            "isVis": "diagnosis_als_treatment_and_management == 'yes' && diagnosis_als_treatment_and_management_yes(supportive_care) == 1"
-        }
-    ]
+    }
 }

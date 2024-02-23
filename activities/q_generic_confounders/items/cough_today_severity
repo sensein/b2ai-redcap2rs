@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "cough_today_severity",
     "prefLabel": "cough_today_severity",
     "description": "cough_today_severity of q_generic_confounders",
@@ -54,11 +54,5 @@
     },
     "question": {
         "en": "What is the severity of your cough?\nA selection of 10 being means the most severe."
-    },
-    "visibility": [
-        {
-            "variableName": "cough_today_severity",
-            "isVis": "eligible_studies___4 == 1 && cough_today == 'yes'"
-        }
-    ]
+    }
 }

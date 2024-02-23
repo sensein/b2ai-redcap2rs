@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_depression_clinical_subcategory",
     "prefLabel": "diagnosis_depression_clinical_subcategory",
     "description": "diagnosis_depression_clinical_subcategory of d_mood_depression_or_major_depressive_disorder",
@@ -26,11 +26,5 @@
     },
     "question": {
         "en": "Clinical depression (major depressive disorder) Subcategory"
-    },
-    "visibility": [
-        {
-            "variableName": "diagnosis_depression_clinical_subcategory",
-            "isVis": "diagnosis_depression_gsd == 'clinical_depression'"
-        }
-    ]
+    }
 }

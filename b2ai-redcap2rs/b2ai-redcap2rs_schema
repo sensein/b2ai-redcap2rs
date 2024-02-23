@@ -1,12 +1,12 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Protocol",
     "@id": "b2ai-redcap2rs_schema",
-    "skos:prefLabel": "Bridge2AI Protocol",
-    "skos:altLabel": "b2ai-redcap2rs_schema",
-    "schema:description": "Bridge2AI Protocol converted from REDCap to ReproSchema",
-    "schema:schemaVersion": "1.0.0-rc4",
-    "schema:version": "3.1.0",
+    "prefLabel": "Bridge2AI Protocol",
+    "altLabel": "b2ai-redcap2rs_schema",
+    "description": "Bridge2AI Protocol converted from REDCap to ReproSchema",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "3.1.0",
     "ui": {
         "addProperties": [
             {

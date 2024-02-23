@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_resp_leicester_cough_questionnaire_lcq_schema",
     "prefLabel": "q_resp_leicester_cough_questionnaire_lcq",
@@ -150,102 +150,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "lcq_chest_stomach_pains",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_sputum_phlegm",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_tired",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_embarrassed",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_anxious",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_interfere_job",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_interfere_life",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_exposure_paint",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_sleep",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_bout",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_frustrated",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_fed_up",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_hoarse_voice",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_serious_illness",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_other_people",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_interrupt_conversation",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_partner",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_felt_in_control",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lcq_energy",
-            "matrixGroupName": "leicester_cough",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

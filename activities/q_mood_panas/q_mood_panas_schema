@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_mood_panas_schema",
     "prefLabel": "q_mood_panas",
@@ -96,57 +96,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "upset",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "hostile",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "alert",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ashamed",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "inspired",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "nervous",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "determined",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "attentive",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "afraid",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "active",
-            "matrixGroupName": "panas",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

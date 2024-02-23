@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "hours_voice_activity",
     "prefLabel": "hours_voice_activity",
     "description": "hours_voice_activity of q_generic_confounders",
@@ -18,12 +18,6 @@
             "source": "redcap",
             "column": "Field Note",
             "value": "hours"
-        }
-    ],
-    "visibility": [
-        {
-            "variableName": "hours_voice_activity",
-            "isVis": "voice_activity___1 == '1' or voice_activity___2 == '1' or voice_activity___3 == '1' or voice_activity___4 == '1' or voice_activity___5 == '1' or voice_activity___6 == '1' or voice_activity___7 == '1'"
         }
     ]
 }

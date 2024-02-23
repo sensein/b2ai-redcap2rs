@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_mood_adhd_adult_schema",
     "prefLabel": "q_mood_adhd_adult",
@@ -144,97 +144,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "wrapping_up",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "things_in_order",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "remembering_appt",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "avoidance",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "fidget",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "overly_active",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "careless",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "difficulty_attention",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "difficulty_concentrating",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "misplace",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "distracted",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "remain_seated",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "restless",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "difficulty_unwinding",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "talking_too_much",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "finish_other_sent",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "difficulty_waiting",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "interrupt_others",
-            "matrixGroupName": "adhd_adult",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

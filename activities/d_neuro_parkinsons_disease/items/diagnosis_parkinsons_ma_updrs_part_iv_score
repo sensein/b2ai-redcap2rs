@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_parkinsons_ma_updrs_part_iv_score",
     "prefLabel": "diagnosis_parkinsons_ma_updrs_part_iv_score",
     "description": "diagnosis_parkinsons_ma_updrs_part_iv_score of d_neuro_parkinsons_disease",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Part IV (Motor complications) score:"
-    },
-    "visibility": [
-        {
-            "variableName": "diagnosis_parkinsons_ma_updrs_part_iv_score",
-            "isVis": "diagnosis_parkinsons_ma_uprds == 'partIV'"
-        }
-    ]
+    }
 }

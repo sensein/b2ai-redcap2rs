@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "ef_fluent_language_other",
     "prefLabel": "ef_fluent_language_other",
     "description": "ef_fluent_language_other of enrollment_form",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "If you speak any other languages fluently, please specify:"
-    },
-    "visibility": [
-        {
-            "variableName": "ef_fluent_language_other",
-            "isVis": "ef_fluent_languages___5 == '1'"
-        }
-    ]
+    }
 }

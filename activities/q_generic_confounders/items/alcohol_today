@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "alcohol_today",
     "prefLabel": "alcohol_today",
     "description": "alcohol_today of q_generic_confounders",
@@ -22,11 +22,5 @@
     },
     "question": {
         "en": "Have you drunk alcohol today?"
-    },
-    "visibility": [
-        {
-            "variableName": "alcohol_today",
-            "isVis": "alcohol_yn =='yes'"
-        }
-    ]
+    }
 }

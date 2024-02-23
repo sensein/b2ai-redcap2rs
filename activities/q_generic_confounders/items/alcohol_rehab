@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "alcohol_rehab",
     "prefLabel": "alcohol_rehab",
     "description": "alcohol_rehab of q_generic_confounders",
@@ -38,11 +38,5 @@
     },
     "question": {
         "en": "Have you ever been in rehab or counseling for heavy alcohol use?"
-    },
-    "visibility": [
-        {
-            "variableName": "alcohol_rehab",
-            "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'"
-        }
-    ]
+    }
 }

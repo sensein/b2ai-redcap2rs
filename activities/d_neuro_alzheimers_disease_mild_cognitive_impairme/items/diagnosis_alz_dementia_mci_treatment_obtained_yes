@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_alz_dementia_mci_treatment_obtained_yes",
     "prefLabel": "diagnosis_alz_dementia_mci_treatment_obtained_yes",
     "description": "diagnosis_alz_dementia_mci_treatment_obtained_yes of d_neuro_alzheimers_disease_mild_cognitive_impairme",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "Yes"
-    },
-    "visibility": [
-        {
-            "variableName": "diagnosis_alz_dementia_mci_treatment_obtained_yes",
-            "isVis": "diagnosis_alz_dementia_mci_treatment_obtained == 'yes'"
-        }
-    ]
+    }
 }

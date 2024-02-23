@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_mood_ptsd_adult_schema",
     "prefLabel": "q_mood_ptsd_adult",
@@ -102,52 +102,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "flashbacks",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "emotionally_upset",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "avoiding_reminders",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "thinking_stressful_event",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "neg_emotional_state",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "losing_interest",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "super_alert",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "feeling_jumpy",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "irritable",
-            "matrixGroupName": "ptsd_adult",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_generic_demographics_schema",
     "prefLabel": "q_generic_demographics",
@@ -342,32 +342,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "spouse_partner_sig_other",
-            "matrixGroupName": "live_with_household",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "children",
-            "matrixGroupName": "live_with_household",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "parent",
-            "matrixGroupName": "live_with_household",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "grandparent",
-            "matrixGroupName": "live_with_household",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "other_live_with",
-            "matrixGroupName": "live_with_household",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

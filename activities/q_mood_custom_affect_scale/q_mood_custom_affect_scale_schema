@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_mood_custom_affect_scale_schema",
     "prefLabel": "q_mood_custom_affect_scale",
@@ -114,72 +114,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "sad_or_down",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "joyful",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "motivated",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lack_of_pleasure",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "tired",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "energetic",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "agitated",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "irritated",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "lonely",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "concentrated",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "relaxed",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "worried",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "desire_to_escape",
-            "matrixGroupName": "custom_affect_scale",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

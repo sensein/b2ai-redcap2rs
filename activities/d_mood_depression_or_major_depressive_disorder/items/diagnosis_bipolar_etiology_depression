@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_bipolar_etiology_depression",
     "prefLabel": "diagnosis_bipolar_etiology_depression",
     "description": "diagnosis_bipolar_etiology_depression of d_mood_depression_or_major_depressive_disorder",

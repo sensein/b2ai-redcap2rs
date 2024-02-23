@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "ef_reason_decline_enroll",
     "prefLabel": "ef_reason_decline_enroll",
     "description": "ef_reason_decline_enroll of enrollment_form",
@@ -34,11 +34,5 @@
     },
     "question": {
         "en": "Please select a reason for declining"
-    },
-    "visibility": [
-        {
-            "variableName": "ef_reason_decline_enroll",
-            "isVis": "ef_enrollment =='Decline'"
-        }
-    ]
+    }
 }

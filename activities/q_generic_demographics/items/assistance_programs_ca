@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "assistance_programs_ca",
     "prefLabel": "assistance_programs_ca",
     "description": "assistance_programs_ca of q_generic_demographics",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "Do you take advantage of any of the following programs? \nChoose all that apply"
-    },
-    "visibility": [
-        {
-            "variableName": "assistance_programs_ca",
-            "isVis": "country =='2'"
-        }
-    ]
+    }
 }

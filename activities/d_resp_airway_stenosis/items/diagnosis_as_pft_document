@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "diagnosis_as_pft_document",
     "prefLabel": "diagnosis_as_pft_document",
     "description": "diagnosis_as_pft_document of d_resp_airway_stenosis",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Please upload the PFT document"
-    },
-    "visibility": [
-        {
-            "variableName": "diagnosis_as_pft_document",
-            "isVis": "diagnosis_as_pft == 'yes'"
-        }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "smoking_hx",
     "prefLabel": "smoking_hx",
     "description": "smoking_hx of q_generic_confounders",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "Have you ever smoked regularly (more than a few times a month for at least two months)?This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
-    },
-    "visibility": [
-        {
-            "variableName": "smoking_hx",
-            "isVis": "alz_dementia_mci ! == '1'"
-        }
-    ]
+    }
 }

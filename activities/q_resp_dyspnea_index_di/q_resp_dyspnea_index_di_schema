@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_resp_dyspnea_index_di_schema",
     "prefLabel": "q_resp_dyspnea_index_di",
@@ -96,57 +96,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "di_air_in",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_tightness_throat",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_effort_breathe",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_weather_changes",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_breathing_worse_stress",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_sound_breathing_in",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_strain",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_exercise",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_breathing_stresses_me",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "di_restrict_personal_social_life",
-            "matrixGroupName": "di",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

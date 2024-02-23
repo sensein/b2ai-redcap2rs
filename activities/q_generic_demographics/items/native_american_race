@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "native_american_race",
     "prefLabel": "native_american_race",
     "description": "native_american_race of q_generic_demographics",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "American Indian or Alaska Native"
-    },
-    "visibility": [
-        {
-            "variableName": "native_american_race",
-            "isVis": "race___1 == '1'"
-        }
-    ]
+    }
 }

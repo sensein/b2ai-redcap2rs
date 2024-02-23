@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "tough_to_work",
     "prefLabel": "tough_to_work",
     "description": "tough_to_work of q_generic_gad7_anxiety",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "How difficult have they made it for you to do your work, take care of things at home, or get along with other people?"
-    },
-    "visibility": [
-        {
-            "variableName": "tough_to_work",
-            "isVis": "nervous_anxious > 0 or cant_control_worry > 0 || worry_too_much > 0 or trouble_relaxing > 0 or hard_to_sit_still > 0 || easily_agitated > 0 or afraid_of_things > 0"
-        }
-    ]
+    }
 }

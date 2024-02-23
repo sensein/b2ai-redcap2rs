@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "q_generic_confounders_schema",
     "prefLabel": "q_generic_confounders",
@@ -374,7 +374,7 @@
             {
                 "variableName": "current_neuro_dx",
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_history___1 == '1' or neurological_history___2 == '1' or neurological_history___3 == '1' or neurological_history___4 == '1' or neurological_history___5 == '1' or neurological_history___6 == '1'"
+                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'"
             },
             {
                 "variableName": "specify_current_neuro",
@@ -579,7 +579,7 @@
             {
                 "variableName": "hours_voice_activity",
                 "isAbout": "items/hours_voice_activity",
-                "isVis": "voice_activity___1 == '1' or voice_activity___2 == '1' or voice_activity___3 == '1' or voice_activity___4 == '1' or voice_activity___5 == '1' or voice_activity___6 == '1' or voice_activity___7 == '1'"
+                "isVis": "voice_activity___1 == '1' || voice_activity___2 == '1' || voice_activity___3 == '1' || voice_activity___4 == '1' || voice_activity___5 == '1' || voice_activity___6 == '1' || voice_activity___7 == '1'"
             },
             {
                 "variableName": "reading_aloud",
@@ -588,117 +588,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "painkillers",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "stimulants",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sedatives",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "marijuana",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "cocaine",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "club_drugs",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "hallucinogens",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "heroin",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "inhalants",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "methamphetamine",
-            "matrixGroupName": "substance_use_options",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_standing",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_take_care",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_learn_task",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_problem_join",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_health_problem",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_concentrating",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_walking",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_washing",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_get_dressed",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_dealing_people",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_friendship",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "ph_day_to_day_work",
-            "matrixGroupName": "physcial_health_group",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

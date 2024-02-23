@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "household_income_usa",
     "prefLabel": "household_income_usa",
     "description": "household_income_usa of q_generic_demographics",
@@ -53,11 +53,5 @@
     },
     "question": {
         "en": "What was your total household income last year (USD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc."
-    },
-    "visibility": [
-        {
-            "variableName": "household_income_usa",
-            "isVis": "country =='1'"
-        }
-    ]
+    }
 }

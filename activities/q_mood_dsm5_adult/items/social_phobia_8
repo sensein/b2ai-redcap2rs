@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "dsm_5_adult_social_phobia1_53",
     "prefLabel": "dsm_5_adult_social_phobia1_53",
     "description": "dsm_5_adult_social_phobia1_53 of q_mood_dsm5_adult",
@@ -34,11 +34,5 @@
     },
     "question": {
         "en": "spent a lot of time preparing what to say or how to act in social situations"
-    },
-    "visibility": [
-        {
-            "variableName": "social_phobia_8",
-            "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
-        }
-    ]
+    }
 }
