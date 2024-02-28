@@ -19,11 +19,5 @@
             "column": "Field Note",
             "value": "###-###-####"
         }
-    ],
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
     ]
 }

@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Last Name"
-    },
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
-    ]
+    }
 }

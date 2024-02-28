@@ -11,7 +11,7 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Part I (Intellectual function",
+                "name": "Part I (Intellectual function mood behavior) score ",
                 "value": "partI"
             },
             {

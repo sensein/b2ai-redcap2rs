@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "What is your date of birth?"
-    },
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
-    ]
+    }
 }

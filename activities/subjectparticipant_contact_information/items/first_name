@@ -15,11 +15,5 @@
     },
     "question": {
         "en": "First Name"
-    },
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
-    ]
+    }
 }

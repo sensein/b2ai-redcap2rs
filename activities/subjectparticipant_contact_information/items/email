@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Email"
-    },
-    "identifiable": [
-        {
-            "legalStandard": "unknown",
-            "isIdentifier": true
-        }
-    ]
+    }
 }

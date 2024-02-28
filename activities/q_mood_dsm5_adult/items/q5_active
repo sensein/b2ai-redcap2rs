@@ -11,7 +11,7 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "I have not been more active (either socially",
+                "name": "I have not been more active (either socially sexually at work home or school) than usual. ",
                 "value": 1
             },
             {
