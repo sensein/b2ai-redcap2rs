@@ -8,21 +8,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "No treatment ",
-                "value": "noTreatment"
-            },
-            {
-                "name": "Surgery ",
-                "value": " surgery"
-            },
-            {
-                "name": "In-office treatment",
-                "value": " inOfficeTreatment"
-            }
-        ]
+        "valueType": "xsd:string",
+        "choices": null
     },
     "preamble": {
         "en": "5. Treatment obtained"

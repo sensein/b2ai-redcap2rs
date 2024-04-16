@@ -5,7 +5,7 @@
     "prefLabel": "q_generic_confounders",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/confounders_session_id",

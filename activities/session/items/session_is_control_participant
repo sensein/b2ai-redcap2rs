@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "session_is_control_participant",
+    "prefLabel": "session_is_control_participant",
+    "description": "session_is_control_participant of session",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "question": {
+        "en": "Is Control Participant?"
+    }
+}

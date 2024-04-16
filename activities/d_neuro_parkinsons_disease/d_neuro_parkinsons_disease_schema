@@ -5,7 +5,7 @@
     "prefLabel": "d_neuro_parkinsons_disease",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/diagnosis_parkinsons_gsd_category_1",

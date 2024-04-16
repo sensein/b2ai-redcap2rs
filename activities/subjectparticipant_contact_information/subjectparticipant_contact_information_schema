@@ -5,12 +5,13 @@
     "prefLabel": "subjectparticipant_contact_information",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/first_name",
             "items/last_name",
             "items/dob",
+            "items/age",
             "items/phone_number",
             "items/email",
             "items/contact_info_stored"
@@ -29,6 +30,11 @@
             {
                 "variableName": "dob",
                 "isAbout": "items/dob",
+                "isVis": true
+            },
+            {
+                "variableName": "age",
+                "isAbout": "items/age",
                 "isVis": true
             },
             {

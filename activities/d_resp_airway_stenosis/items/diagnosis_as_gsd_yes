@@ -8,17 +8,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Confirmed by bronchoscopy/laryngoscopy ",
-                "value": "bronchoscopy"
-            },
-            {
-                "name": "Confirmed by CT imaging",
-                "value": " ct"
-            }
-        ]
+        "valueType": "xsd:string",
+        "choices": null
     },
     "question": {
         "en": "Confirmed by"

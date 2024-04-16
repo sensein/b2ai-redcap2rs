@@ -11,11 +11,11 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Not certain / TBD ",
+                "name": "Not certain or TBD ",
                 "value": "tbd"
             },
             {
-                "name": "Iatrogenic (surgery/intubation) ",
+                "name": "Iatrogenic (surgery or intubation) ",
                 "value": " iatrogenic"
             },
             {
@@ -23,12 +23,24 @@
                 "value": " idiopathic"
             },
             {
-                "name": "Auto-immune / granulomatous disease ",
+                "name": "Auto-immune or granulomatous disease ",
                 "value": " autoImmune"
             },
             {
                 "name": "Radiation ",
                 "value": " radiation"
+            },
+            {
+                "name": "GERD ",
+                "value": " gerd"
+            },
+            {
+                "name": "Caustic Injury or Inhalation Injury ",
+                "value": " causticInjuryInhalationInjury"
+            },
+            {
+                "name": "Infectious (Diphtheria TB Bacterial Tracheitis other) ",
+                "value": " infectious"
             },
             {
                 "name": "Other",

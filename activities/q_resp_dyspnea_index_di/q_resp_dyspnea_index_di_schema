@@ -5,7 +5,7 @@
     "prefLabel": "q_resp_dyspnea_index_di",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/dyspnea_index_session_id",

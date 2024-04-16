@@ -5,7 +5,7 @@
     "prefLabel": "d_voice_vocal_fold_paralysis",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/diagnosis_vfp_gsd",
@@ -24,11 +24,11 @@
             "items/diagnosis_degree_b_2",
             "items/diagnosis_degree_s",
             "items/diagnosis_degree_s_2",
-            "items/diagnosis_degree_p_nature",
             "items/diagnosis_degree_p",
+            "items/diagnosis_degree_p_nature",
             "items/diagnosis_degree_p_2",
-            "items/diagnosis_degree_l_nature",
             "items/diagnosis_degree_l",
+            "items/diagnosis_degree_l_nature",
             "items/diagnosis_degree_l_2",
             "items/diagnosis_degree_comments",
             "items/diagnosis_degree_comments_other",
@@ -120,14 +120,14 @@
                 "isVis": true
             },
             {
-                "variableName": "diagnosis_degree_p_nature",
-                "isAbout": "items/diagnosis_degree_p_nature",
-                "isVis": true
-            },
-            {
                 "variableName": "diagnosis_degree_p",
                 "isAbout": "items/diagnosis_degree_p",
                 "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_p_nature",
+                "isAbout": "items/diagnosis_degree_p_nature",
+                "isVis": "diagnosis_degree_p > 0"
             },
             {
                 "variableName": "diagnosis_degree_p_2",
@@ -135,14 +135,14 @@
                 "isVis": true
             },
             {
-                "variableName": "diagnosis_degree_l_nature",
-                "isAbout": "items/diagnosis_degree_l_nature",
-                "isVis": true
-            },
-            {
                 "variableName": "diagnosis_degree_l",
                 "isAbout": "items/diagnosis_degree_l",
                 "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_l_nature",
+                "isAbout": "items/diagnosis_degree_l_nature",
+                "isVis": "diagnosis_degree_l > 0"
             },
             {
                 "variableName": "diagnosis_degree_l_2",

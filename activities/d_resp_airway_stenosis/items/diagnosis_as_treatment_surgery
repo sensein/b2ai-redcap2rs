@@ -8,29 +8,8 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Endoscopic intervention with Laser and Balloon dilation and steroid injection ",
-                "value": "endoscopicIntervention"
-            },
-            {
-                "name": "Endoscopic laser wedge excision ",
-                "value": " endoscopicExcision"
-            },
-            {
-                "name": "Laryngotracheal reconstruction ",
-                "value": " laryngotrachealReconstruction"
-            },
-            {
-                "name": "Laryngotracheoplasty (Maddern procedure) ",
-                "value": " laryngotracheoplasty"
-            },
-            {
-                "name": "Tracheostomy",
-                "value": " tracheostomy"
-            }
-        ]
+        "valueType": "xsd:string",
+        "choices": null
     },
     "question": {
         "en": "Surgery options"

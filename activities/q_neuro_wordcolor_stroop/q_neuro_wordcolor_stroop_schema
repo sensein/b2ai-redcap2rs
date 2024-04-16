@@ -5,12 +5,12 @@
     "prefLabel": "q_neuro_wordcolor_stroop",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/stroop_session_id",
-            "items/stroop_started_at",
             "items/stroop_recording_acoustic_task_id",
+            "items/stroop_started_at",
             "items/stroop_completed_at",
             "items/stroop_duration",
             "items/stroop_item_stimulus_1",
@@ -81,13 +81,13 @@
                 "isVis": true
             },
             {
-                "variableName": "stroop_started_at",
-                "isAbout": "items/stroop_started_at",
+                "variableName": "stroop_recording_acoustic_task_id",
+                "isAbout": "items/stroop_recording_acoustic_task_id",
                 "isVis": true
             },
             {
-                "variableName": "stroop_recording_acoustic_task_id",
-                "isAbout": "items/stroop_recording_acoustic_task_id",
+                "variableName": "stroop_started_at",
+                "isAbout": "items/stroop_started_at",
                 "isVis": true
             },
             {

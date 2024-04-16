@@ -6,7 +6,7 @@
     "altLabel": "b2ai-redcap2rs_schema",
     "description": "Bridge2AI Protocol converted from REDCap to ReproSchema",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "addProperties": [
             {
@@ -103,6 +103,30 @@
                 "isAbout": "../activities/d_voice_vocal_fold_paralysis/d_voice_vocal_fold_paralysis_schema",
                 "variableName": "d_voice_vocal_fold_paralysis_schema",
                 "prefLabel": "D Voice Vocal Fold Paralysis",
+                "isVis": true
+            },
+            {
+                "isAbout": "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
+                "variableName": "d_voice_laryngeal_dystonia_schema",
+                "prefLabel": "D Voice Laryngeal Dystonia",
+                "isVis": true
+            },
+            {
+                "isAbout": "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
+                "variableName": "d_voice_precancerous_lesions_schema",
+                "prefLabel": "D Voice Precancerous Lesions",
+                "isVis": true
+            },
+            {
+                "isAbout": "../activities/d_voice_laryngeal_cancer/d_voice_laryngeal_cancer_schema",
+                "variableName": "d_voice_laryngeal_cancer_schema",
+                "prefLabel": "D Voice Laryngeal Cancer",
+                "isVis": true
+            },
+            {
+                "isAbout": "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
+                "variableName": "d_voice_benign_lesions_schema",
+                "prefLabel": "D Voice Benign Lesions",
                 "isVis": true
             },
             {
@@ -272,6 +296,12 @@
                 "variableName": "q_neuro_random_item_generation_schema",
                 "prefLabel": "Q Neuro Random Item Generation",
                 "isVis": true
+            },
+            {
+                "isAbout": "../activities/q_neuro_moca/q_neuro_moca_schema",
+                "variableName": "q_neuro_moca_schema",
+                "prefLabel": "Q Neuro Moca",
+                "isVis": true
             }
         ],
         "order": [
@@ -291,6 +321,10 @@
             "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
             "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
             "../activities/d_voice_vocal_fold_paralysis/d_voice_vocal_fold_paralysis_schema",
+            "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
+            "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
+            "../activities/d_voice_laryngeal_cancer/d_voice_laryngeal_cancer_schema",
+            "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
             "../activities/d_mood_bipolar_disorder/d_mood_bipolar_disorder_schema",
             "../activities/d_mood_depression_or_major_depressive_disorder/d_mood_depression_or_major_depressive_disorder_schema",
             "../activities/d_resp_airway_stenosis/d_resp_airway_stenosis_schema",
@@ -318,7 +352,8 @@
             "../activities/q_neuro_winograd_schemas/q_neuro_winograd_schemas_schema",
             "../activities/q_neuro_wordcolor_stroop/q_neuro_wordcolor_stroop_schema",
             "../activities/q_neuro_productive_vocabulary/q_neuro_productive_vocabulary_schema",
-            "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema"
+            "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema",
+            "../activities/q_neuro_moca/q_neuro_moca_schema"
         ],
         "shuffle": false
     }

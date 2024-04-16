@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Item",
-    "@id": "diagnosis_as_ds_bvfi",
-    "prefLabel": "diagnosis_as_ds_bvfi",
-    "description": "diagnosis_as_ds_bvfi of d_resp_airway_stenosis",
+    "@id": "diagnosis_as_ds_bvfi_gs",
+    "prefLabel": "diagnosis_as_ds_bvfi_gs",
+    "description": "diagnosis_as_ds_bvfi_gs of d_resp_airway_stenosis",
     "ui": {
         "inputType": "radio"
     },
@@ -19,12 +19,20 @@
                 "value": " bilateralVocalFoldParalysis"
             },
             {
-                "name": "To be Determined/Not certain",
+                "name": "Anterior glottic Web ",
+                "value": " anteriorGlotticWeb"
+            },
+            {
+                "name": "Not certain or TBD ",
                 "value": " tbd"
+            },
+            {
+                "name": "Other",
+                "value": " other"
             }
         ]
     },
     "question": {
-        "en": "Bilateral Vocal fold immobility Subtype"
+        "en": "Bilateral Vocal fold immobility or Glottic Stenosis Subtype"
     }
 }

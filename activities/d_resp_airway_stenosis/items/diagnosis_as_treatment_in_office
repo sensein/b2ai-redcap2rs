@@ -8,23 +8,10 @@
         "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Steroid injection(s) ",
-                "value": "steroidInjection"
-            },
-            {
-                "name": "In-office dilation ",
-                "value": " dilation"
-            },
-            {
-                "name": "In-office laser",
-                "value": " laser"
-            }
-        ]
+        "valueType": "xsd:string",
+        "choices": null
     },
     "question": {
-        "en": "In-office treatment options"
+        "en": "In-office/awake treatment options"
     }
 }

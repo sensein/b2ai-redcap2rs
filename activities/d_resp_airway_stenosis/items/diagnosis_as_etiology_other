@@ -5,34 +5,12 @@
     "prefLabel": "diagnosis_as_etiology_other",
     "description": "diagnosis_as_etiology_other of d_resp_airway_stenosis",
     "ui": {
-        "inputType": "radio"
+        "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "GERD ",
-                "value": "gerd"
-            },
-            {
-                "name": "Caustic Injury/Inhalation Injury ",
-                "value": " injury"
-            },
-            {
-                "name": "Infectious (Diphteria TB Bacterial Tracheitis other) ",
-                "value": " infectious"
-            },
-            {
-                "name": "Recurrent Respiratory Papillomatosis ",
-                "value": " rrp"
-            },
-            {
-                "name": "Other",
-                "value": " other"
-            }
-        ]
+        "valueType": "xsd:string"
     },
     "question": {
-        "en": "Other Subcategory"
+        "en": "Other, Please specify"
     }
 }

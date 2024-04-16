@@ -5,12 +5,12 @@
     "prefLabel": "q_neuro_productive_vocabulary",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/vocabulary_session_id",
-            "items/vocabulary_started_at",
             "items/vocabulary_recording_acoustic_task_id",
+            "items/vocabulary_started_at",
             "items/vocabulary_completed_at",
             "items/vocabulary_duration",
             "items/vocabulary_item_word_1",
@@ -39,13 +39,13 @@
                 "isVis": true
             },
             {
-                "variableName": "vocabulary_started_at",
-                "isAbout": "items/vocabulary_started_at",
+                "variableName": "vocabulary_recording_acoustic_task_id",
+                "isAbout": "items/vocabulary_recording_acoustic_task_id",
                 "isVis": true
             },
             {
-                "variableName": "vocabulary_recording_acoustic_task_id",
-                "isAbout": "items/vocabulary_recording_acoustic_task_id",
+                "variableName": "vocabulary_started_at",
+                "isAbout": "items/vocabulary_started_at",
                 "isVis": true
             },
             {

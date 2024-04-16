@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "moca_notes",
+    "prefLabel": "moca_notes",
+    "description": "moca_notes of q_neuro_moca",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "MoCA Test Questionnaire"
+    },
+    "question": {
+        "en": "Steps to download MoCA test results from the DUO app and upload them here:Export MoCA test results in .pdf format to your Sinai email ID from the MoCA DUO appOpen the pdf, enter the password (Rater's MoCA login password)Remove the password from the .pdf document and save it as a new document.How to remove a password from a .pdf using Adobe AcrobatOpen the PDF in Adobe Acrobat.Go to \"File\" > \"Properties\" > \"Security\".Choose \"No Security\" from the security method drop-down menu (you might need to enter the password).Save the document to apply changes.Upload the scanned pdf to Bridge2AI REDCap field below"
+    }
+}

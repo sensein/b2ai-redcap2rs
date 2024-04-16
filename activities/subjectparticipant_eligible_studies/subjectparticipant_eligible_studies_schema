@@ -5,10 +5,11 @@
     "prefLabel": "subjectparticipant_eligible_studies",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/eligible_studies",
+            "items/is_control_participant",
             "items/laryng_cancer",
             "items/benign_cord_lesion",
             "items/rrp",
@@ -44,6 +45,11 @@
             {
                 "variableName": "eligible_studies",
                 "isAbout": "items/eligible_studies",
+                "isVis": true
+            },
+            {
+                "variableName": "is_control_participant",
+                "isAbout": "items/is_control_participant",
                 "isVis": true
             },
             {

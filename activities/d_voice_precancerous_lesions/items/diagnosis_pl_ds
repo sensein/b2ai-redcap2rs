@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_pl_ds",
+    "prefLabel": "diagnosis_pl_ds",
+    "description": "diagnosis_pl_ds of d_voice_precancerous_lesions",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
+    "question": {
+        "en": "What is the diagnosis?\n(Select all that apply)."
+    }
+}

@@ -28,9 +28,6 @@
             }
         ]
     },
-    "preamble": {
-        "en": "4. Disease Severity"
-    },
     "question": {
         "en": "Degree of Stenosis (Myer-Cotton Grade)"
     }

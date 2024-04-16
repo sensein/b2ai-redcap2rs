@@ -12,15 +12,11 @@
         "choices": [
             {
                 "name": "Subglottic Stenosis ",
-                "value": "subgloticStenosis"
+                "value": "subglotticStenosis"
             },
             {
-                "name": "Bilateral Vocal fold immobility ",
-                "value": " bilateralVocalFoldImmobility"
-            },
-            {
-                "name": "Glottic Stenosis ",
-                "value": " glotticStenosis"
+                "name": "Bilateral Vocal fold immobility or Glottic Stenosis ",
+                "value": " bilateralVocalFoldImmobilityGlotticStenosis"
             },
             {
                 "name": "Supraglottic Stenosis ",

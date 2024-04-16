@@ -25,7 +25,7 @@
         ]
     },
     "preamble": {
-        "en": "1. Gold Standard Diagnosis"
+        "en": "1. Gold Standard Diagnosis4. Disease Severity"
     },
     "question": {
         "en": "Has the patient had pulmonary function testing within the past 3 months?"

@@ -5,7 +5,7 @@
     "prefLabel": "q_neuro_winograd_schemas",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.1.0",
+    "version": "3.4.0",
     "ui": {
         "order": [
             "items/winograd_session_id",
