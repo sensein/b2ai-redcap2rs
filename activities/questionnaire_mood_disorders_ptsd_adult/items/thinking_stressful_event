@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ptsd_adult_40",
+    "prefLabel": "ptsd_adult_40",
+    "description": "ptsd_adult_40 of questionnaire_mood_disorders_ptsd_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0=Not at all ",
+                "value": 0
+            },
+            {
+                "name": "1=A little bit ",
+                "value": 1
+            },
+            {
+                "name": "2=Moderately ",
+                "value": 2
+            },
+            {
+                "name": "3=Quite a bit ",
+                "value": 3
+            },
+            {
+                "name": "4=Extremely",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Thinking that a stressful event happened because you or someone else (who didn't directly harm you) did something wrong or didn't do everything possible to prevent it, or because of something about you?"
+    }
+}

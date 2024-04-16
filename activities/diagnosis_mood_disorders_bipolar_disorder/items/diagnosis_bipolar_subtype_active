@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_bipolar_subtype_active",
+    "prefLabel": "diagnosis_bipolar_subtype_active",
+    "description": "diagnosis_bipolar_subtype_active of diagnosis_mood_disorders_bipolar_disorder",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Active ",
+                "value": "active"
+            },
+            {
+                "name": "Recurrent",
+                "value": " recurrent"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3. Disease Subtype"
+    },
+    "question": {
+        "en": "Disease Subtype"
+    }
+}

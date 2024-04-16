@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "q4_talk",
+    "prefLabel": "q4_talk",
+    "description": "q4_talk of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I do not talk more than usual. ",
+                "value": 0
+            },
+            {
+                "name": "I occasionally talk more than usual. ",
+                "value": 1
+            },
+            {
+                "name": "I often talk more than usual. ",
+                "value": 2
+            },
+            {
+                "name": "I frequently talk more than usual. ",
+                "value": 3
+            },
+            {
+                "name": "I talk constantly and cannot be interrupted.",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Question 4"
+    }
+}

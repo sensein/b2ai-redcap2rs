@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "hydration",
+    "prefLabel": "hydration",
+    "description": "hydration of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "HYDRATION"
+    },
+    "question": {
+        "en": "How many small (8oz or 230ml) cups of water do you drink on a typical day?"
+    }
+}

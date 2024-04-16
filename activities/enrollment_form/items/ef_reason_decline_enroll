@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ef_reason_decline_enroll",
+    "prefLabel": "ef_reason_decline_enroll",
+    "description": "ef_reason_decline_enroll of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I am not interested in having my voice recorded ",
+                "value": 1
+            },
+            {
+                "name": "I do not have enough time today and want to be contacted later ",
+                "value": 2
+            },
+            {
+                "name": "I do not have enough time and do not want to be contacted later ",
+                "value": 3
+            },
+            {
+                "name": "I prefer not to share any health information for research ",
+                "value": 4
+            },
+            {
+                "name": "Other (Please specify)",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "Please select a reason for declining"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "resp_dis_21",
+    "prefLabel": "resp_dis_21",
+    "description": "resp_dis_21 of subjectparticipant_eligible_studies",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Unchecked ",
+                "value": 0
+            },
+            {
+                "name": "Checked",
+                "value": 1
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Respiratory disorders"
+    },
+    "question": {
+        "en": "Asthma"
+    }
+}

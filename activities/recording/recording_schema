@@ -1,0 +1,100 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "recording_schema",
+    "prefLabel": "recording",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "2.0.0",
+    "ui": {
+        "order": [
+            "items/recording_id",
+            "items/recording_acoustic_task_id",
+            "items/recording_session_id",
+            "items/recording_name",
+            "items/recording_filepath",
+            "items/recording_storage_account",
+            "items/recording_file_share",
+            "items/recording_duration",
+            "items/recording_size",
+            "items/recording_created_at",
+            "items/recording_profile_name",
+            "items/recording_profile_version",
+            "items/recording_input_gain",
+            "items/recording_microphone"
+        ],
+        "addProperties": [
+            {
+                "variableName": "recording_id",
+                "isAbout": "items/recording_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_acoustic_task_id",
+                "isAbout": "items/recording_acoustic_task_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_session_id",
+                "isAbout": "items/recording_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_name",
+                "isAbout": "items/recording_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_filepath",
+                "isAbout": "items/recording_filepath",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_storage_account",
+                "isAbout": "items/recording_storage_account",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_file_share",
+                "isAbout": "items/recording_file_share",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_duration",
+                "isAbout": "items/recording_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_size",
+                "isAbout": "items/recording_size",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_created_at",
+                "isAbout": "items/recording_created_at",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile_name",
+                "isAbout": "items/recording_profile_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile_version",
+                "isAbout": "items/recording_profile_version",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_input_gain",
+                "isAbout": "items/recording_input_gain",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_microphone",
+                "isAbout": "items/recording_microphone",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

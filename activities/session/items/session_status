@@ -1,0 +1,28 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "session_status",
+    "prefLabel": "session_status",
+    "description": {
+        "en": "@READONLY"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In Progress ",
+                "value": 1
+            },
+            {
+                "name": "Completed",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Session Status"
+    }
+}

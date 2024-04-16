@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "dsm_5_adult_617",
+    "prefLabel": "dsm_5_adult_617",
+    "description": "dsm_5_adult_617 of questionnaire_mood_disorders_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0=None (Not at all) ",
+                "value": 0
+            },
+            {
+                "name": "1=Slight (Rare less than a day or two) ",
+                "value": 1
+            },
+            {
+                "name": "2=Mild (Several days) ",
+                "value": 2
+            },
+            {
+                "name": "3=Moderate (More than half the days) ",
+                "value": 3
+            },
+            {
+                "name": "4=Severe (Nearly every day)",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Not knowing who you really are or what you want out of life?"
+    }
+}

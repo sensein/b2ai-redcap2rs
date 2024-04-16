@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "upload_addendums_mit",
+    "prefLabel": "upload_addendums_mit",
+    "description": "upload_addendums_mit of bridge2ai_econsent_combined_pdf_addendum_mit",
+    "ui": {
+        "inputType": "file"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Combined PDF-WCM English Addendum"
+    }
+}

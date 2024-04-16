@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "other_sex_orientation",
+    "prefLabel": "other_sex_orientation",
+    "description": "other_sex_orientation of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you selected \"other\" for sexual orientation, please specify:"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "primary_transportation",
+    "prefLabel": "primary_transportation",
+    "description": "primary_transportation of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Personal vehicle ",
+                "value": 1
+            },
+            {
+                "name": "Shared vehicle ",
+                "value": 2
+            },
+            {
+                "name": "Public transporation ",
+                "value": 3
+            },
+            {
+                "name": "Ride with someone else ",
+                "value": 4
+            },
+            {
+                "name": "Ride service ",
+                "value": 5
+            },
+            {
+                "name": "Bicycle/Motorbike ",
+                "value": 6
+            },
+            {
+                "name": "Walking ",
+                "value": 7
+            },
+            {
+                "name": "Other (Please specify)",
+                "value": 8
+            }
+        ]
+    },
+    "question": {
+        "en": "What is your primary mode of transportation?"
+    }
+}

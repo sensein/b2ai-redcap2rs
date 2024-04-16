@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "smoking_hx",
+    "prefLabel": "smoking_hx",
+    "description": "smoking_hx of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I've never smoked regularly ",
+                "value": "never"
+            },
+            {
+                "name": "I used to smoke ",
+                "value": " past"
+            },
+            {
+                "name": "I currently smoke ",
+                "value": " currently"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you ever smoked regularly (more than a few times a month for at least two months)?This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
+    }
+}

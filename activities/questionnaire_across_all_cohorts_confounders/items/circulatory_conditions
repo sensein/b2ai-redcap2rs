@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "circulatory_conditions",
+    "prefLabel": "circulatory_conditions",
+    "description": "circulatory_conditions of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "CIRCULATORY AND OTHER CONDITIONS"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)"
+    }
+}

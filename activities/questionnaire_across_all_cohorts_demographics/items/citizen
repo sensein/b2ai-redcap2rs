@@ -1,0 +1,53 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "citizen",
+    "prefLabel": "citizen",
+    "description": "citizen of questionnaire_across_all_cohorts_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Citizen ",
+                "value": 1
+            },
+            {
+                "name": "Permanent resident (Green card holder) ",
+                "value": 2
+            },
+            {
+                "name": "Non-citizen US/Canadian national ",
+                "value": 3
+            },
+            {
+                "name": "Refugee ",
+                "value": 4
+            },
+            {
+                "name": "Asylum seeker ",
+                "value": 5
+            },
+            {
+                "name": "Non-immigrant student ",
+                "value": 6
+            },
+            {
+                "name": "Non-immigrant worker ",
+                "value": 7
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": 8
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Citizenship"
+    },
+    "question": {
+        "en": "Citizen"
+    }
+}

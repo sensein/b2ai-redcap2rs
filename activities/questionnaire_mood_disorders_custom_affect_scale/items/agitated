@@ -1,0 +1,62 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "custom_affect_scale_85",
+    "prefLabel": "custom_affect_scale_85",
+    "description": "custom_affect_scale_85 of questionnaire_mood_disorders_custom_affect_scale",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0 ",
+                "value": 0
+            },
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ",
+                "value": 9
+            },
+            {
+                "name": "10",
+                "value": 10
+            }
+        ]
+    },
+    "question": {
+        "en": "Agitated (restless, fidgety, pacing, cannot sit still)"
+    }
+}

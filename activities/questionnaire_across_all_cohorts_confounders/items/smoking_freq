@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "smoking_freq",
+    "prefLabel": "smoking_freq",
+    "description": "smoking_freq of questionnaire_across_all_cohorts_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Multiple times a day ",
+                "value": "multipleTimes"
+            },
+            {
+                "name": "About once a day ",
+                "value": " onceDay"
+            },
+            {
+                "name": "A few times a week ",
+                "value": " fewWeek"
+            },
+            {
+                "name": "A few times a month ",
+                "value": " fewMonth"
+            },
+            {
+                "name": "A few times a year ",
+                "value": " fewYear"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "How often do/did you smoke?"
+    }
+}

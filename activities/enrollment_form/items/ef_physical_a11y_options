@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ef_physical_a11y_options",
+    "prefLabel": "ef_physical_a11y_options",
+    "description": "ef_physical_a11y_options of enrollment_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Yes, I would like to use some of the accessibility features of the app"
+    }
+}

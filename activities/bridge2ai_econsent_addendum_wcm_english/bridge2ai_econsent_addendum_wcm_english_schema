@@ -1,0 +1,88 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_addendum_wcm_english_schema",
+    "prefLabel": "bridge2ai_econsent_addendum_wcm_english",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "2.0.0",
+    "ui": {
+        "order": [
+            "items/consent_wcm_p1",
+            "items/consent_wcm_p2",
+            "items/consent_wcm_p3",
+            "items/consent_wcm_p4",
+            "items/consent_wcm_statement",
+            "items/consent_wcm_permission_1",
+            "items/consent_wcm_permission_2",
+            "items/consent_wcm_statement_2",
+            "items/consent_wcm_p5",
+            "items/consent_wcm_signature",
+            "items/consent_wcm_name",
+            "items/consent_wcm_date"
+        ],
+        "addProperties": [
+            {
+                "variableName": "consent_wcm_p1",
+                "isAbout": "items/consent_wcm_p1",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p2",
+                "isAbout": "items/consent_wcm_p2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p3",
+                "isAbout": "items/consent_wcm_p3",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p4",
+                "isAbout": "items/consent_wcm_p4",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement",
+                "isAbout": "items/consent_wcm_statement",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_1",
+                "isAbout": "items/consent_wcm_permission_1",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_2",
+                "isAbout": "items/consent_wcm_permission_2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement_2",
+                "isAbout": "items/consent_wcm_statement_2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p5",
+                "isAbout": "items/consent_wcm_p5",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_signature",
+                "isAbout": "items/consent_wcm_signature",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_name",
+                "isAbout": "items/consent_wcm_name",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_date",
+                "isAbout": "items/consent_wcm_date",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
