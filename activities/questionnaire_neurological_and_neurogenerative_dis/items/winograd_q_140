@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_140",
+    "prefLabel": "winograd_q_140",
+    "description": "winograd_q_140 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Sam ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Adam",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "140. Sam took French classes from Adam, because he was known to speak it fluently. Who was known to speak French fluently?"
+    }
+}

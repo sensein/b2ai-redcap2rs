@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_ds",
+    "prefLabel": "diagnosis_as_ds",
+    "description": "diagnosis_as_ds of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Subglottic Stenosis ",
+                "value": "subgloticStenosis"
+            },
+            {
+                "name": "Bilateral Vocal fold immobility ",
+                "value": " bilateralVocalFoldImmobility"
+            },
+            {
+                "name": "Glottic Stenosis ",
+                "value": " glotticStenosis"
+            },
+            {
+                "name": "Supraglottic Stenosis ",
+                "value": " supraglotticStenosis"
+            },
+            {
+                "name": "Tracheal Stenosis ",
+                "value": " trachealStenosis"
+            },
+            {
+                "name": "Multi-Level Upper Airway Stenosis",
+                "value": " multilevelUpperAirwayStenosis"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
+    "question": {
+        "en": "Disease Subtype"
+    }
+}

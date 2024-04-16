@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_196",
+    "prefLabel": "winograd_q_196",
+    "description": "winograd_q_196 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The ankles ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The crutches",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "196. Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary. What should be unnecessary?"
+    }
+}

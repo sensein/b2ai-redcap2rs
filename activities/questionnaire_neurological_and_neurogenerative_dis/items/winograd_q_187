@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_187",
+    "prefLabel": "winograd_q_187",
+    "description": "winograd_q_187 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The fish ",
+                "value": "correct"
+            },
+            {
+                "name": "The scientists",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "187. The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago. Who or what appeared two years ago?"
+    }
+}

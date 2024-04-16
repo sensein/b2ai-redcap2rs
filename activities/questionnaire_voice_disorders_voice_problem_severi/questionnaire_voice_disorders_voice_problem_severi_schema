@@ -5,7 +5,7 @@
     "prefLabel": "questionnaire_voice_disorders_voice_problem_severi",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "ui": {
         "order": [
             "items/voice_severity_session_id",

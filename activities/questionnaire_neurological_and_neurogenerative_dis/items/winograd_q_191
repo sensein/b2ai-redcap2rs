@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_191",
+    "prefLabel": "winograd_q_191",
+    "description": "winograd_q_191 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The gang ",
+                "value": "correct"
+            },
+            {
+                "name": "The police",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "191. The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood. Who was trying to run the drug trade?"
+    }
+}

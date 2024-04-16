@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_177",
+    "prefLabel": "winograd_q_177",
+    "description": "winograd_q_177 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yakutsk ",
+                "value": "correct"
+            },
+            {
+                "name": "Kamchatka",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "177. In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, they were victorious within weeks. Who was victorious?"
+    }
+}

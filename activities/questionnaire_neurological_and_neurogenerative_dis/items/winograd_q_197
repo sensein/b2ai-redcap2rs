@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_197",
+    "prefLabel": "winograd_q_197",
+    "description": "winograd_q_197 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The opponents ",
+                "value": "correct"
+            },
+            {
+                "name": "The sponsors",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "197. When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. They were very much in the majority. Who were in the majority?"
+    }
+}

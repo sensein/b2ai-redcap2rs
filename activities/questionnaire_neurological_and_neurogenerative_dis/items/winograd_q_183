@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_183",
+    "prefLabel": "winograd_q_183",
+    "description": "winograd_q_183 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The wolves ",
+                "value": "correct"
+            },
+            {
+                "name": "The deer",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "183. There are too many deer in the park, so the park service brought in a small pack of wolves. The population should increase over the next few years. Which population will increase?"
+    }
+}

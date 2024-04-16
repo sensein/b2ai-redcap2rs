@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_55",
+    "prefLabel": "winograd_q_55",
+    "description": "winograd_q_55 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In the garage ",
+                "value": "correct"
+            },
+            {
+                "name": "In the house",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "55. The police left the house and went into the garage, where they found the murder weapon. Where did they find the murder weapon?"
+    }
+}

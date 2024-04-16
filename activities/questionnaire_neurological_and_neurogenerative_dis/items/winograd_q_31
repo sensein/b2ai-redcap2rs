@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_31",
+    "prefLabel": "winograd_q_31",
+    "description": "winograd_q_31 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The firemen ",
+                "value": "correct"
+            },
+            {
+                "name": "The police",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "31. The firemen arrived after the police because they were coming from so far away. Who came from far away?"
+    }
+}

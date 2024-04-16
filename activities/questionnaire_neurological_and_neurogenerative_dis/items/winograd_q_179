@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_179",
+    "prefLabel": "winograd_q_179",
+    "description": "winograd_q_179 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "In Sparta ",
+                "value": "correct"
+            },
+            {
+                "name": "In Troy",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "179. Elizabeth moved her company from Sparta to Troy to save money on taxes; the taxes are much higher there. Where are the taxes higher?"
+    }
+}

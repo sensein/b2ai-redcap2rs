@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_parkinsons_ma_uprds",
+    "prefLabel": "diagnosis_parkinsons_ma_uprds",
+    "description": "diagnosis_parkinsons_ma_uprds of diagnosis_neurological_and_neurogenerative_di_ee01",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Part I (Intellectual function mood behavior) score ",
+                "value": "partI"
+            },
+            {
+                "name": "Part II (Activities of daily living) score ",
+                "value": " partII"
+            },
+            {
+                "name": "Part III (Motor Examination) score ",
+                "value": " partIII"
+            },
+            {
+                "name": "Part IV (Motor complications) score",
+                "value": " partIV"
+            }
+        ]
+    },
+    "question": {
+        "en": "Unified Parkinson's Disease Rating Scale (UPDRS)"
+    }
+}

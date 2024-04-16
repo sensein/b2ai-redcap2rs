@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_etiology_other",
+    "prefLabel": "diagnosis_as_etiology_other",
+    "description": "diagnosis_as_etiology_other of diagnosis_respiratory_disorders_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "GERD ",
+                "value": "gerd"
+            },
+            {
+                "name": "Caustic Injury/Inhalation Injury ",
+                "value": " injury"
+            },
+            {
+                "name": "Infectious (Diphteria TB Bacterial Tracheitis other) ",
+                "value": " infectious"
+            },
+            {
+                "name": "Recurrent Respiratory Papillomatosis ",
+                "value": " rrp"
+            },
+            {
+                "name": "Other",
+                "value": " other"
+            }
+        ]
+    },
+    "question": {
+        "en": "Other Subcategory"
+    }
+}

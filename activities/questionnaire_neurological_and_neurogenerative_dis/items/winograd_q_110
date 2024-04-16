@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_110",
+    "prefLabel": "winograd_q_110",
+    "description": "winograd_q_110 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The teller ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The customer",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "110. The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the police station. Who was taken to the police station?"
+    }
+}

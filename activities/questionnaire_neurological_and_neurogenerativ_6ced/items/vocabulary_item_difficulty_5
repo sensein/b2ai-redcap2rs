@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "vocabulary_item_difficulty_5",
+    "prefLabel": "vocabulary_item_difficulty_5",
+    "description": "vocabulary_item_difficulty_5 of questionnaire_neurological_and_neurogenerativ_6ced",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Item 5\nWord Difficulty"
+    }
+}

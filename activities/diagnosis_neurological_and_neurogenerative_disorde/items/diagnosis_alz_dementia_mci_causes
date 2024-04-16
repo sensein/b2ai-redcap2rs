@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_alz_dementia_mci_causes",
+    "prefLabel": "diagnosis_alz_dementia_mci_causes",
+    "description": "diagnosis_alz_dementia_mci_causes of diagnosis_neurological_and_neurogenerative_disorde",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": "no"
+            },
+            {
+                "name": "Yes ",
+                "value": " yes"
+            },
+            {
+                "name": "Not certain",
+                "value": " notCertain"
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you excluded other causes of cognitive/functional changes (and/or other subtypes)?"
+    }
+}

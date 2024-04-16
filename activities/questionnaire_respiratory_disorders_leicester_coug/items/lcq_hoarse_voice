@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "leicester_cough_184",
+    "prefLabel": "leicester_cough_184",
+    "description": "leicester_cough_184 of questionnaire_respiratory_disorders_leicester_coug",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None of the time ",
+                "value": "noneOfTheTime"
+            },
+            {
+                "name": "Hardly any of the time ",
+                "value": " hardlyAnyOfTheTime"
+            },
+            {
+                "name": "A little of the time ",
+                "value": " aLittleOfTheTime"
+            },
+            {
+                "name": "Some of the time ",
+                "value": " someOfTheTime"
+            },
+            {
+                "name": "A good bit of the time ",
+                "value": " aGoodBitOfTheTime"
+            },
+            {
+                "name": "Most of the time ",
+                "value": " mostOfTheTime"
+            },
+            {
+                "name": "All of the time",
+                "value": " allOfTheTime"
+            }
+        ]
+    },
+    "question": {
+        "en": "In the last 2 weeks, have you suffered from a hoarse voice as a result of your cough?"
+    }
+}

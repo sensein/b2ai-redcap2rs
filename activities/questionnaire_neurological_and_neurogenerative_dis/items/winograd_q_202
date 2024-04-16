@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_202",
+    "prefLabel": "winograd_q_202",
+    "description": "winograd_q_202 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Chairs ",
+                "value": "correct"
+            },
+            {
+                "name": "Copies of the newsletter",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "202. We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them. There are too many of what?"
+    }
+}

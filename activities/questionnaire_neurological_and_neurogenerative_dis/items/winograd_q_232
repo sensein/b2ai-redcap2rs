@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_232",
+    "prefLabel": "winograd_q_232",
+    "description": "winograd_q_232 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Bill ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Dan",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "232. Dan took the rear seat while Bill claimed the front because his 'Dibs!'' was slow. Whose 'Dibs' was slow?"
+    }
+}

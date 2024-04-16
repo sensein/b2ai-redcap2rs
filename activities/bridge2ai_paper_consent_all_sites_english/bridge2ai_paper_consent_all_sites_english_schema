@@ -5,7 +5,7 @@
     "prefLabel": "bridge2ai_paper_consent_all_sites_english",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "ui": {
         "order": [
             "items/paper_consent_notes",

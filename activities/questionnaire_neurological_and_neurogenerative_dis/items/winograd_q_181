@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_181",
+    "prefLabel": "winograd_q_181",
+    "description": "winograd_q_181 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Springfield ",
+                "value": "correct"
+            },
+            {
+                "name": "Franklin",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "181. Esther figures that she will save shipping costs if she builds her factory in Springfield instead of Franklin, because most of her customers live there. In which town do most of Esther's customers live?"
+    }
+}

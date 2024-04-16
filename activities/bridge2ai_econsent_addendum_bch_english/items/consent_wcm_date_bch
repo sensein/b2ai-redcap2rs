@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "consent_wcm_date_bch",
+    "prefLabel": "consent_wcm_date_bch",
+    "description": {
+        "en": "@READONLY-FORM"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

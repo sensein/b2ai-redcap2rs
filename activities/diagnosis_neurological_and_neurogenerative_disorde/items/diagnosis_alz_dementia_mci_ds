@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_alz_dementia_mci_ds",
+    "prefLabel": "diagnosis_alz_dementia_mci_ds",
+    "description": "diagnosis_alz_dementia_mci_ds of diagnosis_neurological_and_neurogenerative_disorde",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
+    "question": {
+        "en": "What is the current stage/severity of cognitive impairment or dementia in the patient?"
+    }
+}

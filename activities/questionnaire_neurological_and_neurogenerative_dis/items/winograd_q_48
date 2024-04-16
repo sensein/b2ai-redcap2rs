@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_48",
+    "prefLabel": "winograd_q_48",
+    "description": "winograd_q_48 of questionnaire_neurological_and_neurogenerative_dis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The cup ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The bottle",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "48. I poured water from the bottle into the cup until it was empty. What was empty?"
+    }
+}
