@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_ds_mcg_ref",
+    "prefLabel": "diagnosis_as_ds_mcg_ref",
+    "description": "diagnosis_as_ds_mcg_ref of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Degree of Stenosis (Myer-Cotton Grade) \nPicture for reference"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_ds_ccsr",
+    "prefLabel": "diagnosis_as_ds_ccsr",
+    "description": "diagnosis_as_ds_ccsr of d_voice_laryngeal_cancer",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No the patient does not have stridor ",
+                "value": "noStridor"
+            },
+            {
+                "name": "Yes mild stridor ",
+                "value": " mildStridor"
+            },
+            {
+                "name": "Yes moderate stridor ",
+                "value": " moderateStridor"
+            },
+            {
+                "name": "Yes severe stridor",
+                "value": " severeStridor"
+            }
+        ]
+    },
+    "question": {
+        "en": "Is the cancer causing stridor at rest?"
+    }
+}

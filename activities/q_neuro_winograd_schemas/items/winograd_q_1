@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_1",
+    "prefLabel": "winograd_q_1",
+    "description": "winograd_q_1 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The city councilmen ",
+                "value": "correct"
+            },
+            {
+                "name": "The demonstrators",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Winograd Questionnaire"
+    },
+    "question": {
+        "en": "1. The city councilmen refused the demonstrators a permit because they feared violence. Who feared violence?"
+    }
+}

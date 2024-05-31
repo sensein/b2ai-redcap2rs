@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "q_neuro_moca_schema",
+    "prefLabel": "q_neuro_moca",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": null,
+    "ui": {
+        "order": [
+            "items/moca_notes",
+            "items/moca_duo_pdf",
+            "items/moca_pdf_uploaded_by"
+        ],
+        "addProperties": [
+            {
+                "variableName": "moca_notes",
+                "isAbout": "items/moca_notes",
+                "isVis": true
+            },
+            {
+                "variableName": "moca_duo_pdf",
+                "isAbout": "items/moca_duo_pdf",
+                "isVis": true
+            },
+            {
+                "variableName": "moca_pdf_uploaded_by",
+                "isAbout": "items/moca_pdf_uploaded_by",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

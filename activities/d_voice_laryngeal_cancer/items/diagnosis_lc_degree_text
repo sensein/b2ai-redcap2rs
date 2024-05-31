@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_lc_degree_text",
+    "prefLabel": "diagnosis_lc_degree_text",
+    "description": "diagnosis_lc_degree_text of d_voice_laryngeal_cancer",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "What is the degree of dysphonia?\n\nClinician places slider between 0 and 100; indicates C or I. \"Indicate the nature..\" and Additional\nfeatures responses are free text. Comments about resonance: Indicate normal or Other, if other then free text"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "stroop_item_stimulus_3",
+    "prefLabel": "stroop_item_stimulus_3",
+    "description": "stroop_item_stimulus_3 of q_neuro_wordcolor_stroop",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "oooo ",
+                "value": "oooo"
+            },
+            {
+                "name": "red ",
+                "value": " red"
+            },
+            {
+                "name": "green ",
+                "value": " green"
+            },
+            {
+                "name": "blue ",
+                "value": " blue"
+            },
+            {
+                "name": "purple ",
+                "value": " purple"
+            },
+            {
+                "name": "brown",
+                "value": " brown"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Item 3"
+    },
+    "question": {
+        "en": "Item 3\nStimulus"
+    }
+}

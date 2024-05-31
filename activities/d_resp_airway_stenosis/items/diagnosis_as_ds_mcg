@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_ds_mcg",
+    "prefLabel": "diagnosis_as_ds_mcg",
+    "description": "diagnosis_as_ds_mcg of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Grade I ",
+                "value": "gradeI"
+            },
+            {
+                "name": "Grade II ",
+                "value": " gradeII"
+            },
+            {
+                "name": "Grade III ",
+                "value": " gradeIII"
+            },
+            {
+                "name": "Grade IV",
+                "value": " gradeIV"
+            }
+        ]
+    },
+    "question": {
+        "en": "Degree of Stenosis (Myer-Cotton Grade)"
+    }
+}

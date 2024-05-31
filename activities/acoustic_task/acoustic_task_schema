@@ -5,7 +5,7 @@
     "prefLabel": "acoustic_task",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.0.0",
+    "version": null,
     "ui": {
         "order": [
             "items/acoustic_task_id",

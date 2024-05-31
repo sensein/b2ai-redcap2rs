@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_as_etiology",
+    "prefLabel": "diagnosis_as_etiology",
+    "description": "diagnosis_as_etiology of d_resp_airway_stenosis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not certain or TBD ",
+                "value": "tbd"
+            },
+            {
+                "name": "Iatrogenic (surgery or intubation) ",
+                "value": " iatrogenic"
+            },
+            {
+                "name": "Idiopathic ",
+                "value": " idiopathic"
+            },
+            {
+                "name": "Auto-immune or granulomatous disease ",
+                "value": " autoImmune"
+            },
+            {
+                "name": "Radiation ",
+                "value": " radiation"
+            },
+            {
+                "name": "GERD ",
+                "value": " gerd"
+            },
+            {
+                "name": "Caustic Injury or Inhalation Injury ",
+                "value": " causticInjuryInhalationInjury"
+            },
+            {
+                "name": "Infectious (Diphtheria TB Bacterial Tracheitis other) ",
+                "value": " infectious"
+            },
+            {
+                "name": "Other",
+                "value": " other"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the etiology?"
+    }
+}

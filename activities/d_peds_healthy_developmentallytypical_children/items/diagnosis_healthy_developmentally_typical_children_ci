@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_healthy_developmentally_typical_children_ci",
+    "prefLabel": "diagnosis_healthy_developmentally_typical_children_ci",
+    "description": "diagnosis_healthy_developmentally_typical_children_ci of d_peds_healthy_developmentallytypical_children",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No",
+                "value": " no"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "1. Clinical Information"
+    },
+    "question": {
+        "en": "Can you confirm that based on the current clinical status this child is healthy and developmentally-typical at this time? (e.g., could this code (ICD 10 Z00. 129) be applied for a visit at this time)"
+    }
+}

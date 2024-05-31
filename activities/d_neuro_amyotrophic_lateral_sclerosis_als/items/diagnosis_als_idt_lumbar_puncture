@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_als_idt_lumbar_puncture",
+    "prefLabel": "diagnosis_als_idt_lumbar_puncture",
+    "description": "diagnosis_als_idt_lumbar_puncture of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Lumbar Puncture (if performed, specify findings):"
+    }
+}

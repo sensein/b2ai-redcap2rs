@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_vfp_iatrogenic",
+    "prefLabel": "diagnosis_vfp_iatrogenic",
+    "description": "diagnosis_vfp_iatrogenic of d_voice_unilateral_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Thyroidectomy ",
+                "value": 1
+            },
+            {
+                "name": "ACDF ",
+                "value": 2
+            },
+            {
+                "name": "Lung surgery ",
+                "value": 3
+            },
+            {
+                "name": "Heart Surgery ",
+                "value": 4
+            },
+            {
+                "name": "Intubation ",
+                "value": 5
+            },
+            {
+                "name": "Brain Surgery ",
+                "value": 6
+            },
+            {
+                "name": "Other",
+                "value": 7
+            }
+        ]
+    },
+    "question": {
+        "en": "Iatrogenic (surgery/intubation) subcategory"
+    }
+}

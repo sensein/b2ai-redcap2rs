@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "current_neuro_dx",
+    "prefLabel": "current_neuro_dx",
+    "description": "current_neuro_dx of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 1
+            },
+            {
+                "name": "Only some ",
+                "value": 2
+            },
+            {
+                "name": "All",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
+    }
+}

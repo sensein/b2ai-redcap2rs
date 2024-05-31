@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "alcohol_drinks",
+    "prefLabel": "alcohol_drinks",
+    "description": "alcohol_drinks of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never in the past year ",
+                "value": "neverInThePastYear"
+            },
+            {
+                "name": "Less than monthly ",
+                "value": " lessThanMonthly"
+            },
+            {
+                "name": "Monthly ",
+                "value": " monthly"
+            },
+            {
+                "name": "Weekly ",
+                "value": " weekly"
+            },
+            {
+                "name": "Daily or almost daily ",
+                "value": " daily"
+            },
+            {
+                "name": "Prefer not to answer",
+                "value": " noAnswer"
+            }
+        ]
+    },
+    "question": {
+        "en": "How often did you have six or more drinks on one occasion in the past year?"
+    }
+}

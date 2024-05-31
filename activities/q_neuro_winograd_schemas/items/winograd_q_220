@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_220",
+    "prefLabel": "winograd_q_220",
+    "description": "winograd_q_220 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Xenophanes ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Sam",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "220. Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research. Who faced difficulties?"
+    }
+}

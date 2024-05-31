@@ -5,7 +5,7 @@
     "prefLabel": "bridge2ai_econsent_addendum_bch_english",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.0.0",
+    "version": null,
     "ui": {
         "order": [
             "items/consent_bch_p1",

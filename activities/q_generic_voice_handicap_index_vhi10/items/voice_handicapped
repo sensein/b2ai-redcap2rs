@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "vhi_10_54",
+    "prefLabel": "vhi_10_54",
+    "description": "vhi_10_54 of q_generic_voice_handicap_index_vhi10",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Almost Never ",
+                "value": " almostNever"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Almost Always ",
+                "value": " almostAlways"
+            },
+            {
+                "name": "Always",
+                "value": " always"
+            }
+        ]
+    },
+    "question": {
+        "en": "My voice makes me feel handicapped."
+    }
+}

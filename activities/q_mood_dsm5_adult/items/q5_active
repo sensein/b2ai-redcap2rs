@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "q5_active",
+    "prefLabel": "q5_active",
+    "description": "q5_active of q_mood_dsm5_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I have not been more active (either socially sexually at work home or school) than usual. ",
+                "value": 1
+            },
+            {
+                "name": "I have occasionally been more active than usual. ",
+                "value": 2
+            },
+            {
+                "name": "I have often been more active than usual. ",
+                "value": 3
+            },
+            {
+                "name": "I have frequently been more active than usual. ",
+                "value": 4
+            },
+            {
+                "name": "I am constantly more active or on the go all the time.",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "Question 5"
+    }
+}

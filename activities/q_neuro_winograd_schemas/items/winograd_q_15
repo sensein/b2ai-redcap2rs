@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_15",
+    "prefLabel": "winograd_q_15",
+    "description": "winograd_q_15 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The man ",
+                "value": "correct"
+            },
+            {
+                "name": "The son",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "15. The man couldn't lift his son because he was so weak. Who was weak?"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_parkinsons_treatment_obtained_yes_npi",
+    "prefLabel": "diagnosis_parkinsons_treatment_obtained_yes_npi",
+    "description": "diagnosis_parkinsons_treatment_obtained_yes_npi of d_neuro_parkinsons_disease",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Non-pharmacological interventions:"
+    }
+}

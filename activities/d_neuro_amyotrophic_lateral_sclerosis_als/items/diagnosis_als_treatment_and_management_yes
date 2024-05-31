@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_als_treatment_and_management_yes",
+    "prefLabel": "diagnosis_als_treatment_and_management_yes",
+    "description": "diagnosis_als_treatment_and_management_yes of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Yes"
+    }
+}

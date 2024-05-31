@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "phq_9_52",
+    "prefLabel": "phq_9_52",
+    "description": "phq_9_52 of q_generic_patient_health_questionnaire9",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all ",
+                "value": 0
+            },
+            {
+                "name": "Several days ",
+                "value": 1
+            },
+            {
+                "name": "More than half the days ",
+                "value": 2
+            },
+            {
+                "name": "Nearly every day",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Trouble concentrating on things, such as reading the newspaper or watching television."
+    }
+}

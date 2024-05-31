@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_lc_gsd_uots",
+    "prefLabel": "diagnosis_lc_gsd_uots",
+    "description": "diagnosis_lc_gsd_uots of d_voice_laryngeal_cancer",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Did the patient undergo other types of scans?\n(Select all that apply)."
+    }
+}

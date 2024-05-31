@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_103",
+    "prefLabel": "winograd_q_103",
+    "description": "winograd_q_103 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The key ",
+                "value": "correct"
+            },
+            {
+                "name": "The chewing gum",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "103. I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in. What couldn't I get in?"
+    }
+}

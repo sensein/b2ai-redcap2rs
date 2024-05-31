@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_75",
+    "prefLabel": "winograd_q_75",
+    "description": "winograd_q_75 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The backpack ",
+                "value": "correct"
+            },
+            {
+                "name": "The bottle",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "75. I took the water bottle out of the backpack so that it would be lighter. What would be lighter?"
+    }
+}

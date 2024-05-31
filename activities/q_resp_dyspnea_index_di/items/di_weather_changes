@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "di_49",
+    "prefLabel": "di_49",
+    "description": "di_49 of q_resp_dyspnea_index_di",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Almost never ",
+                "value": " almostNever"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Almost always ",
+                "value": " almostAlways"
+            },
+            {
+                "name": "Always",
+                "value": " always"
+            }
+        ]
+    },
+    "question": {
+        "en": "Changes in the weather affect my breathing problem."
+    }
+}

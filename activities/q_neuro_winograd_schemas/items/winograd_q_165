@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_165",
+    "prefLabel": "winograd_q_165",
+    "description": "winograd_q_165 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "His eyes ",
+                "value": "correct"
+            },
+            {
+                "name": "His hands",
+                "value": " incorrect"
+            }
+        ]
+    },
+    "question": {
+        "en": "165. Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped. What did Fred opened?"
+    }
+}

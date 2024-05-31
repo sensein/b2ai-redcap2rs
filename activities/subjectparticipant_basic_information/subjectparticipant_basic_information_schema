@@ -5,14 +5,16 @@
     "prefLabel": "subjectparticipant_basic_information",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.0.0",
+    "version": null,
     "ui": {
         "order": [
             "items/record_id",
             "items/selected_language",
             "items/consent_status",
+            "items/consent_method",
             "items/withdrawn_consent_reason",
             "items/withdrawn_consent_date",
+            "items/is_feasibility_participant",
             "items/enrolled",
             "items/enrollment_reason",
             "items/enrollment_institution",
@@ -35,6 +37,11 @@
                 "isVis": true
             },
             {
+                "variableName": "consent_method",
+                "isAbout": "items/consent_method",
+                "isVis": "consent_status == '2'"
+            },
+            {
                 "variableName": "withdrawn_consent_reason",
                 "isAbout": "items/withdrawn_consent_reason",
                 "isVis": "consent_status == 3"
@@ -43,6 +50,11 @@
                 "variableName": "withdrawn_consent_date",
                 "isAbout": "items/withdrawn_consent_date",
                 "isVis": "consent_status == 3"
+            },
+            {
+                "variableName": "is_feasibility_participant",
+                "isAbout": "items/is_feasibility_participant",
+                "isVis": true
             },
             {
                 "variableName": "enrolled",

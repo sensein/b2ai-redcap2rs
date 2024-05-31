@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_bipolar_active_problems",
+    "prefLabel": "diagnosis_bipolar_active_problems",
+    "description": "diagnosis_bipolar_active_problems of d_mood_bipolar_disorder",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "2. Medical and Psychiatric comorbidities"
+    },
+    "question": {
+        "en": "Enter list of active problems"
+    }
+}

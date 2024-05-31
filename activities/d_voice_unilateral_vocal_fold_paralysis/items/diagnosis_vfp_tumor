@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_vfp_tumor",
+    "prefLabel": "diagnosis_vfp_tumor",
+    "description": "diagnosis_vfp_tumor of d_voice_unilateral_vocal_fold_paralysis",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Brain ",
+                "value": 1
+            },
+            {
+                "name": "Chest ",
+                "value": 2
+            },
+            {
+                "name": "Neck",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "Tumor invading RLN - Subcategory"
+    }
+}

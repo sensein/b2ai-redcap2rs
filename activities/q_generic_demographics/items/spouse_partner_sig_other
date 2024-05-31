@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "live_with_household_31",
+    "prefLabel": "live_with_household_31",
+    "description": "live_with_household_31 of q_generic_demographics",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Who lives with you? Choose all that apply"
+    },
+    "question": {
+        "en": "Spouse/partner/significant other"
+    }
+}

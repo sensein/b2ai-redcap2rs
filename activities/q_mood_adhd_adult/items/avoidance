@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "adhd_adult_157",
+    "prefLabel": "adhd_adult_157",
+    "description": "adhd_adult_157 of q_mood_adhd_adult",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": "never"
+            },
+            {
+                "name": "Rarely ",
+                "value": " rarely"
+            },
+            {
+                "name": "Sometimes ",
+                "value": " sometimes"
+            },
+            {
+                "name": "Often ",
+                "value": " often"
+            },
+            {
+                "name": "Very Often",
+                "value": " veryOften"
+            }
+        ]
+    },
+    "question": {
+        "en": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?"
+    }
+}

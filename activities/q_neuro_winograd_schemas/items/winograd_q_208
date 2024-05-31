@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_208",
+    "prefLabel": "winograd_q_208",
+    "description": "winograd_q_208 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Steve admires Fred ",
+                "value": "incorrect"
+            },
+            {
+                "name": "Fred influences Steve",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "208. Steve follows Fred's example in everything. He influences him hugely. Who influences whom?"
+    }
+}

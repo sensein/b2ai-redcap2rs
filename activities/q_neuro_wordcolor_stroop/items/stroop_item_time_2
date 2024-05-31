@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "stroop_item_time_2",
+    "prefLabel": "stroop_item_time_2",
+    "description": "stroop_item_time_2 of q_neuro_wordcolor_stroop",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Item 2\nTime Start"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_als_gsd_category_2",
+    "prefLabel": "diagnosis_als_gsd_category_2",
+    "description": "diagnosis_als_gsd_category_2 of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": "yes"
+            },
+            {
+                "name": "No ",
+                "value": " no"
+            },
+            {
+                "name": "Not certain",
+                "value": " notCertain"
+            }
+        ]
+    },
+    "question": {
+        "en": "(2) presence of UMN and LMN signs in at least 1 body region (with UMN and LMN dysfunction noted in the same body region if only one body region is involved) or LMN dysfunction in at least 2 body regions;"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_ld_assessment",
+    "prefLabel": "diagnosis_ld_assessment",
+    "description": "diagnosis_ld_assessment of d_voice_laryngeal_dystonia",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Did the patient have the following assessment?\n(Select all that apply)."
+    }
+}

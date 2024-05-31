@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "winograd_q_204",
+    "prefLabel": "winograd_q_204",
+    "description": "winograd_q_204 of q_neuro_winograd_schemas",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "The pin ",
+                "value": "incorrect"
+            },
+            {
+                "name": "The carrot",
+                "value": " correct"
+            }
+        ]
+    },
+    "question": {
+        "en": "204. I stuck a pin through a carrot. When I pulled the pin out, it had a hole. What had a hole?"
+    }
+}

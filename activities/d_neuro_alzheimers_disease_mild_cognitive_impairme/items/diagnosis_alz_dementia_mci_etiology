@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_alz_dementia_mci_etiology",
+    "prefLabel": "diagnosis_alz_dementia_mci_etiology",
+    "description": "diagnosis_alz_dementia_mci_etiology of d_neuro_alzheimers_disease_mild_cognitive_impairme",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the suspected or known etiology in the patient?"
+    }
+}

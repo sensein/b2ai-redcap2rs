@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "menstruate_no",
+    "prefLabel": "menstruate_no",
+    "description": "menstruate_no of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I am pregnant ",
+                "value": "pregnant"
+            },
+            {
+                "name": "I have an IUD ",
+                "value": " iud"
+            },
+            {
+                "name": "I have gone through menopause ",
+                "value": " menopause"
+            },
+            {
+                "name": "Other",
+                "value": " other"
+            }
+        ]
+    },
+    "question": {
+        "en": "Please explain"
+    }
+}

@@ -5,12 +5,13 @@
     "prefLabel": "session",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "3.0.0",
+    "version": null,
     "ui": {
         "order": [
             "items/session_id",
             "items/session_status",
             "items/session_started_at",
+            "items/session_is_control_participant",
             "items/session_completed_at",
             "items/session_duration",
             "items/session_site"
@@ -29,6 +30,11 @@
             {
                 "variableName": "session_started_at",
                 "isAbout": "items/session_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "session_is_control_participant",
+                "isAbout": "items/session_is_control_participant",
                 "isVis": true
             },
             {

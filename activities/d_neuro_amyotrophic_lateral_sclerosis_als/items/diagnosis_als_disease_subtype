@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_als_disease_subtype",
+    "prefLabel": "diagnosis_als_disease_subtype",
+    "description": "diagnosis_als_disease_subtype of d_neuro_amyotrophic_lateral_sclerosis_als",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Sporadic ALS ",
+                "value": "sporadicAls"
+            },
+            {
+                "name": "Familial ALS ",
+                "value": " familialAls"
+            },
+            {
+                "name": "Spinal/limb-onset ALS ",
+                "value": " spinalAls"
+            },
+            {
+                "name": "Bulbar-onset ALS",
+                "value": " bulbarAls"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "2. Type of ALS"
+    },
+    "question": {
+        "en": "Specify the type of ALS in the patient:"
+    }
+}

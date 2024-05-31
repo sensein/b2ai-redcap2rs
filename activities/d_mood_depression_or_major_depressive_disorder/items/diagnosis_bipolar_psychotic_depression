@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "diagnosis_bipolar_psychotic_depression",
+    "prefLabel": "diagnosis_bipolar_psychotic_depression",
+    "description": "diagnosis_bipolar_psychotic_depression of d_mood_depression_or_major_depressive_disorder",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "With ",
+                "value": "with"
+            },
+            {
+                "name": "Without",
+                "value": " without"
+            }
+        ]
+    },
+    "question": {
+        "en": "Psychotic Symptoms"
+    }
+}

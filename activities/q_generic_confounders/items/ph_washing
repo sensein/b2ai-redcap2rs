@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "physcial_health_group_242",
+    "prefLabel": "physcial_health_group_242",
+    "description": "physcial_health_group_242 of q_generic_confounders",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": "none"
+            },
+            {
+                "name": "Mild ",
+                "value": " mild"
+            },
+            {
+                "name": "Moderate ",
+                "value": " moderate"
+            },
+            {
+                "name": "Severe ",
+                "value": " severe"
+            },
+            {
+                "name": "Extreme or cannot do",
+                "value": " extreme"
+            }
+        ]
+    },
+    "question": {
+        "en": "Washing your whole body?"
+    }
+}
