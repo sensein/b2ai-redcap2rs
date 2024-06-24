@@ -1,19 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "first_name",
-    "prefLabel": "first_name",
-    "description": "first_name of subjectparticipant_contact_information",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "preamble": {
-        "en": "Contact Information"
+    "id": "first_name",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "first_name"
     },
     "question": {
         "en": "First Name"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "mood_psych_dis_215",
-    "prefLabel": "mood_psych_dis_215",
-    "description": "mood_psych_dis_215 of subjectparticipant_eligible_studies",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Unchecked ",
-                "value": 0
-            },
-            {
-                "name": "Checked",
-                "value": 1
-            }
-        ]
+    "id": "mood_psych_dis_5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mood_psych_dis_5"
     },
     "question": {
         "en": "Bipolar Disorder"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unchecked "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Checked"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

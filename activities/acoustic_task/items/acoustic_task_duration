@@ -1,18 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "acoustic_task_duration",
-    "prefLabel": "acoustic_task_duration",
-    "description": {
-        "en": "@READONLY"
-    },
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "acoustic_task_duration",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "acoustic_task_duration"
     },
     "question": {
         "en": "Acoustic Task Duration (seconds)"
-    }
+    },
+    "responseOptions": {
+        "minValue": 0.0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "researcher_date",
-    "prefLabel": "researcher_date",
-    "description": "researcher_date of bridge2ai_econsent_main_icf_usf_researcher_stateme",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "researcher_date",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "researcher_date"
     },
     "question": {
         "en": "Date"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

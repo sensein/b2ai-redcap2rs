@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "recording_input_gain",
-    "prefLabel": "recording_input_gain",
-    "description": {
-        "en": "@READONLY"
+    "id": "recording_input_gain",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "recording_input_gain"
+    },
+    "question": {
+        "en": "Recording Input Gain"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "Recording Input Gain"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

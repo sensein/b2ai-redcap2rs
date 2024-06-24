@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "phone_number",
-    "prefLabel": "phone_number",
-    "description": "phone_number of subjectparticipant_contact_information",
-    "ui": {
-        "inputType": "text"
+    "id": "phone_number",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "###-###-####"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "prefLabel": {
+        "en": "phone_number"
     },
     "question": {
         "en": "Phone Number"
     },
-    "additionalNotesObj": [
-        {
-            "source": "redcap",
-            "column": "Field Note",
-            "value": "###-###-####"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

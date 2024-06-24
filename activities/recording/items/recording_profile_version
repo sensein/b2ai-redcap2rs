@@ -1,24 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "recording_profile_version",
-    "prefLabel": "recording_profile_version",
-    "description": {
-        "en": "@READONLY"
+    "id": "recording_profile_version",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "recording_profile_version"
+    },
+    "question": {
+        "en": "Recording Profile Version"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "v1.0.0"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "v1.0.0",
-                "value": 1
-            }
-        ]
-    },
-    "question": {
-        "en": "Recording Profile Version"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
