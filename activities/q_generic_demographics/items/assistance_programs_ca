@@ -1,17 +1,52 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "assistance_programs_ca",
-    "prefLabel": "assistance_programs_ca",
-    "description": "assistance_programs_ca of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "assistance_programs_ca",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "assistance_programs_ca"
     },
     "question": {
         "en": "Do you take advantage of any of the following programs? \nChoose all that apply"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supplemental Security Income (SSI) "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Supplemental Nutrition Assistance Program (SNAP) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Special Supplemental Nutrition Program for Women Infants and Children (WIC) "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Temporary Assistance for Needy Families (TANF) including Pass through Child Support "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "General Assistance (GA)"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

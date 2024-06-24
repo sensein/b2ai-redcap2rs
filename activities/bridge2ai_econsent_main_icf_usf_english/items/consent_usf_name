@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "consent_usf_name",
-    "prefLabel": "consent_usf_name",
-    "description": {
-        "en": "@READONLY-FORM"
+    "id": "consent_usf_name",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "consent_usf_name"
+    },
+    "question": {
+        "en": "Printed Name of Person Taking Part in Study"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "Printed Name of Person Taking Part in Study"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "gad_7_anxiety_34",
-    "prefLabel": "gad_7_anxiety_34",
-    "description": "gad_7_anxiety_34 of q_generic_gad7_anxiety",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Not at all ",
-                "value": 0
-            },
-            {
-                "name": "Several days ",
-                "value": 1
-            },
-            {
-                "name": "More than half the days ",
-                "value": 2
-            },
-            {
-                "name": "Nearly every day",
-                "value": 3
-            }
-        ]
+    "id": "gad_7_anxiety_6",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "gad_7_anxiety_6"
     },
     "question": {
         "en": "Becoming easily annoyed or irritable."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several days "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More than half the days "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Nearly every day"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

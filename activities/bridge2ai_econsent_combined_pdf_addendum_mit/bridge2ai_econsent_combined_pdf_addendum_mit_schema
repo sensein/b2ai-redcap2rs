@@ -1,22 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_econsent_combined_pdf_addendum_mit_schema",
-    "prefLabel": "bridge2ai_econsent_combined_pdf_addendum_mit",
-    "description": "Default description",
+    "id": "bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_combined_pdf_addendum_mit"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/upload_addendums_mit"
         ],
         "addProperties": [
             {
-                "variableName": "upload_addendums_mit",
                 "isAbout": "items/upload_addendums_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "upload_addendums_mit"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

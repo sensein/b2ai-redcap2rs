@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_132",
-    "prefLabel": "winograd_q_132",
-    "description": "winograd_q_132 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The book ",
-                "value": "incorrect"
-            },
-            {
-                "name": "The article",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_132",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_132"
     },
     "question": {
         "en": "132. Sara borrowed the book from the library because she needs it for an article she is working on. She writes it when she gets home from work. What does Sara writes when she gets home from work?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The book "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "The article"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

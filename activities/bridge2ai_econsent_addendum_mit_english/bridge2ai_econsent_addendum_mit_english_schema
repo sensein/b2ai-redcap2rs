@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_econsent_addendum_mit_english_schema",
-    "prefLabel": "bridge2ai_econsent_addendum_mit_english",
-    "description": "Default description",
+    "id": "bridge2ai_econsent_addendum_mit_english_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_addendum_mit_english"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/consent_wcm_p1_mit",
@@ -23,66 +22,73 @@
         ],
         "addProperties": [
             {
-                "variableName": "consent_wcm_p1_mit",
                 "isAbout": "items/consent_wcm_p1_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p1_mit"
             },
             {
-                "variableName": "consent_wcm_p2_mit",
                 "isAbout": "items/consent_wcm_p2_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p2_mit"
             },
             {
-                "variableName": "consent_wcm_p3_mit",
                 "isAbout": "items/consent_wcm_p3_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p3_mit"
             },
             {
-                "variableName": "consent_wcm_p4_mit",
                 "isAbout": "items/consent_wcm_p4_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p4_mit"
             },
             {
-                "variableName": "consent_wcm_statement_mit",
                 "isAbout": "items/consent_wcm_statement_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_statement_mit"
             },
             {
-                "variableName": "consent_wcm_permission_1_mit",
                 "isAbout": "items/consent_wcm_permission_1_mit",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_1_mit"
             },
             {
-                "variableName": "consent_wcm_permission_2_mit",
                 "isAbout": "items/consent_wcm_permission_2_mit",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_2_mit"
             },
             {
-                "variableName": "consent_wcm_statement_2_mit",
                 "isAbout": "items/consent_wcm_statement_2_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_statement_2_mit"
             },
             {
-                "variableName": "consent_wcm_p5_mit",
                 "isAbout": "items/consent_wcm_p5_mit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p5_mit"
             },
             {
-                "variableName": "consent_wcm_signature_mit",
                 "isAbout": "items/consent_wcm_signature_mit",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_signature_mit"
             },
             {
-                "variableName": "consent_wcm_name_mit",
                 "isAbout": "items/consent_wcm_name_mit",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_name_mit"
             },
             {
-                "variableName": "consent_wcm_date_mit",
                 "isAbout": "items/consent_wcm_date_mit",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_date_mit"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

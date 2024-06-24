@@ -1,17 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "canadian_race",
-    "prefLabel": "canadian_race",
-    "description": "canadian_race of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "canadian_race",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "canadian_race"
     },
     "question": {
         "en": "Canadian Indigenous or Aboriginal"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "First Nation "
+                },
+                "value": "ca_first_nation"
+            },
+            {
+                "name": {
+                    "en": "Inuk/inuit "
+                },
+                "value": " ca_inuit"
+            },
+            {
+                "name": {
+                    "en": "Metis"
+                },
+                "value": " ca_metis"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

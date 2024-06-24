@@ -1,42 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "alcohol_rehab",
-    "prefLabel": "alcohol_rehab",
-    "description": "alcohol_rehab of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never in the past year ",
-                "value": "neverInThePastYear"
-            },
-            {
-                "name": "Less than monthly ",
-                "value": " lessThanMonthly"
-            },
-            {
-                "name": "Monthly ",
-                "value": " monthly"
-            },
-            {
-                "name": "Weekly ",
-                "value": " weekly"
-            },
-            {
-                "name": "Daily or almost daily ",
-                "value": " daily"
-            },
-            {
-                "name": "Prefer not to answer",
-                "value": " noAnswer"
-            }
-        ]
+    "id": "alcohol_rehab",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "alcohol_rehab"
     },
     "question": {
         "en": "Have you ever been in rehab or counseling for heavy alcohol use?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never in the past year "
+                },
+                "value": "neverInThePastYear"
+            },
+            {
+                "name": {
+                    "en": "Less than monthly "
+                },
+                "value": " lessThanMonthly"
+            },
+            {
+                "name": {
+                    "en": "Monthly "
+                },
+                "value": " monthly"
+            },
+            {
+                "name": {
+                    "en": "Weekly "
+                },
+                "value": " weekly"
+            },
+            {
+                "name": {
+                    "en": "Daily or almost daily "
+                },
+                "value": " daily"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

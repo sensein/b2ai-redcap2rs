@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "stroop_item_color_4",
-    "prefLabel": "stroop_item_color_4",
-    "description": "stroop_item_color_4 of q_neuro_wordcolor_stroop",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "red ",
-                "value": "red"
-            },
-            {
-                "name": "green ",
-                "value": " green"
-            },
-            {
-                "name": "blue ",
-                "value": " blue"
-            },
-            {
-                "name": "purple ",
-                "value": " purple"
-            },
-            {
-                "name": "brown",
-                "value": " brown"
-            }
-        ]
+    "id": "stroop_item_color_4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "stroop_item_color_4"
     },
     "question": {
         "en": "Item 4\nColor"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "red "
+                },
+                "value": "red"
+            },
+            {
+                "name": {
+                    "en": "green "
+                },
+                "value": " green"
+            },
+            {
+                "name": {
+                    "en": "blue "
+                },
+                "value": " blue"
+            },
+            {
+                "name": {
+                    "en": "purple "
+                },
+                "value": " purple"
+            },
+            {
+                "name": {
+                    "en": "brown"
+                },
+                "value": " brown"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,20 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "circulatory_conditions",
-    "prefLabel": "circulatory_conditions",
-    "description": "circulatory_conditions of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
+    "id": "circulatory_conditions",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "CIRCULATORY AND OTHER CONDITIONS"
     },
+    "prefLabel": {
+        "en": "circulatory_conditions"
+    },
     "question": {
         "en": "Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Atrial fibrillation "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cardiac condition "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Chronic pericarditis "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Congestive heart failure "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Coronary heart disease "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Hypertension"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

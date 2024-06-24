@@ -1,19 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bipolar_active_problems_depression",
-    "prefLabel": "diagnosis_bipolar_active_problems_depression",
-    "description": "diagnosis_bipolar_active_problems_depression of d_mood_depression_or_major_depressive_disorder",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
+    "id": "diagnosis_bipolar_active_problems_depression",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "2.\tMedical and Psychiatric comorbidities"
     },
+    "prefLabel": {
+        "en": "diagnosis_bipolar_active_problems_depression"
+    },
     "question": {
         "en": "Enter list of active problems"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_voice_voice_problem_severity_schema",
-    "prefLabel": "q_voice_voice_problem_severity",
-    "description": "Default description",
+    "id": "q_voice_voice_problem_severity_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_voice_voice_problem_severity"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/voice_severity_session_id",
@@ -16,31 +15,37 @@
         ],
         "addProperties": [
             {
-                "variableName": "voice_severity_session_id",
                 "isAbout": "items/voice_severity_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_severity_session_id"
             },
             {
-                "variableName": "voice_severity_started_at",
                 "isAbout": "items/voice_severity_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_severity_started_at"
             },
             {
-                "variableName": "voice_severity_completed_at",
                 "isAbout": "items/voice_severity_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_severity_completed_at"
             },
             {
-                "variableName": "voice_severity_duration",
                 "isAbout": "items/voice_severity_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "voice_severity_duration"
             },
             {
-                "variableName": "describe_the_severity_of_a",
                 "isAbout": "items/describe_the_severity_of_a",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "describe_the_severity_of_a"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

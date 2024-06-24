@@ -1,37 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "menstruate",
-    "prefLabel": "menstruate",
-    "description": "menstruate of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Does not apply ",
-                "value": "doesNotApply"
-            },
-            {
-                "name": "Yes ",
-                "value": " yes"
-            },
-            {
-                "name": "No ",
-                "value": " no"
-            },
-            {
-                "name": "Prefer no to answer",
-                "value": " noAnswer"
-            }
-        ]
-    },
+    "id": "menstruate",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "GYNECOLOGICAL"
     },
+    "prefLabel": {
+        "en": "menstruate"
+    },
     "question": {
         "en": "Do you menstruate?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply "
+                },
+                "value": "doesNotApply"
+            },
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": " yes"
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Prefer no to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

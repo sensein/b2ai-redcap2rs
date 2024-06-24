@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnois_bl_gsd",
-    "prefLabel": "diagnois_bl_gsd",
-    "description": "diagnois_bl_gsd of d_voice_benign_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No ",
-                "value": " no"
-            },
-            {
-                "name": "Not certain",
-                "value": " notCertain"
-            }
-        ]
-    },
+    "id": "diagnois_bl_gsd",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
+    "prefLabel": {
+        "en": "diagnois_bl_gsd"
+    },
     "question": {
         "en": "Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Not certain"
+                },
+                "value": " notCertain"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,26 +1,25 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "height",
-    "prefLabel": "height",
-    "description": "height of q_generic_confounders",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "height",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "inches"
     },
     "preamble": {
         "en": "HEIGHT AND WEIGHT"
     },
+    "prefLabel": {
+        "en": "height"
+    },
     "question": {
         "en": "Height (inches)"
     },
-    "additionalNotesObj": [
-        {
-            "source": "redcap",
-            "column": "Field Note",
-            "value": "inches"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

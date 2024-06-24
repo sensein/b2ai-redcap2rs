@@ -1,22 +1,27 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "d_peds_healthy_developmentallytypical_children_schema",
-    "prefLabel": "d_peds_healthy_developmentallytypical_children",
-    "description": "Default description",
+    "id": "d_peds_healthy_developmentallytypical_children_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "1. Clinical Information"
+    },
+    "prefLabel": {
+        "en": "d_peds_healthy_developmentallytypical_children"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/diagnosis_healthy_developmentally_typical_children_ci"
         ],
         "addProperties": [
             {
-                "variableName": "diagnosis_healthy_developmentally_typical_children_ci",
                 "isAbout": "items/diagnosis_healthy_developmentally_typical_children_ci",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_healthy_developmentally_typical_children_ci"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

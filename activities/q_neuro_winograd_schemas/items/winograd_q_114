@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_114",
-    "prefLabel": "winograd_q_114",
-    "description": "winograd_q_114 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "John ",
-                "value": "incorrect"
-            },
-            {
-                "name": "The juggler",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_114",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_114"
     },
     "question": {
         "en": "114. John was jogging through the park when he saw a man juggling watermelons. He was very impressive. Who was impressive?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "John "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "The juggler"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

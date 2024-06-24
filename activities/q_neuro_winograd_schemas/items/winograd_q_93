@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_93",
-    "prefLabel": "winograd_q_93",
-    "description": "winograd_q_93 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The mouse ",
-                "value": "correct"
-            },
-            {
-                "name": "The cat",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_93",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_93"
     },
     "question": {
         "en": "93. The cat was lying by the mouse hole waiting for the mouse, but it was too cautious. What was too cautious?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The mouse "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The cat"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,30 +1,39 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_pl_ds_k_wd_g",
-    "prefLabel": "diagnosis_pl_ds_k_wd_g",
-    "description": "diagnosis_pl_ds_k_wd_g of d_voice_precancerous_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Low grade ",
-                "value": "lowGrade"
-            },
-            {
-                "name": "Moderate grade ",
-                "value": " moderateGrade"
-            },
-            {
-                "name": "High grade",
-                "value": " highGrade"
-            }
-        ]
+    "id": "diagnosis_pl_ds_k_wd_g",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_pl_ds_k_wd_g"
     },
     "question": {
         "en": "Keratosis with dysplasia"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Low grade "
+                },
+                "value": "lowGrade"
+            },
+            {
+                "name": {
+                    "en": "Moderate grade "
+                },
+                "value": " moderateGrade"
+            },
+            {
+                "name": {
+                    "en": "High grade"
+                },
+                "value": " highGrade"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

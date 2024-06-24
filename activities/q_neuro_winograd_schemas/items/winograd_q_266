@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_266",
-    "prefLabel": "winograd_q_266",
-    "description": "winograd_q_266 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Joan ",
-                "value": "incorrect"
-            },
-            {
-                "name": "Jane",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_266",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_266"
     },
     "question": {
         "en": "266. Jane gave Joan candy because she wasn't hungry. Who wasn't hungry?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Joan "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Jane"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

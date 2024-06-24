@@ -1,41 +1,54 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_vfp_etiology",
-    "prefLabel": "diagnosis_vfp_etiology",
-    "description": "diagnosis_vfp_etiology of d_voice_unilateral_vocal_fold_paralysis",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Idiopathic ",
-                "value": 1
-            },
-            {
-                "name": "Iatrogenic (surgery/intubation) ",
-                "value": 2
-            },
-            {
-                "name": "Tumor invading RLN ",
-                "value": 3
-            },
-            {
-                "name": "Radiation ",
-                "value": 4
-            },
-            {
-                "name": "Other",
-                "value": 5
-            }
-        ]
-    },
+    "id": "diagnosis_vfp_etiology",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "3. Etiology"
     },
+    "prefLabel": {
+        "en": "diagnosis_vfp_etiology"
+    },
     "question": {
         "en": "What is the etiology?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Idiopathic "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Iatrogenic (surgery/intubation) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Tumor invading RLN "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Radiation "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

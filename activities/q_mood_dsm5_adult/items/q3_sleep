@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "q3_sleep",
-    "prefLabel": "q3_sleep",
-    "description": "q3_sleep of q_mood_dsm5_adult",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "I do not need less sleep than usual. ",
-                "value": 1
-            },
-            {
-                "name": "I occasionally need less sleep than usual. ",
-                "value": 2
-            },
-            {
-                "name": "I often need less sleep than usual. ",
-                "value": 3
-            },
-            {
-                "name": "I frequently need less sleep than usual. ",
-                "value": 4
-            },
-            {
-                "name": "I can go all day and all night without any sleep and still not feel tired.",
-                "value": 5
-            }
-        ]
+    "id": "q3_sleep",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "q3_sleep"
     },
     "question": {
         "en": "Question 3"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I do not need less sleep than usual. "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I occasionally need less sleep than usual. "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I often need less sleep than usual. "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I frequently need less sleep than usual. "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I can go all day and all night without any sleep and still not feel tired."
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_neuro_wordcolor_stroop_schema",
-    "prefLabel": "q_neuro_wordcolor_stroop",
-    "description": "Default description",
+    "id": "q_neuro_wordcolor_stroop_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_neuro_wordcolor_stroop"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/stroop_session_id",
@@ -76,331 +75,334 @@
         ],
         "addProperties": [
             {
-                "variableName": "stroop_session_id",
                 "isAbout": "items/stroop_session_id",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_session_id"
             },
             {
-                "variableName": "stroop_recording_acoustic_task_id",
                 "isAbout": "items/stroop_recording_acoustic_task_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "stroop_recording_acoustic_task_id"
             },
             {
-                "variableName": "stroop_started_at",
                 "isAbout": "items/stroop_started_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_started_at"
             },
             {
-                "variableName": "stroop_completed_at",
                 "isAbout": "items/stroop_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_completed_at"
             },
             {
-                "variableName": "stroop_duration",
                 "isAbout": "items/stroop_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_duration"
             },
             {
-                "variableName": "stroop_item_stimulus_1",
                 "isAbout": "items/stroop_item_stimulus_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_1"
             },
             {
-                "variableName": "stroop_item_color_1",
                 "isAbout": "items/stroop_item_color_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_1"
             },
             {
-                "variableName": "stroop_item_time_1",
                 "isAbout": "items/stroop_item_time_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_1"
             },
             {
-                "variableName": "stroop_item_correct_1",
                 "isAbout": "items/stroop_item_correct_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_1"
             },
             {
-                "variableName": "stroop_item_stimulus_2",
                 "isAbout": "items/stroop_item_stimulus_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_2"
             },
             {
-                "variableName": "stroop_item_color_2",
                 "isAbout": "items/stroop_item_color_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_2"
             },
             {
-                "variableName": "stroop_item_time_2",
                 "isAbout": "items/stroop_item_time_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_2"
             },
             {
-                "variableName": "stroop_item_correct_2",
                 "isAbout": "items/stroop_item_correct_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_2"
             },
             {
-                "variableName": "stroop_item_stimulus_3",
                 "isAbout": "items/stroop_item_stimulus_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_3"
             },
             {
-                "variableName": "stroop_item_color_3",
                 "isAbout": "items/stroop_item_color_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_3"
             },
             {
-                "variableName": "stroop_item_time_3",
                 "isAbout": "items/stroop_item_time_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_3"
             },
             {
-                "variableName": "stroop_item_correct_3",
                 "isAbout": "items/stroop_item_correct_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_3"
             },
             {
-                "variableName": "stroop_item_stimulus_4",
                 "isAbout": "items/stroop_item_stimulus_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_4"
             },
             {
-                "variableName": "stroop_item_color_4",
                 "isAbout": "items/stroop_item_color_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_4"
             },
             {
-                "variableName": "stroop_item_time_4",
                 "isAbout": "items/stroop_item_time_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_4"
             },
             {
-                "variableName": "stroop_item_correct_4",
                 "isAbout": "items/stroop_item_correct_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_4"
             },
             {
-                "variableName": "stroop_item_stimulus_5",
                 "isAbout": "items/stroop_item_stimulus_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_5"
             },
             {
-                "variableName": "stroop_item_color_5",
                 "isAbout": "items/stroop_item_color_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_5"
             },
             {
-                "variableName": "stroop_item_time_5",
                 "isAbout": "items/stroop_item_time_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_5"
             },
             {
-                "variableName": "stroop_item_correct_5",
                 "isAbout": "items/stroop_item_correct_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_5"
             },
             {
-                "variableName": "stroop_item_stimulus_6",
                 "isAbout": "items/stroop_item_stimulus_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_6"
             },
             {
-                "variableName": "stroop_item_color_6",
                 "isAbout": "items/stroop_item_color_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_6"
             },
             {
-                "variableName": "stroop_item_time_6",
                 "isAbout": "items/stroop_item_time_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_6"
             },
             {
-                "variableName": "stroop_item_correct_6",
                 "isAbout": "items/stroop_item_correct_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_6"
             },
             {
-                "variableName": "stroop_item_stimulus_7",
                 "isAbout": "items/stroop_item_stimulus_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_7"
             },
             {
-                "variableName": "stroop_item_color_7",
                 "isAbout": "items/stroop_item_color_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_7"
             },
             {
-                "variableName": "stroop_item_time_7",
                 "isAbout": "items/stroop_item_time_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_7"
             },
             {
-                "variableName": "stroop_item_correct_7",
                 "isAbout": "items/stroop_item_correct_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_7"
             },
             {
-                "variableName": "stroop_item_stimulus_8",
                 "isAbout": "items/stroop_item_stimulus_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_8"
             },
             {
-                "variableName": "stroop_item_color_8",
                 "isAbout": "items/stroop_item_color_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_8"
             },
             {
-                "variableName": "stroop_item_time_8",
                 "isAbout": "items/stroop_item_time_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_8"
             },
             {
-                "variableName": "stroop_item_correct_8",
                 "isAbout": "items/stroop_item_correct_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_8"
             },
             {
-                "variableName": "stroop_item_stimulus_9",
                 "isAbout": "items/stroop_item_stimulus_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_9"
             },
             {
-                "variableName": "stroop_item_color_9",
                 "isAbout": "items/stroop_item_color_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_9"
             },
             {
-                "variableName": "stroop_item_time_9",
                 "isAbout": "items/stroop_item_time_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_9"
             },
             {
-                "variableName": "stroop_item_correct_9",
                 "isAbout": "items/stroop_item_correct_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_9"
             },
             {
-                "variableName": "stroop_item_stimulus_10",
                 "isAbout": "items/stroop_item_stimulus_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_10"
             },
             {
-                "variableName": "stroop_item_color_10",
                 "isAbout": "items/stroop_item_color_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_10"
             },
             {
-                "variableName": "stroop_item_time_10",
                 "isAbout": "items/stroop_item_time_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_10"
             },
             {
-                "variableName": "stroop_item_correct_10",
                 "isAbout": "items/stroop_item_correct_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_10"
             },
             {
-                "variableName": "stroop_item_stimulus_11",
                 "isAbout": "items/stroop_item_stimulus_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_11"
             },
             {
-                "variableName": "stroop_item_color_11",
                 "isAbout": "items/stroop_item_color_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_11"
             },
             {
-                "variableName": "stroop_item_time_11",
                 "isAbout": "items/stroop_item_time_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_11"
             },
             {
-                "variableName": "stroop_item_correct_11",
                 "isAbout": "items/stroop_item_correct_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_11"
             },
             {
-                "variableName": "stroop_item_stimulus_12",
                 "isAbout": "items/stroop_item_stimulus_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_12"
             },
             {
-                "variableName": "stroop_item_color_12",
                 "isAbout": "items/stroop_item_color_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_12"
             },
             {
-                "variableName": "stroop_item_time_12",
                 "isAbout": "items/stroop_item_time_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_12"
             },
             {
-                "variableName": "stroop_item_correct_12",
                 "isAbout": "items/stroop_item_correct_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_12"
             },
             {
-                "variableName": "stroop_item_stimulus_13",
                 "isAbout": "items/stroop_item_stimulus_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_13"
             },
             {
-                "variableName": "stroop_item_color_13",
                 "isAbout": "items/stroop_item_color_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_13"
             },
             {
-                "variableName": "stroop_item_time_13",
                 "isAbout": "items/stroop_item_time_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_13"
             },
             {
-                "variableName": "stroop_item_correct_13",
                 "isAbout": "items/stroop_item_correct_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_13"
             },
             {
-                "variableName": "stroop_item_stimulus_14",
                 "isAbout": "items/stroop_item_stimulus_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_14"
             },
             {
-                "variableName": "stroop_item_color_14",
                 "isAbout": "items/stroop_item_color_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_14"
             },
             {
-                "variableName": "stroop_item_time_14",
                 "isAbout": "items/stroop_item_time_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_14"
             },
             {
-                "variableName": "stroop_item_correct_14",
                 "isAbout": "items/stroop_item_correct_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_14"
             },
             {
-                "variableName": "stroop_item_stimulus_15",
                 "isAbout": "items/stroop_item_stimulus_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_stimulus_15"
             },
             {
-                "variableName": "stroop_item_color_15",
                 "isAbout": "items/stroop_item_color_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_color_15"
             },
             {
-                "variableName": "stroop_item_time_15",
                 "isAbout": "items/stroop_item_time_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_time_15"
             },
             {
-                "variableName": "stroop_item_correct_15",
                 "isAbout": "items/stroop_item_correct_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "stroop_item_correct_15"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

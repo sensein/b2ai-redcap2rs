@@ -1,29 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "seasonal_allergies",
-    "prefLabel": "seasonal_allergies",
-    "description": "seasonal_allergies of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:boolean",
-        "choices": [
-            {
-                "name": "Yes",
-                "value": 1
-            },
-            {
-                "name": "No",
-                "value": 0
-            }
-        ]
-    },
+    "id": "seasonal_allergies",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "ALLERGIES OR COLD SYMPTOMS"
     },
+    "prefLabel": {
+        "en": "seasonal_allergies"
+    },
     "question": {
         "en": "Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

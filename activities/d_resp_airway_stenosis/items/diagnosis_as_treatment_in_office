@@ -1,17 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_as_treatment_in_office",
-    "prefLabel": "diagnosis_as_treatment_in_office",
-    "description": "diagnosis_as_treatment_in_office of d_resp_airway_stenosis",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "diagnosis_as_treatment_in_office",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_as_treatment_in_office"
     },
     "question": {
         "en": "In-office/awake treatment options"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Awake Steroid injection(s) as sole treatment "
+                },
+                "value": "steroid_injections_sole"
+            },
+            {
+                "name": {
+                    "en": "Awake Steroid injection(s) as adjunct treatment "
+                },
+                "value": " steroid_injections_adjunct"
+            },
+            {
+                "name": {
+                    "en": "In-office or awake dilation "
+                },
+                "value": " dilation"
+            },
+            {
+                "name": {
+                    "en": "In-office or awake laser"
+                },
+                "value": " laser"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

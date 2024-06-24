@@ -1,17 +1,64 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi",
-    "prefLabel": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi",
-    "description": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi of d_neuro_alzheimers_disease_mild_cognitive_impairme",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi"
     },
     "question": {
         "en": "Non-pharmacological interventions:"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Day program "
+                },
+                "value": "day_program"
+            },
+            {
+                "name": {
+                    "en": "Cognitive stimulation therapy "
+                },
+                "value": " cognitive_simulation_therapy"
+            },
+            {
+                "name": {
+                    "en": "Reality orientation therapy "
+                },
+                "value": " reality_orientation_therapy"
+            },
+            {
+                "name": {
+                    "en": "Reminiscence therapy "
+                },
+                "value": " reminiscence_therapy"
+            },
+            {
+                "name": {
+                    "en": "Physical exercise program "
+                },
+                "value": " physical_exercise_program"
+            },
+            {
+                "name": {
+                    "en": "Dietary modifications "
+                },
+                "value": " dietary_modifications"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " other"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

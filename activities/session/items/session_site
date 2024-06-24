@@ -1,44 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "session_site",
-    "prefLabel": "session_site",
-    "description": {
-        "en": "@READONLY"
+    "id": "session_site",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "session_site"
+    },
+    "question": {
+        "en": "Session Site?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BCH "
+                },
+                "value": "bch"
+            },
+            {
+                "name": {
+                    "en": "MIT "
+                },
+                "value": " mit"
+            },
+            {
+                "name": {
+                    "en": "Mt. Sinai "
+                },
+                "value": " mt_sinai"
+            },
+            {
+                "name": {
+                    "en": "USF "
+                },
+                "value": " usf"
+            },
+            {
+                "name": {
+                    "en": "VUMC "
+                },
+                "value": " vumc"
+            },
+            {
+                "name": {
+                    "en": "WCM"
+                },
+                "value": " wcm"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "BCH ",
-                "value": "bch"
-            },
-            {
-                "name": "MIT ",
-                "value": " mit"
-            },
-            {
-                "name": "Mt. Sinai ",
-                "value": " mt_sinai"
-            },
-            {
-                "name": "USF ",
-                "value": " usf"
-            },
-            {
-                "name": "VUMC ",
-                "value": " vumc"
-            },
-            {
-                "name": "WCM",
-                "value": " wcm"
-            }
-        ]
-    },
-    "question": {
-        "en": "Session Site?"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

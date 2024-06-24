@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_mood_panas_schema",
-    "prefLabel": "q_mood_panas",
-    "description": "Default description",
+    "id": "q_mood_panas_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_mood_panas"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/panas_session_id",
@@ -25,76 +24,91 @@
         ],
         "addProperties": [
             {
-                "variableName": "panas_session_id",
                 "isAbout": "items/panas_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "panas_session_id"
             },
             {
-                "variableName": "panas_started_at",
                 "isAbout": "items/panas_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "panas_started_at"
             },
             {
-                "variableName": "panas_completed_at",
                 "isAbout": "items/panas_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "panas_completed_at"
             },
             {
-                "variableName": "panas_duration",
                 "isAbout": "items/panas_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "panas_duration"
             },
             {
-                "variableName": "upset",
                 "isAbout": "items/upset",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "upset"
             },
             {
-                "variableName": "hostile",
                 "isAbout": "items/hostile",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hostile"
             },
             {
-                "variableName": "alert",
                 "isAbout": "items/alert",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "alert"
             },
             {
-                "variableName": "ashamed",
                 "isAbout": "items/ashamed",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ashamed"
             },
             {
-                "variableName": "inspired",
                 "isAbout": "items/inspired",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "inspired"
             },
             {
-                "variableName": "nervous",
                 "isAbout": "items/nervous",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nervous"
             },
             {
-                "variableName": "determined",
                 "isAbout": "items/determined",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "determined"
             },
             {
-                "variableName": "attentive",
                 "isAbout": "items/attentive",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "attentive"
             },
             {
-                "variableName": "afraid",
                 "isAbout": "items/afraid",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "afraid"
             },
             {
-                "variableName": "active",
                 "isAbout": "items/active",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "active"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

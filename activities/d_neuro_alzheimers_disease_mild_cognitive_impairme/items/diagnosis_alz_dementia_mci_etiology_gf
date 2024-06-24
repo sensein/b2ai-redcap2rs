@@ -1,17 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_alz_dementia_mci_etiology_gf",
-    "prefLabel": "diagnosis_alz_dementia_mci_etiology_gf",
-    "description": "diagnosis_alz_dementia_mci_etiology_gf of d_neuro_alzheimers_disease_mild_cognitive_impairme",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "diagnosis_alz_dementia_mci_etiology_gf",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_alz_dementia_mci_etiology_gf"
     },
     "question": {
         "en": "Genetic Factors Subcategory"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Familial Alzheimer's disease (e.g. mutations in APP PSEN1 PSEN2 genes) "
+                },
+                "value": "familial_alzheimers_disease"
+            },
+            {
+                "name": {
+                    "en": "Apolipoprotein E (APOE) \u03b54 allele "
+                },
+                "value": " apolipoprotein_e"
+            },
+            {
+                "name": {
+                    "en": "Other genetic factors"
+                },
+                "value": " other_genetic_factors"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

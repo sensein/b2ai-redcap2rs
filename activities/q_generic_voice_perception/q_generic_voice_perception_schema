@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_generic_voice_perception_schema",
-    "prefLabel": "q_generic_voice_perception",
-    "description": "Default description",
+    "id": "q_generic_voice_perception_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_voice_perception"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/voice_perception_session_id",
@@ -16,31 +15,36 @@
         ],
         "addProperties": [
             {
-                "variableName": "voice_perception_session_id",
                 "isAbout": "items/voice_perception_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_perception_session_id"
             },
             {
-                "variableName": "voice_perception_started_at",
                 "isAbout": "items/voice_perception_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_perception_started_at"
             },
             {
-                "variableName": "voice_perception_completed_at",
                 "isAbout": "items/voice_perception_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "voice_perception_completed_at"
             },
             {
-                "variableName": "voice_perception_duration",
                 "isAbout": "items/voice_perception_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "voice_perception_duration"
             },
             {
-                "variableName": "voice_quality_perception",
                 "isAbout": "items/voice_quality_perception",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_quality_perception"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

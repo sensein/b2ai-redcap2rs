@@ -1,22 +1,23 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
-    "prefLabel": "bridge2ai_econsent_combined_pdf_main_icf_usf",
-    "description": "Default description",
+    "id": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_combined_pdf_main_icf_usf"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/combined_pdf_main_icf_usf"
         ],
         "addProperties": [
             {
-                "variableName": "combined_pdf_main_icf_usf",
                 "isAbout": "items/combined_pdf_main_icf_usf",
-                "isVis": true
+                "isVis": true,
+                "variableName": "combined_pdf_main_icf_usf"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

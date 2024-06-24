@@ -1,42 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ef_enrollment_institution",
-    "prefLabel": "ef_enrollment_institution",
-    "description": "ef_enrollment_institution of enrollment_form",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "BCH ",
-                "value": "bch"
-            },
-            {
-                "name": "MIT ",
-                "value": " mit"
-            },
-            {
-                "name": "Mt. Sinai ",
-                "value": " mt_sinai"
-            },
-            {
-                "name": "USF ",
-                "value": " usf"
-            },
-            {
-                "name": "VUMC ",
-                "value": " vumc"
-            },
-            {
-                "name": "WCM",
-                "value": " wcm"
-            }
-        ]
+    "id": "ef_enrollment_institution",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ef_enrollment_institution"
     },
     "question": {
         "en": "Enrollment Institution"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BCH "
+                },
+                "value": "bch"
+            },
+            {
+                "name": {
+                    "en": "MIT "
+                },
+                "value": " mit"
+            },
+            {
+                "name": {
+                    "en": "Mt. Sinai "
+                },
+                "value": " mt_sinai"
+            },
+            {
+                "name": {
+                    "en": "USF "
+                },
+                "value": " usf"
+            },
+            {
+                "name": {
+                    "en": "VUMC "
+                },
+                "value": " vumc"
+            },
+            {
+                "name": {
+                    "en": "WCM"
+                },
+                "value": " wcm"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

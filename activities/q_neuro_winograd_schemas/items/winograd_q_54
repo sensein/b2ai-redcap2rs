@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_54",
-    "prefLabel": "winograd_q_54",
-    "description": "winograd_q_54 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Joe's uncle ",
-                "value": "incorrect"
-            },
-            {
-                "name": "Joe",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_54",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_54"
     },
     "question": {
         "en": "54. Joe's uncle can still beat him at tennis, even though he is 30 years younger. Who is younger?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Joe's uncle "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Joe"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,21 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_score",
-    "prefLabel": "winograd_score",
-    "description": {
-        "en": "@READONLY"
+    "id": "winograd_score",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Winograd Schema Scoring"
+    },
+    "prefLabel": {
+        "en": "winograd_score"
+    },
+    "question": {
+        "en": "Winograd Schema Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "preamble": {
-        "en": "Winograd Schema Scoring"
-    },
-    "question": {
-        "en": "Winograd Schema Score"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

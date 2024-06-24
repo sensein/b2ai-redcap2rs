@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_mood_ptsd_adult_schema",
-    "prefLabel": "q_mood_ptsd_adult",
-    "description": "Default description",
+    "id": "q_mood_ptsd_adult_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_mood_ptsd_adult"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/ptsd_session_id",
@@ -26,81 +25,95 @@
         ],
         "addProperties": [
             {
-                "variableName": "ptsd_session_id",
                 "isAbout": "items/ptsd_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptsd_session_id"
             },
             {
-                "variableName": "ptsd_started_at",
                 "isAbout": "items/ptsd_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptsd_started_at"
             },
             {
-                "variableName": "ptsd_completed_at",
                 "isAbout": "items/ptsd_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ptsd_completed_at"
             },
             {
-                "variableName": "ptsd_duration",
                 "isAbout": "items/ptsd_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ptsd_duration"
             },
             {
-                "variableName": "traumatic_event",
                 "isAbout": "items/traumatic_event",
-                "isVis": true
+                "isVis": true,
+                "variableName": "traumatic_event"
             },
             {
-                "variableName": "traumatic_event_date",
                 "isAbout": "items/traumatic_event_date",
-                "isVis": true
+                "isVis": true,
+                "variableName": "traumatic_event_date"
             },
             {
-                "variableName": "flashbacks",
                 "isAbout": "items/flashbacks",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "flashbacks"
             },
             {
-                "variableName": "emotionally_upset",
                 "isAbout": "items/emotionally_upset",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "emotionally_upset"
             },
             {
-                "variableName": "avoiding_reminders",
                 "isAbout": "items/avoiding_reminders",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "avoiding_reminders"
             },
             {
-                "variableName": "thinking_stressful_event",
                 "isAbout": "items/thinking_stressful_event",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "thinking_stressful_event"
             },
             {
-                "variableName": "neg_emotional_state",
                 "isAbout": "items/neg_emotional_state",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neg_emotional_state"
             },
             {
-                "variableName": "losing_interest",
                 "isAbout": "items/losing_interest",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "losing_interest"
             },
             {
-                "variableName": "super_alert",
                 "isAbout": "items/super_alert",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "super_alert"
             },
             {
-                "variableName": "feeling_jumpy",
                 "isAbout": "items/feeling_jumpy",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_jumpy"
             },
             {
-                "variableName": "irritable",
                 "isAbout": "items/irritable",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irritable"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

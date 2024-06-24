@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_234",
-    "prefLabel": "winograd_q_234",
-    "description": "winograd_q_234 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Ralph's ",
-                "value": "incorrect"
-            },
-            {
-                "name": "Tom's",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_234",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_234"
     },
     "question": {
         "en": "234. Tom said 'Check' to Ralph as he moved his bishop. Whose bishop did Tom moved?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Ralph's "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Tom's"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

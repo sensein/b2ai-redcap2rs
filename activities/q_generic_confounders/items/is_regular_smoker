@@ -1,29 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "is_regular_smoker",
-    "prefLabel": "is_regular_smoker",
-    "description": "is_regular_smoker of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:boolean",
-        "choices": [
-            {
-                "name": "Yes",
-                "value": 1
-            },
-            {
-                "name": "No",
-                "value": 0
-            }
-        ]
-    },
+    "id": "is_regular_smoker",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "SMOKING"
     },
+    "prefLabel": {
+        "en": "is_regular_smoker"
+    },
     "question": {
         "en": "Have you been a regular smoker or not within the last 3 years?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

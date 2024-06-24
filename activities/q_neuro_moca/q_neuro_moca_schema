@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_neuro_moca_schema",
-    "prefLabel": "q_neuro_moca",
-    "description": "Default description",
+    "id": "q_neuro_moca_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "MoCA Test Questionnaire"
+    },
+    "prefLabel": {
+        "en": "q_neuro_moca"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/moca_notes",
@@ -14,21 +16,25 @@
         ],
         "addProperties": [
             {
-                "variableName": "moca_notes",
                 "isAbout": "items/moca_notes",
-                "isVis": true
+                "isVis": true,
+                "variableName": "moca_notes"
             },
             {
-                "variableName": "moca_duo_pdf",
                 "isAbout": "items/moca_duo_pdf",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "moca_duo_pdf"
             },
             {
-                "variableName": "moca_pdf_uploaded_by",
                 "isAbout": "items/moca_pdf_uploaded_by",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "moca_pdf_uploaded_by"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

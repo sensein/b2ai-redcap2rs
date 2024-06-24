@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_45",
-    "prefLabel": "winograd_q_45",
-    "description": "winograd_q_45 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The younger students ",
-                "value": "correct"
-            },
-            {
-                "name": "The older students",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_45",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_45"
     },
     "question": {
         "en": "45. The older students were bullying the younger ones, so we rescued them. Whom did we rescued?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The younger students "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The older students"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

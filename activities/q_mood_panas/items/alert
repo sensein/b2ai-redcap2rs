@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "panas_48",
-    "prefLabel": "panas_48",
-    "description": "panas_48 of q_mood_panas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "1 ",
-                "value": 1
-            },
-            {
-                "name": "2 ",
-                "value": 2
-            },
-            {
-                "name": "3 ",
-                "value": 3
-            },
-            {
-                "name": "4 ",
-                "value": 4
-            },
-            {
-                "name": "5",
-                "value": 5
-            }
-        ]
+    "id": "panas_3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "panas_3"
     },
     "question": {
         "en": "Alert"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

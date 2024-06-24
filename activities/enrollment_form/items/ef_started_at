@@ -1,21 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ef_started_at",
-    "prefLabel": "ef_started_at",
-    "description": {
-        "en": "@READONLY"
+    "id": "ef_started_at",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Enrollment Form - Metadata"
+    },
+    "prefLabel": {
+        "en": "ef_started_at"
+    },
+    "question": {
+        "en": "Enrollment Form Started At"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "preamble": {
-        "en": "Enrollment Form - Metadata"
-    },
-    "question": {
-        "en": "Enrollment Form Started At"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

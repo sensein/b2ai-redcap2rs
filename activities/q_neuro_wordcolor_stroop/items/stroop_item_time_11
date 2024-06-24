@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "stroop_item_time_11",
-    "prefLabel": "stroop_item_time_11",
-    "description": "stroop_item_time_11 of q_neuro_wordcolor_stroop",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "stroop_item_time_11",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "stroop_item_time_11"
     },
     "question": {
         "en": "Item 11\nTime Start"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

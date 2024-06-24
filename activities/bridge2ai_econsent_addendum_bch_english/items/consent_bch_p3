@@ -1,13 +1,16 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "consent_bch_p3",
-    "prefLabel": "consent_bch_p3",
-    "description": "consent_bch_p3 of bridge2ai_econsent_addendum_bch_english",
+    "id": "consent_bch_p3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "consent_bch_p3"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
     "ui": {
         "inputType": "static"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,61 +1,84 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "random_item_generation_category",
-    "prefLabel": "random_item_generation_category",
-    "description": "random_item_generation_category of q_neuro_random_item_generation",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Numbers ",
-                "value": "numbers"
-            },
-            {
-                "name": "Letters ",
-                "value": " letters"
-            },
-            {
-                "name": "First names ",
-                "value": " firstNames"
-            },
-            {
-                "name": "City names ",
-                "value": " cityNames"
-            },
-            {
-                "name": "Country names ",
-                "value": " countryNames"
-            },
-            {
-                "name": "Jobs ",
-                "value": " jobs"
-            },
-            {
-                "name": "Fruits ",
-                "value": " fruits"
-            },
-            {
-                "name": "Drinks ",
-                "value": " drinks"
-            },
-            {
-                "name": "Animals ",
-                "value": " animals"
-            },
-            {
-                "name": "English words starting with \"t\"",
-                "value": " wordStartingWithT"
-            }
-        ]
-    },
+    "id": "random_item_generation_category",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "Random item generation / semantic fluency"
     },
+    "prefLabel": {
+        "en": "random_item_generation_category"
+    },
     "question": {
         "en": "Random item generation category"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Numbers "
+                },
+                "value": "numbers"
+            },
+            {
+                "name": {
+                    "en": "Letters "
+                },
+                "value": " letters"
+            },
+            {
+                "name": {
+                    "en": "First names "
+                },
+                "value": " firstNames"
+            },
+            {
+                "name": {
+                    "en": "City names "
+                },
+                "value": " cityNames"
+            },
+            {
+                "name": {
+                    "en": "Country names "
+                },
+                "value": " countryNames"
+            },
+            {
+                "name": {
+                    "en": "Jobs "
+                },
+                "value": " jobs"
+            },
+            {
+                "name": {
+                    "en": "Fruits "
+                },
+                "value": " fruits"
+            },
+            {
+                "name": {
+                    "en": "Drinks "
+                },
+                "value": " drinks"
+            },
+            {
+                "name": {
+                    "en": "Animals "
+                },
+                "value": " animals"
+            },
+            {
+                "name": {
+                    "en": "English words starting with \"t\""
+                },
+                "value": " wordStartingWithT"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

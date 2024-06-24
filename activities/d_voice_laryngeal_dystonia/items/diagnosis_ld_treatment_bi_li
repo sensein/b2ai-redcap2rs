@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_ld_treatment_bi_li",
-    "prefLabel": "diagnosis_ld_treatment_bi_li",
-    "description": "diagnosis_ld_treatment_bi_li of d_voice_laryngeal_dystonia",
-    "ui": {
-        "inputType": "text"
+    "id": "diagnosis_ld_treatment_bi_li",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "weeks ago"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "prefLabel": {
+        "en": "diagnosis_ld_treatment_bi_li"
     },
     "question": {
         "en": "When was the last injection?"
     },
-    "additionalNotesObj": [
-        {
-            "source": "redcap",
-            "column": "Field Note",
-            "value": "weeks ago"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

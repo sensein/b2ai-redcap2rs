@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_generic_voice_handicap_index_vhi10_schema",
-    "prefLabel": "q_generic_voice_handicap_index_vhi10",
-    "description": "Default description",
+    "id": "q_generic_voice_handicap_index_vhi10_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_voice_handicap_index_vhi10"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/vhi_session_id",
@@ -25,76 +24,91 @@
         ],
         "addProperties": [
             {
-                "variableName": "vhi_session_id",
                 "isAbout": "items/vhi_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_session_id"
             },
             {
-                "variableName": "vhi_started_at",
                 "isAbout": "items/vhi_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_started_at"
             },
             {
-                "variableName": "vhi_completed_at",
                 "isAbout": "items/vhi_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_completed_at"
             },
             {
-                "variableName": "vhi_duration",
                 "isAbout": "items/vhi_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "vhi_duration"
             },
             {
-                "variableName": "voice_difficult_hear",
                 "isAbout": "items/voice_difficult_hear",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_difficult_hear"
             },
             {
-                "variableName": "tough_to_understand",
                 "isAbout": "items/tough_to_understand",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tough_to_understand"
             },
             {
-                "variableName": "voice_restrict_social",
                 "isAbout": "items/voice_restrict_social",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_restrict_social"
             },
             {
-                "variableName": "left_out_convo",
                 "isAbout": "items/left_out_convo",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "left_out_convo"
             },
             {
-                "variableName": "voice_lose_income",
                 "isAbout": "items/voice_lose_income",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_lose_income"
             },
             {
-                "variableName": "strain_voice",
                 "isAbout": "items/strain_voice",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strain_voice"
             },
             {
-                "variableName": "voice_clarity",
                 "isAbout": "items/voice_clarity",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_clarity"
             },
             {
-                "variableName": "voice_upsetting",
                 "isAbout": "items/voice_upsetting",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_upsetting"
             },
             {
-                "variableName": "voice_handicapped",
                 "isAbout": "items/voice_handicapped",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_handicapped"
             },
             {
-                "variableName": "ask_whats_wrong_voice",
                 "isAbout": "items/ask_whats_wrong_voice",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ask_whats_wrong_voice"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

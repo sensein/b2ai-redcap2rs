@@ -1,19 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "caffeine_intake",
-    "prefLabel": "caffeine_intake",
-    "description": "caffeine_intake of q_generic_confounders",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
+    "id": "caffeine_intake",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "CAFFEINE INTAKE"
     },
+    "prefLabel": {
+        "en": "caffeine_intake"
+    },
     "question": {
         "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

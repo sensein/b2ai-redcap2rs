@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "dsm_5_adult_603",
-    "prefLabel": "dsm_5_adult_603",
-    "description": "dsm_5_adult_603 of q_mood_dsm5_adult",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "0=None (Not at all) ",
-                "value": 0
-            },
-            {
-                "name": "1=Slight (Rare less than a day or two) ",
-                "value": 1
-            },
-            {
-                "name": "2=Mild (Several days) ",
-                "value": 2
-            },
-            {
-                "name": "3=Moderate (More than half the days) ",
-                "value": 3
-            },
-            {
-                "name": "4=Severe (Nearly every day)",
-                "value": 4
-            }
-        ]
+    "id": "dsm_5_adult_5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "dsm_5_adult_5"
     },
     "question": {
         "en": "Starting lots more projects than usual or doing more risky things than usual?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0=None (Not at all) "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1=Slight (Rare less than a day or two) "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2=Mild (Several days) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3=Moderate (More than half the days) "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4=Severe (Nearly every day)"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

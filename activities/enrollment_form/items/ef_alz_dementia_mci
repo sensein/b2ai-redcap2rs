@@ -1,29 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ef_neuro_neurodeg_dis_127",
-    "prefLabel": "ef_neuro_neurodeg_dis_127",
-    "description": "ef_neuro_neurodeg_dis_127 of enrollment_form",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Unchecked ",
-                "value": 0
-            },
-            {
-                "name": "Checked",
-                "value": 1
-            }
-        ]
-    },
+    "id": "ef_neuro_neurodeg_dis_1",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "Neurological and Neurodegenerative Disorders"
     },
+    "prefLabel": {
+        "en": "ef_neuro_neurodeg_dis_1"
+    },
     "question": {
         "en": "Alzheimer's, dementia, or mild cognitive impairment"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unchecked "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Checked"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

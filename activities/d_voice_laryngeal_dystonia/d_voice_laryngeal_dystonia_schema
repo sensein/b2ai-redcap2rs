@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "d_voice_laryngeal_dystonia_schema",
-    "prefLabel": "d_voice_laryngeal_dystonia",
-    "description": "Default description",
+    "id": "d_voice_laryngeal_dystonia_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "d_voice_laryngeal_dystonia"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/diagnosis_ld_qete",
@@ -41,156 +40,182 @@
         ],
         "addProperties": [
             {
-                "variableName": "diagnosis_ld_qete",
                 "isAbout": "items/diagnosis_ld_qete",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_qete"
             },
             {
-                "variableName": "diagnosis_ld_assessment",
                 "isAbout": "items/diagnosis_ld_assessment",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_assessment"
             },
             {
-                "variableName": "diagnosis_ld_ds",
                 "isAbout": "items/diagnosis_ld_ds",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_ds"
             },
             {
-                "variableName": "diagnosis_ld_etiology",
                 "isAbout": "items/diagnosis_ld_etiology",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_etiology"
             },
             {
-                "variableName": "diagnosis_ld_etiology_other",
                 "isAbout": "items/diagnosis_ld_etiology_other",
-                "isVis": "diagnosis_ld_etiology == 'other'"
+                "isVis": "diagnosis_ld_etiology == 'other'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_etiology_other"
             },
             {
-                "variableName": "diagnosis_ld_etiology_cc",
                 "isAbout": "items/diagnosis_ld_etiology_cc",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_ld_etiology_cc"
             },
             {
-                "variableName": "diagnosis_ld_etiology_cc_other",
                 "isAbout": "items/diagnosis_ld_etiology_cc_other",
-                "isVis": "diagnosis_ld_etiology_cc(other_type_of_dystonia) =='1'"
+                "isVis": "diagnosis_ld_etiology_cc(other_type_of_dystonia) =='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_etiology_cc_other"
             },
             {
-                "variableName": "diagnosis_ld_degree_text",
                 "isAbout": "items/diagnosis_ld_degree_text",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_ld_degree_text"
             },
             {
-                "variableName": "diagnosis_ld_degree_legend",
                 "isAbout": "items/diagnosis_ld_degree_legend",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_ld_degree_legend"
             },
             {
-                "variableName": "diagnosis_ld_degree_os_1",
                 "isAbout": "items/diagnosis_ld_degree_os_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_os_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_os_2",
                 "isAbout": "items/diagnosis_ld_degree_os_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_os_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_r_1",
                 "isAbout": "items/diagnosis_ld_degree_r_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_r_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_r_2",
                 "isAbout": "items/diagnosis_ld_degree_r_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_r_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_b_1",
                 "isAbout": "items/diagnosis_ld_degree_b_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_b_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_b_2",
                 "isAbout": "items/diagnosis_ld_degree_b_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_b_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_s_1",
                 "isAbout": "items/diagnosis_ld_degree_s_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_s_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_s_2",
                 "isAbout": "items/diagnosis_ld_degree_s_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_s_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_p_1",
                 "isAbout": "items/diagnosis_ld_degree_p_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_p_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_p_nature",
                 "isAbout": "items/diagnosis_ld_degree_p_nature",
-                "isVis": "diagnosis_ld_degree_p_1 > 0"
+                "isVis": "diagnosis_ld_degree_p_1 > 0",
+                "variableName": "diagnosis_ld_degree_p_nature"
             },
             {
-                "variableName": "diagnosis_ld_degree_p_2",
                 "isAbout": "items/diagnosis_ld_degree_p_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_p_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_l_1",
                 "isAbout": "items/diagnosis_ld_degree_l_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_l_1"
             },
             {
-                "variableName": "diagnosis_ld_degree_l_nature",
                 "isAbout": "items/diagnosis_ld_degree_l_nature",
-                "isVis": "diagnosis_ld_degree_l_1 > 0"
+                "isVis": "diagnosis_ld_degree_l_1 > 0",
+                "variableName": "diagnosis_ld_degree_l_nature"
             },
             {
-                "variableName": "diagnosis_ld_degree_l_2",
                 "isAbout": "items/diagnosis_ld_degree_l_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_l_2"
             },
             {
-                "variableName": "diagnosis_ld_degree_comments",
                 "isAbout": "items/diagnosis_ld_degree_comments",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_comments"
             },
             {
-                "variableName": "diagnosis_ld_degree_comments_other",
                 "isAbout": "items/diagnosis_ld_degree_comments_other",
-                "isVis": "diagnosis_ld_degree_comments == 'other'"
+                "isVis": "diagnosis_ld_degree_comments == 'other'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_degree_comments_other"
             },
             {
-                "variableName": "diagnosis_ld_degree_comments_other_2",
                 "isAbout": "items/diagnosis_ld_degree_comments_other_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_ld_degree_comments_other_2"
             },
             {
-                "variableName": "diagnosis_ld_treatment",
                 "isAbout": "items/diagnosis_ld_treatment",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_treatment"
             },
             {
-                "variableName": "diagnosis_ld_treatment_select",
                 "isAbout": "items/diagnosis_ld_treatment_select",
-                "isVis": "diagnosis_ld_treatment =='yes'"
+                "isVis": "diagnosis_ld_treatment =='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_treatment_select"
             },
             {
-                "variableName": "diagnosis_ld_treatment_bi_li",
                 "isAbout": "items/diagnosis_ld_treatment_bi_li",
-                "isVis": "diagnosis_ld_treatment_select(botox_injections) =='1'"
+                "isVis": "diagnosis_ld_treatment_select(botox_injections) =='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_treatment_bi_li"
             },
             {
-                "variableName": "diagnosis_ld_treatment_other",
                 "isAbout": "items/diagnosis_ld_treatment_other",
-                "isVis": "diagnosis_ld_treatment_select(other) =='1'"
+                "isVis": "diagnosis_ld_treatment_select(other) =='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_ld_treatment_other"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

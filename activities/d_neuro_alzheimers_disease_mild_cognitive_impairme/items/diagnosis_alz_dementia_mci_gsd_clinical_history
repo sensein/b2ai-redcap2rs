@@ -1,19 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_alz_dementia_mci_gsd_clinical_history",
-    "prefLabel": "diagnosis_alz_dementia_mci_gsd_clinical_history",
-    "description": "diagnosis_alz_dementia_mci_gsd_clinical_history of d_neuro_alzheimers_disease_mild_cognitive_impairme",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
+    "id": "diagnosis_alz_dementia_mci_gsd_clinical_history",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "1. Gold Standard Diagnosis\nDoes the patient have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia confirmed by going through\n(must fill at least one):"
     },
+    "prefLabel": {
+        "en": "diagnosis_alz_dementia_mci_gsd_clinical_history"
+    },
     "question": {
         "en": "Clinical history:"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_resp_dyspnea_index_di_schema",
-    "prefLabel": "q_resp_dyspnea_index_di",
-    "description": "Default description",
+    "id": "q_resp_dyspnea_index_di_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_resp_dyspnea_index_di"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/dyspnea_index_session_id",
@@ -25,76 +24,92 @@
         ],
         "addProperties": [
             {
-                "variableName": "dyspnea_index_session_id",
                 "isAbout": "items/dyspnea_index_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dyspnea_index_session_id"
             },
             {
-                "variableName": "dyspnea_index_started_at",
                 "isAbout": "items/dyspnea_index_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dyspnea_index_started_at"
             },
             {
-                "variableName": "dyspnea_index_completed_at",
                 "isAbout": "items/dyspnea_index_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dyspnea_index_completed_at"
             },
             {
-                "variableName": "dyspnea_index_duration",
                 "isAbout": "items/dyspnea_index_duration",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dyspnea_index_duration"
             },
             {
-                "variableName": "di_air_in",
                 "isAbout": "items/di_air_in",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_air_in"
             },
             {
-                "variableName": "di_tightness_throat",
                 "isAbout": "items/di_tightness_throat",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_tightness_throat"
             },
             {
-                "variableName": "di_effort_breathe",
                 "isAbout": "items/di_effort_breathe",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_effort_breathe"
             },
             {
-                "variableName": "di_weather_changes",
                 "isAbout": "items/di_weather_changes",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_weather_changes"
             },
             {
-                "variableName": "di_breathing_worse_stress",
                 "isAbout": "items/di_breathing_worse_stress",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_breathing_worse_stress"
             },
             {
-                "variableName": "di_sound_breathing_in",
                 "isAbout": "items/di_sound_breathing_in",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_sound_breathing_in"
             },
             {
-                "variableName": "di_strain",
                 "isAbout": "items/di_strain",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_strain"
             },
             {
-                "variableName": "di_exercise",
                 "isAbout": "items/di_exercise",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_exercise"
             },
             {
-                "variableName": "di_breathing_stresses_me",
                 "isAbout": "items/di_breathing_stresses_me",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_breathing_stresses_me"
             },
             {
-                "variableName": "di_restrict_personal_social_life",
                 "isAbout": "items/di_restrict_personal_social_life",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "di_restrict_personal_social_life"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

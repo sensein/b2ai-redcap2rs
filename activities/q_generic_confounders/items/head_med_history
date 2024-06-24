@@ -1,17 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "head_med_history",
-    "prefLabel": "head_med_history",
-    "description": "head_med_history of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "head_med_history",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "head_med_history"
     },
     "question": {
         "en": "Head"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Radiation around head and neck "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Seasonal allergies"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bl_ds_ll",
-    "prefLabel": "diagnosis_bl_ds_ll",
-    "description": "diagnosis_bl_ds_ll of d_voice_benign_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Right vocal fold ",
-                "value": "rightVocalFold"
-            },
-            {
-                "name": "Left vocal fold ",
-                "value": " leftVocalFold"
-            },
-            {
-                "name": "Both vocal folds",
-                "value": " bothVocalFolds"
-            }
-        ]
-    },
+    "id": "diagnosis_bl_ds_ll",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "4. Disease Severity"
     },
+    "prefLabel": {
+        "en": "diagnosis_bl_ds_ll"
+    },
     "question": {
         "en": "Location of lesion(s)"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Right vocal fold "
+                },
+                "value": "rightVocalFold"
+            },
+            {
+                "name": {
+                    "en": "Left vocal fold "
+                },
+                "value": " leftVocalFold"
+            },
+            {
+                "name": {
+                    "en": "Both vocal folds"
+                },
+                "value": " bothVocalFolds"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "exposed_environmental_pollution",
-    "prefLabel": "exposed_environmental_pollution",
-    "description": "exposed_environmental_pollution of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No",
-                "value": " no"
-            }
-        ]
+    "id": "exposed_environmental_pollution",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "exposed_environmental_pollution"
     },
     "question": {
         "en": "Have you been exposed to environmental pollution that may affect your breathing or voice?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": " no"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

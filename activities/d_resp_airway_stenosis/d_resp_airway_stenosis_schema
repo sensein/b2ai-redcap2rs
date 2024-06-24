@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "d_resp_airway_stenosis_schema",
-    "prefLabel": "d_resp_airway_stenosis",
-    "description": "Default description",
+    "id": "d_resp_airway_stenosis_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "d_resp_airway_stenosis"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/diagnosis_as_pft",
@@ -37,136 +36,154 @@
         ],
         "addProperties": [
             {
-                "variableName": "diagnosis_as_pft",
                 "isAbout": "items/diagnosis_as_pft",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_pft"
             },
             {
-                "variableName": "diagnosis_as_pft_document",
                 "isAbout": "items/diagnosis_as_pft_document",
-                "isVis": "diagnosis_as_pft == 'yes'"
+                "isVis": "diagnosis_as_pft == 'yes'",
+                "variableName": "diagnosis_as_pft_document"
             },
             {
-                "variableName": "diagnosis_as_gsd",
                 "isAbout": "items/diagnosis_as_gsd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_gsd"
             },
             {
-                "variableName": "diagnosis_as_gsd_yes",
                 "isAbout": "items/diagnosis_as_gsd_yes",
-                "isVis": "diagnosis_as_gsd == 'yes'"
+                "isVis": "diagnosis_as_gsd == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_gsd_yes"
             },
             {
-                "variableName": "diagnosis_as_ds",
                 "isAbout": "items/diagnosis_as_ds",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds"
             },
             {
-                "variableName": "diagnosis_as_ds_bvfi_gs",
                 "isAbout": "items/diagnosis_as_ds_bvfi_gs",
-                "isVis": "diagnosis_as_ds == 'bilateralVocalFoldImmobilityGlotticStenosis'"
+                "isVis": "diagnosis_as_ds == 'bilateralVocalFoldImmobilityGlotticStenosis'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_bvfi_gs"
             },
             {
-                "variableName": "diagnosis_as_ds_bvfi_gs_other",
                 "isAbout": "items/diagnosis_as_ds_bvfi_gs_other",
-                "isVis": "diagnosis_as_ds_bvfi_gs == 'other'"
+                "isVis": "diagnosis_as_ds_bvfi_gs == 'other'",
+                "variableName": "diagnosis_as_ds_bvfi_gs_other"
             },
             {
-                "variableName": "diagnosis_as_etiology",
                 "isAbout": "items/diagnosis_as_etiology",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_etiology"
             },
             {
-                "variableName": "diagnosis_as_etiology_other",
                 "isAbout": "items/diagnosis_as_etiology_other",
-                "isVis": "diagnosis_as_etiology == 'other'"
+                "isVis": "diagnosis_as_etiology == 'other'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_etiology_other"
             },
             {
-                "variableName": "diagnosis_as_etiology_auto_immune",
                 "isAbout": "items/diagnosis_as_etiology_auto_immune",
-                "isVis": "diagnosis_as_etiology == 'autoImmune'"
+                "isVis": "diagnosis_as_etiology == 'autoImmune'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_etiology_auto_immune"
             },
             {
-                "variableName": "diagnosis_as_ds_mcg",
                 "isAbout": "items/diagnosis_as_ds_mcg",
-                "isVis": "diagnosis_as_ds == 'subglotticStenosis' || diagnosis_as_ds == 'trachealStenosis'"
+                "isVis": "diagnosis_as_ds == 'subglotticStenosis' || diagnosis_as_ds == 'trachealStenosis'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_mcg"
             },
             {
-                "variableName": "diagnosis_as_ds_mcg_ref",
                 "isAbout": "items/diagnosis_as_ds_mcg_ref",
-                "isVis": "diagnosis_as_ds == 'subglotticStenosis' || diagnosis_as_ds == 'trachealStenosis'"
+                "isVis": "diagnosis_as_ds == 'subglotticStenosis' || diagnosis_as_ds == 'trachealStenosis'",
+                "variableName": "diagnosis_as_ds_mcg_ref"
             },
             {
-                "variableName": "diagnosis_as_ds_bc",
                 "isAbout": "items/diagnosis_as_ds_bc",
-                "isVis": "diagnosis_as_ds_bvfi_gs == 'posteriorGlotticStenosis'"
+                "isVis": "diagnosis_as_ds_bvfi_gs == 'posteriorGlotticStenosis'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_bc"
             },
             {
-                "variableName": "diagnosis_as_ds_bc_ref",
                 "isAbout": "items/diagnosis_as_ds_bc_ref",
-                "isVis": "diagnosis_as_ds_bvfi_gs == 'posteriorGlotticStenosis'"
+                "isVis": "diagnosis_as_ds_bvfi_gs == 'posteriorGlotticStenosis'",
+                "variableName": "diagnosis_as_ds_bc_ref"
             },
             {
-                "variableName": "diagnosis_as_ds_agw",
                 "isAbout": "items/diagnosis_as_ds_agw",
-                "isVis": "diagnosis_as_ds_bvfi_gs =='anteriorGlotticWeb'"
+                "isVis": "diagnosis_as_ds_bvfi_gs =='anteriorGlotticWeb'",
+                "variableName": "diagnosis_as_ds_agw"
             },
             {
-                "variableName": "diagnosis_as_ds_cc_ref",
                 "isAbout": "items/diagnosis_as_ds_cc_ref",
-                "isVis": "diagnosis_as_ds_bvfi_gs =='anteriorGlotticWeb'"
+                "isVis": "diagnosis_as_ds_bvfi_gs =='anteriorGlotticWeb'",
+                "variableName": "diagnosis_as_ds_cc_ref"
             },
             {
-                "variableName": "diagnosis_as_ds_ac",
                 "isAbout": "items/diagnosis_as_ds_ac",
-                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'"
+                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_ac"
             },
             {
-                "variableName": "diagnosis_as_ds_ac_grade_4",
                 "isAbout": "items/diagnosis_as_ds_ac_grade_4",
-                "isVis": "diagnosis_as_ds_ac == 'grade4'"
+                "isVis": "diagnosis_as_ds_ac == 'grade4'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_ac_grade_4"
             },
             {
-                "variableName": "diagnosis_as_ds_ac_ref",
                 "isAbout": "items/diagnosis_as_ds_ac_ref",
-                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'"
+                "isVis": "diagnosis_as_ds == 'supraglotticStenosis'",
+                "variableName": "diagnosis_as_ds_ac_ref"
             },
             {
-                "variableName": "diagnosis_as_ds_mluas",
                 "isAbout": "items/diagnosis_as_ds_mluas",
-                "isVis": "diagnosis_as_ds =='multilevelUpperAirwayStenosis'"
+                "isVis": "diagnosis_as_ds =='multilevelUpperAirwayStenosis'",
+                "variableName": "diagnosis_as_ds_mluas"
             },
             {
-                "variableName": "diagnosis_as_ds_ods",
                 "isAbout": "items/diagnosis_as_ds_ods",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_ds_ods"
             },
             {
-                "variableName": "diagnosis_as_ds_eps",
                 "isAbout": "items/diagnosis_as_ds_eps",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_as_ds_eps"
             },
             {
-                "variableName": "diagnosis_as_treatment",
                 "isAbout": "items/diagnosis_as_treatment",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_treatment"
             },
             {
-                "variableName": "diagnosis_as_treatment_surgery",
                 "isAbout": "items/diagnosis_as_treatment_surgery",
-                "isVis": "diagnosis_as_treatment(surgery) == '1'"
+                "isVis": "diagnosis_as_treatment(surgery) == '1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_treatment_surgery"
             },
             {
-                "variableName": "diagnosis_as_treatment_surgery_other",
                 "isAbout": "items/diagnosis_as_treatment_surgery_other",
-                "isVis": "diagnosis_as_treatment_surgery(other) =='1'"
+                "isVis": "diagnosis_as_treatment_surgery(other) =='1'",
+                "variableName": "diagnosis_as_treatment_surgery_other"
             },
             {
-                "variableName": "diagnosis_as_treatment_in_office",
                 "isAbout": "items/diagnosis_as_treatment_in_office",
-                "isVis": "diagnosis_as_treatment(in_office_treatment) == '1'"
+                "isVis": "diagnosis_as_treatment(in_office_treatment) == '1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_treatment_in_office"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

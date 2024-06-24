@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_paper_consent_all_sites_english_schema",
-    "prefLabel": "bridge2ai_paper_consent_all_sites_english",
-    "description": "Default description",
+    "id": "bridge2ai_paper_consent_all_sites_english_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Paper Consent Form for all Sites"
+    },
+    "prefLabel": {
+        "en": "bridge2ai_paper_consent_all_sites_english"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/paper_consent_notes",
@@ -15,26 +17,31 @@
         ],
         "addProperties": [
             {
-                "variableName": "paper_consent_notes",
                 "isAbout": "items/paper_consent_notes",
-                "isVis": true
+                "isVis": true,
+                "variableName": "paper_consent_notes"
             },
             {
-                "variableName": "paper_consent_pdf_all_sites",
                 "isAbout": "items/paper_consent_pdf_all_sites",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "paper_consent_pdf_all_sites"
             },
             {
-                "variableName": "paper_consent_enrollment_institution",
                 "isAbout": "items/paper_consent_enrollment_institution",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "paper_consent_enrollment_institution"
             },
             {
-                "variableName": "paper_consent_uploaded_by",
                 "isAbout": "items/paper_consent_uploaded_by",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "paper_consent_uploaded_by"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,29 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_alz_dementia_mci_treatment_obtained",
-    "prefLabel": "diagnosis_alz_dementia_mci_treatment_obtained",
-    "description": "diagnosis_alz_dementia_mci_treatment_obtained of d_neuro_alzheimers_disease_mild_cognitive_impairme",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No",
-                "value": " no"
-            }
-        ]
-    },
+    "id": "diagnosis_alz_dementia_mci_treatment_obtained",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "6. Treatment Obtained"
     },
+    "prefLabel": {
+        "en": "diagnosis_alz_dementia_mci_treatment_obtained"
+    },
     "question": {
         "en": "Has the patient undergone any treatment for Alzheimer's disease or cognitive impairment or other types of dementia?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": " no"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,17 +1,46 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "hormone_use",
-    "prefLabel": "hormone_use",
-    "description": "hormone_use of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "hormone_use",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hormone_use"
     },
     "question": {
         "en": "Hormone use"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Oral contraceptive "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Hormonal replacement therapy (HRT) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Androgenic steroids "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_142",
-    "prefLabel": "winograd_q_142",
-    "description": "winograd_q_142 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The lake ",
-                "value": "incorrect"
-            },
-            {
-                "name": "The path",
-                "value": " correct"
-            }
-        ]
+    "id": "winograd_q_142",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_142"
     },
     "question": {
         "en": "142. The path to the lake was blocked, so we couldn't use it. What couldn't we use?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The lake "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "The path"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

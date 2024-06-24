@@ -1,37 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bipolar_gsd",
-    "prefLabel": "diagnosis_bipolar_gsd",
-    "description": "diagnosis_bipolar_gsd of d_mood_bipolar_disorder",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Bipolar I disorder ",
-                "value": "bipolar_1"
-            },
-            {
-                "name": "Bipolar II disorder ",
-                "value": " bipolar_2"
-            },
-            {
-                "name": "Cyclothymic disorder (cyclothymia) ",
-                "value": " cyclothymia"
-            },
-            {
-                "name": "Other specified and unspecified bipolar and related disorders",
-                "value": " other"
-            }
-        ]
-    },
+    "id": "diagnosis_bipolar_gsd",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
+    "prefLabel": {
+        "en": "diagnosis_bipolar_gsd"
+    },
     "question": {
         "en": "Diagnosis"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bipolar I disorder "
+                },
+                "value": "bipolar_1"
+            },
+            {
+                "name": {
+                    "en": "Bipolar II disorder "
+                },
+                "value": " bipolar_2"
+            },
+            {
+                "name": {
+                    "en": "Cyclothymic disorder (cyclothymia) "
+                },
+                "value": " cyclothymia"
+            },
+            {
+                "name": {
+                    "en": "Other specified and unspecified bipolar and related disorders"
+                },
+                "value": " other"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

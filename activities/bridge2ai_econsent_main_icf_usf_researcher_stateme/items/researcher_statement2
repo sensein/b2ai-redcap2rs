@@ -1,13 +1,16 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "researcher_statement2",
-    "prefLabel": "researcher_statement2",
-    "description": "researcher_statement2 of bridge2ai_econsent_main_icf_usf_researcher_stateme",
+    "id": "researcher_statement2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "researcher_statement2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
     "ui": {
         "inputType": "static"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

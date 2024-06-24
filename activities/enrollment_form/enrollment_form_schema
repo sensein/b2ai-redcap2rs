@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "enrollment_form_schema",
-    "prefLabel": "enrollment_form",
-    "description": "Default description",
+    "id": "enrollment_form_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "enrollment_form"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/ef_select_language",
@@ -75,326 +74,374 @@
         ],
         "addProperties": [
             {
-                "variableName": "ef_select_language",
                 "isAbout": "items/ef_select_language",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_select_language"
             },
             {
-                "variableName": "ef_any_vision_related_req",
                 "isAbout": "items/ef_any_vision_related_req",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_any_vision_related_req"
             },
             {
-                "variableName": "ef_vision_a11y_options",
                 "isAbout": "items/ef_vision_a11y_options",
-                "isVis": "ef_any_vision_related_req == '1'"
+                "isVis": "ef_any_vision_related_req == '1'",
+                "variableName": "ef_vision_a11y_options"
             },
             {
-                "variableName": "ef_any_hearing_related_req",
                 "isAbout": "items/ef_any_hearing_related_req",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_any_hearing_related_req"
             },
             {
-                "variableName": "ef_hearing_a11y_options",
                 "isAbout": "items/ef_hearing_a11y_options",
-                "isVis": "ef_any_hearing_related_req == '1'"
+                "isVis": "ef_any_hearing_related_req == '1'",
+                "variableName": "ef_hearing_a11y_options"
             },
             {
-                "variableName": "ef_any_physical_challenges",
                 "isAbout": "items/ef_any_physical_challenges",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_any_physical_challenges"
             },
             {
-                "variableName": "ef_physical_a11y_options",
                 "isAbout": "items/ef_physical_a11y_options",
-                "isVis": "ef_any_physical_challenges == '1'"
+                "isVis": "ef_any_physical_challenges == '1'",
+                "variableName": "ef_physical_a11y_options"
             },
             {
-                "variableName": "ef_any_cognitive_challeges",
                 "isAbout": "items/ef_any_cognitive_challeges",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_any_cognitive_challeges"
             },
             {
-                "variableName": "ef_cognitive_a11y_options",
                 "isAbout": "items/ef_cognitive_a11y_options",
-                "isVis": "ef_any_cognitive_challeges == '1'"
+                "isVis": "ef_any_cognitive_challeges == '1'",
+                "variableName": "ef_cognitive_a11y_options"
             },
             {
-                "variableName": "ef_completed_by",
                 "isAbout": "items/ef_completed_by",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_completed_by"
             },
             {
-                "variableName": "ef_primary_language",
                 "isAbout": "items/ef_primary_language",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_primary_language"
             },
             {
-                "variableName": "ef_primary_language_other",
                 "isAbout": "items/ef_primary_language_other",
-                "isVis": "ef_primary_language == '4'"
+                "isVis": "ef_primary_language == '4'",
+                "variableName": "ef_primary_language_other"
             },
             {
-                "variableName": "ef_fluent_languages",
                 "isAbout": "items/ef_fluent_languages",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_fluent_languages"
             },
             {
-                "variableName": "ef_fluent_language_other",
                 "isAbout": "items/ef_fluent_language_other",
-                "isVis": "ef_fluent_languages___5 == '1'"
+                "isVis": "ef_fluent_languages___5 == '1'",
+                "variableName": "ef_fluent_language_other"
             },
             {
-                "variableName": "ef_dob",
                 "isAbout": "items/ef_dob",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_dob"
             },
             {
-                "variableName": "ef_laryng_cancer",
                 "isAbout": "items/ef_laryng_cancer",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_laryng_cancer"
             },
             {
-                "variableName": "ef_benign_cord_lesion",
                 "isAbout": "items/ef_benign_cord_lesion",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_benign_cord_lesion"
             },
             {
-                "variableName": "ef_rrp",
                 "isAbout": "items/ef_rrp",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_rrp"
             },
             {
-                "variableName": "ef_spas_dys",
                 "isAbout": "items/ef_spas_dys",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_spas_dys"
             },
             {
-                "variableName": "ef_voc_fold_paralysis",
                 "isAbout": "items/ef_voc_fold_paralysis",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_voc_fold_paralysis"
             },
             {
-                "variableName": "ef_alz_dementia_mci",
                 "isAbout": "items/ef_alz_dementia_mci",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_alz_dementia_mci"
             },
             {
-                "variableName": "ef_als",
                 "isAbout": "items/ef_als",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_als"
             },
             {
-                "variableName": "ef_parkinsons",
                 "isAbout": "items/ef_parkinsons",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_parkinsons"
             },
             {
-                "variableName": "ef_alcohol_subst_abuse",
                 "isAbout": "items/ef_alcohol_subst_abuse",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_alcohol_subst_abuse"
             },
             {
-                "variableName": "ef_gad",
                 "isAbout": "items/ef_gad",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_gad"
             },
             {
-                "variableName": "ef_add_adhd",
                 "isAbout": "items/ef_add_adhd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_add_adhd"
             },
             {
-                "variableName": "ef_asd",
                 "isAbout": "items/ef_asd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_asd"
             },
             {
-                "variableName": "ef_bipolar",
                 "isAbout": "items/ef_bipolar",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_bipolar"
             },
             {
-                "variableName": "ef_bpd",
                 "isAbout": "items/ef_bpd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_bpd"
             },
             {
-                "variableName": "ef_depression",
                 "isAbout": "items/ef_depression",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_depression"
             },
             {
-                "variableName": "ef_ed",
                 "isAbout": "items/ef_ed",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_ed"
             },
             {
-                "variableName": "ef_insomnia",
                 "isAbout": "items/ef_insomnia",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_insomnia"
             },
             {
-                "variableName": "ef_ocd",
                 "isAbout": "items/ef_ocd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_ocd"
             },
             {
-                "variableName": "ef_panic",
                 "isAbout": "items/ef_panic",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_panic"
             },
             {
-                "variableName": "ef_ptsd",
                 "isAbout": "items/ef_ptsd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_ptsd"
             },
             {
-                "variableName": "ef_schizophrenia",
                 "isAbout": "items/ef_schizophrenia",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_schizophrenia"
             },
             {
-                "variableName": "ef_soc_anx_dis",
                 "isAbout": "items/ef_soc_anx_dis",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_soc_anx_dis"
             },
             {
-                "variableName": "ef_other_psych",
                 "isAbout": "items/ef_other_psych",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_other_psych"
             },
             {
-                "variableName": "ef_asthma",
                 "isAbout": "items/ef_asthma",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_asthma"
             },
             {
-                "variableName": "ef_airway_stenosis",
                 "isAbout": "items/ef_airway_stenosis",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_airway_stenosis"
             },
             {
-                "variableName": "ef_chronic_cough",
                 "isAbout": "items/ef_chronic_cough",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_chronic_cough"
             },
             {
-                "variableName": "ef_copd",
                 "isAbout": "items/ef_copd",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_copd"
             },
             {
-                "variableName": "ef_osa",
                 "isAbout": "items/ef_osa",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_osa"
             },
             {
-                "variableName": "ef_autism",
                 "isAbout": "items/ef_autism",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_autism"
             },
             {
-                "variableName": "ef_speech_delay",
                 "isAbout": "items/ef_speech_delay",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_speech_delay"
             },
             {
-                "variableName": "ef_eligible_studies",
                 "isAbout": "items/ef_eligible_studies",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_eligible_studies"
             },
             {
-                "variableName": "ef_learn_about_this_study",
                 "isAbout": "items/ef_learn_about_this_study",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_learn_about_this_study"
             },
             {
-                "variableName": "ef_learn_about_this_study_event",
                 "isAbout": "items/ef_learn_about_this_study_event",
-                "isVis": "ef_learn_about_this_study == 'event'"
+                "isVis": "ef_learn_about_this_study == 'event'",
+                "variableName": "ef_learn_about_this_study_event"
             },
             {
-                "variableName": "ef_learn_about_this_study_other",
                 "isAbout": "items/ef_learn_about_this_study_other",
-                "isVis": "ef_learn_about_this_study == 'other'"
+                "isVis": "ef_learn_about_this_study == 'other'",
+                "variableName": "ef_learn_about_this_study_other"
             },
             {
-                "variableName": "ef_first_name",
                 "isAbout": "items/ef_first_name",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_first_name"
             },
             {
-                "variableName": "ef_last_name",
                 "isAbout": "items/ef_last_name",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_last_name"
             },
             {
-                "variableName": "ef_phone_number",
                 "isAbout": "items/ef_phone_number",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_phone_number"
             },
             {
-                "variableName": "ef_email",
                 "isAbout": "items/ef_email",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_email"
             },
             {
-                "variableName": "ef_contact_info_stored",
                 "isAbout": "items/ef_contact_info_stored",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_contact_info_stored"
             },
             {
-                "variableName": "ef_enrollment",
                 "isAbout": "items/ef_enrollment",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_enrollment"
             },
             {
-                "variableName": "ef_is_control_participant",
                 "isAbout": "items/ef_is_control_participant",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_is_control_participant"
             },
             {
-                "variableName": "ef_reason_decline_enroll",
                 "isAbout": "items/ef_reason_decline_enroll",
-                "isVis": "ef_enrollment =='Decline'"
+                "isVis": "ef_enrollment =='Decline'",
+                "valueRequired": true,
+                "variableName": "ef_reason_decline_enroll"
             },
             {
-                "variableName": "ef_other_reason_decline",
                 "isAbout": "items/ef_other_reason_decline",
-                "isVis": "ef_reason_decline_enroll =='5'"
+                "isVis": "ef_reason_decline_enroll =='5'",
+                "variableName": "ef_other_reason_decline"
             },
             {
-                "variableName": "ef_enrollment_institution",
                 "isAbout": "items/ef_enrollment_institution",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_enrollment_institution"
             },
             {
-                "variableName": "ef_researcher_email",
                 "isAbout": "items/ef_researcher_email",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_researcher_email"
             },
             {
-                "variableName": "ef_enrollment_origin",
                 "isAbout": "items/ef_enrollment_origin",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_enrollment_origin"
             },
             {
-                "variableName": "ef_started_at",
                 "isAbout": "items/ef_started_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_started_at"
             },
             {
-                "variableName": "ef_completed_at",
                 "isAbout": "items/ef_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_completed_at"
             },
             {
-                "variableName": "ef_duration",
                 "isAbout": "items/ef_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ef_duration"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

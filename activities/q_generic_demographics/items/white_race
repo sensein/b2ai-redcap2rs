@@ -1,17 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "white_race",
-    "prefLabel": "white_race",
-    "description": "white_race of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "white_race",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "white_race"
     },
     "question": {
         "en": "White"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "European "
+                },
+                "value": 21089
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern Or North African "
+                },
+                "value": 21188
+            },
+            {
+                "name": {
+                    "en": "Arab"
+                },
+                "value": 21295
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

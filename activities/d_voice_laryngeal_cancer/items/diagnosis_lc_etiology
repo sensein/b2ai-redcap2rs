@@ -1,20 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_lc_etiology",
-    "prefLabel": "diagnosis_lc_etiology",
-    "description": "diagnosis_lc_etiology of d_voice_laryngeal_cancer",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
+    "id": "diagnosis_lc_etiology",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "3. Etiology"
     },
+    "prefLabel": {
+        "en": "diagnosis_lc_etiology"
+    },
     "question": {
         "en": "Check any risk factors of this patient in relation to their laryngeal cancer.\n(Select all that apply)."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Smoking "
+                },
+                "value": "smoking"
+            },
+            {
+                "name": {
+                    "en": "Alcohol "
+                },
+                "value": " alcohol"
+            },
+            {
+                "name": {
+                    "en": "Family history "
+                },
+                "value": " family_history"
+            },
+            {
+                "name": {
+                    "en": "Human Papilloma Virus (HPV) "
+                },
+                "value": " hpv"
+            },
+            {
+                "name": {
+                    "en": "Exposure to other harmful substances"
+                },
+                "value": " exposure_other_harmful_substances"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

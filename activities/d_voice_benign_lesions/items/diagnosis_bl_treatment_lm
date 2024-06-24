@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bl_treatment_lm",
-    "prefLabel": "diagnosis_bl_treatment_lm",
-    "description": "diagnosis_bl_treatment_lm of d_voice_benign_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "With laser ",
-                "value": "withLaser"
-            },
-            {
-                "name": "Without laser",
-                "value": " withoutLaser"
-            }
-        ]
+    "id": "diagnosis_bl_treatment_lm",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_bl_treatment_lm"
     },
     "question": {
         "en": "Laryngeal microsurgery"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "With laser "
+                },
+                "value": "withLaser"
+            },
+            {
+                "name": {
+                    "en": "Without laser"
+                },
+                "value": " withoutLaser"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

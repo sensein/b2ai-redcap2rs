@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_als_dp",
-    "prefLabel": "diagnosis_als_dp",
-    "description": "diagnosis_als_dp of d_neuro_amyotrophic_lateral_sclerosis_als",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Early Stage ",
-                "value": "earlyStage"
-            },
-            {
-                "name": "Intermediate Stage ",
-                "value": " intermediateStage"
-            },
-            {
-                "name": "Advanced Stage",
-                "value": " advancedStage"
-            }
-        ]
-    },
+    "id": "diagnosis_als_dp",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "5. Disease Progression"
     },
+    "prefLabel": {
+        "en": "diagnosis_als_dp"
+    },
     "question": {
         "en": "Please provide information on the current stage and progression of ALS:"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Early Stage "
+                },
+                "value": "earlyStage"
+            },
+            {
+                "name": {
+                    "en": "Intermediate Stage "
+                },
+                "value": " intermediateStage"
+            },
+            {
+                "name": {
+                    "en": "Advanced Stage"
+                },
+                "value": " advancedStage"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

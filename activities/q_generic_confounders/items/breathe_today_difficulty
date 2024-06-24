@@ -1,30 +1,39 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "breathe_today_difficulty",
-    "prefLabel": "breathe_today_difficulty",
-    "description": "breathe_today_difficulty of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Slight Difficulty ",
-                "value": "slightDifficulty"
-            },
-            {
-                "name": "Moderate Difficulty ",
-                "value": " moderateDifficulty"
-            },
-            {
-                "name": "Significant Difficulty",
-                "value": " significantDifficulty"
-            }
-        ]
+    "id": "breathe_today_difficulty",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "breathe_today_difficulty"
     },
     "question": {
         "en": "Please specify the level of difficulty"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Slight Difficulty "
+                },
+                "value": "slightDifficulty"
+            },
+            {
+                "name": {
+                    "en": "Moderate Difficulty "
+                },
+                "value": " moderateDifficulty"
+            },
+            {
+                "name": {
+                    "en": "Significant Difficulty"
+                },
+                "value": " significantDifficulty"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

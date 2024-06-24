@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "live_with_household_33",
-    "prefLabel": "live_with_household_33",
-    "description": "live_with_household_33 of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": 1
-            },
-            {
-                "name": "No",
-                "value": 0
-            }
-        ]
+    "id": "live_with_household_3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "live_with_household_3"
     },
     "question": {
         "en": "One or more parent"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

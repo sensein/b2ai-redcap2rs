@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_pl_ds_l",
-    "prefLabel": "diagnosis_pl_ds_l",
-    "description": "diagnosis_pl_ds_l of d_voice_precancerous_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "With dysplasia ",
-                "value": "withDysplasia"
-            },
-            {
-                "name": "Without dysplasia",
-                "value": " withoutDysplasia"
-            }
-        ]
+    "id": "diagnosis_pl_ds_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_pl_ds_l"
     },
     "question": {
         "en": "Leukoplakia"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "With dysplasia "
+                },
+                "value": "withDysplasia"
+            },
+            {
+                "name": {
+                    "en": "Without dysplasia"
+                },
+                "value": " withoutDysplasia"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

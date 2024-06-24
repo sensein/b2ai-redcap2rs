@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_econsent_main_icf_usf_english_schema",
-    "prefLabel": "bridge2ai_econsent_main_icf_usf_english",
-    "description": "Default description",
+    "id": "bridge2ai_econsent_main_icf_usf_english_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_main_icf_usf_english"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/page_1",
@@ -24,71 +23,77 @@
         ],
         "addProperties": [
             {
-                "variableName": "page_1",
                 "isAbout": "items/page_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page_1"
             },
             {
-                "variableName": "page2",
                 "isAbout": "items/page2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page2"
             },
             {
-                "variableName": "page3",
                 "isAbout": "items/page3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page3"
             },
             {
-                "variableName": "page_4",
                 "isAbout": "items/page_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page_4"
             },
             {
-                "variableName": "page_5",
                 "isAbout": "items/page_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page_5"
             },
             {
-                "variableName": "page6",
                 "isAbout": "items/page6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page6"
             },
             {
-                "variableName": "page7",
                 "isAbout": "items/page7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page7"
             },
             {
-                "variableName": "page8",
                 "isAbout": "items/page8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page8"
             },
             {
-                "variableName": "page_9",
                 "isAbout": "items/page_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "page_9"
             },
             {
-                "variableName": "consent_usf_question",
                 "isAbout": "items/consent_usf_question",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_usf_question"
             },
             {
-                "variableName": "consent_usf_signature",
                 "isAbout": "items/consent_usf_signature",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_usf_signature"
             },
             {
-                "variableName": "consent_usf_name",
                 "isAbout": "items/consent_usf_name",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_usf_name"
             },
             {
-                "variableName": "consent_usf_date",
                 "isAbout": "items/consent_usf_date",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_usf_date"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

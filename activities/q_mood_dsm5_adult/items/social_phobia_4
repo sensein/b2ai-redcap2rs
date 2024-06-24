@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "dsm_5_adult_social_phobia1_49",
-    "prefLabel": "dsm_5_adult_social_phobia1_49",
-    "description": "dsm_5_adult_social_phobia1_49 of q_mood_dsm5_adult",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": 0
-            },
-            {
-                "name": "Occasionally ",
-                "value": 1
-            },
-            {
-                "name": "Half of the time ",
-                "value": 2
-            },
-            {
-                "name": "Most of the time ",
-                "value": 3
-            },
-            {
-                "name": "All of the time",
-                "value": 4
-            }
-        ]
+    "id": "dsm_5_adult_social_phobia1_4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "dsm_5_adult_social_phobia1_4"
     },
     "question": {
         "en": "felt a racing heart, sweaty, trouble breathing, faint, or shaky in social situations"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Occasionally "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Half of the time "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most of the time "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All of the time"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

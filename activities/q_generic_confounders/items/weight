@@ -1,23 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "weight",
-    "prefLabel": "weight",
-    "description": "weight of q_generic_confounders",
-    "ui": {
-        "inputType": "text"
+    "id": "weight",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lbs"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "prefLabel": {
+        "en": "weight"
     },
     "question": {
         "en": "Weight (pounds)"
     },
-    "additionalNotesObj": [
-        {
-            "source": "redcap",
-            "column": "Field Note",
-            "value": "lbs"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_generic_confounders_schema",
-    "prefLabel": "q_generic_confounders",
-    "description": "Default description",
+    "id": "q_generic_confounders_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_confounders"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/confounders_session_id",
@@ -107,486 +106,512 @@
         ],
         "addProperties": [
             {
-                "variableName": "confounders_session_id",
                 "isAbout": "items/confounders_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "confounders_session_id"
             },
             {
-                "variableName": "confounders_started_at",
                 "isAbout": "items/confounders_started_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "confounders_started_at"
             },
             {
-                "variableName": "confounders_completed_at",
                 "isAbout": "items/confounders_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "confounders_completed_at"
             },
             {
-                "variableName": "confounders_duration",
                 "isAbout": "items/confounders_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "confounders_duration"
             },
             {
-                "variableName": "is_regular_smoker",
                 "isAbout": "items/is_regular_smoker",
-                "isVis": "alz_dementia_mci == '1'"
+                "isVis": "alz_dementia_mci == '1'",
+                "variableName": "is_regular_smoker"
             },
             {
-                "variableName": "smoking_hx",
                 "isAbout": "items/smoking_hx",
-                "isVis": "alz_dementia_mci ! == '1'"
+                "isVis": "alz_dementia_mci ! == '1'",
+                "valueRequired": true,
+                "variableName": "smoking_hx"
             },
             {
-                "variableName": "age_start_smoking",
                 "isAbout": "items/age_start_smoking",
-                "isVis": "smoking_hx =='past' || smoking_hx =='currently'"
+                "isVis": "smoking_hx =='past' || smoking_hx =='currently'",
+                "variableName": "age_start_smoking"
             },
             {
-                "variableName": "age_stop_smoking",
                 "isAbout": "items/age_stop_smoking",
-                "isVis": "smoking_hx =='past'"
+                "isVis": "smoking_hx =='past'",
+                "variableName": "age_stop_smoking"
             },
             {
-                "variableName": "smoking_types",
                 "isAbout": "items/smoking_types",
-                "isVis": "smoking_hx =='past' || smoking_hx == 'currently'"
+                "isVis": "smoking_hx =='past' || smoking_hx == 'currently'",
+                "variableName": "smoking_types"
             },
             {
-                "variableName": "other_smoking_specify",
                 "isAbout": "items/other_smoking_specify",
-                "isVis": "smoking_types___7 =='1'"
+                "isVis": "smoking_types___7 =='1'",
+                "variableName": "other_smoking_specify"
             },
             {
-                "variableName": "smoking_freq",
                 "isAbout": "items/smoking_freq",
-                "isVis": "smoking_hx =='past' || smoking_hx =='currently'"
+                "isVis": "smoking_hx =='past' || smoking_hx =='currently'",
+                "variableName": "smoking_freq"
             },
             {
-                "variableName": "alcohol_yn",
                 "isAbout": "items/alcohol_yn",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "alcohol_yn"
             },
             {
-                "variableName": "alcohol_freq",
                 "isAbout": "items/alcohol_freq",
-                "isVis": "alcohol_yn =='yes'"
+                "isVis": "alcohol_yn =='yes'",
+                "variableName": "alcohol_freq"
             },
             {
-                "variableName": "alcohol_amt",
                 "isAbout": "items/alcohol_amt",
-                "isVis": "alcohol_yn =='yes'"
+                "isVis": "alcohol_yn =='yes'",
+                "variableName": "alcohol_amt"
             },
             {
-                "variableName": "alcohol_drinks",
                 "isAbout": "items/alcohol_drinks",
-                "isVis": "alcohol_yn =='yes'"
+                "isVis": "alcohol_yn =='yes'",
+                "variableName": "alcohol_drinks"
             },
             {
-                "variableName": "alcohol_today",
                 "isAbout": "items/alcohol_today",
-                "isVis": "alcohol_yn =='yes'"
+                "isVis": "alcohol_yn =='yes'",
+                "variableName": "alcohol_today"
             },
             {
-                "variableName": "drinks_today_number",
                 "isAbout": "items/drinks_today_number",
-                "isVis": "alcohol_today =='1'"
+                "isVis": "alcohol_today =='1'",
+                "variableName": "drinks_today_number"
             },
             {
-                "variableName": "alcohol_rehab",
                 "isAbout": "items/alcohol_rehab",
-                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'"
+                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'",
+                "variableName": "alcohol_rehab"
             },
             {
-                "variableName": "current_recovery_alcohol",
                 "isAbout": "items/current_recovery_alcohol",
-                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'"
+                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'",
+                "variableName": "current_recovery_alcohol"
             },
             {
-                "variableName": "recreational_drug_use",
                 "isAbout": "items/recreational_drug_use",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recreational_drug_use"
             },
             {
-                "variableName": "substance_use_recovery",
                 "isAbout": "items/substance_use_recovery",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "substance_use_recovery"
             },
             {
-                "variableName": "painkillers",
                 "isAbout": "items/painkillers",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "painkillers"
             },
             {
-                "variableName": "stimulants",
                 "isAbout": "items/stimulants",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "stimulants"
             },
             {
-                "variableName": "sedatives",
                 "isAbout": "items/sedatives",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "sedatives"
             },
             {
-                "variableName": "marijuana",
                 "isAbout": "items/marijuana",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "marijuana"
             },
             {
-                "variableName": "cocaine",
                 "isAbout": "items/cocaine",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "cocaine"
             },
             {
-                "variableName": "club_drugs",
                 "isAbout": "items/club_drugs",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "club_drugs"
             },
             {
-                "variableName": "hallucinogens",
                 "isAbout": "items/hallucinogens",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "hallucinogens"
             },
             {
-                "variableName": "heroin",
                 "isAbout": "items/heroin",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "heroin"
             },
             {
-                "variableName": "inhalants",
                 "isAbout": "items/inhalants",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "inhalants"
             },
             {
-                "variableName": "methamphetamine",
                 "isAbout": "items/methamphetamine",
-                "isVis": "recreational_drug_use =='1'"
+                "isVis": "recreational_drug_use =='1'",
+                "variableName": "methamphetamine"
             },
             {
-                "variableName": "caffeine_intake",
                 "isAbout": "items/caffeine_intake",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "caffeine_intake"
             },
             {
-                "variableName": "caffeine_intake_today",
                 "isAbout": "items/caffeine_intake_today",
-                "isVis": true
+                "isVis": true,
+                "variableName": "caffeine_intake_today"
             },
             {
-                "variableName": "hydration",
                 "isAbout": "items/hydration",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hydration"
             },
             {
-                "variableName": "hydration_today",
                 "isAbout": "items/hydration_today",
-                "isVis": true
+                "isVis": true,
+                "variableName": "hydration_today"
             },
             {
-                "variableName": "dental_problems",
                 "isAbout": "items/dental_problems",
-                "isVis": true
+                "isVis": true,
+                "variableName": "dental_problems"
             },
             {
-                "variableName": "dental_tx",
                 "isAbout": "items/dental_tx",
-                "isVis": "dental_problems =='1'"
+                "isVis": "dental_problems =='1'",
+                "variableName": "dental_tx"
             },
             {
-                "variableName": "seasonal_allergies",
                 "isAbout": "items/seasonal_allergies",
-                "isVis": true
+                "isVis": true,
+                "variableName": "seasonal_allergies"
             },
             {
-                "variableName": "seasonal_allergies_options",
                 "isAbout": "items/seasonal_allergies_options",
-                "isVis": "seasonal_allergies =='1'"
+                "isVis": "seasonal_allergies =='1'",
+                "variableName": "seasonal_allergies_options"
             },
             {
-                "variableName": "tired_measure",
                 "isAbout": "items/tired_measure",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tired_measure"
             },
             {
-                "variableName": "height",
                 "isAbout": "items/height",
-                "isVis": true
+                "isVis": true,
+                "variableName": "height"
             },
             {
-                "variableName": "weight",
                 "isAbout": "items/weight",
-                "isVis": true
+                "isVis": true,
+                "variableName": "weight"
             },
             {
-                "variableName": "unit",
                 "isAbout": "items/unit",
-                "isVis": true
+                "isVis": true,
+                "variableName": "unit"
             },
             {
-                "variableName": "symptoms",
                 "isAbout": "items/symptoms",
-                "isVis": true
+                "isVis": true,
+                "variableName": "symptoms"
             },
             {
-                "variableName": "ear_med_history",
                 "isAbout": "items/ear_med_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ear_med_history"
             },
             {
-                "variableName": "nose_med_history",
                 "isAbout": "items/nose_med_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nose_med_history"
             },
             {
-                "variableName": "throat_med_history",
                 "isAbout": "items/throat_med_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "throat_med_history"
             },
             {
-                "variableName": "head_med_history",
                 "isAbout": "items/head_med_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "head_med_history"
             },
             {
-                "variableName": "ear_surgical",
                 "isAbout": "items/ear_surgical",
-                "isVis": true
+                "isVis": true,
+                "variableName": "ear_surgical"
             },
             {
-                "variableName": "nose_surgical",
                 "isAbout": "items/nose_surgical",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nose_surgical"
             },
             {
-                "variableName": "throat_surgical",
                 "isAbout": "items/throat_surgical",
-                "isVis": true
+                "isVis": true,
+                "variableName": "throat_surgical"
             },
             {
-                "variableName": "head_surgical",
                 "isAbout": "items/head_surgical",
-                "isVis": true
+                "isVis": true,
+                "variableName": "head_surgical"
             },
             {
-                "variableName": "neurological_history",
                 "isAbout": "items/neurological_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "neurological_history"
             },
             {
-                "variableName": "current_neuro_dx",
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'"
+                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'",
+                "variableName": "current_neuro_dx"
             },
             {
-                "variableName": "specify_current_neuro",
                 "isAbout": "items/specify_current_neuro",
-                "isVis": "current_neuro_dx ==2"
+                "isVis": "current_neuro_dx ==2",
+                "variableName": "specify_current_neuro"
             },
             {
-                "variableName": "respiratory_conditions",
                 "isAbout": "items/respiratory_conditions",
-                "isVis": true
+                "isVis": true,
+                "variableName": "respiratory_conditions"
             },
             {
-                "variableName": "lung_or_metastatic",
                 "isAbout": "items/lung_or_metastatic",
-                "isVis": "respiratory_conditions___2 =='1'"
+                "isVis": "respiratory_conditions___2 =='1'",
+                "variableName": "lung_or_metastatic"
             },
             {
-                "variableName": "covid",
                 "isAbout": "items/covid",
-                "isVis": true
+                "isVis": true,
+                "variableName": "covid"
             },
             {
-                "variableName": "covid_past",
                 "isAbout": "items/covid_past",
-                "isVis": "covid(past_year) =='1'"
+                "isVis": "covid(past_year) =='1'",
+                "variableName": "covid_past"
             },
             {
-                "variableName": "cpap_conditions",
                 "isAbout": "items/cpap_conditions",
-                "isVis": true
+                "isVis": true,
+                "variableName": "cpap_conditions"
             },
             {
-                "variableName": "resp_medical_history",
                 "isAbout": "items/resp_medical_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "resp_medical_history"
             },
             {
-                "variableName": "exposed_environmental_pollution",
                 "isAbout": "items/exposed_environmental_pollution",
-                "isVis": true
+                "isVis": true,
+                "variableName": "exposed_environmental_pollution"
             },
             {
-                "variableName": "breathe_today",
                 "isAbout": "items/breathe_today",
-                "isVis": "eligible_studies___4 == 1"
+                "isVis": "eligible_studies___4 == 1",
+                "variableName": "breathe_today"
             },
             {
-                "variableName": "breathe_today_difficulty",
                 "isAbout": "items/breathe_today_difficulty",
-                "isVis": "eligible_studies___4 == 1 && breathe_today == 'yes'"
+                "isVis": "eligible_studies___4 == 1 && breathe_today == 'yes'",
+                "variableName": "breathe_today_difficulty"
             },
             {
-                "variableName": "cough_today",
                 "isAbout": "items/cough_today",
-                "isVis": "eligible_studies___4 == 1"
+                "isVis": "eligible_studies___4 == 1",
+                "variableName": "cough_today"
             },
             {
-                "variableName": "cough_today_severity",
                 "isAbout": "items/cough_today_severity",
-                "isVis": "eligible_studies___4 == 1 && cough_today == 'yes'"
+                "isVis": "eligible_studies___4 == 1 && cough_today == 'yes'",
+                "variableName": "cough_today_severity"
             },
             {
-                "variableName": "circulatory_conditions",
                 "isAbout": "items/circulatory_conditions",
-                "isVis": true
+                "isVis": true,
+                "variableName": "circulatory_conditions"
             },
             {
-                "variableName": "cardiac_condition",
                 "isAbout": "items/cardiac_condition",
-                "isVis": "circulatory_conditions___2 =='1'"
+                "isVis": "circulatory_conditions___2 =='1'",
+                "variableName": "cardiac_condition"
             },
             {
-                "variableName": "circulatory_med_history",
                 "isAbout": "items/circulatory_med_history",
-                "isVis": true
+                "isVis": true,
+                "variableName": "circulatory_med_history"
             },
             {
-                "variableName": "infection_disease",
                 "isAbout": "items/infection_disease",
-                "isVis": "circulatory_med_history___3 =='1'"
+                "isVis": "circulatory_med_history___3 =='1'",
+                "variableName": "infection_disease"
             },
             {
-                "variableName": "ph_standing",
                 "isAbout": "items/ph_standing",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_standing"
             },
             {
-                "variableName": "ph_take_care",
                 "isAbout": "items/ph_take_care",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_take_care"
             },
             {
-                "variableName": "ph_learn_task",
                 "isAbout": "items/ph_learn_task",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_learn_task"
             },
             {
-                "variableName": "ph_problem_join",
                 "isAbout": "items/ph_problem_join",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_problem_join"
             },
             {
-                "variableName": "ph_health_problem",
                 "isAbout": "items/ph_health_problem",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_health_problem"
             },
             {
-                "variableName": "ph_concentrating",
                 "isAbout": "items/ph_concentrating",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_concentrating"
             },
             {
-                "variableName": "ph_walking",
                 "isAbout": "items/ph_walking",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_walking"
             },
             {
-                "variableName": "ph_washing",
                 "isAbout": "items/ph_washing",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_washing"
             },
             {
-                "variableName": "ph_get_dressed",
                 "isAbout": "items/ph_get_dressed",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_get_dressed"
             },
             {
-                "variableName": "ph_dealing_people",
                 "isAbout": "items/ph_dealing_people",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_dealing_people"
             },
             {
-                "variableName": "ph_friendship",
                 "isAbout": "items/ph_friendship",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_friendship"
             },
             {
-                "variableName": "ph_day_to_day_work",
                 "isAbout": "items/ph_day_to_day_work",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_day_to_day_work"
             },
             {
-                "variableName": "physical_health_freq",
                 "isAbout": "items/physical_health_freq",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "physical_health_freq"
             },
             {
-                "variableName": "phys_health_impact",
                 "isAbout": "items/phys_health_impact",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "phys_health_impact"
             },
             {
-                "variableName": "phys_health_limited",
                 "isAbout": "items/phys_health_limited",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "phys_health_limited"
             },
             {
-                "variableName": "medications",
                 "isAbout": "items/medications",
-                "isVis": true
+                "isVis": true,
+                "variableName": "medications"
             },
             {
-                "variableName": "hormone_use",
                 "isAbout": "items/hormone_use",
-                "isVis": "medications___7 =='1'"
+                "isVis": "medications___7 =='1'",
+                "variableName": "hormone_use"
             },
             {
-                "variableName": "pain_medication",
                 "isAbout": "items/pain_medication",
-                "isVis": "medications___11 =='1'"
+                "isVis": "medications___11 =='1'",
+                "variableName": "pain_medication"
             },
             {
-                "variableName": "menstruate",
                 "isAbout": "items/menstruate",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "menstruate"
             },
             {
-                "variableName": "menstruate_no",
                 "isAbout": "items/menstruate_no",
-                "isVis": "menstruate =='no'"
+                "isVis": "menstruate =='no'",
+                "variableName": "menstruate_no"
             },
             {
-                "variableName": "other_menstruate_specify",
                 "isAbout": "items/other_menstruate_specify",
-                "isVis": "menstruate_no == 'other'"
+                "isVis": "menstruate_no == 'other'",
+                "variableName": "other_menstruate_specify"
             },
             {
-                "variableName": "menstrual_cycle_status",
                 "isAbout": "items/menstrual_cycle_status",
-                "isVis": "menstruate =='yes'"
+                "isVis": "menstruate =='yes'",
+                "variableName": "menstrual_cycle_status"
             },
             {
-                "variableName": "voice_activity",
                 "isAbout": "items/voice_activity",
-                "isVis": true
+                "isVis": true,
+                "variableName": "voice_activity"
             },
             {
-                "variableName": "other_voice_activity",
                 "isAbout": "items/other_voice_activity",
-                "isVis": "voice_activity___7 == '1'"
+                "isVis": "voice_activity___7 == '1'",
+                "variableName": "other_voice_activity"
             },
             {
-                "variableName": "hours_voice_activity",
                 "isAbout": "items/hours_voice_activity",
-                "isVis": "voice_activity___1 == '1' || voice_activity___2 == '1' || voice_activity___3 == '1' || voice_activity___4 == '1' || voice_activity___5 == '1' || voice_activity___6 == '1' || voice_activity___7 == '1'"
+                "isVis": "voice_activity___1 == '1' || voice_activity___2 == '1' || voice_activity___3 == '1' || voice_activity___4 == '1' || voice_activity___5 == '1' || voice_activity___6 == '1' || voice_activity___7 == '1'",
+                "variableName": "hours_voice_activity"
             },
             {
-                "variableName": "reading_aloud",
                 "isAbout": "items/reading_aloud",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "reading_aloud"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "consent_wcm_signature",
-    "prefLabel": "consent_wcm_signature",
-    "description": {
-        "en": "@READONLY-FORM"
-    },
-    "ui": {
-        "inputType": "file"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "consent_wcm_signature",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "consent_wcm_signature"
     },
     "question": {
         "en": "Signature of Person Taking Part in Study \n[Authorization]"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd: string"
+        ]
+    },
+    "ui": {
+        "inputType": "documentUpload"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

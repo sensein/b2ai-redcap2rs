@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_parkinsons_gsd_category_3_calculation",
-    "prefLabel": "diagnosis_parkinsons_gsd_category_3_calculation",
-    "description": {
-        "en": "@CALCTEXT(if([diagnosis_parkinsons_gsd_category_3(response_dopaminergic_therapy)] + [diagnosis_parkinsons_gsd_category_3(levodopa_induced_dyskinesia)] + [diagnosis_parkinsons_gsd_category_3(rest_tremor)] + [diagnosis_parkinsons_gsd_category_3(mibg)] > 1, 'Yes', 'No'))"
+    "id": "diagnosis_parkinsons_gsd_category_3_calculation",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_parkinsons_gsd_category_3_calculation"
+    },
+    "question": {
+        "en": "Category 3 Criteria Met"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "Category 3 Criteria Met"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

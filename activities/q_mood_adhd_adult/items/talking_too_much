@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "adhd_adult_168",
-    "prefLabel": "adhd_adult_168",
-    "description": "adhd_adult_168 of q_mood_adhd_adult",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": "never"
-            },
-            {
-                "name": "Rarely ",
-                "value": " rarely"
-            },
-            {
-                "name": "Sometimes ",
-                "value": " sometimes"
-            },
-            {
-                "name": "Often ",
-                "value": " often"
-            },
-            {
-                "name": "Very Often",
-                "value": " veryOften"
-            }
-        ]
+    "id": "adhd_adult_15",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "adhd_adult_15"
     },
     "question": {
         "en": "How often do you find yourself talking too much when you are in social situations?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Rarely "
+                },
+                "value": " rarely"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Often "
+                },
+                "value": " often"
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": " veryOften"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

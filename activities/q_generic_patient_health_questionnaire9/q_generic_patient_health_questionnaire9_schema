@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_generic_patient_health_questionnaire9_schema",
-    "prefLabel": "q_generic_patient_health_questionnaire9",
-    "description": "Default description",
+    "id": "q_generic_patient_health_questionnaire9_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_patient_health_questionnaire9"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/phq_9_session_id",
@@ -25,76 +24,90 @@
         ],
         "addProperties": [
             {
-                "variableName": "phq_9_session_id",
                 "isAbout": "items/phq_9_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "phq_9_session_id"
             },
             {
-                "variableName": "phq_9_started_at",
                 "isAbout": "items/phq_9_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "phq_9_started_at"
             },
             {
-                "variableName": "phq_9_completed_at",
                 "isAbout": "items/phq_9_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "phq_9_completed_at"
             },
             {
-                "variableName": "phq_9_duration",
                 "isAbout": "items/phq_9_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "phq_9_duration"
             },
             {
-                "variableName": "no_interest",
                 "isAbout": "items/no_interest",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "no_interest"
             },
             {
-                "variableName": "feeling_depressed",
                 "isAbout": "items/feeling_depressed",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_depressed"
             },
             {
-                "variableName": "trouble_sleeping",
                 "isAbout": "items/trouble_sleeping",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "trouble_sleeping"
             },
             {
-                "variableName": "no_energy",
                 "isAbout": "items/no_energy",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "no_energy"
             },
             {
-                "variableName": "no_appetite",
                 "isAbout": "items/no_appetite",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "no_appetite"
             },
             {
-                "variableName": "feeling_bad_self",
                 "isAbout": "items/feeling_bad_self",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_bad_self"
             },
             {
-                "variableName": "trouble_concentrate",
                 "isAbout": "items/trouble_concentrate",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "trouble_concentrate"
             },
             {
-                "variableName": "move_speak_slow",
                 "isAbout": "items/move_speak_slow",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "move_speak_slow"
             },
             {
-                "variableName": "thoughts_death",
                 "isAbout": "items/thoughts_death",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "thoughts_death"
             },
             {
-                "variableName": "hard_to_work",
                 "isAbout": "items/hard_to_work",
-                "isVis": "no_interest > 0 || feeling_depressed > 0 || trouble_sleeping > 0 || no_energy > 0 || no_appetite > 0 || feeling_bad_self > 0 || trouble_concentrate > 0 || move_speak_slow > 0 || thoughts_death > 0"
+                "isVis": "no_interest > 0 || feeling_depressed > 0 || trouble_sleeping > 0 || no_energy > 0 || no_appetite > 0 || feeling_bad_self > 0 || trouble_concentrate > 0 || move_speak_slow > 0 || thoughts_death > 0",
+                "variableName": "hard_to_work"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

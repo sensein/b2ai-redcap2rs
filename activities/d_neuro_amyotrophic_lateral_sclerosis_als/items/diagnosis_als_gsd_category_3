@@ -1,30 +1,39 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_als_gsd_category_3",
-    "prefLabel": "diagnosis_als_gsd_category_3",
-    "description": "diagnosis_als_gsd_category_3 of d_neuro_amyotrophic_lateral_sclerosis_als",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No ",
-                "value": " no"
-            },
-            {
-                "name": "Not certain",
-                "value": " notCertain"
-            }
-        ]
+    "id": "diagnosis_als_gsd_category_3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_als_gsd_category_3"
     },
     "question": {
         "en": "(3) investigations excluding other disease processes."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Not certain"
+                },
+                "value": " notCertain"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

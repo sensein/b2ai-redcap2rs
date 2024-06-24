@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "bridge2ai_econsent_addendum_wcm_english_schema",
-    "prefLabel": "bridge2ai_econsent_addendum_wcm_english",
-    "description": "Default description",
+    "id": "bridge2ai_econsent_addendum_wcm_english_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_addendum_wcm_english"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/consent_wcm_p1",
@@ -23,66 +22,73 @@
         ],
         "addProperties": [
             {
-                "variableName": "consent_wcm_p1",
                 "isAbout": "items/consent_wcm_p1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p1"
             },
             {
-                "variableName": "consent_wcm_p2",
                 "isAbout": "items/consent_wcm_p2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p2"
             },
             {
-                "variableName": "consent_wcm_p3",
                 "isAbout": "items/consent_wcm_p3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p3"
             },
             {
-                "variableName": "consent_wcm_p4",
                 "isAbout": "items/consent_wcm_p4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p4"
             },
             {
-                "variableName": "consent_wcm_statement",
                 "isAbout": "items/consent_wcm_statement",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_statement"
             },
             {
-                "variableName": "consent_wcm_permission_1",
                 "isAbout": "items/consent_wcm_permission_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_1"
             },
             {
-                "variableName": "consent_wcm_permission_2",
                 "isAbout": "items/consent_wcm_permission_2",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_permission_2"
             },
             {
-                "variableName": "consent_wcm_statement_2",
                 "isAbout": "items/consent_wcm_statement_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_statement_2"
             },
             {
-                "variableName": "consent_wcm_p5",
                 "isAbout": "items/consent_wcm_p5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "consent_wcm_p5"
             },
             {
-                "variableName": "consent_wcm_signature",
                 "isAbout": "items/consent_wcm_signature",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_signature"
             },
             {
-                "variableName": "consent_wcm_name",
                 "isAbout": "items/consent_wcm_name",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_name"
             },
             {
-                "variableName": "consent_wcm_date",
                 "isAbout": "items/consent_wcm_date",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_date"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

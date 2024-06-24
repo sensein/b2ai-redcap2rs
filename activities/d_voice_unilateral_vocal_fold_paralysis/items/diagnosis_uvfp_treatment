@@ -1,29 +1,36 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_uvfp_treatment",
-    "prefLabel": "diagnosis_uvfp_treatment",
-    "description": "diagnosis_uvfp_treatment of d_voice_unilateral_vocal_fold_paralysis",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No",
-                "value": " no"
-            }
-        ]
-    },
+    "id": "diagnosis_uvfp_treatment",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "5. Treatment obtained"
     },
+    "prefLabel": {
+        "en": "diagnosis_uvfp_treatment"
+    },
     "question": {
         "en": "Has the patient undergone any treatment for their condition?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": " no"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

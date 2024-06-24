@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_neuro_random_item_generation_schema",
-    "prefLabel": "q_neuro_random_item_generation",
-    "description": "Default description",
+    "id": "q_neuro_random_item_generation_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_neuro_random_item_generation"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/random_session_id",
@@ -17,36 +16,39 @@
         ],
         "addProperties": [
             {
-                "variableName": "random_session_id",
                 "isAbout": "items/random_session_id",
-                "isVis": true
+                "isVis": true,
+                "variableName": "random_session_id"
             },
             {
-                "variableName": "random_recording_acoustic_task_id",
                 "isAbout": "items/random_recording_acoustic_task_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "random_recording_acoustic_task_id"
             },
             {
-                "variableName": "random_started_at",
                 "isAbout": "items/random_started_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "random_started_at"
             },
             {
-                "variableName": "random_completed_at",
                 "isAbout": "items/random_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "random_completed_at"
             },
             {
-                "variableName": "random_duration",
                 "isAbout": "items/random_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "random_duration"
             },
             {
-                "variableName": "random_item_generation_category",
                 "isAbout": "items/random_item_generation_category",
-                "isVis": true
+                "isVis": true,
+                "variableName": "random_item_generation_category"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

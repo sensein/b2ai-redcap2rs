@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "alcohol_yn",
-    "prefLabel": "alcohol_yn",
-    "description": "alcohol_yn of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No ",
-                "value": " no"
-            },
-            {
-                "name": "Prefer not to answer",
-                "value": " noAnswer"
-            }
-        ]
-    },
+    "id": "alcohol_yn",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "ALCOHOL CONSUMPTION"
     },
+    "prefLabel": {
+        "en": "alcohol_yn"
+    },
     "question": {
         "en": "Do you drink alcohol?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

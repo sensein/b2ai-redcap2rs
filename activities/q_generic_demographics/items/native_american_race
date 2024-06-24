@@ -1,17 +1,34 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "native_american_race",
-    "prefLabel": "native_american_race",
-    "description": "native_american_race of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "native_american_race",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "native_american_race"
     },
     "question": {
         "en": "American Indian or Alaska Native"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "American Indian "
+                },
+                "value": 10041
+            },
+            {
+                "name": {
+                    "en": "Alaska Native"
+                },
+                "value": 17350
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_241",
-    "prefLabel": "winograd_q_241",
-    "description": "winograd_q_241 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Bill ",
-                "value": "correct"
-            },
-            {
-                "name": "John",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_241",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_241"
     },
     "question": {
         "en": "241. Bill passed the gameboy to John because his turn was over. Whose turn was over?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bill "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "John"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

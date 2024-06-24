@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "d_neuro_parkinsons_disease_schema",
-    "prefLabel": "d_neuro_parkinsons_disease",
-    "description": "Default description",
+    "id": "d_neuro_parkinsons_disease_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "d_neuro_parkinsons_disease"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/diagnosis_parkinsons_gsd_category_1",
@@ -39,146 +38,169 @@
         ],
         "addProperties": [
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_1",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_1",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_1"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_1_calculation",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_1_calculation",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_1_calculation"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_2",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_2"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_2_calculation",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_2_calculation",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_2_calculation"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_3",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_3",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_3"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_category_3_calculation",
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_3_calculation",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_parkinsons_gsd_category_3_calculation"
             },
             {
-                "variableName": "diagnosis_parkinsons_gsd_calculation",
                 "isAbout": "items/diagnosis_parkinsons_gsd_calculation",
-                "isVis": true
+                "isVis": true,
+                "variableName": "diagnosis_parkinsons_gsd_calculation"
             },
             {
-                "variableName": "diagnosis_parkinsons_disease_subtype",
                 "isAbout": "items/diagnosis_parkinsons_disease_subtype",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_disease_subtype"
             },
             {
-                "variableName": "diagnosis_parkinsons_disease_subtype_other",
                 "isAbout": "items/diagnosis_parkinsons_disease_subtype_other",
-                "isVis": "diagnosis_parkinsons_disease_subtype == 'other'"
+                "isVis": "diagnosis_parkinsons_disease_subtype == 'other'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_disease_subtype_other"
             },
             {
-                "variableName": "diagnosis_parkinsons_etiology",
                 "isAbout": "items/diagnosis_parkinsons_etiology",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_etiology"
             },
             {
-                "variableName": "diagnosis_parkinsons_etiology_fpd",
                 "isAbout": "items/diagnosis_parkinsons_etiology_fpd",
-                "isVis": "diagnosis_parkinsons_etiology == 'familialParkinsonsDisease'"
+                "isVis": "diagnosis_parkinsons_etiology == 'familialParkinsonsDisease'",
+                "variableName": "diagnosis_parkinsons_etiology_fpd"
             },
             {
-                "variableName": "diagnosis_parkinsons_etiology_ef",
                 "isAbout": "items/diagnosis_parkinsons_etiology_ef",
-                "isVis": "diagnosis_parkinsons_etiology == 'environmentalFactors'"
+                "isVis": "diagnosis_parkinsons_etiology == 'environmentalFactors'",
+                "variableName": "diagnosis_parkinsons_etiology_ef"
             },
             {
-                "variableName": "diagnosis_parkinsons_ds",
                 "isAbout": "items/diagnosis_parkinsons_ds",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ds"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma",
                 "isAbout": "items/diagnosis_parkinsons_ma",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_uprds",
                 "isAbout": "items/diagnosis_parkinsons_ma_uprds",
-                "isVis": "diagnosis_parkinsons_ma(updrs) == 1"
+                "isVis": "diagnosis_parkinsons_ma(updrs) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_uprds"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_updrs_part_i_score",
                 "isAbout": "items/diagnosis_parkinsons_ma_updrs_part_i_score",
-                "isVis": "diagnosis_parkinsons_ma_uprds == 'partI'"
+                "isVis": "diagnosis_parkinsons_ma_uprds == 'partI'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_updrs_part_i_score"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_updrs_part_ii_score",
                 "isAbout": "items/diagnosis_parkinsons_ma_updrs_part_ii_score",
-                "isVis": "diagnosis_parkinsons_ma_uprds == 'partII'"
+                "isVis": "diagnosis_parkinsons_ma_uprds == 'partII'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_updrs_part_ii_score"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_updrs_part_iii_score",
                 "isAbout": "items/diagnosis_parkinsons_ma_updrs_part_iii_score",
-                "isVis": "diagnosis_parkinsons_ma_uprds == 'partIII'"
+                "isVis": "diagnosis_parkinsons_ma_uprds == 'partIII'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_updrs_part_iii_score"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_updrs_part_iv_score",
                 "isAbout": "items/diagnosis_parkinsons_ma_updrs_part_iv_score",
-                "isVis": "diagnosis_parkinsons_ma_uprds == 'partIV'"
+                "isVis": "diagnosis_parkinsons_ma_uprds == 'partIV'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_updrs_part_iv_score"
             },
             {
-                "variableName": "diagnosis_parkinsons_ma_other",
                 "isAbout": "items/diagnosis_parkinsons_ma_other",
-                "isVis": "diagnosis_parkinsons_ma(other) == 1"
+                "isVis": "diagnosis_parkinsons_ma(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_ma_other"
             },
             {
-                "variableName": "diagnosis_parkinsons_non_motor_symptoms",
                 "isAbout": "items/diagnosis_parkinsons_non_motor_symptoms",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_non_motor_symptoms"
             },
             {
-                "variableName": "diagnosis_parkinsons_non_motor_symptoms_yes",
                 "isAbout": "items/diagnosis_parkinsons_non_motor_symptoms_yes",
-                "isVis": "diagnosis_parkinsons_non_motor_symptoms == 'yes'"
+                "isVis": "diagnosis_parkinsons_non_motor_symptoms == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_non_motor_symptoms_yes"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained_yes",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes'"
+                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained_yes"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_medications",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1"
+                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications_other",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_medications_other",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1 && diagnosis_parkinsons_treatment_obtained_yes_medications(other) == 1"
+                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1 && diagnosis_parkinsons_treatment_obtained_yes_medications(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications_other"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_npi",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1"
+                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi"
             },
             {
-                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi_other",
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_npi_other",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_treatment_obtained_yes_npi(other) == 1"
+                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_treatment_obtained_yes_npi(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi_other"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

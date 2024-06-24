@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_degree_p_2",
-    "prefLabel": "diagnosis_degree_p_2",
-    "description": "diagnosis_degree_p_2 of d_voice_unilateral_vocal_fold_paralysis",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Consistent ",
-                "value": 1
-            },
-            {
-                "name": "Intermittent",
-                "value": 2
-            }
-        ]
+    "id": "diagnosis_degree_p_2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_degree_p_2"
     },
     "question": {
         "en": "Pitch"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Consistent "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Intermittent"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

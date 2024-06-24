@@ -1,20 +1,73 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "respiratory_conditions",
-    "prefLabel": "respiratory_conditions",
-    "description": "respiratory_conditions of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
+    "id": "respiratory_conditions",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "RESPIRATORY CONDITIONS"
     },
+    "prefLabel": {
+        "en": "respiratory_conditions"
+    },
     "question": {
         "en": "Respiratory Conditions"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bronchiectasis "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cancer (lung or metastatic) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Emphysema "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Interstitial lung disease (sarcoidosis pulmonary fibrosis) "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Pneumothorax or atelectasis (collapsed lung) "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pulmonary hypertension "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Radiation to the chest "
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Tuberculosis"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

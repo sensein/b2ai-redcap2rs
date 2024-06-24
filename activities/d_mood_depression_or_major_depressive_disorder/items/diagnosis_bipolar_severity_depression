@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bipolar_severity_depression",
-    "prefLabel": "diagnosis_bipolar_severity_depression",
-    "description": "diagnosis_bipolar_severity_depression of d_mood_depression_or_major_depressive_disorder",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Mild ",
-                "value": "mild"
-            },
-            {
-                "name": "Moderate ",
-                "value": " moderate"
-            },
-            {
-                "name": "Severe",
-                "value": " severe"
-            }
-        ]
-    },
+    "id": "diagnosis_bipolar_severity_depression",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "5.\tDisease Severity"
     },
+    "prefLabel": {
+        "en": "diagnosis_bipolar_severity_depression"
+    },
     "question": {
         "en": "Disease Severity"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mild "
+                },
+                "value": "mild"
+            },
+            {
+                "name": {
+                    "en": "Moderate "
+                },
+                "value": " moderate"
+            },
+            {
+                "name": {
+                    "en": "Severe"
+                },
+                "value": " severe"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

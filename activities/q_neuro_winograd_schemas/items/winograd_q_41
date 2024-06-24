@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_41",
-    "prefLabel": "winograd_q_41",
-    "description": "winograd_q_41 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The bottle ",
-                "value": "correct"
-            },
-            {
-                "name": "The table",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_41",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_41"
     },
     "question": {
         "en": "41. I was trying to balance the bottle upside down on the table, but I couldn't do it because it was so top-heavy. What was top-heavy?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The bottle "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The table"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

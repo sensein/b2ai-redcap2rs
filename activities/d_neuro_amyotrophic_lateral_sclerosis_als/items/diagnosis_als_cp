@@ -1,20 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_als_cp",
-    "prefLabel": "diagnosis_als_cp",
-    "description": "diagnosis_als_cp of d_neuro_amyotrophic_lateral_sclerosis_als",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
+    "id": "diagnosis_als_cp",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "4. Clinical Presentation"
     },
+    "prefLabel": {
+        "en": "diagnosis_als_cp"
+    },
     "question": {
         "en": "Describe the clinical features and symptoms of ALS in the patient:"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Upper Motor Neuron Signs (e.g. spasticity hyperreflexia) "
+                },
+                "value": "upper_motor_neuron"
+            },
+            {
+                "name": {
+                    "en": "Lower Motor Neuron Signs (e.g. muscle weakness atrophy fasciculations) "
+                },
+                "value": " lower_motor_neuron"
+            },
+            {
+                "name": {
+                    "en": "Bulbar Symptoms (e.g. dysarthria dysphagia) "
+                },
+                "value": " bulbar_symptoms"
+            },
+            {
+                "name": {
+                    "en": "Respiratory Involvement"
+                },
+                "value": " respiratory_involvement"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

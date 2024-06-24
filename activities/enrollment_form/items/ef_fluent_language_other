@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ef_fluent_language_other",
-    "prefLabel": "ef_fluent_language_other",
-    "description": "ef_fluent_language_other of enrollment_form",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "ef_fluent_language_other",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ef_fluent_language_other"
     },
     "question": {
         "en": "If you speak any other languages fluently, please specify:"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

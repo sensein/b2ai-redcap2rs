@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "smoking_hx",
-    "prefLabel": "smoking_hx",
-    "description": "smoking_hx of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "I've never smoked regularly ",
-                "value": "never"
-            },
-            {
-                "name": "I used to smoke ",
-                "value": " past"
-            },
-            {
-                "name": "I currently smoke ",
-                "value": " currently"
-            },
-            {
-                "name": "Prefer not to answer",
-                "value": " noAnswer"
-            }
-        ]
+    "id": "smoking_hx",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "smoking_hx"
     },
     "question": {
         "en": "Have you ever smoked regularly (more than a few times a month for at least two months)?This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I've never smoked regularly "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "I used to smoke "
+                },
+                "value": " past"
+            },
+            {
+                "name": {
+                    "en": "I currently smoke "
+                },
+                "value": " currently"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

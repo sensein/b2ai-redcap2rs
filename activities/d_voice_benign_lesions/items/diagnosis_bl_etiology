@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_bl_etiology",
-    "prefLabel": "diagnosis_bl_etiology",
-    "description": "diagnosis_bl_etiology of d_voice_benign_lesions",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Phonotrauma ",
-                "value": "phonotrauma"
-            },
-            {
-                "name": "HPV virus (RRP) ",
-                "value": " rrp"
-            },
-            {
-                "name": "Other",
-                "value": " other"
-            }
-        ]
-    },
+    "id": "diagnosis_bl_etiology",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "3. Etiology"
     },
+    "prefLabel": {
+        "en": "diagnosis_bl_etiology"
+    },
     "question": {
         "en": "What is the etiology?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Phonotrauma "
+                },
+                "value": "phonotrauma"
+            },
+            {
+                "name": {
+                    "en": "HPV virus (RRP) "
+                },
+                "value": " rrp"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " other"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnois_lc_gsd_sll",
-    "prefLabel": "diagnois_lc_gsd_sll",
-    "description": "diagnois_lc_gsd_sll of d_voice_laryngeal_cancer",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": "yes"
-            },
-            {
-                "name": "No ",
-                "value": " no"
-            },
-            {
-                "name": "Not certain",
-                "value": " notCertain"
-            }
-        ]
-    },
+    "id": "diagnois_lc_gsd_sll",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
+    "prefLabel": {
+        "en": "diagnois_lc_gsd_sll"
+    },
     "question": {
         "en": "Did the patient get a laryngoscopy/stroboscopy confirming the presence of a suspicious laryngeal lesion?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Not certain"
+                },
+                "value": " notCertain"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

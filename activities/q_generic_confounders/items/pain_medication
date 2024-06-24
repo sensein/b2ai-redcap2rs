@@ -1,17 +1,40 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pain_medication",
-    "prefLabel": "pain_medication",
-    "description": "pain_medication of q_generic_confounders",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "pain_medication",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pain_medication"
     },
     "question": {
         "en": "Chronic Pain medication"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NSAIDs (ex: Ibuprofen/Advil/Cerebrex) "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Morphine/Oxycodone "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neuro-modulators (ex: Gabapentin Lyrica)"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

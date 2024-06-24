@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "subjectparticipant_basic_information_schema",
-    "prefLabel": "subjectparticipant_basic_information",
-    "description": "Default description",
+    "id": "subjectparticipant_basic_information_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Enrollment Details"
+    },
+    "prefLabel": {
+        "en": "subjectparticipant_basic_information"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/record_id",
@@ -22,61 +24,70 @@
         ],
         "addProperties": [
             {
-                "variableName": "record_id",
                 "isAbout": "items/record_id",
-                "isVis": true
+                "isVis": true,
+                "variableName": "record_id"
             },
             {
-                "variableName": "selected_language",
                 "isAbout": "items/selected_language",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "selected_language"
             },
             {
-                "variableName": "consent_status",
                 "isAbout": "items/consent_status",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_status"
             },
             {
-                "variableName": "consent_method",
                 "isAbout": "items/consent_method",
-                "isVis": "consent_status == '2'"
+                "isVis": "consent_status == '2'",
+                "valueRequired": true,
+                "variableName": "consent_method"
             },
             {
-                "variableName": "withdrawn_consent_reason",
                 "isAbout": "items/withdrawn_consent_reason",
-                "isVis": "consent_status == 3"
+                "isVis": "consent_status == 3",
+                "variableName": "withdrawn_consent_reason"
             },
             {
-                "variableName": "withdrawn_consent_date",
                 "isAbout": "items/withdrawn_consent_date",
-                "isVis": "consent_status == 3"
+                "isVis": "consent_status == 3",
+                "variableName": "withdrawn_consent_date"
             },
             {
-                "variableName": "is_feasibility_participant",
                 "isAbout": "items/is_feasibility_participant",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "is_feasibility_participant"
             },
             {
-                "variableName": "enrolled",
                 "isAbout": "items/enrolled",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enrolled"
             },
             {
-                "variableName": "enrollment_reason",
                 "isAbout": "items/enrollment_reason",
-                "isVis": "enrolled == 1"
+                "isVis": "enrolled == 1",
+                "variableName": "enrollment_reason"
             },
             {
-                "variableName": "enrollment_institution",
                 "isAbout": "items/enrollment_institution",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enrollment_institution"
             },
             {
-                "variableName": "researcher_email",
                 "isAbout": "items/researcher_email",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "researcher_email"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

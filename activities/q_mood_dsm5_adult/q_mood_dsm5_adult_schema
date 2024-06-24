@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_mood_dsm5_adult_schema",
-    "prefLabel": "q_mood_dsm5_adult",
-    "description": "Default description",
+    "id": "q_mood_dsm5_adult_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_mood_dsm5_adult"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/dsm_5_session_id",
@@ -53,216 +52,244 @@
         ],
         "addProperties": [
             {
-                "variableName": "dsm_5_session_id",
                 "isAbout": "items/dsm_5_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dsm_5_session_id"
             },
             {
-                "variableName": "dsm_5_started_at",
                 "isAbout": "items/dsm_5_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dsm_5_started_at"
             },
             {
-                "variableName": "dsm_5_completed_at",
                 "isAbout": "items/dsm_5_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dsm_5_completed_at"
             },
             {
-                "variableName": "dsm_5_duration",
                 "isAbout": "items/dsm_5_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "dsm_5_duration"
             },
             {
-                "variableName": "little_interest",
                 "isAbout": "items/little_interest",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "little_interest"
             },
             {
-                "variableName": "feeling_down",
                 "isAbout": "items/feeling_down",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_down"
             },
             {
-                "variableName": "feeling_more_irritated",
                 "isAbout": "items/feeling_more_irritated",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_more_irritated"
             },
             {
-                "variableName": "sleeping_less",
                 "isAbout": "items/sleeping_less",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleeping_less"
             },
             {
-                "variableName": "starting_more_projects",
                 "isAbout": "items/starting_more_projects",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "starting_more_projects"
             },
             {
-                "variableName": "feeling_nervous",
                 "isAbout": "items/feeling_nervous",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_nervous"
             },
             {
-                "variableName": "feeling_panic",
                 "isAbout": "items/feeling_panic",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_panic"
             },
             {
-                "variableName": "avoiding_situations",
                 "isAbout": "items/avoiding_situations",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "avoiding_situations"
             },
             {
-                "variableName": "unexplained_aches",
                 "isAbout": "items/unexplained_aches",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "unexplained_aches"
             },
             {
-                "variableName": "illness_not_taken_serious",
                 "isAbout": "items/illness_not_taken_serious",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "illness_not_taken_serious"
             },
             {
-                "variableName": "self_harm",
                 "isAbout": "items/self_harm",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "self_harm"
             },
             {
-                "variableName": "hearing_things",
                 "isAbout": "items/hearing_things",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hearing_things"
             },
             {
-                "variableName": "someone_hear_thoughts",
                 "isAbout": "items/someone_hear_thoughts",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "someone_hear_thoughts"
             },
             {
-                "variableName": "sleep_quality",
                 "isAbout": "items/sleep_quality",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sleep_quality"
             },
             {
-                "variableName": "memory_issues",
                 "isAbout": "items/memory_issues",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "memory_issues"
             },
             {
-                "variableName": "unpleasant_thoughts",
                 "isAbout": "items/unpleasant_thoughts",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "unpleasant_thoughts"
             },
             {
-                "variableName": "repeat_acts",
                 "isAbout": "items/repeat_acts",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "repeat_acts"
             },
             {
-                "variableName": "feeling_detached",
                 "isAbout": "items/feeling_detached",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feeling_detached"
             },
             {
-                "variableName": "no_purpose",
                 "isAbout": "items/no_purpose",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "no_purpose"
             },
             {
-                "variableName": "isolated",
                 "isAbout": "items/isolated",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "isolated"
             },
             {
-                "variableName": "drinking_more",
                 "isAbout": "items/drinking_more",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "drinking_more"
             },
             {
-                "variableName": "smoking_more",
                 "isAbout": "items/smoking_more",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_more"
             },
             {
-                "variableName": "medication_use",
                 "isAbout": "items/medication_use",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "medication_use"
             },
             {
-                "variableName": "q1_happy",
                 "isAbout": "items/q1_happy",
-                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2",
+                "variableName": "q1_happy"
             },
             {
-                "variableName": "q2_self_confident",
                 "isAbout": "items/q2_self_confident",
-                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2",
+                "variableName": "q2_self_confident"
             },
             {
-                "variableName": "q3_sleep",
                 "isAbout": "items/q3_sleep",
-                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2",
+                "variableName": "q3_sleep"
             },
             {
-                "variableName": "q4_talk",
                 "isAbout": "items/q4_talk",
-                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2",
+                "variableName": "q4_talk"
             },
             {
-                "variableName": "q5_active",
                 "isAbout": "items/q5_active",
-                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2"
+                "isVis": "sleeping_less >= 2 || starting_more_projects >= 2",
+                "variableName": "q5_active"
             },
             {
-                "variableName": "social_phobia_1",
                 "isAbout": "items/social_phobia_1",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_1"
             },
             {
-                "variableName": "social_phobia_2",
                 "isAbout": "items/social_phobia_2",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_2"
             },
             {
-                "variableName": "social_phobia_3",
                 "isAbout": "items/social_phobia_3",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_3"
             },
             {
-                "variableName": "social_phobia_4",
                 "isAbout": "items/social_phobia_4",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_4"
             },
             {
-                "variableName": "social_phobia_5",
                 "isAbout": "items/social_phobia_5",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_5"
             },
             {
-                "variableName": "social_phobia_6",
                 "isAbout": "items/social_phobia_6",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_6"
             },
             {
-                "variableName": "social_phobia_7",
                 "isAbout": "items/social_phobia_7",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_7"
             },
             {
-                "variableName": "social_phobia_8",
                 "isAbout": "items/social_phobia_8",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_8"
             },
             {
-                "variableName": "social_phobia_9",
                 "isAbout": "items/social_phobia_9",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_9"
             },
             {
-                "variableName": "social_phobia_10",
                 "isAbout": "items/social_phobia_10",
-                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2"
+                "isVis": "feeling_nervous >= 2 || feeling_panic >= 2 || avoiding_situations >= 2",
+                "variableName": "social_phobia_10"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "recording_file_share",
-    "prefLabel": "recording_file_share",
-    "description": {
-        "en": "@READONLY"
+    "id": "recording_file_share",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "recording_file_share"
+    },
+    "question": {
+        "en": "File Share"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "File Share"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

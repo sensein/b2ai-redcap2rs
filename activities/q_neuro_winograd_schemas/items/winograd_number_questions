@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_number_questions",
-    "prefLabel": "winograd_number_questions",
-    "description": {
-        "en": "@READONLY"
+    "id": "winograd_number_questions",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_number_questions"
+    },
+    "question": {
+        "en": "Number of questions asked"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "Number of questions asked"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_parkinsons_etiology",
-    "prefLabel": "diagnosis_parkinsons_etiology",
-    "description": "diagnosis_parkinsons_etiology of d_neuro_parkinsons_disease",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Idiopathic (unknown cause) ",
-                "value": "idiopathic"
-            },
-            {
-                "name": "Familial Parkinson's Disease ",
-                "value": " familialParkinsonsDisease"
-            },
-            {
-                "name": "Environmental factors",
-                "value": " environmentalFactors"
-            }
-        ]
-    },
+    "id": "diagnosis_parkinsons_etiology",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "3. Etiology"
     },
+    "prefLabel": {
+        "en": "diagnosis_parkinsons_etiology"
+    },
     "question": {
         "en": "What is the suspected or known etiology of Parkinson's disease in the patient?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Idiopathic (unknown cause) "
+                },
+                "value": "idiopathic"
+            },
+            {
+                "name": {
+                    "en": "Familial Parkinson's Disease "
+                },
+                "value": " familialParkinsonsDisease"
+            },
+            {
+                "name": {
+                    "en": "Environmental factors"
+                },
+                "value": " environmentalFactors"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

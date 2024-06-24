@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_119",
-    "prefLabel": "winograd_q_119",
-    "description": "winograd_q_119 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Mark ",
-                "value": "correct"
-            },
-            {
-                "name": "Pete",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_119",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_119"
     },
     "question": {
         "en": "119. Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful. Who should have been more truthful?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mark "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "Pete"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

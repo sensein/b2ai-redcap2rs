@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "di_52",
-    "prefLabel": "di_52",
-    "description": "di_52 of q_resp_dyspnea_index_di",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": "never"
-            },
-            {
-                "name": "Almost never ",
-                "value": " almostNever"
-            },
-            {
-                "name": "Sometimes ",
-                "value": " sometimes"
-            },
-            {
-                "name": "Almost always ",
-                "value": " almostAlways"
-            },
-            {
-                "name": "Always",
-                "value": " always"
-            }
-        ]
+    "id": "di_7",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "di_7"
     },
     "question": {
         "en": "I have to strain to breathe."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Almost never "
+                },
+                "value": " almostNever"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Almost always "
+                },
+                "value": " almostAlways"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": " always"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

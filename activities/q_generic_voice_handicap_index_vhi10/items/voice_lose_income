@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "vhi_10_50",
-    "prefLabel": "vhi_10_50",
-    "description": "vhi_10_50 of q_generic_voice_handicap_index_vhi10",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": "never"
-            },
-            {
-                "name": "Almost Never ",
-                "value": " almostNever"
-            },
-            {
-                "name": "Sometimes ",
-                "value": " sometimes"
-            },
-            {
-                "name": "Almost Always ",
-                "value": " almostAlways"
-            },
-            {
-                "name": "Always",
-                "value": " always"
-            }
-        ]
+    "id": "vhi_10_5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "vhi_10_5"
     },
     "question": {
         "en": "My voice problem causes me to lose income."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Almost Never "
+                },
+                "value": " almostNever"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Almost Always "
+                },
+                "value": " almostAlways"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": " always"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

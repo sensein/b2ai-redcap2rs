@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_neuro_winograd_schemas_schema",
-    "prefLabel": "q_neuro_winograd_schemas",
-    "description": "Default description",
+    "id": "q_neuro_winograd_schemas_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_neuro_winograd_schemas"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/winograd_session_id",
@@ -294,1421 +293,1423 @@
         ],
         "addProperties": [
             {
-                "variableName": "winograd_session_id",
                 "isAbout": "items/winograd_session_id",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_session_id"
             },
             {
-                "variableName": "winograd_started_at",
                 "isAbout": "items/winograd_started_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_started_at"
             },
             {
-                "variableName": "winograd_completed_at",
                 "isAbout": "items/winograd_completed_at",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_completed_at"
             },
             {
-                "variableName": "winograd_duration",
                 "isAbout": "items/winograd_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_duration"
             },
             {
-                "variableName": "winograd_score",
                 "isAbout": "items/winograd_score",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_score"
             },
             {
-                "variableName": "winograd_number_questions",
                 "isAbout": "items/winograd_number_questions",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_number_questions"
             },
             {
-                "variableName": "winograd_questions_asked",
                 "isAbout": "items/winograd_questions_asked",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_questions_asked"
             },
             {
-                "variableName": "winograd_q_1",
                 "isAbout": "items/winograd_q_1",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_1"
             },
             {
-                "variableName": "winograd_q_2",
                 "isAbout": "items/winograd_q_2",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_2"
             },
             {
-                "variableName": "winograd_q_3",
                 "isAbout": "items/winograd_q_3",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_3"
             },
             {
-                "variableName": "winograd_q_4",
                 "isAbout": "items/winograd_q_4",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_4"
             },
             {
-                "variableName": "winograd_q_5",
                 "isAbout": "items/winograd_q_5",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_5"
             },
             {
-                "variableName": "winograd_q_6",
                 "isAbout": "items/winograd_q_6",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_6"
             },
             {
-                "variableName": "winograd_q_7",
                 "isAbout": "items/winograd_q_7",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_7"
             },
             {
-                "variableName": "winograd_q_8",
                 "isAbout": "items/winograd_q_8",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_8"
             },
             {
-                "variableName": "winograd_q_9",
                 "isAbout": "items/winograd_q_9",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_9"
             },
             {
-                "variableName": "winograd_q_10",
                 "isAbout": "items/winograd_q_10",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_10"
             },
             {
-                "variableName": "winograd_q_11",
                 "isAbout": "items/winograd_q_11",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_11"
             },
             {
-                "variableName": "winograd_q_12",
                 "isAbout": "items/winograd_q_12",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_12"
             },
             {
-                "variableName": "winograd_q_13",
                 "isAbout": "items/winograd_q_13",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_13"
             },
             {
-                "variableName": "winograd_q_14",
                 "isAbout": "items/winograd_q_14",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_14"
             },
             {
-                "variableName": "winograd_q_15",
                 "isAbout": "items/winograd_q_15",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_15"
             },
             {
-                "variableName": "winograd_q_16",
                 "isAbout": "items/winograd_q_16",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_16"
             },
             {
-                "variableName": "winograd_q_17",
                 "isAbout": "items/winograd_q_17",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_17"
             },
             {
-                "variableName": "winograd_q_18",
                 "isAbout": "items/winograd_q_18",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_18"
             },
             {
-                "variableName": "winograd_q_19",
                 "isAbout": "items/winograd_q_19",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_19"
             },
             {
-                "variableName": "winograd_q_20",
                 "isAbout": "items/winograd_q_20",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_20"
             },
             {
-                "variableName": "winograd_q_21",
                 "isAbout": "items/winograd_q_21",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_21"
             },
             {
-                "variableName": "winograd_q_22",
                 "isAbout": "items/winograd_q_22",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_22"
             },
             {
-                "variableName": "winograd_q_23",
                 "isAbout": "items/winograd_q_23",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_23"
             },
             {
-                "variableName": "winograd_q_24",
                 "isAbout": "items/winograd_q_24",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_24"
             },
             {
-                "variableName": "winograd_q_25",
                 "isAbout": "items/winograd_q_25",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_25"
             },
             {
-                "variableName": "winograd_q_26",
                 "isAbout": "items/winograd_q_26",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_26"
             },
             {
-                "variableName": "winograd_q_27",
                 "isAbout": "items/winograd_q_27",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_27"
             },
             {
-                "variableName": "winograd_q_28",
                 "isAbout": "items/winograd_q_28",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_28"
             },
             {
-                "variableName": "winograd_q_29",
                 "isAbout": "items/winograd_q_29",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_29"
             },
             {
-                "variableName": "winograd_q_30",
                 "isAbout": "items/winograd_q_30",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_30"
             },
             {
-                "variableName": "winograd_q_31",
                 "isAbout": "items/winograd_q_31",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_31"
             },
             {
-                "variableName": "winograd_q_32",
                 "isAbout": "items/winograd_q_32",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_32"
             },
             {
-                "variableName": "winograd_q_33",
                 "isAbout": "items/winograd_q_33",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_33"
             },
             {
-                "variableName": "winograd_q_34",
                 "isAbout": "items/winograd_q_34",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_34"
             },
             {
-                "variableName": "winograd_q_35",
                 "isAbout": "items/winograd_q_35",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_35"
             },
             {
-                "variableName": "winograd_q_36",
                 "isAbout": "items/winograd_q_36",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_36"
             },
             {
-                "variableName": "winograd_q_37",
                 "isAbout": "items/winograd_q_37",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_37"
             },
             {
-                "variableName": "winograd_q_38",
                 "isAbout": "items/winograd_q_38",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_38"
             },
             {
-                "variableName": "winograd_q_39",
                 "isAbout": "items/winograd_q_39",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_39"
             },
             {
-                "variableName": "winograd_q_40",
                 "isAbout": "items/winograd_q_40",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_40"
             },
             {
-                "variableName": "winograd_q_41",
                 "isAbout": "items/winograd_q_41",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_41"
             },
             {
-                "variableName": "winograd_q_42",
                 "isAbout": "items/winograd_q_42",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_42"
             },
             {
-                "variableName": "winograd_q_43",
                 "isAbout": "items/winograd_q_43",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_43"
             },
             {
-                "variableName": "winograd_q_44",
                 "isAbout": "items/winograd_q_44",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_44"
             },
             {
-                "variableName": "winograd_q_45",
                 "isAbout": "items/winograd_q_45",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_45"
             },
             {
-                "variableName": "winograd_q_46",
                 "isAbout": "items/winograd_q_46",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_46"
             },
             {
-                "variableName": "winograd_q_47",
                 "isAbout": "items/winograd_q_47",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_47"
             },
             {
-                "variableName": "winograd_q_48",
                 "isAbout": "items/winograd_q_48",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_48"
             },
             {
-                "variableName": "winograd_q_49",
                 "isAbout": "items/winograd_q_49",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_49"
             },
             {
-                "variableName": "winograd_q_50",
                 "isAbout": "items/winograd_q_50",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_50"
             },
             {
-                "variableName": "winograd_q_51",
                 "isAbout": "items/winograd_q_51",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_51"
             },
             {
-                "variableName": "winograd_q_52",
                 "isAbout": "items/winograd_q_52",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_52"
             },
             {
-                "variableName": "winograd_q_53",
                 "isAbout": "items/winograd_q_53",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_53"
             },
             {
-                "variableName": "winograd_q_54",
                 "isAbout": "items/winograd_q_54",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_54"
             },
             {
-                "variableName": "winograd_q_55",
                 "isAbout": "items/winograd_q_55",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_55"
             },
             {
-                "variableName": "winograd_q_56",
                 "isAbout": "items/winograd_q_56",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_56"
             },
             {
-                "variableName": "winograd_q_57",
                 "isAbout": "items/winograd_q_57",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_57"
             },
             {
-                "variableName": "winograd_q_58",
                 "isAbout": "items/winograd_q_58",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_58"
             },
             {
-                "variableName": "winograd_q_59",
                 "isAbout": "items/winograd_q_59",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_59"
             },
             {
-                "variableName": "winograd_q_60",
                 "isAbout": "items/winograd_q_60",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_60"
             },
             {
-                "variableName": "winograd_q_61",
                 "isAbout": "items/winograd_q_61",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_61"
             },
             {
-                "variableName": "winograd_q_62",
                 "isAbout": "items/winograd_q_62",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_62"
             },
             {
-                "variableName": "winograd_q_63",
                 "isAbout": "items/winograd_q_63",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_63"
             },
             {
-                "variableName": "winograd_q_64",
                 "isAbout": "items/winograd_q_64",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_64"
             },
             {
-                "variableName": "winograd_q_65",
                 "isAbout": "items/winograd_q_65",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_65"
             },
             {
-                "variableName": "winograd_q_66",
                 "isAbout": "items/winograd_q_66",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_66"
             },
             {
-                "variableName": "winograd_q_67",
                 "isAbout": "items/winograd_q_67",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_67"
             },
             {
-                "variableName": "winograd_q_68",
                 "isAbout": "items/winograd_q_68",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_68"
             },
             {
-                "variableName": "winograd_q_69",
                 "isAbout": "items/winograd_q_69",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_69"
             },
             {
-                "variableName": "winograd_q_70",
                 "isAbout": "items/winograd_q_70",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_70"
             },
             {
-                "variableName": "winograd_q_71",
                 "isAbout": "items/winograd_q_71",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_71"
             },
             {
-                "variableName": "winograd_q_72",
                 "isAbout": "items/winograd_q_72",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_72"
             },
             {
-                "variableName": "winograd_q_73",
                 "isAbout": "items/winograd_q_73",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_73"
             },
             {
-                "variableName": "winograd_q_74",
                 "isAbout": "items/winograd_q_74",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_74"
             },
             {
-                "variableName": "winograd_q_75",
                 "isAbout": "items/winograd_q_75",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_75"
             },
             {
-                "variableName": "winograd_q_76",
                 "isAbout": "items/winograd_q_76",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_76"
             },
             {
-                "variableName": "winograd_q_77",
                 "isAbout": "items/winograd_q_77",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_77"
             },
             {
-                "variableName": "winograd_q_78",
                 "isAbout": "items/winograd_q_78",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_78"
             },
             {
-                "variableName": "winograd_q_79",
                 "isAbout": "items/winograd_q_79",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_79"
             },
             {
-                "variableName": "winograd_q_80",
                 "isAbout": "items/winograd_q_80",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_80"
             },
             {
-                "variableName": "winograd_q_81",
                 "isAbout": "items/winograd_q_81",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_81"
             },
             {
-                "variableName": "winograd_q_82",
                 "isAbout": "items/winograd_q_82",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_82"
             },
             {
-                "variableName": "winograd_q_83",
                 "isAbout": "items/winograd_q_83",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_83"
             },
             {
-                "variableName": "winograd_q_84",
                 "isAbout": "items/winograd_q_84",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_84"
             },
             {
-                "variableName": "winograd_q_85",
                 "isAbout": "items/winograd_q_85",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_85"
             },
             {
-                "variableName": "winograd_q_86",
                 "isAbout": "items/winograd_q_86",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_86"
             },
             {
-                "variableName": "winograd_q_87",
                 "isAbout": "items/winograd_q_87",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_87"
             },
             {
-                "variableName": "winograd_q_88",
                 "isAbout": "items/winograd_q_88",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_88"
             },
             {
-                "variableName": "winograd_q_89",
                 "isAbout": "items/winograd_q_89",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_89"
             },
             {
-                "variableName": "winograd_q_90",
                 "isAbout": "items/winograd_q_90",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_90"
             },
             {
-                "variableName": "winograd_q_91",
                 "isAbout": "items/winograd_q_91",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_91"
             },
             {
-                "variableName": "winograd_q_92",
                 "isAbout": "items/winograd_q_92",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_92"
             },
             {
-                "variableName": "winograd_q_93",
                 "isAbout": "items/winograd_q_93",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_93"
             },
             {
-                "variableName": "winograd_q_94",
                 "isAbout": "items/winograd_q_94",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_94"
             },
             {
-                "variableName": "winograd_q_95",
                 "isAbout": "items/winograd_q_95",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_95"
             },
             {
-                "variableName": "winograd_q_96",
                 "isAbout": "items/winograd_q_96",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_96"
             },
             {
-                "variableName": "winograd_q_97",
                 "isAbout": "items/winograd_q_97",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_97"
             },
             {
-                "variableName": "winograd_q_98",
                 "isAbout": "items/winograd_q_98",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_98"
             },
             {
-                "variableName": "winograd_q_99",
                 "isAbout": "items/winograd_q_99",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_99"
             },
             {
-                "variableName": "winograd_q_100",
                 "isAbout": "items/winograd_q_100",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_100"
             },
             {
-                "variableName": "winograd_q_101",
                 "isAbout": "items/winograd_q_101",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_101"
             },
             {
-                "variableName": "winograd_q_102",
                 "isAbout": "items/winograd_q_102",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_102"
             },
             {
-                "variableName": "winograd_q_103",
                 "isAbout": "items/winograd_q_103",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_103"
             },
             {
-                "variableName": "winograd_q_104",
                 "isAbout": "items/winograd_q_104",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_104"
             },
             {
-                "variableName": "winograd_q_105",
                 "isAbout": "items/winograd_q_105",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_105"
             },
             {
-                "variableName": "winograd_q_106",
                 "isAbout": "items/winograd_q_106",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_106"
             },
             {
-                "variableName": "winograd_q_107",
                 "isAbout": "items/winograd_q_107",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_107"
             },
             {
-                "variableName": "winograd_q_108",
                 "isAbout": "items/winograd_q_108",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_108"
             },
             {
-                "variableName": "winograd_q_109",
                 "isAbout": "items/winograd_q_109",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_109"
             },
             {
-                "variableName": "winograd_q_110",
                 "isAbout": "items/winograd_q_110",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_110"
             },
             {
-                "variableName": "winograd_q_111",
                 "isAbout": "items/winograd_q_111",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_111"
             },
             {
-                "variableName": "winograd_q_112",
                 "isAbout": "items/winograd_q_112",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_112"
             },
             {
-                "variableName": "winograd_q_113",
                 "isAbout": "items/winograd_q_113",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_113"
             },
             {
-                "variableName": "winograd_q_114",
                 "isAbout": "items/winograd_q_114",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_114"
             },
             {
-                "variableName": "winograd_q_115",
                 "isAbout": "items/winograd_q_115",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_115"
             },
             {
-                "variableName": "winograd_q_116",
                 "isAbout": "items/winograd_q_116",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_116"
             },
             {
-                "variableName": "winograd_q_117",
                 "isAbout": "items/winograd_q_117",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_117"
             },
             {
-                "variableName": "winograd_q_118",
                 "isAbout": "items/winograd_q_118",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_118"
             },
             {
-                "variableName": "winograd_q_119",
                 "isAbout": "items/winograd_q_119",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_119"
             },
             {
-                "variableName": "winograd_q_120",
                 "isAbout": "items/winograd_q_120",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_120"
             },
             {
-                "variableName": "winograd_q_121",
                 "isAbout": "items/winograd_q_121",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_121"
             },
             {
-                "variableName": "winograd_q_122",
                 "isAbout": "items/winograd_q_122",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_122"
             },
             {
-                "variableName": "winograd_q_123",
                 "isAbout": "items/winograd_q_123",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_123"
             },
             {
-                "variableName": "winograd_q_124",
                 "isAbout": "items/winograd_q_124",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_124"
             },
             {
-                "variableName": "winograd_q_125",
                 "isAbout": "items/winograd_q_125",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_125"
             },
             {
-                "variableName": "winograd_q_126",
                 "isAbout": "items/winograd_q_126",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_126"
             },
             {
-                "variableName": "winograd_q_127",
                 "isAbout": "items/winograd_q_127",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_127"
             },
             {
-                "variableName": "winograd_q_128",
                 "isAbout": "items/winograd_q_128",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_128"
             },
             {
-                "variableName": "winograd_q_129",
                 "isAbout": "items/winograd_q_129",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_129"
             },
             {
-                "variableName": "winograd_q_130",
                 "isAbout": "items/winograd_q_130",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_130"
             },
             {
-                "variableName": "winograd_q_131",
                 "isAbout": "items/winograd_q_131",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_131"
             },
             {
-                "variableName": "winograd_q_132",
                 "isAbout": "items/winograd_q_132",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_132"
             },
             {
-                "variableName": "winograd_q_133",
                 "isAbout": "items/winograd_q_133",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_133"
             },
             {
-                "variableName": "winograd_q_134",
                 "isAbout": "items/winograd_q_134",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_134"
             },
             {
-                "variableName": "winograd_q_135",
                 "isAbout": "items/winograd_q_135",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_135"
             },
             {
-                "variableName": "winograd_q_136",
                 "isAbout": "items/winograd_q_136",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_136"
             },
             {
-                "variableName": "winograd_q_137",
                 "isAbout": "items/winograd_q_137",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_137"
             },
             {
-                "variableName": "winograd_q_138",
                 "isAbout": "items/winograd_q_138",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_138"
             },
             {
-                "variableName": "winograd_q_139",
                 "isAbout": "items/winograd_q_139",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_139"
             },
             {
-                "variableName": "winograd_q_140",
                 "isAbout": "items/winograd_q_140",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_140"
             },
             {
-                "variableName": "winograd_q_141",
                 "isAbout": "items/winograd_q_141",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_141"
             },
             {
-                "variableName": "winograd_q_142",
                 "isAbout": "items/winograd_q_142",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_142"
             },
             {
-                "variableName": "winograd_q_143",
                 "isAbout": "items/winograd_q_143",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_143"
             },
             {
-                "variableName": "winograd_q_144",
                 "isAbout": "items/winograd_q_144",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_144"
             },
             {
-                "variableName": "winograd_q_145",
                 "isAbout": "items/winograd_q_145",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_145"
             },
             {
-                "variableName": "winograd_q_146",
                 "isAbout": "items/winograd_q_146",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_146"
             },
             {
-                "variableName": "winograd_q_147",
                 "isAbout": "items/winograd_q_147",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_147"
             },
             {
-                "variableName": "winograd_q_148",
                 "isAbout": "items/winograd_q_148",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_148"
             },
             {
-                "variableName": "winograd_q_149",
                 "isAbout": "items/winograd_q_149",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_149"
             },
             {
-                "variableName": "winograd_q_150",
                 "isAbout": "items/winograd_q_150",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_150"
             },
             {
-                "variableName": "winograd_q_151",
                 "isAbout": "items/winograd_q_151",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_151"
             },
             {
-                "variableName": "winograd_q_152",
                 "isAbout": "items/winograd_q_152",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_152"
             },
             {
-                "variableName": "winograd_q_153",
                 "isAbout": "items/winograd_q_153",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_153"
             },
             {
-                "variableName": "winograd_q_154",
                 "isAbout": "items/winograd_q_154",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_154"
             },
             {
-                "variableName": "winograd_q_155",
                 "isAbout": "items/winograd_q_155",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_155"
             },
             {
-                "variableName": "winograd_q_156",
                 "isAbout": "items/winograd_q_156",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_156"
             },
             {
-                "variableName": "winograd_q_157",
                 "isAbout": "items/winograd_q_157",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_157"
             },
             {
-                "variableName": "winograd_q_158",
                 "isAbout": "items/winograd_q_158",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_158"
             },
             {
-                "variableName": "winograd_q_159",
                 "isAbout": "items/winograd_q_159",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_159"
             },
             {
-                "variableName": "winograd_q_160",
                 "isAbout": "items/winograd_q_160",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_160"
             },
             {
-                "variableName": "winograd_q_161",
                 "isAbout": "items/winograd_q_161",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_161"
             },
             {
-                "variableName": "winograd_q_162",
                 "isAbout": "items/winograd_q_162",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_162"
             },
             {
-                "variableName": "winograd_q_163",
                 "isAbout": "items/winograd_q_163",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_163"
             },
             {
-                "variableName": "winograd_q_164",
                 "isAbout": "items/winograd_q_164",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_164"
             },
             {
-                "variableName": "winograd_q_165",
                 "isAbout": "items/winograd_q_165",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_165"
             },
             {
-                "variableName": "winograd_q_166",
                 "isAbout": "items/winograd_q_166",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_166"
             },
             {
-                "variableName": "winograd_q_167",
                 "isAbout": "items/winograd_q_167",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_167"
             },
             {
-                "variableName": "winograd_q_168",
                 "isAbout": "items/winograd_q_168",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_168"
             },
             {
-                "variableName": "winograd_q_169",
                 "isAbout": "items/winograd_q_169",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_169"
             },
             {
-                "variableName": "winograd_q_170",
                 "isAbout": "items/winograd_q_170",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_170"
             },
             {
-                "variableName": "winograd_q_171",
                 "isAbout": "items/winograd_q_171",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_171"
             },
             {
-                "variableName": "winograd_q_172",
                 "isAbout": "items/winograd_q_172",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_172"
             },
             {
-                "variableName": "winograd_q_173",
                 "isAbout": "items/winograd_q_173",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_173"
             },
             {
-                "variableName": "winograd_q_174",
                 "isAbout": "items/winograd_q_174",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_174"
             },
             {
-                "variableName": "winograd_q_175",
                 "isAbout": "items/winograd_q_175",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_175"
             },
             {
-                "variableName": "winograd_q_176",
                 "isAbout": "items/winograd_q_176",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_176"
             },
             {
-                "variableName": "winograd_q_177",
                 "isAbout": "items/winograd_q_177",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_177"
             },
             {
-                "variableName": "winograd_q_178",
                 "isAbout": "items/winograd_q_178",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_178"
             },
             {
-                "variableName": "winograd_q_179",
                 "isAbout": "items/winograd_q_179",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_179"
             },
             {
-                "variableName": "winograd_q_180",
                 "isAbout": "items/winograd_q_180",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_180"
             },
             {
-                "variableName": "winograd_q_181",
                 "isAbout": "items/winograd_q_181",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_181"
             },
             {
-                "variableName": "winograd_q_182",
                 "isAbout": "items/winograd_q_182",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_182"
             },
             {
-                "variableName": "winograd_q_183",
                 "isAbout": "items/winograd_q_183",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_183"
             },
             {
-                "variableName": "winograd_q_184",
                 "isAbout": "items/winograd_q_184",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_184"
             },
             {
-                "variableName": "winograd_q_185",
                 "isAbout": "items/winograd_q_185",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_185"
             },
             {
-                "variableName": "winograd_q_186",
                 "isAbout": "items/winograd_q_186",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_186"
             },
             {
-                "variableName": "winograd_q_187",
                 "isAbout": "items/winograd_q_187",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_187"
             },
             {
-                "variableName": "winograd_q_188",
                 "isAbout": "items/winograd_q_188",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_188"
             },
             {
-                "variableName": "winograd_q_189",
                 "isAbout": "items/winograd_q_189",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_189"
             },
             {
-                "variableName": "winograd_q_190",
                 "isAbout": "items/winograd_q_190",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_190"
             },
             {
-                "variableName": "winograd_q_191",
                 "isAbout": "items/winograd_q_191",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_191"
             },
             {
-                "variableName": "winograd_q_192",
                 "isAbout": "items/winograd_q_192",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_192"
             },
             {
-                "variableName": "winograd_q_193",
                 "isAbout": "items/winograd_q_193",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_193"
             },
             {
-                "variableName": "winograd_q_194",
                 "isAbout": "items/winograd_q_194",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_194"
             },
             {
-                "variableName": "winograd_q_195",
                 "isAbout": "items/winograd_q_195",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_195"
             },
             {
-                "variableName": "winograd_q_196",
                 "isAbout": "items/winograd_q_196",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_196"
             },
             {
-                "variableName": "winograd_q_197",
                 "isAbout": "items/winograd_q_197",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_197"
             },
             {
-                "variableName": "winograd_q_198",
                 "isAbout": "items/winograd_q_198",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_198"
             },
             {
-                "variableName": "winograd_q_199",
                 "isAbout": "items/winograd_q_199",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_199"
             },
             {
-                "variableName": "winograd_q_200",
                 "isAbout": "items/winograd_q_200",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_200"
             },
             {
-                "variableName": "winograd_q_201",
                 "isAbout": "items/winograd_q_201",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_201"
             },
             {
-                "variableName": "winograd_q_202",
                 "isAbout": "items/winograd_q_202",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_202"
             },
             {
-                "variableName": "winograd_q_203",
                 "isAbout": "items/winograd_q_203",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_203"
             },
             {
-                "variableName": "winograd_q_204",
                 "isAbout": "items/winograd_q_204",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_204"
             },
             {
-                "variableName": "winograd_q_205",
                 "isAbout": "items/winograd_q_205",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_205"
             },
             {
-                "variableName": "winograd_q_206",
                 "isAbout": "items/winograd_q_206",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_206"
             },
             {
-                "variableName": "winograd_q_207",
                 "isAbout": "items/winograd_q_207",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_207"
             },
             {
-                "variableName": "winograd_q_208",
                 "isAbout": "items/winograd_q_208",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_208"
             },
             {
-                "variableName": "winograd_q_209",
                 "isAbout": "items/winograd_q_209",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_209"
             },
             {
-                "variableName": "winograd_q_210",
                 "isAbout": "items/winograd_q_210",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_210"
             },
             {
-                "variableName": "winograd_q_211",
                 "isAbout": "items/winograd_q_211",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_211"
             },
             {
-                "variableName": "winograd_q_212",
                 "isAbout": "items/winograd_q_212",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_212"
             },
             {
-                "variableName": "winograd_q_213",
                 "isAbout": "items/winograd_q_213",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_213"
             },
             {
-                "variableName": "winograd_q_214",
                 "isAbout": "items/winograd_q_214",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_214"
             },
             {
-                "variableName": "winograd_q_215",
                 "isAbout": "items/winograd_q_215",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_215"
             },
             {
-                "variableName": "winograd_q_216",
                 "isAbout": "items/winograd_q_216",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_216"
             },
             {
-                "variableName": "winograd_q_217",
                 "isAbout": "items/winograd_q_217",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_217"
             },
             {
-                "variableName": "winograd_q_218",
                 "isAbout": "items/winograd_q_218",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_218"
             },
             {
-                "variableName": "winograd_q_219",
                 "isAbout": "items/winograd_q_219",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_219"
             },
             {
-                "variableName": "winograd_q_220",
                 "isAbout": "items/winograd_q_220",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_220"
             },
             {
-                "variableName": "winograd_q_221",
                 "isAbout": "items/winograd_q_221",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_221"
             },
             {
-                "variableName": "winograd_q_222",
                 "isAbout": "items/winograd_q_222",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_222"
             },
             {
-                "variableName": "winograd_q_223",
                 "isAbout": "items/winograd_q_223",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_223"
             },
             {
-                "variableName": "winograd_q_224",
                 "isAbout": "items/winograd_q_224",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_224"
             },
             {
-                "variableName": "winograd_q_225",
                 "isAbout": "items/winograd_q_225",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_225"
             },
             {
-                "variableName": "winograd_q_226",
                 "isAbout": "items/winograd_q_226",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_226"
             },
             {
-                "variableName": "winograd_q_227",
                 "isAbout": "items/winograd_q_227",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_227"
             },
             {
-                "variableName": "winograd_q_228",
                 "isAbout": "items/winograd_q_228",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_228"
             },
             {
-                "variableName": "winograd_q_229",
                 "isAbout": "items/winograd_q_229",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_229"
             },
             {
-                "variableName": "winograd_q_230",
                 "isAbout": "items/winograd_q_230",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_230"
             },
             {
-                "variableName": "winograd_q_231",
                 "isAbout": "items/winograd_q_231",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_231"
             },
             {
-                "variableName": "winograd_q_232",
                 "isAbout": "items/winograd_q_232",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_232"
             },
             {
-                "variableName": "winograd_q_233",
                 "isAbout": "items/winograd_q_233",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_233"
             },
             {
-                "variableName": "winograd_q_234",
                 "isAbout": "items/winograd_q_234",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_234"
             },
             {
-                "variableName": "winograd_q_235",
                 "isAbout": "items/winograd_q_235",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_235"
             },
             {
-                "variableName": "winograd_q_236",
                 "isAbout": "items/winograd_q_236",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_236"
             },
             {
-                "variableName": "winograd_q_237",
                 "isAbout": "items/winograd_q_237",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_237"
             },
             {
-                "variableName": "winograd_q_238",
                 "isAbout": "items/winograd_q_238",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_238"
             },
             {
-                "variableName": "winograd_q_239",
                 "isAbout": "items/winograd_q_239",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_239"
             },
             {
-                "variableName": "winograd_q_240",
                 "isAbout": "items/winograd_q_240",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_240"
             },
             {
-                "variableName": "winograd_q_241",
                 "isAbout": "items/winograd_q_241",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_241"
             },
             {
-                "variableName": "winograd_q_242",
                 "isAbout": "items/winograd_q_242",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_242"
             },
             {
-                "variableName": "winograd_q_243",
                 "isAbout": "items/winograd_q_243",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_243"
             },
             {
-                "variableName": "winograd_q_244",
                 "isAbout": "items/winograd_q_244",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_244"
             },
             {
-                "variableName": "winograd_q_245",
                 "isAbout": "items/winograd_q_245",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_245"
             },
             {
-                "variableName": "winograd_q_246",
                 "isAbout": "items/winograd_q_246",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_246"
             },
             {
-                "variableName": "winograd_q_247",
                 "isAbout": "items/winograd_q_247",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_247"
             },
             {
-                "variableName": "winograd_q_248",
                 "isAbout": "items/winograd_q_248",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_248"
             },
             {
-                "variableName": "winograd_q_249",
                 "isAbout": "items/winograd_q_249",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_249"
             },
             {
-                "variableName": "winograd_q_250",
                 "isAbout": "items/winograd_q_250",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_250"
             },
             {
-                "variableName": "winograd_q_251",
                 "isAbout": "items/winograd_q_251",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_251"
             },
             {
-                "variableName": "winograd_q_252",
                 "isAbout": "items/winograd_q_252",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_252"
             },
             {
-                "variableName": "winograd_q_253",
                 "isAbout": "items/winograd_q_253",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_253"
             },
             {
-                "variableName": "winograd_q_254",
                 "isAbout": "items/winograd_q_254",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_254"
             },
             {
-                "variableName": "winograd_q_255",
                 "isAbout": "items/winograd_q_255",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_255"
             },
             {
-                "variableName": "winograd_q_256",
                 "isAbout": "items/winograd_q_256",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_256"
             },
             {
-                "variableName": "winograd_q_257",
                 "isAbout": "items/winograd_q_257",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_257"
             },
             {
-                "variableName": "winograd_q_258",
                 "isAbout": "items/winograd_q_258",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_258"
             },
             {
-                "variableName": "winograd_q_259",
                 "isAbout": "items/winograd_q_259",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_259"
             },
             {
-                "variableName": "winograd_q_260",
                 "isAbout": "items/winograd_q_260",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_260"
             },
             {
-                "variableName": "winograd_q_261",
                 "isAbout": "items/winograd_q_261",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_261"
             },
             {
-                "variableName": "winograd_q_262",
                 "isAbout": "items/winograd_q_262",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_262"
             },
             {
-                "variableName": "winograd_q_263",
                 "isAbout": "items/winograd_q_263",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_263"
             },
             {
-                "variableName": "winograd_q_264",
                 "isAbout": "items/winograd_q_264",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_264"
             },
             {
-                "variableName": "winograd_q_265",
                 "isAbout": "items/winograd_q_265",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_265"
             },
             {
-                "variableName": "winograd_q_266",
                 "isAbout": "items/winograd_q_266",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_266"
             },
             {
-                "variableName": "winograd_q_267",
                 "isAbout": "items/winograd_q_267",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_267"
             },
             {
-                "variableName": "winograd_q_268",
                 "isAbout": "items/winograd_q_268",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_268"
             },
             {
-                "variableName": "winograd_q_269",
                 "isAbout": "items/winograd_q_269",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_269"
             },
             {
-                "variableName": "winograd_q_270",
                 "isAbout": "items/winograd_q_270",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_270"
             },
             {
-                "variableName": "winograd_q_271",
                 "isAbout": "items/winograd_q_271",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_271"
             },
             {
-                "variableName": "winograd_q_272",
                 "isAbout": "items/winograd_q_272",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_272"
             },
             {
-                "variableName": "winograd_q_273",
                 "isAbout": "items/winograd_q_273",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_273"
             },
             {
-                "variableName": "winograd_q_274",
                 "isAbout": "items/winograd_q_274",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_274"
             },
             {
-                "variableName": "winograd_q_275",
                 "isAbout": "items/winograd_q_275",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_275"
             },
             {
-                "variableName": "winograd_q_276",
                 "isAbout": "items/winograd_q_276",
-                "isVis": true
+                "isVis": true,
+                "variableName": "winograd_q_276"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

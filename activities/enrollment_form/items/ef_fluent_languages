@@ -1,17 +1,52 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ef_fluent_languages",
-    "prefLabel": "ef_fluent_languages",
-    "description": "ef_fluent_languages of enrollment_form",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "ef_fluent_languages",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ef_fluent_languages"
     },
     "question": {
         "en": "Do you speak any additional language(s) fluently (similar to a native speaker)?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "English "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "French "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Spanish "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other (please specify below)"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

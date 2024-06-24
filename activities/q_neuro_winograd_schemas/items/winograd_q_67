@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "winograd_q_67",
-    "prefLabel": "winograd_q_67",
-    "description": "winograd_q_67 of q_neuro_winograd_schemas",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "The announcement ",
-                "value": "correct"
-            },
-            {
-                "name": "The subway",
-                "value": " incorrect"
-            }
-        ]
+    "id": "winograd_q_67",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_67"
     },
     "question": {
         "en": "67. They broadcast an announcement, but a subway came into the station and I couldn't hear it. What couldn't I hear?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The announcement "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The subway"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,33 +1,42 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "hearing",
-    "prefLabel": "hearing",
-    "description": "hearing of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "No ",
-                "value": "no"
-            },
-            {
-                "name": "Yes ",
-                "value": " yes"
-            },
-            {
-                "name": "Prefer not to answer",
-                "value": " noAnswer"
-            }
-        ]
-    },
+    "id": "hearing",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "Disability Questions"
     },
+    "prefLabel": {
+        "en": "hearing"
+    },
     "question": {
         "en": "Are you deaf or do you have serious difficulty hearing?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": " yes"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "q_mood_adhd_adult_schema",
-    "prefLabel": "q_mood_adhd_adult",
-    "description": "Default description",
+    "id": "q_mood_adhd_adult_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_mood_adhd_adult"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": null,
     "ui": {
         "order": [
             "items/adhd_session_id",
@@ -33,116 +32,139 @@
         ],
         "addProperties": [
             {
-                "variableName": "adhd_session_id",
                 "isAbout": "items/adhd_session_id",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "adhd_session_id"
             },
             {
-                "variableName": "adhd_started_at",
                 "isAbout": "items/adhd_started_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "adhd_started_at"
             },
             {
-                "variableName": "adhd_completed_at",
                 "isAbout": "items/adhd_completed_at",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "adhd_completed_at"
             },
             {
-                "variableName": "adhd_duration",
                 "isAbout": "items/adhd_duration",
-                "isVis": true
+                "isVis": true,
+                "variableName": "adhd_duration"
             },
             {
-                "variableName": "wrapping_up",
                 "isAbout": "items/wrapping_up",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "wrapping_up"
             },
             {
-                "variableName": "things_in_order",
                 "isAbout": "items/things_in_order",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "things_in_order"
             },
             {
-                "variableName": "remembering_appt",
                 "isAbout": "items/remembering_appt",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "remembering_appt"
             },
             {
-                "variableName": "avoidance",
                 "isAbout": "items/avoidance",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "avoidance"
             },
             {
-                "variableName": "fidget",
                 "isAbout": "items/fidget",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fidget"
             },
             {
-                "variableName": "overly_active",
                 "isAbout": "items/overly_active",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "overly_active"
             },
             {
-                "variableName": "careless",
                 "isAbout": "items/careless",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "careless"
             },
             {
-                "variableName": "difficulty_attention",
                 "isAbout": "items/difficulty_attention",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "difficulty_attention"
             },
             {
-                "variableName": "difficulty_concentrating",
                 "isAbout": "items/difficulty_concentrating",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "difficulty_concentrating"
             },
             {
-                "variableName": "misplace",
                 "isAbout": "items/misplace",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "misplace"
             },
             {
-                "variableName": "distracted",
                 "isAbout": "items/distracted",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "distracted"
             },
             {
-                "variableName": "remain_seated",
                 "isAbout": "items/remain_seated",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "remain_seated"
             },
             {
-                "variableName": "restless",
                 "isAbout": "items/restless",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "restless"
             },
             {
-                "variableName": "difficulty_unwinding",
                 "isAbout": "items/difficulty_unwinding",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "difficulty_unwinding"
             },
             {
-                "variableName": "talking_too_much",
                 "isAbout": "items/talking_too_much",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "talking_too_much"
             },
             {
-                "variableName": "finish_other_sent",
                 "isAbout": "items/finish_other_sent",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "finish_other_sent"
             },
             {
-                "variableName": "difficulty_waiting",
                 "isAbout": "items/difficulty_waiting",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "difficulty_waiting"
             },
             {
-                "variableName": "interrupt_others",
                 "isAbout": "items/interrupt_others",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "interrupt_others"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "3.5.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

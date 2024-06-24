@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "diagnosis_depression_gsd_oquw",
-    "prefLabel": "diagnosis_depression_gsd_oquw",
-    "description": "diagnosis_depression_gsd_oquw of d_mood_depression_or_major_depressive_disorder",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Patient Health Questionnaire (PHQ-9) ",
-                "value": "phq9"
-            },
-            {
-                "name": "HAM-D ",
-                "value": " hamD"
-            },
-            {
-                "name": "Beck Depression Inventory (BDI) ",
-                "value": " bdi"
-            },
-            {
-                "name": "Other",
-                "value": " other"
-            }
-        ]
+    "id": "diagnosis_depression_gsd_oquw",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_depression_gsd_oquw"
     },
     "question": {
         "en": "Which objective questionnaire was used?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Patient Health Questionnaire (PHQ-9) "
+                },
+                "value": "phq9"
+            },
+            {
+                "name": {
+                    "en": "HAM-D "
+                },
+                "value": " hamD"
+            },
+            {
+                "name": {
+                    "en": "Beck Depression Inventory (BDI) "
+                },
+                "value": " bdi"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " other"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

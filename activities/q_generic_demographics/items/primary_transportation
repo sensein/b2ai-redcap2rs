@@ -1,50 +1,69 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "primary_transportation",
-    "prefLabel": "primary_transportation",
-    "description": "primary_transportation of q_generic_demographics",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Personal vehicle ",
-                "value": 1
-            },
-            {
-                "name": "Shared vehicle ",
-                "value": 2
-            },
-            {
-                "name": "Public transportation ",
-                "value": 3
-            },
-            {
-                "name": "Ride with someone else ",
-                "value": 4
-            },
-            {
-                "name": "Ride service ",
-                "value": 5
-            },
-            {
-                "name": "Bicycle/Motorbike ",
-                "value": 6
-            },
-            {
-                "name": "Walking ",
-                "value": 7
-            },
-            {
-                "name": "Other (Please specify)",
-                "value": 8
-            }
-        ]
+    "id": "primary_transportation",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "primary_transportation"
     },
     "question": {
         "en": "What is your primary mode of transportation?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Personal vehicle "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Shared vehicle "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Public transportation "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Ride with someone else "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Ride service "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Bicycle/Motorbike "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Walking "
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (Please specify)"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

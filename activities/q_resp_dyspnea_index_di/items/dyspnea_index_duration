@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "dyspnea_index_duration",
-    "prefLabel": "dyspnea_index_duration",
-    "description": {
-        "en": "@READONLY"
+    "id": "dyspnea_index_duration",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "dyspnea_index_duration"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "Questionnaire Duration (seconds)"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
