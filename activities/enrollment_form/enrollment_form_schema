@@ -53,6 +53,9 @@
             "items/ef_autism",
             "items/ef_speech_delay",
             "items/ef_eligible_studies",
+            "items/ef_learn_about_this_study",
+            "items/ef_learn_about_this_study_event",
+            "items/ef_learn_about_this_study_other",
             "items/ef_first_name",
             "items/ef_last_name",
             "items/ef_phone_number",
@@ -63,6 +66,7 @@
             "items/ef_other_reason_decline",
             "items/ef_enrollment_institution",
             "items/ef_researcher_email",
+            "items/ef_enrollment_origin",
             "items/ef_started_at",
             "items/ef_completed_at",
             "items/ef_duration"
@@ -338,6 +342,21 @@
                 "variableName": "ef_eligible_studies"
             },
             {
+                "isAbout": "items/ef_learn_about_this_study",
+                "isVis": true,
+                "variableName": "ef_learn_about_this_study"
+            },
+            {
+                "isAbout": "items/ef_learn_about_this_study_event",
+                "isVis": "ef_learn_about_this_study == 'event'",
+                "variableName": "ef_learn_about_this_study_event"
+            },
+            {
+                "isAbout": "items/ef_learn_about_this_study_other",
+                "isVis": "ef_learn_about_this_study == 'other'",
+                "variableName": "ef_learn_about_this_study_other"
+            },
+            {
                 "isAbout": "items/ef_first_name",
                 "isVis": true,
                 "valueRequired": true,
@@ -394,6 +413,11 @@
                 "variableName": "ef_researcher_email"
             },
             {
+                "isAbout": "items/ef_enrollment_origin",
+                "isVis": true,
+                "variableName": "ef_enrollment_origin"
+            },
+            {
                 "isAbout": "items/ef_started_at",
                 "isVis": true,
                 "variableName": "ef_started_at"
@@ -411,6 +435,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.1.0",
+    "version": "3.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

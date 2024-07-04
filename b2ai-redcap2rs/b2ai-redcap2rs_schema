@@ -53,7 +53,8 @@
             "../activities/q_neuro_winograd_schemas/q_neuro_winograd_schemas_schema",
             "../activities/q_neuro_wordcolor_stroop/q_neuro_wordcolor_stroop_schema",
             "../activities/q_neuro_productive_vocabulary/q_neuro_productive_vocabulary_schema",
-            "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema"
+            "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema",
+            "../activities/q_neuro_moca/q_neuro_moca_schema"
         ],
         "addProperties": [
             {
@@ -407,10 +408,18 @@
                     "en": "Q Neuro Random Item Generation"
                 },
                 "variableName": "q_neuro_random_item_generation_schema"
+            },
+            {
+                "isAbout": "../activities/q_neuro_moca/q_neuro_moca_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Q Neuro Moca"
+                },
+                "variableName": "q_neuro_moca_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "3.1.0",
+    "version": "3.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
