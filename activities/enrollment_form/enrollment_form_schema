@@ -62,6 +62,7 @@
             "items/ef_email",
             "items/ef_contact_info_stored",
             "items/ef_enrollment",
+            "items/ef_is_control_participant",
             "items/ef_reason_decline_enroll",
             "items/ef_other_reason_decline",
             "items/ef_enrollment_institution",
@@ -392,6 +393,12 @@
                 "variableName": "ef_enrollment"
             },
             {
+                "isAbout": "items/ef_is_control_participant",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_is_control_participant"
+            },
+            {
                 "isAbout": "items/ef_reason_decline_enroll",
                 "isVis": "ef_enrollment =='Decline'",
                 "valueRequired": true,
@@ -435,6 +442,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.3.0",
+    "version": "3.4.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
