@@ -1,8 +1,8 @@
 {
-    "id": "ef_mood_psych_dis_11",
+    "id": "ef_mood_psych_dis_5",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_mood_psych_dis_11"
+        "en": "ef_mood_psych_dis_5"
     },
     "question": {
         "en": "Panic Disorder"

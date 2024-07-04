@@ -1,11 +1,11 @@
 {
-    "id": "resp_dis_2",
+    "id": "resp_dis_5",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "resp_dis_2"
+        "en": "resp_dis_5"
     },
     "question": {
-        "en": "Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)"
+        "en": "Airway Stenosis"
     },
     "responseOptions": {
         "choices": [

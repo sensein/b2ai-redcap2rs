@@ -1,8 +1,8 @@
 {
-    "id": "mood_psych_dis_4",
+    "id": "mood_psych_dis_11",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_4"
+        "en": "mood_psych_dis_11"
     },
     "question": {
         "en": "Autism Spectrum Disorder (ASD)"

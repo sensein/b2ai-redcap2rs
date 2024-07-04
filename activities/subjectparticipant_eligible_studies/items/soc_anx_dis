@@ -1,8 +1,8 @@
 {
-    "id": "mood_psych_dis_14",
+    "id": "mood_psych_dis_8",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_14"
+        "en": "mood_psych_dis_8"
     },
     "question": {
         "en": "Social Anxiety Disorder"

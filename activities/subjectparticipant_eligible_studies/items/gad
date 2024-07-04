@@ -1,11 +1,11 @@
 {
-    "id": "mood_psych_dis_2",
+    "id": "mood_psych_dis_3",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_2"
+        "en": "mood_psych_dis_3"
     },
     "question": {
-        "en": "Anxiety disorder"
+        "en": "Generalized Anxiety Disorder (GAD)"
     },
     "responseOptions": {
         "choices": [

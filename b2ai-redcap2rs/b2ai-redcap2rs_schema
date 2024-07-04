@@ -14,51 +14,33 @@
             "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
             "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
             "../activities/enrollment_form/enrollment_form_schema",
-            "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
-            "../activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
-            "../activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
-            "../activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
-            "../activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
-            "../activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
-            "../activities/bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
-            "../activities/bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_schema",
-            "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
-            "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
-            "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
-            "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
-            "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
-            "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
-            "../activities/d_voice_laryngeal_cancer/d_voice_laryngeal_cancer_schema",
-            "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
-            "../activities/d_mood_bipolar_disorder/d_mood_bipolar_disorder_schema",
-            "../activities/d_mood_depression_or_major_depressive_disorder/d_mood_depression_or_major_depressive_disorder_schema",
-            "../activities/d_resp_airway_stenosis/d_resp_airway_stenosis_schema",
-            "../activities/d_neuro_alzheimers_disease_mild_cognitive_impairme/d_neuro_alzheimers_disease_mild_cognitive_impairme_schema",
-            "../activities/d_neuro_parkinsons_disease/d_neuro_parkinsons_disease_schema",
-            "../activities/d_neuro_amyotrophic_lateral_sclerosis_als/d_neuro_amyotrophic_lateral_sclerosis_als_schema",
-            "../activities/d_peds_healthy_developmentallytypical_children/d_peds_healthy_developmentallytypical_children_schema",
+            "../activities/bridge2ai_consent_main_icf_usf_english/bridge2ai_consent_main_icf_usf_english_schema",
+            "../activities/bridge2ai_consent_main_icf_usf_researcher_statemen/bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_main_icf_usf/bridge2ai_consent_combined_pdf_main_icf_usf_schema",
+            "../activities/bridge2ai_consent_addendum_wcm_english/bridge2ai_consent_addendum_wcm_english_schema",
+            "../activities/bridge2ai_consent_addendum_wcm_researcher_statemen/bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_addendum_wcm/bridge2ai_consent_combined_pdf_addendum_wcm_schema",
+            "../activities/bridge2ai_consent_addendum_mit_english/bridge2ai_consent_addendum_mit_english_schema",
+            "../activities/bridge2ai_consent_addendum_mit_researcher_statemen/bridge2ai_consent_addendum_mit_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_addendum_mit/bridge2ai_consent_combined_pdf_addendum_mit_schema",
+            "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+            "../activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
+            "../activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
             "../activities/session/session_schema",
             "../activities/acoustic_task/acoustic_task_schema",
             "../activities/recording/recording_schema",
-            "../activities/q_generic_demographics/q_generic_demographics_schema",
-            "../activities/q_generic_confounders/q_generic_confounders_schema",
-            "../activities/q_generic_voice_perception/q_generic_voice_perception_schema",
-            "../activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
-            "../activities/q_generic_patient_health_questionnaire9/q_generic_patient_health_questionnaire9_schema",
-            "../activities/q_generic_gad7_anxiety/q_generic_gad7_anxiety_schema",
-            "../activities/q_voice_voice_problem_severity/q_voice_voice_problem_severity_schema",
-            "../activities/q_mood_panas/q_mood_panas_schema",
-            "../activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
-            "../activities/q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
-            "../activities/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
-            "../activities/q_mood_adhd_adult/q_mood_adhd_adult_schema",
-            "../activities/q_resp_dyspnea_index_di/q_resp_dyspnea_index_di_schema",
-            "../activities/q_resp_leicester_cough_questionnaire_lcq/q_resp_leicester_cough_questionnaire_lcq_schema",
-            "../activities/q_neuro_winograd_schemas/q_neuro_winograd_schemas_schema",
-            "../activities/q_neuro_wordcolor_stroop/q_neuro_wordcolor_stroop_schema",
-            "../activities/q_neuro_productive_vocabulary/q_neuro_productive_vocabulary_schema",
-            "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema",
-            "../activities/q_neuro_moca/q_neuro_moca_schema"
+            "../activities/questionnaire_across_all_cohorts_demographics/questionnaire_across_all_cohorts_demographics_schema",
+            "../activities/questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_schema",
+            "../activities/questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_schema",
+            "../activities/questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_schema",
+            "../activities/questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_schema",
+            "../activities/questionnaire_across_all_cohorts_gad7_anxiety/questionnaire_across_all_cohorts_gad7_anxiety_schema",
+            "../activities/questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_schema",
+            "../activities/questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_schema",
+            "../activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
+            "../activities/questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
+            "../activities/questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
+            "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema"
         ],
         "addProperties": [
             {
@@ -94,188 +76,100 @@
                 "variableName": "enrollment_form_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
+                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_english/bridge2ai_consent_main_icf_usf_english_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Paper Consent All Sites English"
+                    "en": "Bridge2Ai Consent Main Icf Usf English"
                 },
-                "variableName": "bridge2ai_paper_consent_all_sites_english_schema"
+                "variableName": "bridge2ai_consent_main_icf_usf_english_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
+                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_researcher_statemen/bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Main Icf Usf English"
+                    "en": "Bridge2Ai Consent Main Icf Usf Researcher Statemen"
                 },
-                "variableName": "bridge2ai_econsent_main_icf_usf_english_schema"
+                "variableName": "bridge2ai_consent_main_icf_usf_researcher_statemen_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_main_icf_usf/bridge2ai_consent_combined_pdf_main_icf_usf_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Main Icf Usf Researcher Stateme"
+                    "en": "Bridge2Ai Consent Combined Pdf Main Icf Usf"
                 },
-                "variableName": "bridge2ai_econsent_main_icf_usf_researcher_stateme_schema"
+                "variableName": "bridge2ai_consent_combined_pdf_main_icf_usf_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_english/bridge2ai_consent_addendum_wcm_english_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Combined Pdf Main Icf Usf"
+                    "en": "Bridge2Ai Consent Addendum Wcm English"
                 },
-                "variableName": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema"
+                "variableName": "bridge2ai_consent_addendum_wcm_english_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
+                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_researcher_statemen/bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Addendum Wcm English"
+                    "en": "Bridge2Ai Consent Addendum Wcm Researcher Statemen"
                 },
-                "variableName": "bridge2ai_econsent_addendum_wcm_english_schema"
+                "variableName": "bridge2ai_consent_addendum_wcm_researcher_statemen_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_wcm/bridge2ai_consent_combined_pdf_addendum_wcm_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Addendum Wcm Researcher Stateme"
+                    "en": "Bridge2Ai Consent Combined Pdf Addendum Wcm"
                 },
-                "variableName": "bridge2ai_econsent_addendum_wcm_researcher_stateme_schema"
+                "variableName": "bridge2ai_consent_combined_pdf_addendum_wcm_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
+                "isAbout": "../activities/bridge2ai_consent_addendum_mit_english/bridge2ai_consent_addendum_mit_english_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Combined Pdf Addendum Wcm"
+                    "en": "Bridge2Ai Consent Addendum Mit English"
                 },
-                "variableName": "bridge2ai_econsent_combined_pdf_addendum_wcm_schema"
+                "variableName": "bridge2ai_consent_addendum_mit_english_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_schema",
+                "isAbout": "../activities/bridge2ai_consent_addendum_mit_researcher_statemen/bridge2ai_consent_addendum_mit_researcher_statemen_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Addendum Mit English"
+                    "en": "Bridge2Ai Consent Addendum Mit Researcher Statemen"
                 },
-                "variableName": "bridge2ai_econsent_addendum_mit_english_schema"
+                "variableName": "bridge2ai_consent_addendum_mit_researcher_statemen_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_mit/bridge2ai_consent_combined_pdf_addendum_mit_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Addendum Mit Researcher Stateme"
+                    "en": "Bridge2Ai Consent Combined Pdf Addendum Mit"
                 },
-                "variableName": "bridge2ai_econsent_addendum_mit_researcher_stateme_schema"
+                "variableName": "bridge2ai_consent_combined_pdf_addendum_mit_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+                "isAbout": "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Combined Pdf Addendum Mit"
+                    "en": "Diagnosis Voice Disorders Vocal Fold Paralysis"
                 },
-                "variableName": "bridge2ai_econsent_combined_pdf_addendum_mit_schema"
+                "variableName": "diagnosis_voice_disorders_vocal_fold_paralysis_schema"
             },
             {
-                "isAbout": "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
+                "isAbout": "../activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Bridge2Ai Econsent Addendum Bch English"
+                    "en": "Diagnosis Mood Disorders Bipolar Disorder"
                 },
-                "variableName": "bridge2ai_econsent_addendum_bch_english_schema"
+                "variableName": "diagnosis_mood_disorders_bipolar_disorder_schema"
             },
             {
-                "isAbout": "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
+                "isAbout": "../activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "D Voice Unilateral Vocal Fold Paralysis"
+                    "en": "Diagnosis Mood Disorders Depression Or Major Depre"
                 },
-                "variableName": "d_voice_unilateral_vocal_fold_paralysis_schema"
-            },
-            {
-                "isAbout": "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Voice Laryngeal Dystonia"
-                },
-                "variableName": "d_voice_laryngeal_dystonia_schema"
-            },
-            {
-                "isAbout": "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Voice Precancerous Lesions"
-                },
-                "variableName": "d_voice_precancerous_lesions_schema"
-            },
-            {
-                "isAbout": "../activities/d_voice_laryngeal_cancer/d_voice_laryngeal_cancer_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Voice Laryngeal Cancer"
-                },
-                "variableName": "d_voice_laryngeal_cancer_schema"
-            },
-            {
-                "isAbout": "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Voice Benign Lesions"
-                },
-                "variableName": "d_voice_benign_lesions_schema"
-            },
-            {
-                "isAbout": "../activities/d_mood_bipolar_disorder/d_mood_bipolar_disorder_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Mood Bipolar Disorder"
-                },
-                "variableName": "d_mood_bipolar_disorder_schema"
-            },
-            {
-                "isAbout": "../activities/d_mood_depression_or_major_depressive_disorder/d_mood_depression_or_major_depressive_disorder_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Mood Depression Or Major Depressive Disorder"
-                },
-                "variableName": "d_mood_depression_or_major_depressive_disorder_schema"
-            },
-            {
-                "isAbout": "../activities/d_resp_airway_stenosis/d_resp_airway_stenosis_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Resp Airway Stenosis"
-                },
-                "variableName": "d_resp_airway_stenosis_schema"
-            },
-            {
-                "isAbout": "../activities/d_neuro_alzheimers_disease_mild_cognitive_impairme/d_neuro_alzheimers_disease_mild_cognitive_impairme_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Neuro Alzheimers Disease Mild Cognitive Impairme"
-                },
-                "variableName": "d_neuro_alzheimers_disease_mild_cognitive_impairme_schema"
-            },
-            {
-                "isAbout": "../activities/d_neuro_parkinsons_disease/d_neuro_parkinsons_disease_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Neuro Parkinsons Disease"
-                },
-                "variableName": "d_neuro_parkinsons_disease_schema"
-            },
-            {
-                "isAbout": "../activities/d_neuro_amyotrophic_lateral_sclerosis_als/d_neuro_amyotrophic_lateral_sclerosis_als_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Neuro Amyotrophic Lateral Sclerosis Als"
-                },
-                "variableName": "d_neuro_amyotrophic_lateral_sclerosis_als_schema"
-            },
-            {
-                "isAbout": "../activities/d_peds_healthy_developmentallytypical_children/d_peds_healthy_developmentallytypical_children_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "D Peds Healthy Developmentallytypical Children"
-                },
-                "variableName": "d_peds_healthy_developmentallytypical_children_schema"
+                "variableName": "diagnosis_mood_disorders_depression_or_major_depre_schema"
             },
             {
                 "isAbout": "../activities/session/session_schema",
@@ -302,160 +196,104 @@
                 "variableName": "recording_schema"
             },
             {
-                "isAbout": "../activities/q_generic_demographics/q_generic_demographics_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_demographics/questionnaire_across_all_cohorts_demographics_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Demographics"
+                    "en": "Questionnaire Across All Cohorts Demographics"
                 },
-                "variableName": "q_generic_demographics_schema"
+                "variableName": "questionnaire_across_all_cohorts_demographics_schema"
             },
             {
-                "isAbout": "../activities/q_generic_confounders/q_generic_confounders_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Confounders"
+                    "en": "Questionnaire Across All Cohorts Confounders"
                 },
-                "variableName": "q_generic_confounders_schema"
+                "variableName": "questionnaire_across_all_cohorts_confounders_schema"
             },
             {
-                "isAbout": "../activities/q_generic_voice_perception/q_generic_voice_perception_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Voice Perception"
+                    "en": "Questionnaire Across All Cohorts Voice Perception"
                 },
-                "variableName": "q_generic_voice_perception_schema"
+                "variableName": "questionnaire_across_all_cohorts_voice_perception_schema"
             },
             {
-                "isAbout": "../activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Voice Handicap Index Vhi10"
+                    "en": "Questionnaire Across All Cohorts Voice Handicap In"
                 },
-                "variableName": "q_generic_voice_handicap_index_vhi10_schema"
+                "variableName": "questionnaire_across_all_cohorts_voice_handicap_in_schema"
             },
             {
-                "isAbout": "../activities/q_generic_patient_health_questionnaire9/q_generic_patient_health_questionnaire9_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Patient Health Questionnaire9"
+                    "en": "Questionnaire Across All Cohorts Patient Health Qu"
                 },
-                "variableName": "q_generic_patient_health_questionnaire9_schema"
+                "variableName": "questionnaire_across_all_cohorts_patient_health_qu_schema"
             },
             {
-                "isAbout": "../activities/q_generic_gad7_anxiety/q_generic_gad7_anxiety_schema",
+                "isAbout": "../activities/questionnaire_across_all_cohorts_gad7_anxiety/questionnaire_across_all_cohorts_gad7_anxiety_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Generic Gad7 Anxiety"
+                    "en": "Questionnaire Across All Cohorts Gad7 Anxiety"
                 },
-                "variableName": "q_generic_gad7_anxiety_schema"
+                "variableName": "questionnaire_across_all_cohorts_gad7_anxiety_schema"
             },
             {
-                "isAbout": "../activities/q_voice_voice_problem_severity/q_voice_voice_problem_severity_schema",
+                "isAbout": "../activities/questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Voice Voice Problem Severity"
+                    "en": "Questionnaire Voice Disorders Voice Problem Severi"
                 },
-                "variableName": "q_voice_voice_problem_severity_schema"
+                "variableName": "questionnaire_voice_disorders_voice_problem_severi_schema"
             },
             {
-                "isAbout": "../activities/q_mood_panas/q_mood_panas_schema",
+                "isAbout": "../activities/questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Mood Panas"
+                    "en": "Questionnaire Mood Disorders Panas"
                 },
-                "variableName": "q_mood_panas_schema"
+                "variableName": "questionnaire_mood_disorders_panas_schema"
             },
             {
-                "isAbout": "../activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+                "isAbout": "../activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Mood Custom Affect Scale"
+                    "en": "Questionnaire Mood Disorders Custom Affect Scale"
                 },
-                "variableName": "q_mood_custom_affect_scale_schema"
+                "variableName": "questionnaire_mood_disorders_custom_affect_scale_schema"
             },
             {
-                "isAbout": "../activities/q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
+                "isAbout": "../activities/questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Mood Dsm5 Adult"
+                    "en": "Questionnaire Mood Disorders Dsm5 Adult"
                 },
-                "variableName": "q_mood_dsm5_adult_schema"
+                "variableName": "questionnaire_mood_disorders_dsm5_adult_schema"
             },
             {
-                "isAbout": "../activities/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
+                "isAbout": "../activities/questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Mood Ptsd Adult"
+                    "en": "Questionnaire Mood Disorders Ptsd Adult"
                 },
-                "variableName": "q_mood_ptsd_adult_schema"
+                "variableName": "questionnaire_mood_disorders_ptsd_adult_schema"
             },
             {
-                "isAbout": "../activities/q_mood_adhd_adult/q_mood_adhd_adult_schema",
+                "isAbout": "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Mood Adhd Adult"
+                    "en": "Questionnaire Mood Disorders Adhd Adult"
                 },
-                "variableName": "q_mood_adhd_adult_schema"
-            },
-            {
-                "isAbout": "../activities/q_resp_dyspnea_index_di/q_resp_dyspnea_index_di_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Resp Dyspnea Index Di"
-                },
-                "variableName": "q_resp_dyspnea_index_di_schema"
-            },
-            {
-                "isAbout": "../activities/q_resp_leicester_cough_questionnaire_lcq/q_resp_leicester_cough_questionnaire_lcq_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Resp Leicester Cough Questionnaire Lcq"
-                },
-                "variableName": "q_resp_leicester_cough_questionnaire_lcq_schema"
-            },
-            {
-                "isAbout": "../activities/q_neuro_winograd_schemas/q_neuro_winograd_schemas_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Neuro Winograd Schemas"
-                },
-                "variableName": "q_neuro_winograd_schemas_schema"
-            },
-            {
-                "isAbout": "../activities/q_neuro_wordcolor_stroop/q_neuro_wordcolor_stroop_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Neuro Wordcolor Stroop"
-                },
-                "variableName": "q_neuro_wordcolor_stroop_schema"
-            },
-            {
-                "isAbout": "../activities/q_neuro_productive_vocabulary/q_neuro_productive_vocabulary_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Neuro Productive Vocabulary"
-                },
-                "variableName": "q_neuro_productive_vocabulary_schema"
-            },
-            {
-                "isAbout": "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Neuro Random Item Generation"
-                },
-                "variableName": "q_neuro_random_item_generation_schema"
-            },
-            {
-                "isAbout": "../activities/q_neuro_moca/q_neuro_moca_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Q Neuro Moca"
-                },
-                "variableName": "q_neuro_moca_schema"
+                "variableName": "questionnaire_mood_disorders_adhd_adult_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "3.5.0",
+    "version": "1.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

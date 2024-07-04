@@ -1,8 +1,8 @@
 {
-    "id": "resp_dis_4",
+    "id": "resp_dis_2",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "resp_dis_4"
+        "en": "resp_dis_2"
     },
     "question": {
         "en": "COPD"

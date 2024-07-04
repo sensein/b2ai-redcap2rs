@@ -1,11 +1,11 @@
 {
-    "id": "resp_dis_5",
+    "id": "resp_dis_4",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "resp_dis_5"
+        "en": "resp_dis_4"
     },
     "question": {
-        "en": "Obstructive Sleep Apnea (OSA)"
+        "en": "OSA"
     },
     "responseOptions": {
         "choices": [
