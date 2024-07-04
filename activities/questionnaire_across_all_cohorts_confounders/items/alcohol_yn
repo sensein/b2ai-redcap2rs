@@ -14,19 +14,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes "
                 },
-                "value": 1
+                "value": "yes"
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No "
                 },
-                "value": 0
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:string"
         ]
     },
     "ui": {

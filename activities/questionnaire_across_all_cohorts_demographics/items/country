@@ -11,9 +11,15 @@
         "choices": [
             {
                 "name": {
-                    "en": "USA"
+                    "en": "USA "
                 },
                 "value": 1
+            },
+            {
+                "name": {
+                    "en": "Canada"
+                },
+                "value": 2
             }
         ],
         "valueType": [

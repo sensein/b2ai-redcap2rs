@@ -1,11 +1,11 @@
 {
-    "id": "neuro_neurodeg_dis_6",
+    "id": "neuro_neurodeg_dis_3",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "neuro_neurodeg_dis_6"
+        "en": "neuro_neurodeg_dis_3"
     },
     "question": {
-        "en": "Parkinson's"
+        "en": "Parkinson's disease"
     },
     "responseOptions": {
         "choices": [
