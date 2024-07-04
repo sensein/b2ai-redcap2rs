@@ -11,6 +11,7 @@
             "items/is_control_participant",
             "items/laryng_cancer",
             "items/benign_cord_lesion",
+            "items/mtd",
             "items/rrp",
             "items/spas_dys",
             "items/voc_fold_paralysis",
@@ -64,6 +65,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "benign_cord_lesion"
+            },
+            {
+                "isAbout": "items/mtd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtd"
             },
             {
                 "isAbout": "items/rrp",
@@ -236,6 +243,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.4.0",
+    "version": "3.6.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

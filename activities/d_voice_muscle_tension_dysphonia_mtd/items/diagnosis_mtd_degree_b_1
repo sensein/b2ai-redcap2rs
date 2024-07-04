@@ -1,34 +1,31 @@
 {
-    "id": "diagnosis_vfp_treatment",
+    "id": "diagnosis_mtd_degree_b_1",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "5. Treatment obtained"
-    },
     "prefLabel": {
-        "en": "diagnosis_vfp_treatment"
+        "en": "diagnosis_mtd_degree_b_1"
     },
     "question": {
-        "en": "Has the patient undergone any treatment for his condition?"
+        "en": "Breathiness"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Surgery "
+                    "en": "MI "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": " MO "
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Speech therapy "
+                    "en": " SE"
                 },
                 "value": 2
-            },
-            {
-                "name": {
-                    "en": "No treatment"
-                },
-                "value": 3
             }
         ],
         "valueType": [
@@ -36,7 +33,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "slider"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

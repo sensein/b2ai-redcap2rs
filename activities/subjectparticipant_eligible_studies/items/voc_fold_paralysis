@@ -1,11 +1,11 @@
 {
-    "id": "voice_disorders_5",
+    "id": "voice_disorders_6",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "voice_disorders_5"
+        "en": "voice_disorders_6"
     },
     "question": {
-        "en": "Vocal fold paralysis"
+        "en": "Unilateral vocal fold paralysis"
     },
     "responseOptions": {
         "choices": [

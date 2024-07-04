@@ -41,9 +41,15 @@
             },
             {
                 "name": {
-                    "en": "Brain Surgery"
+                    "en": "Brain Surgery "
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
             }
         ],
         "valueType": [

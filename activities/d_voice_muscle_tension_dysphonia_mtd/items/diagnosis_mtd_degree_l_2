@@ -1,29 +1,29 @@
 {
-    "id": "diagnosis_vfp_treatment_surgery",
+    "id": "diagnosis_mtd_degree_l_2",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_vfp_treatment_surgery"
+        "en": "diagnosis_mtd_degree_l_2"
     },
     "question": {
-        "en": "Surgery - Subcategory"
+        "en": "Pitch"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Thyroplasty "
+                    "en": "Consistent "
                 },
-                "value": 1
+                "value": "consistent"
             },
             {
                 "name": {
-                    "en": "Vocal fold injection augmentation"
+                    "en": "Intermittent"
                 },
-                "value": 2
+                "value": " intermittent"
             }
         ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

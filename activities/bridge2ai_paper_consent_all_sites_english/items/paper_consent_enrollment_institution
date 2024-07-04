@@ -29,6 +29,12 @@
             },
             {
                 "name": {
+                    "en": "SickKids "
+                },
+                "value": " sickkids"
+            },
+            {
+                "name": {
                     "en": "USF "
                 },
                 "value": " usf"

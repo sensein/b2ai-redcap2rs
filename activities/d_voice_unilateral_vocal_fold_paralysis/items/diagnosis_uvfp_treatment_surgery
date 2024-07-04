@@ -1,44 +1,42 @@
 {
-    "id": "diagnosis_vfp_etiology",
+    "id": "diagnosis_uvfp_treatment_surgery",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "3. Etiology"
-    },
     "prefLabel": {
-        "en": "diagnosis_vfp_etiology"
+        "en": "diagnosis_uvfp_treatment_surgery"
     },
     "question": {
-        "en": "What is the etiology?"
+        "en": "Surgery / Procedure"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Idiopathic "
+                    "en": "Thyroplasty "
                 },
-                "value": 1
+                "value": "thyroplasty"
             },
             {
                 "name": {
-                    "en": "Iatrogenic (surgery/intubation) "
+                    "en": "Vocal fold injection augmentation "
                 },
-                "value": 2
+                "value": " vocal_fold_injection_augmentation"
             },
             {
                 "name": {
-                    "en": "Tumor invading RLN "
+                    "en": "Arytenoid adduction "
                 },
-                "value": 3
+                "value": " arytenoid_adduction"
             },
             {
                 "name": {
-                    "en": "Radiation"
+                    "en": "Other"
                 },
-                "value": 4
+                "value": " other"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

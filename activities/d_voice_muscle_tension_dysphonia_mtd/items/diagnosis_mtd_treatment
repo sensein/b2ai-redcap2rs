@@ -1,29 +1,32 @@
 {
-    "id": "diagnosis_vfp_treatment_surgery_thyroplasty",
+    "id": "diagnosis_mtd_treatment",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "5. Treatment obtained"
+    },
     "prefLabel": {
-        "en": "diagnosis_vfp_treatment_surgery_thyroplasty"
+        "en": "diagnosis_mtd_treatment"
     },
     "question": {
-        "en": "Thyroplasty - Subcategory"
+        "en": "Has the patient undergone any treatment for their condition?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Goretex "
+                    "en": "Yes "
                 },
-                "value": 1
+                "value": "yes"
             },
             {
                 "name": {
-                    "en": "Silastic"
+                    "en": "No"
                 },
-                "value": 2
+                "value": " no"
             }
         ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -1,32 +1,33 @@
 {
-    "id": "diagnosis_vfp_ds",
+    "id": "diagnosis_mtd_gsd_evaluations",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "2. Disease Subtype"
+        "en": "1. Gold Standard Diagnosis"
     },
     "prefLabel": {
-        "en": "diagnosis_vfp_ds"
+        "en": "diagnosis_mtd_gsd_evaluations"
     },
     "question": {
-        "en": "Which side is the paralysis?"
+        "en": "Does the patient have MTD as determined by qualitative expert team evaluations? (Select all that apply)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Left "
+                    "en": "Laryngologist "
                 },
-                "value": 1
+                "value": "laryngologist"
             },
             {
                 "name": {
-                    "en": "Right"
+                    "en": "Speech-Language Pathology"
                 },
-                "value": 2
+                "value": " speech_language_pathology"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

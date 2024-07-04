@@ -24,6 +24,7 @@
             "items/ef_dob",
             "items/ef_laryng_cancer",
             "items/ef_benign_cord_lesion",
+            "items/ef_mtd",
             "items/ef_rrp",
             "items/ef_spas_dys",
             "items/ef_voc_fold_paralysis",
@@ -167,6 +168,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ef_benign_cord_lesion"
+            },
+            {
+                "isAbout": "items/ef_mtd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_mtd"
             },
             {
                 "isAbout": "items/ef_rrp",
@@ -442,6 +449,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.4.0",
+    "version": "3.6.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
