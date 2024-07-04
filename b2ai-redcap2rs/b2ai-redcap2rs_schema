@@ -25,6 +25,7 @@
             "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
             "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
             "../activities/bridge2ai_econsent_addendum_sickkids_english/bridge2ai_econsent_addendum_sickkids_english_schema",
+            "../activities/d_control/d_control_schema",
             "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
             "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
             "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
@@ -181,6 +182,14 @@
                     "en": "Bridge2Ai Econsent Addendum Sickkids English"
                 },
                 "variableName": "bridge2ai_econsent_addendum_sickkids_english_schema"
+            },
+            {
+                "isAbout": "../activities/d_control/d_control_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "D Control"
+                },
+                "variableName": "d_control_schema"
             },
             {
                 "isAbout": "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
@@ -465,6 +474,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.6.0",
+    "version": "3.8.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
