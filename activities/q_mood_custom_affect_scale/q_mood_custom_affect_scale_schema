@@ -130,6 +130,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.2.0",
+    "version": "3.3.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,9 +1,6 @@
 {
     "id": "diagnosis_as_ds_mcg",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "4. Disease Severity"
-    },
     "prefLabel": {
         "en": "diagnosis_as_ds_mcg"
     },

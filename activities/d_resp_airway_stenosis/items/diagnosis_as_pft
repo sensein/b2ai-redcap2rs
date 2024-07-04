@@ -2,7 +2,7 @@
     "id": "diagnosis_as_pft",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "1. Gold Standard Diagnosis"
+        "en": "1. Gold Standard Diagnosis4. Disease Severity"
     },
     "prefLabel": {
         "en": "diagnosis_as_pft"

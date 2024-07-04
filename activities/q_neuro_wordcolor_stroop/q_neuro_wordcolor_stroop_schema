@@ -8,8 +8,8 @@
     "ui": {
         "order": [
             "items/stroop_session_id",
-            "items/stroop_started_at",
             "items/stroop_recording_acoustic_task_id",
+            "items/stroop_started_at",
             "items/stroop_completed_at",
             "items/stroop_duration",
             "items/stroop_item_stimulus_1",
@@ -80,15 +80,15 @@
                 "variableName": "stroop_session_id"
             },
             {
-                "isAbout": "items/stroop_started_at",
-                "isVis": true,
-                "variableName": "stroop_started_at"
-            },
-            {
                 "isAbout": "items/stroop_recording_acoustic_task_id",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "stroop_recording_acoustic_task_id"
+            },
+            {
+                "isAbout": "items/stroop_started_at",
+                "isVis": true,
+                "variableName": "stroop_started_at"
             },
             {
                 "isAbout": "items/stroop_completed_at",
@@ -403,6 +403,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.2.0",
+    "version": "3.3.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

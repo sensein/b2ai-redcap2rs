@@ -13,19 +13,19 @@
                 "name": {
                     "en": "Endoscopic intervention with Laser and Balloon dilation and steroid injection "
                 },
-                "value": "endoscopicIntervention"
+                "value": "endoscopic_intervention"
             },
             {
                 "name": {
-                    "en": "Endoscopic laser wedge excision "
+                    "en": "Endoscopic laser wedge excision with balloon dilation and steroid injection "
                 },
-                "value": " endoscopicExcision"
+                "value": " endoscopic_excision"
             },
             {
                 "name": {
-                    "en": "Laryngotracheal reconstruction "
+                    "en": "Open Laryngotracheal reconstruction "
                 },
-                "value": " laryngotrachealReconstruction"
+                "value": " laryngotracheal_reconstruction"
             },
             {
                 "name": {
@@ -35,11 +35,18 @@
             },
             {
                 "name": {
-                    "en": "Tracheostomy"
+                    "en": "Tracheostomy "
                 },
                 "value": " tracheostomy"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " other"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:string"
         ]

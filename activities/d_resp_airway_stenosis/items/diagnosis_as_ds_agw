@@ -1,31 +1,37 @@
 {
-    "id": "diagnosis_as_ds_bvfi",
+    "id": "diagnosis_as_ds_agw",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_as_ds_bvfi"
+        "en": "diagnosis_as_ds_agw"
     },
     "question": {
-        "en": "Bilateral Vocal fold immobility Subtype"
+        "en": "Anterior Glottic Web classification (Cohen)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Posterior Glottic Stenosis "
+                    "en": "Grade 1 (0-35% obstruction) "
                 },
-                "value": "posteriorGlotticStenosis"
+                "value": "grade1"
             },
             {
                 "name": {
-                    "en": "Bilateral Vocal Fold Paralysis "
+                    "en": "Grade 2 (35-50% obstruction) "
                 },
-                "value": " bilateralVocalFoldParalysis"
+                "value": " grade2"
             },
             {
                 "name": {
-                    "en": "To be Determined/Not certain"
+                    "en": "Grade 3 (51-75% obstruction) "
                 },
-                "value": " tbd"
+                "value": " grade3"
+            },
+            {
+                "name": {
+                    "en": "Grade 4 (76-100% obstruction)"
+                },
+                "value": " grade4"
             }
         ],
         "valueType": [

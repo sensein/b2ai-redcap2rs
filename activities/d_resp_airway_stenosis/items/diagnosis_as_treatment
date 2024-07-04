@@ -16,7 +16,7 @@
                 "name": {
                     "en": "No treatment "
                 },
-                "value": "noTreatment"
+                "value": "no_treatment"
             },
             {
                 "name": {
@@ -28,9 +28,10 @@
                 "name": {
                     "en": "In-office treatment"
                 },
-                "value": " inOfficeTreatment"
+                "value": " in_office_treatment"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:string"
         ]
