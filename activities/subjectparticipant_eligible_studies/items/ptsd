@@ -1,8 +1,8 @@
 {
-    "id": "mood_psych_dis_6",
+    "id": "mood_psych_dis_12",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_6"
+        "en": "mood_psych_dis_12"
     },
     "question": {
         "en": "Post-Traumatic Stress Disorder (PTSD)"
