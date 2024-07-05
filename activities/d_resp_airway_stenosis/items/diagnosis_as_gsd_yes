@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Confirmed by bronchoscopy/laryngoscopy "
+                    "en": "Confirmed by bronchoscopy or laryngoscopy "
                 },
                 "value": "bronchoscopy"
             },
@@ -22,6 +22,7 @@
                 "value": " ct"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:string"
         ]

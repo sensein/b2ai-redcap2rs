@@ -1,46 +1,43 @@
 {
-    "id": "diagnosis_as_ds",
+    "id": "diagnosis_as_ds_bvfi_gs",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "2. Disease Subtype"
-    },
     "prefLabel": {
-        "en": "diagnosis_as_ds"
+        "en": "diagnosis_as_ds_bvfi_gs"
     },
     "question": {
-        "en": "Disease Subtype"
+        "en": "Bilateral Vocal fold immobility or Glottic Stenosis Subtype"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Subglottic Stenosis "
+                    "en": "Posterior Glottic Stenosis "
                 },
-                "value": "subglotticStenosis"
+                "value": "posteriorGlotticStenosis"
             },
             {
                 "name": {
-                    "en": "Bilateral Vocal fold immobility or Glottic Stenosis "
+                    "en": "Bilateral Vocal Fold Paralysis "
                 },
-                "value": " bilateralVocalFoldImmobilityGlotticStenosis"
+                "value": " bilateralVocalFoldParalysis"
             },
             {
                 "name": {
-                    "en": "Supraglottic Stenosis "
+                    "en": "Anterior glottic Web "
                 },
-                "value": " supraglotticStenosis"
+                "value": " anteriorGlotticWeb"
             },
             {
                 "name": {
-                    "en": "Tracheal Stenosis "
+                    "en": "Not certain or TBD "
                 },
-                "value": " trachealStenosis"
+                "value": " tbd"
             },
             {
                 "name": {
-                    "en": "Multi-Level Upper Airway Stenosis"
+                    "en": "Other"
                 },
-                "value": " multilevelUpperAirwayStenosis"
+                "value": " other"
             }
         ],
         "valueType": [

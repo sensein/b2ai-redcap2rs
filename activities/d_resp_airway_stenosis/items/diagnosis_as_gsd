@@ -5,7 +5,7 @@
         "en": "diagnosis_as_gsd"
     },
     "question": {
-        "en": "Does the patient have airway stenosis confirmed by a laryngoscopy/bronchoscopy or CT imaging?"
+        "en": "Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?"
     },
     "responseOptions": {
         "choices": [

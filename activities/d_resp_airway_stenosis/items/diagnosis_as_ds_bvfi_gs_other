@@ -1,8 +1,8 @@
 {
-    "id": "diagnosis_as_etiology_other",
+    "id": "diagnosis_as_ds_bvfi_gs_other",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_as_etiology_other"
+        "en": "diagnosis_as_ds_bvfi_gs_other"
     },
     "question": {
         "en": "Other, Please specify"

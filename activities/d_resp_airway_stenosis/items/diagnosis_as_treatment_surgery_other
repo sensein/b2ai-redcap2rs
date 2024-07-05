@@ -1,11 +1,11 @@
 {
-    "id": "diagnosis_as_etiology_other",
+    "id": "diagnosis_as_treatment_surgery_other",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_as_etiology_other"
+        "en": "diagnosis_as_treatment_surgery_other"
     },
     "question": {
-        "en": "Other, Please specify"
+        "en": "Other Surgery option, Please Specify"
     },
     "responseOptions": {
         "valueType": [

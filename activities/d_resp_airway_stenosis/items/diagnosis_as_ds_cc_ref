@@ -1,11 +1,11 @@
 {
-    "id": "diagnosis_as_etiology_other",
+    "id": "diagnosis_as_ds_cc_ref",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_as_etiology_other"
+        "en": "diagnosis_as_ds_cc_ref"
     },
     "question": {
-        "en": "Other, Please specify"
+        "en": "Anterior Glottic Web classification (Cohen)\nPicture for reference"
     },
     "responseOptions": {
         "valueType": [
@@ -13,7 +13,7 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "static"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

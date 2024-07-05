@@ -8,8 +8,8 @@
     "ui": {
         "order": [
             "items/vocabulary_session_id",
-            "items/vocabulary_started_at",
             "items/vocabulary_recording_acoustic_task_id",
+            "items/vocabulary_started_at",
             "items/vocabulary_completed_at",
             "items/vocabulary_duration",
             "items/vocabulary_item_word_1",
@@ -38,15 +38,15 @@
                 "variableName": "vocabulary_session_id"
             },
             {
-                "isAbout": "items/vocabulary_started_at",
-                "isVis": true,
-                "variableName": "vocabulary_started_at"
-            },
-            {
                 "isAbout": "items/vocabulary_recording_acoustic_task_id",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "vocabulary_recording_acoustic_task_id"
+            },
+            {
+                "isAbout": "items/vocabulary_started_at",
+                "isVis": true,
+                "variableName": "vocabulary_started_at"
             },
             {
                 "isAbout": "items/vocabulary_completed_at",
@@ -151,6 +151,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.2.0",
+    "version": "3.3.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
