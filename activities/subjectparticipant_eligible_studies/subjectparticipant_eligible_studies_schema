@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/eligible_studies",
+            "items/is_control_participant",
             "items/laryng_cancer",
             "items/benign_cord_lesion",
             "items/rrp",
@@ -45,6 +46,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "eligible_studies"
+            },
+            {
+                "isAbout": "items/is_control_participant",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "is_control_participant"
             },
             {
                 "isAbout": "items/laryng_cancer",
@@ -229,6 +236,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.3.0",
+    "version": "3.4.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
