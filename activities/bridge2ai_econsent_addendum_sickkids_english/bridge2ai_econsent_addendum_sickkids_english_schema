@@ -1,8 +1,8 @@
 {
-    "id": "bridge2ai_econsent_addendum_bch_english_schema",
+    "id": "bridge2ai_econsent_addendum_sickkids_english_schema",
     "category": "reproschema:Activity",
     "prefLabel": {
-        "en": "bridge2ai_econsent_addendum_bch_english"
+        "en": "bridge2ai_econsent_addendum_sickkids_english"
     },
     "schemaVersion": "1.0.0-rc4",
     "ui": {
@@ -83,6 +83,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.5.0",
+    "version": "3.6.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

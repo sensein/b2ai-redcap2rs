@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "BCH "
-                },
-                "value": "bch"
-            },
-            {
-                "name": {
                     "en": "MIT "
                 },
-                "value": " mit"
+                "value": "mit"
             },
             {
                 "name": {
                     "en": "Mt. Sinai "
                 },
                 "value": " mt_sinai"
+            },
+            {
+                "name": {
+                    "en": "SickKids "
+                },
+                "value": " sickkids"
             },
             {
                 "name": {
