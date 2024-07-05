@@ -1,16 +1,18 @@
 {
-    "id": "d_voice_vocal_fold_paralysis_schema",
+    "id": "d_voice_unilateral_vocal_fold_paralysis_schema",
     "category": "reproschema:Activity",
     "prefLabel": {
-        "en": "d_voice_vocal_fold_paralysis"
+        "en": "d_voice_unilateral_vocal_fold_paralysis"
     },
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
             "items/diagnosis_vfp_gsd",
-            "items/diagnosis_vfp_ds",
+            "items/diagnosis_uvfp_ds",
             "items/diagnosis_vfp_etiology",
+            "items/diagnosis_uvfp_etiology_other",
             "items/diagnosis_vfp_iatrogenic",
+            "items/diagnosis_uvfp_latrogenic_other",
             "items/diagnosis_vfp_tumor",
             "items/diagnosis_vfp_dse",
             "items/diagnosis_vfp_degree_text",
@@ -32,10 +34,13 @@
             "items/diagnosis_degree_comments",
             "items/diagnosis_degree_comments_other",
             "items/diagnosis_degree_comments_other_2",
-            "items/diagnosis_vfp_treatment",
-            "items/diagnosis_vfp_treatment_surgery",
-            "items/diagnosis_vfp_treatment_surgery_thyroplasty",
-            "items/diagnosis_vfp_treatment_surgery_vfia"
+            "items/diagnosis_uvfp_treatment",
+            "items/diagnosis_uvfp_treatment_select",
+            "items/diagnosis_uvfp_treatment_other",
+            "items/diagnosis_uvfp_treatment_surgery",
+            "items/diagnosis_uvfp_treatment_surgery_other",
+            "items/diagnosis_uvfp_treatment_surgery_thyroplasty",
+            "items/diagnosis_uvfp_treatment_surgery_vfia"
         ],
         "addProperties": [
             {
@@ -45,10 +50,10 @@
                 "variableName": "diagnosis_vfp_gsd"
             },
             {
-                "isAbout": "items/diagnosis_vfp_ds",
+                "isAbout": "items/diagnosis_uvfp_ds",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "diagnosis_vfp_ds"
+                "variableName": "diagnosis_uvfp_ds"
             },
             {
                 "isAbout": "items/diagnosis_vfp_etiology",
@@ -57,10 +62,20 @@
                 "variableName": "diagnosis_vfp_etiology"
             },
             {
+                "isAbout": "items/diagnosis_uvfp_etiology_other",
+                "isVis": "diagnosis_vfp_etiology == 5",
+                "variableName": "diagnosis_uvfp_etiology_other"
+            },
+            {
                 "isAbout": "items/diagnosis_vfp_iatrogenic",
                 "isVis": "diagnosis_vfp_etiology == 2",
                 "valueRequired": true,
                 "variableName": "diagnosis_vfp_iatrogenic"
+            },
+            {
+                "isAbout": "items/diagnosis_uvfp_latrogenic_other",
+                "isVis": "diagnosis_vfp_iatrogenic ==7",
+                "variableName": "diagnosis_uvfp_latrogenic_other"
             },
             {
                 "isAbout": "items/diagnosis_vfp_tumor",
@@ -184,32 +199,47 @@
                 "variableName": "diagnosis_degree_comments_other_2"
             },
             {
-                "isAbout": "items/diagnosis_vfp_treatment",
+                "isAbout": "items/diagnosis_uvfp_treatment",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "diagnosis_vfp_treatment"
+                "variableName": "diagnosis_uvfp_treatment"
             },
             {
-                "isAbout": "items/diagnosis_vfp_treatment_surgery",
-                "isVis": "diagnosis_vfp_treatment == 1",
-                "valueRequired": true,
-                "variableName": "diagnosis_vfp_treatment_surgery"
+                "isAbout": "items/diagnosis_uvfp_treatment_select",
+                "isVis": "diagnosis_uvfp_treatment =='yes'",
+                "variableName": "diagnosis_uvfp_treatment_select"
             },
             {
-                "isAbout": "items/diagnosis_vfp_treatment_surgery_thyroplasty",
-                "isVis": "diagnosis_vfp_treatment_surgery == 1",
-                "valueRequired": true,
-                "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty"
+                "isAbout": "items/diagnosis_uvfp_treatment_other",
+                "isVis": "diagnosis_uvfp_treatment_select(other) =='1'",
+                "variableName": "diagnosis_uvfp_treatment_other"
             },
             {
-                "isAbout": "items/diagnosis_vfp_treatment_surgery_vfia",
-                "isVis": "diagnosis_vfp_treatment_surgery == 2",
+                "isAbout": "items/diagnosis_uvfp_treatment_surgery",
+                "isVis": "diagnosis_uvfp_treatment_select(surgery) =='1'",
                 "valueRequired": true,
-                "variableName": "diagnosis_vfp_treatment_surgery_vfia"
+                "variableName": "diagnosis_uvfp_treatment_surgery"
+            },
+            {
+                "isAbout": "items/diagnosis_uvfp_treatment_surgery_other",
+                "isVis": "diagnosis_uvfp_treatment_surgery(other) =='1'",
+                "variableName": "diagnosis_uvfp_treatment_surgery_other"
+            },
+            {
+                "isAbout": "items/diagnosis_uvfp_treatment_surgery_thyroplasty",
+                "isVis": "diagnosis_uvfp_treatment_surgery(thyroplasty) =='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_uvfp_treatment_surgery_thyroplasty"
+            },
+            {
+                "isAbout": "items/diagnosis_uvfp_treatment_surgery_vfia",
+                "isVis": "diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation) =='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_uvfp_treatment_surgery_vfia"
             }
         ],
         "shuffle": false
     },
-    "version": "3.4.0",
+    "version": "3.5.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

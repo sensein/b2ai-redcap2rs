@@ -1,32 +1,30 @@
 {
-    "id": "diagnosis_vfp_ds",
+    "id": "diagnosis_uvfp_treatment_surgery_thyroplasty",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "2. Disease Subtype"
-    },
     "prefLabel": {
-        "en": "diagnosis_vfp_ds"
+        "en": "diagnosis_uvfp_treatment_surgery_thyroplasty"
     },
     "question": {
-        "en": "Which side is the paralysis?"
+        "en": "Thyroplasty - Subcategory"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Left "
+                    "en": "Gore-Tex "
                 },
-                "value": 1
+                "value": "goretex"
             },
             {
                 "name": {
-                    "en": "Right"
+                    "en": "Silastic"
                 },
-                "value": 2
+                "value": " silastic"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

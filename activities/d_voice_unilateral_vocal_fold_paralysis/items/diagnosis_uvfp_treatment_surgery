@@ -1,41 +1,42 @@
 {
-    "id": "diagnosis_vfp_treatment_surgery_vfia",
+    "id": "diagnosis_uvfp_treatment_surgery",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "diagnosis_vfp_treatment_surgery_vfia"
+        "en": "diagnosis_uvfp_treatment_surgery"
     },
     "question": {
-        "en": "Vocal fold injection augmentation - Subcategory"
+        "en": "Surgery / Procedure"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Caha "
+                    "en": "Thyroplasty "
                 },
-                "value": 1
+                "value": "thyroplasty"
             },
             {
                 "name": {
-                    "en": "Gel "
+                    "en": "Vocal fold injection augmentation "
                 },
-                "value": 2
+                "value": " vocal_fold_injection_augmentation"
             },
             {
                 "name": {
-                    "en": "Hyaluronic Acid augmentation "
+                    "en": "Arytenoid adduction "
                 },
-                "value": 3
+                "value": " arytenoid_adduction"
             },
             {
                 "name": {
-                    "en": "Fat injection"
+                    "en": "Other"
                 },
-                "value": 4
+                "value": " other"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -25,7 +25,7 @@
             "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
             "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
             "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
-            "../activities/d_voice_vocal_fold_paralysis/d_voice_vocal_fold_paralysis_schema",
+            "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
             "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
             "../activities/d_voice_precancerous_lesions/d_voice_precancerous_lesions_schema",
             "../activities/d_voice_laryngeal_cancer/d_voice_laryngeal_cancer_schema",
@@ -182,12 +182,12 @@
                 "variableName": "bridge2ai_econsent_addendum_bch_english_schema"
             },
             {
-                "isAbout": "../activities/d_voice_vocal_fold_paralysis/d_voice_vocal_fold_paralysis_schema",
+                "isAbout": "../activities/d_voice_unilateral_vocal_fold_paralysis/d_voice_unilateral_vocal_fold_paralysis_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "D Voice Vocal Fold Paralysis"
+                    "en": "D Voice Unilateral Vocal Fold Paralysis"
                 },
-                "variableName": "d_voice_vocal_fold_paralysis_schema"
+                "variableName": "d_voice_unilateral_vocal_fold_paralysis_schema"
             },
             {
                 "isAbout": "../activities/d_voice_laryngeal_dystonia/d_voice_laryngeal_dystonia_schema",
@@ -456,6 +456,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.4.0",
+    "version": "3.5.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

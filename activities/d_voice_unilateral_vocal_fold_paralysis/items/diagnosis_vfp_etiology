@@ -1,34 +1,46 @@
 {
-    "id": "diagnosis_vfp_treatment",
+    "id": "diagnosis_vfp_etiology",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "5. Treatment obtained"
+        "en": "3. Etiology"
     },
     "prefLabel": {
-        "en": "diagnosis_vfp_treatment"
+        "en": "diagnosis_vfp_etiology"
     },
     "question": {
-        "en": "Has the patient undergone any treatment for his condition?"
+        "en": "What is the etiology?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Surgery "
+                    "en": "Idiopathic "
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Speech therapy "
+                    "en": "Iatrogenic (surgery/intubation) "
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No treatment"
+                    "en": "Tumor invading RLN "
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "Radiation "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
             }
         ],
         "valueType": [

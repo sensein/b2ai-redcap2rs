@@ -1,44 +1,36 @@
 {
-    "id": "diagnosis_vfp_etiology",
+    "id": "diagnosis_uvfp_treatment_select",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "3. Etiology"
-    },
     "prefLabel": {
-        "en": "diagnosis_vfp_etiology"
+        "en": "diagnosis_uvfp_treatment_select"
     },
     "question": {
-        "en": "What is the etiology?"
+        "en": "Select all that apply:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Idiopathic "
+                    "en": "Surgery / Procedure "
                 },
-                "value": 1
+                "value": "surgery"
             },
             {
                 "name": {
-                    "en": "Iatrogenic (surgery/intubation) "
+                    "en": "Speech therapy "
                 },
-                "value": 2
+                "value": " speech_therapy"
             },
             {
                 "name": {
-                    "en": "Tumor invading RLN "
+                    "en": "Other"
                 },
-                "value": 3
-            },
-            {
-                "name": {
-                    "en": "Radiation"
-                },
-                "value": 4
+                "value": " other"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

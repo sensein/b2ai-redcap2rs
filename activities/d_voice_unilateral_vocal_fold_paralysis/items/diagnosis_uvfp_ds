@@ -1,38 +1,33 @@
 {
-    "id": "diagnosis_vfp_dse",
+    "id": "diagnosis_uvfp_ds",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "4. Disease Severity"
+        "en": "2. Disease Subtype"
     },
     "prefLabel": {
-        "en": "diagnosis_vfp_dse"
+        "en": "diagnosis_uvfp_ds"
     },
     "question": {
-        "en": "Degree of Glottic Gap"
+        "en": "Which side is the paralysis? Choose all that apply"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Small "
+                    "en": "Left "
                 },
-                "value": 1
+                "value": "left"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Right"
                 },
-                "value": 2
-            },
-            {
-                "name": {
-                    "en": "Large"
-                },
-                "value": 3
+                "value": " right"
             }
         ],
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
