@@ -12,7 +12,13 @@ All existing protocols, activities, and items from the previous version were del
 
 ### 2. Convert to reproschema format
 
-Install the tool `reproschema-py` 
+`reproschema-py` requires Python 3.10+ and can be installed directly through `pip`:
+
+```
+pip install reproschema
+```
+
+Or, you can istall the developer mode through GitHub:
 ```
 git clone https://github.com/ReproNim/reproschema-py.git
 cd reproschema-py
