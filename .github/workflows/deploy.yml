@@ -20,7 +20,11 @@ jobs:
       
       - name: install reproschema
         run: |
-          pip install -U reproschema==0.7.2
+          pip install --upgrade reproschema
+
+      - name: install gitpython
+        run: |
+          pip install gitpython
 
       - name: Run tests
         run: |
@@ -55,17 +59,25 @@ jobs:
       - name: Generate reproschema
         run: |
           rm -r b2ai-redcap2rs
+          rm -r activities
           mkdir output
           cp bridge2ai_voice_project_data_dictionary.csv output
           cp protocol.yaml output
           cd output
           reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
-          cp -r b2ai-redcap2rs ..
+          cp -r b2ai-redcap2rs/* ..
           cd ..
+
+      - name: Remove File Changes with just version
+        run: |
+          python git_diff.py
 
       - name: Commit reproschema
         run: |
+          reproschema validate b2ai-redcap2rs
+          reproschema validate activities
           git add b2ai-redcap2rs
+          git add activities
           git commit -a -m "$(date): update reproschema with redcap $VERSION_TAG"
           git push
           
@@ -73,4 +85,4 @@ jobs:
       - name: Add Tag
         run: |
           git tag $VERSION_TAG
-          git push origin $VERSION_TAG     
+          git push origin $VERSION_TAG
