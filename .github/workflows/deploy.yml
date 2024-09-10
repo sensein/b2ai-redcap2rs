@@ -1,0 +1,88 @@
+name: Trigger Target Workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+      
+      - name: install reproschema
+        run: |
+          pip install --upgrade reproschema
+
+      - name: install gitpython
+        run: |
+          pip install gitpython
+
+      - name: Run tests
+        run: |
+          reproschema --version
+
+      - name: Set up Git configuration
+        run: |
+          git rev-parse --abbrev-ref HEAD
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global credential.helper cache
+          git clone --depth 1 https://${{ secrets.AUTH }}@github.com/eipm/bridge2ai-redcap
+
+      - name: Get redcap csv
+        run: |
+          cp bridge2ai-redcap/data/bridge2ai_voice_project_data_dictionary.csv ./
+      
+      - name: Set up config 
+        run: |
+          cd bridge2ai-redcap
+          touch protocol.yaml
+          git fetch --tags
+          new_tag=$(git tag --sort=-creatordate | head -n 1)
+          echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
+          echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
+          echo -e protocol_description: "This protocol is for Bridge2AI" >> protocol.yaml
+          echo -e redcap_version: "${new_tag:1}" >> protocol.yaml
+          echo "VERSION_TAG=${new_tag:1}" >> $GITHUB_ENV
+          cp protocol.yaml ..
+          cd ..
+
+      - name: Generate reproschema
+        run: |
+          rm -r b2ai-redcap2rs
+          rm -r activities
+          mkdir output
+          cp bridge2ai_voice_project_data_dictionary.csv output
+          cp protocol.yaml output
+          cd output
+          reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
+          cp -r b2ai-redcap2rs/* ..
+          cd ..
+
+      - name: Remove File Changes with just version
+        run: |
+          python git_diff.py
+
+      - name: Commit reproschema
+        run: |
+          reproschema validate b2ai-redcap2rs
+          reproschema validate activities
+          git add b2ai-redcap2rs
+          git add activities
+          git commit -a -m "$(date): update reproschema with redcap $VERSION_TAG"
+          git push
+          
+      
+      - name: Add Tag
+        run: |
+          git tag $VERSION_TAG
+          git push origin $VERSION_TAG
