@@ -1,11 +1,11 @@
 {
-    "id": "live_with_household_1",
+    "id": "spouse_partner_sig_other",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Who lives with you? Choose all that apply"
     },
     "prefLabel": {
-        "en": "live_with_household_1"
+        "en": "spouse_partner_sig_other"
     },
     "question": {
         "en": "Spouse/partner/significant other"

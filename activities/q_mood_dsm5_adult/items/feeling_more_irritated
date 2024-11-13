@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_3",
+    "id": "feeling_more_irritated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_3"
+        "en": "feeling_more_irritated"
     },
     "question": {
         "en": "Feeling more irritated, grouchy, or angry than usual?"

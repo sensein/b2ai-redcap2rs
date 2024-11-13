@@ -1,8 +1,8 @@
 {
-    "id": "ef_neuro_neurodeg_dis_3",
+    "id": "ef_parkinsons",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_neuro_neurodeg_dis_3"
+        "en": "ef_parkinsons"
     },
     "question": {
         "en": "Parkinson's disease"

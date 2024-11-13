@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_9",
+    "id": "lonely",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_9"
+        "en": "lonely"
     },
     "question": {
         "en": "Lonely or isolated"

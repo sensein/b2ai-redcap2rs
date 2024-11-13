@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_3",
+    "id": "worry_too_much",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_3"
+        "en": "worry_too_much"
     },
     "question": {
         "en": "Worrying too much about different things."

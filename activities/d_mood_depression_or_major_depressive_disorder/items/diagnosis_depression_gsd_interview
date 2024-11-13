@@ -5,7 +5,7 @@
         "en": "diagnosis_depression_gsd_interview"
     },
     "question": {
-        "en": "Was a structured clinical interview done?"
+        "en": "Was a structured clinical interview done?\n\n(Legacy)"
     },
     "responseOptions": {
         "choices": [

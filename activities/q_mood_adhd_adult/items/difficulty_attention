@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_8",
+    "id": "difficulty_attention",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_8"
+        "en": "difficulty_attention"
     },
     "question": {
         "en": "How often do you have difficulty keeping your attention when you are doing boring or repetitive work?"

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_social_phobia1_9",
+    "id": "social_phobia_9",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_social_phobia1_9"
+        "en": "social_phobia_9"
     },
     "question": {
         "en": "distracted myself to avoid thinking about social situations"

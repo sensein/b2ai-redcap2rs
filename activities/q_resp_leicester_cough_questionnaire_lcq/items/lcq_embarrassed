@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_4",
+    "id": "lcq_embarrassed",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_4"
+        "en": "lcq_embarrassed"
     },
     "question": {
         "en": "How often during the last 2 weeks have you felt embarrassed by your coughing?"

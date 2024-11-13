@@ -5,7 +5,7 @@
         "en": "dental_tx"
     },
     "question": {
-        "en": "Do you currently have any tooth loss, dentures, retainers or braces? (Please specify)"
+        "en": "Do you currently have any tooth loss, dentures, retainers or braces?"
     },
     "responseOptions": {
         "valueType": [

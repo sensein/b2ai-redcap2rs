@@ -4,7 +4,7 @@
     "prefLabel": {
         "en": "q_resp_leicester_cough_questionnaire_lcq"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "items/leicester_cough_session_id",
@@ -173,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.8.0",
+    "version": "3.20.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

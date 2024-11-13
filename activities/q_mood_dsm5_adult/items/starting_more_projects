@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_5",
+    "id": "starting_more_projects",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_5"
+        "en": "starting_more_projects"
     },
     "question": {
         "en": "Starting lots more projects than usual or doing more risky things than usual?"

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_7",
+    "id": "feeling_panic",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_7"
+        "en": "feeling_panic"
     },
     "question": {
         "en": "Feeling panic or being frightened?"

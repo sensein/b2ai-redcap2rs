@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_4",
+    "id": "marijuana",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_4"
+        "en": "marijuana"
     },
     "question": {
         "en": "Marijuana"

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_14",
+    "id": "sleep_quality",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_14"
+        "en": "sleep_quality"
     },
     "question": {
         "en": "Problems with sleep that affected your sleep quality over all?"

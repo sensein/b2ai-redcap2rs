@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_social_phobia1_7",
+    "id": "social_phobia_7",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_social_phobia1_7"
+        "en": "social_phobia_7"
     },
     "question": {
         "en": "left social situations early or participated only minimally (e.g., said little, avoided eye contact)"

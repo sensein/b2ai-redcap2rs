@@ -1,11 +1,11 @@
 {
-    "id": "mood_psych_dis_9",
+    "id": "insomnia",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_9"
+        "en": "insomnia"
     },
     "question": {
-        "en": "Insomnia / sleep disorder"
+        "en": "Insomnia / Sleep Disorder"
     },
     "responseOptions": {
         "choices": [

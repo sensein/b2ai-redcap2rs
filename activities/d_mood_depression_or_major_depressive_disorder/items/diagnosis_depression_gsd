@@ -1,14 +1,11 @@
 {
     "id": "diagnosis_depression_gsd",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "1. Gold Standard Diagnosis"
-    },
     "prefLabel": {
         "en": "diagnosis_depression_gsd"
     },
     "question": {
-        "en": "Diagnosis"
+        "en": "Diagnosis \n\n(Legacy)"
     },
     "responseOptions": {
         "choices": [

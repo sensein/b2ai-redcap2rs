@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_4",
+    "id": "no_energy",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_4"
+        "en": "no_energy"
     },
     "question": {
         "en": "Feeling tired or having little energy."

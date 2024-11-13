@@ -2,7 +2,7 @@
     "id": "diagnosis_ld_etiology",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Etiology"
+        "en": "3. Etiology"
     },
     "prefLabel": {
         "en": "diagnosis_ld_etiology"

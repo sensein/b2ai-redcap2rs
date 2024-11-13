@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_2",
+    "id": "feeling_depressed",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_2"
+        "en": "feeling_depressed"
     },
     "question": {
         "en": "Feeling down, depressed, or hopeless."

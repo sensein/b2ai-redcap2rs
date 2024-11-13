@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_4",
+    "id": "avoidance",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_4"
+        "en": "avoidance"
     },
     "question": {
         "en": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?"

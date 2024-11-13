@@ -5,7 +5,7 @@
         "en": "diagnosis_bipolar_former_med_therapies"
     },
     "question": {
-        "en": "List any former medications/therapies"
+        "en": "List any former medications/therapies\n\n(Legacy)"
     },
     "responseOptions": {
         "valueType": [

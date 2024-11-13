@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_5",
+    "id": "lcq_anxious",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_5"
+        "en": "lcq_anxious"
     },
     "question": {
         "en": "In the last 2 weeks, my cough has made me feel anxious."

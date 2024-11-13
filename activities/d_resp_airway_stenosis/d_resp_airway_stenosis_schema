@@ -4,7 +4,7 @@
     "prefLabel": {
         "en": "d_resp_airway_stenosis"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "items/diagnosis_as_pft",
@@ -26,9 +26,12 @@
             "items/diagnosis_as_ds_ac",
             "items/diagnosis_as_ds_ac_grade_4",
             "items/diagnosis_as_ds_ac_ref",
-            "items/diagnosis_as_ds_mluas",
-            "items/diagnosis_as_ds_ods",
             "items/diagnosis_as_ds_eps",
+            "items/diagnosis_as_ds_ods",
+            "items/diagnosis_as_as",
+            "items/diagnosis_as_as_s",
+            "items/diagnosis_as_as_c",
+            "items/diagnosis_as_ds_mluas",
             "items/diagnosis_as_treatment",
             "items/diagnosis_as_treatment_surgery",
             "items/diagnosis_as_treatment_surgery_other",
@@ -143,9 +146,9 @@
                 "variableName": "diagnosis_as_ds_ac_ref"
             },
             {
-                "isAbout": "items/diagnosis_as_ds_mluas",
-                "isVis": "diagnosis_as_ds =='multilevelUpperAirwayStenosis'",
-                "variableName": "diagnosis_as_ds_mluas"
+                "isAbout": "items/diagnosis_as_ds_eps",
+                "isVis": true,
+                "variableName": "diagnosis_as_ds_eps"
             },
             {
                 "isAbout": "items/diagnosis_as_ds_ods",
@@ -154,9 +157,27 @@
                 "variableName": "diagnosis_as_ds_ods"
             },
             {
-                "isAbout": "items/diagnosis_as_ds_eps",
+                "isAbout": "items/diagnosis_as_as",
                 "isVis": true,
-                "variableName": "diagnosis_as_ds_eps"
+                "valueRequired": true,
+                "variableName": "diagnosis_as_as"
+            },
+            {
+                "isAbout": "items/diagnosis_as_as_s",
+                "isVis": "diagnosis_as_as == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_as_s"
+            },
+            {
+                "isAbout": "items/diagnosis_as_as_c",
+                "isVis": "diagnosis_as_as == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_as_as_c"
+            },
+            {
+                "isAbout": "items/diagnosis_as_ds_mluas",
+                "isVis": "diagnosis_as_ds =='multilevelUpperAirwayStenosis'",
+                "variableName": "diagnosis_as_ds_mluas"
             },
             {
                 "isAbout": "items/diagnosis_as_treatment",
@@ -184,6 +205,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.8.0",
+    "version": "3.20.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

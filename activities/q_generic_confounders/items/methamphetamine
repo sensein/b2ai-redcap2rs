@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_10",
+    "id": "methamphetamine",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_10"
+        "en": "methamphetamine"
     },
     "question": {
         "en": "Methamphetamine (like speed)"

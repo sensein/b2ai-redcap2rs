@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_18",
+    "id": "lcq_felt_in_control",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_18"
+        "en": "lcq_felt_in_control"
     },
     "question": {
         "en": "In the last 2 weeks, have you felt in control of your cough?"

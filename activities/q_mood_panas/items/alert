@@ -1,8 +1,8 @@
 {
-    "id": "panas_3",
+    "id": "alert",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "panas_3"
+        "en": "alert"
     },
     "question": {
         "en": "Alert"

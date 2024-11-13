@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_14",
+    "id": "difficulty_unwinding",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_14"
+        "en": "difficulty_unwinding"
     },
     "question": {
         "en": "How often do you have difficulty unwinding and relaxing when you have time to yourself?"

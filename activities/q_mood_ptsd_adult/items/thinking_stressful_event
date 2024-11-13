@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_4",
+    "id": "thinking_stressful_event",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_4"
+        "en": "thinking_stressful_event"
     },
     "question": {
         "en": "Thinking that a stressful event happened because you or someone else (who didn't directly harm you) did something wrong or didn't do everything possible to prevent it, or because of something about you?"

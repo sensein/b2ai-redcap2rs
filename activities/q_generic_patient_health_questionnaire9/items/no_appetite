@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_5",
+    "id": "no_appetite",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_5"
+        "en": "no_appetite"
     },
     "question": {
         "en": "Poor appetite or overeating."

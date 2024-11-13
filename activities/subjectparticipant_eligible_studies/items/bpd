@@ -1,8 +1,8 @@
 {
-    "id": "mood_psych_dis_6",
+    "id": "bpd",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_6"
+        "en": "bpd"
     },
     "question": {
         "en": "Borderline Personality Disorder (BPD)"

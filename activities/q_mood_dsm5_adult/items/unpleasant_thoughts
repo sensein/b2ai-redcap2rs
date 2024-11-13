@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_16",
+    "id": "unpleasant_thoughts",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_16"
+        "en": "unpleasant_thoughts"
     },
     "question": {
         "en": "Unpleasant thoughts, urges, or images that repeatedly enter your mind?"

@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_6",
+    "id": "feeling_bad_self",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_6"
+        "en": "feeling_bad_self"
     },
     "question": {
         "en": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down."

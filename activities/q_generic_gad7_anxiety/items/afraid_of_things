@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_7",
+    "id": "afraid_of_things",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_7"
+        "en": "afraid_of_things"
     },
     "question": {
         "en": "Feeling afraid, as if something awful might happen."

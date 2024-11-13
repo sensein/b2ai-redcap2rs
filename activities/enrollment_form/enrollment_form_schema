@@ -4,7 +4,7 @@
     "prefLabel": {
         "en": "enrollment_form"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "items/ef_select_language",
@@ -22,7 +22,10 @@
             "items/ef_fluent_languages",
             "items/ef_fluent_language_other",
             "items/ef_dob",
+            "items/ef_cond_prompt",
+            "items/ef_glottic_insufficiency",
             "items/ef_laryng_cancer",
+            "items/ef_laryngitis",
             "items/ef_benign_cord_lesion",
             "items/ef_mtd",
             "items/ef_rrp",
@@ -158,10 +161,27 @@
                 "variableName": "ef_dob"
             },
             {
+                "isAbout": "items/ef_cond_prompt",
+                "isVis": true,
+                "variableName": "ef_cond_prompt"
+            },
+            {
+                "isAbout": "items/ef_glottic_insufficiency",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_glottic_insufficiency"
+            },
+            {
                 "isAbout": "items/ef_laryng_cancer",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ef_laryng_cancer"
+            },
+            {
+                "isAbout": "items/ef_laryngitis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_laryngitis"
             },
             {
                 "isAbout": "items/ef_benign_cord_lesion",
@@ -449,6 +469,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.8.0",
+    "version": "3.20.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

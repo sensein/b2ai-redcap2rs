@@ -1,11 +1,11 @@
 {
-    "id": "dsm_5_adult_1",
+    "id": "little_interest",
     "category": "reproschema:Item",
     "preamble": {
         "en": "During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?\n\n0=None (Not at all), 1=Slight (Rare, less than a day or two), 2=Mild (Several days), 3=Moderate (More than half the days), 4=Severe (Nearly every day)"
     },
     "prefLabel": {
-        "en": "dsm_5_adult_1"
+        "en": "little_interest"
     },
     "question": {
         "en": "Little interest or pleasure in doing things?"

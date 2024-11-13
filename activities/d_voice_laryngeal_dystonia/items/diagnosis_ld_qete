@@ -2,7 +2,7 @@
     "id": "diagnosis_ld_qete",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Gold Standard Diagnosis:"
+        "en": "1. Gold Standard Diagnosis"
     },
     "prefLabel": {
         "en": "diagnosis_ld_qete"

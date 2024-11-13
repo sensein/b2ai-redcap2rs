@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_13",
+    "id": "lcq_hoarse_voice",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_13"
+        "en": "lcq_hoarse_voice"
     },
     "question": {
         "en": "In the last 2 weeks, have you suffered from a hoarse voice as a result of your cough?"

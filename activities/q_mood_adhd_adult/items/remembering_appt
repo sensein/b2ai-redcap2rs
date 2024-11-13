@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_3",
+    "id": "remembering_appt",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_3"
+        "en": "remembering_appt"
     },
     "question": {
         "en": "How often do you have problems remembering appointments or obligations?"

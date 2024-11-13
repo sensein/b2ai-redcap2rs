@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_15",
+    "id": "memory_issues",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_15"
+        "en": "memory_issues"
     },
     "question": {
         "en": "Problems with memory (e.g., learning new information) or with location (e.g., finding your way home)?"

@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_2",
+    "id": "things_in_order",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_2"
+        "en": "things_in_order"
     },
     "question": {
         "en": "How often do you have difficulty getting things in order when you have to do a task that requires organization?"

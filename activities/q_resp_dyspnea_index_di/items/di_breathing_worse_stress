@@ -1,8 +1,8 @@
 {
-    "id": "di_5",
+    "id": "di_breathing_worse_stress",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "di_5"
+        "en": "di_breathing_worse_stress"
     },
     "question": {
         "en": "My breathing gets worse with stress."

@@ -2,10 +2,13 @@
     "id": "diagnosis_ld_ds",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "2. Disease Subtypes: \n(Select all that apply)."
+        "en": "2. Disease Subtype"
     },
     "prefLabel": {
         "en": "diagnosis_ld_ds"
+    },
+    "question": {
+        "en": "Disease Subtypes:\n(Select all that apply)"
     },
     "responseOptions": {
         "choices": [

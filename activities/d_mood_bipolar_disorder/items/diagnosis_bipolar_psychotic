@@ -5,7 +5,7 @@
         "en": "diagnosis_bipolar_psychotic"
     },
     "question": {
-        "en": "Psychotic Symptoms"
+        "en": "Psychotic Symptoms\n\n(Legacy)"
     },
     "responseOptions": {
         "choices": [

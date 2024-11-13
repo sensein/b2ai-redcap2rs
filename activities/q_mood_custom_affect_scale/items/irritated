@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_8",
+    "id": "irritated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_8"
+        "en": "irritated"
     },
     "question": {
         "en": "Irritated or angry (towards something or someone)"

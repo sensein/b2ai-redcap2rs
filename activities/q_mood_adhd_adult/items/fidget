@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_5",
+    "id": "fidget",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_5"
+        "en": "fidget"
     },
     "question": {
         "en": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?"

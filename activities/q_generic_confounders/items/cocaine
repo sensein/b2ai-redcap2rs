@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_5",
+    "id": "cocaine",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_5"
+        "en": "cocaine"
     },
     "question": {
         "en": "Cocaine or crack"

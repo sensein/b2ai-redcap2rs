@@ -1,8 +1,8 @@
 {
-    "id": "vhi_10_8",
+    "id": "voice_upsetting",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "vhi_10_8"
+        "en": "voice_upsetting"
     },
     "question": {
         "en": "My voice problem upsets me."

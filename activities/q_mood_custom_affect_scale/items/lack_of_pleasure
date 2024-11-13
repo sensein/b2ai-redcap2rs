@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_4",
+    "id": "lack_of_pleasure",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_4"
+        "en": "lack_of_pleasure"
     },
     "question": {
         "en": "Lack of pleasure (in things you tend to enjoy)"

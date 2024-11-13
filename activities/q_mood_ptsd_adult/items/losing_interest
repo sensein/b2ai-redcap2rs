@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_6",
+    "id": "losing_interest",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_6"
+        "en": "losing_interest"
     },
     "question": {
         "en": "Losing interest in activities you used to enjoy before having a stressful experience?"

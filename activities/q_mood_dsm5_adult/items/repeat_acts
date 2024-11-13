@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_17",
+    "id": "repeat_acts",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_17"
+        "en": "repeat_acts"
     },
     "question": {
         "en": "Feeling driven to perform certain behaviors or mental acts over and over again?"

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_13",
+    "id": "someone_hear_thoughts",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_13"
+        "en": "someone_hear_thoughts"
     },
     "question": {
         "en": "Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?"

@@ -1,14 +1,11 @@
 {
     "id": "diagnosis_bipolar_active_problems",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "2. Medical and Psychiatric comorbidities"
-    },
     "prefLabel": {
         "en": "diagnosis_bipolar_active_problems"
     },
     "question": {
-        "en": "Enter list of active problems"
+        "en": "Enter list of active problems\n\n(Legacy)"
     },
     "responseOptions": {
         "valueType": [

@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_8",
+    "id": "move_speak_slow",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_8"
+        "en": "move_speak_slow"
     },
     "question": {
         "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual."

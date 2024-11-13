@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_3",
+    "id": "avoiding_reminders",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_3"
+        "en": "avoiding_reminders"
     },
     "question": {
         "en": "Trying to avoid thoughts, feelings, or physical sensations that reminded you of a stressful experience?"

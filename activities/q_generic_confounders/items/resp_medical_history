@@ -1,11 +1,14 @@
 {
     "id": "resp_medical_history",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+    },
     "prefLabel": {
         "en": "resp_medical_history"
     },
     "question": {
-        "en": "Have you had any of the interventions mentioned below? (check all that apply)\n\nRespiratory medical history"
+        "en": "Respiratory medical history"
     },
     "responseOptions": {
         "choices": [

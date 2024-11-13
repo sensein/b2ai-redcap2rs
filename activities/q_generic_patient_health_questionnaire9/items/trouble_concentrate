@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_7",
+    "id": "trouble_concentrate",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_7"
+        "en": "trouble_concentrate"
     },
     "question": {
         "en": "Trouble concentrating on things, such as reading the newspaper or watching television."

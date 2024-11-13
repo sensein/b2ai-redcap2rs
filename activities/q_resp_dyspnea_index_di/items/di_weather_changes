@@ -1,8 +1,8 @@
 {
-    "id": "di_4",
+    "id": "di_weather_changes",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "di_4"
+        "en": "di_weather_changes"
     },
     "question": {
         "en": "Changes in the weather affect my breathing problem."

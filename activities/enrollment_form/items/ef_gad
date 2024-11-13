@@ -1,11 +1,11 @@
 {
-    "id": "ef_mood_psych_dis_2",
+    "id": "ef_gad",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_mood_psych_dis_2"
+        "en": "ef_gad"
     },
     "question": {
-        "en": "Anxiety disorder"
+        "en": "Anxiety Disorder"
     },
     "responseOptions": {
         "choices": [

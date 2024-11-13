@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_8",
+    "id": "lcq_exposure_paint",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_8"
+        "en": "lcq_exposure_paint"
     },
     "question": {
         "en": "In the last 2 weeks, exposure to paint or fumes has made me cough."

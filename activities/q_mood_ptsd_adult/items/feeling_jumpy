@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_8",
+    "id": "feeling_jumpy",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_8"
+        "en": "feeling_jumpy"
     },
     "question": {
         "en": "Feeling jumpy or easily startled when you hear an unexpected noise?"

@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_3",
+    "id": "trouble_sleeping",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_3"
+        "en": "trouble_sleeping"
     },
     "question": {
         "en": "Trouble falling or staying asleep, or sleeping too much."

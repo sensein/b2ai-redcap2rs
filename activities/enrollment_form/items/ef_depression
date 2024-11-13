@@ -1,8 +1,8 @@
 {
-    "id": "ef_mood_psych_dis_7",
+    "id": "ef_depression",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_mood_psych_dis_7"
+        "en": "ef_depression"
     },
     "question": {
         "en": "Depression or Major Depressive Disorder"

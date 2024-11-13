@@ -5,7 +5,7 @@
         "en": "alcohol_amt"
     },
     "question": {
-        "en": "How many drinks containing alcohol do you have on a typical day when you are drinking?One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor"
+        "en": "How many drinks containing alcohol do you have on a typical day when you are drinking?\nOne drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor"
     },
     "responseOptions": {
         "choices": [

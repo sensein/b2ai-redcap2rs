@@ -1,8 +1,8 @@
 {
-    "id": "mood_psych_dis_10",
+    "id": "ocd",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mood_psych_dis_10"
+        "en": "ocd"
     },
     "question": {
         "en": "Obsessive-Compulsive Disorder (OCD)"

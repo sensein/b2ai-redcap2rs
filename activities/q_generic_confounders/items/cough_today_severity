@@ -5,7 +5,7 @@
         "en": "cough_today_severity"
     },
     "question": {
-        "en": "What is the severity of your cough?\nA selection of 10 being means the most severe."
+        "en": "What is the severity of your cough?"
     },
     "responseOptions": {
         "choices": [

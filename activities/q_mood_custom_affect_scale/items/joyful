@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_2",
+    "id": "joyful",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_2"
+        "en": "joyful"
     },
     "question": {
         "en": "Joyful"

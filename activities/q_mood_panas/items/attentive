@@ -1,8 +1,8 @@
 {
-    "id": "panas_8",
+    "id": "attentive",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "panas_8"
+        "en": "attentive"
     },
     "question": {
         "en": "Attentive"

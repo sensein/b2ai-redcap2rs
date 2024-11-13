@@ -5,7 +5,7 @@
         "en": "diagnosis_bipolar_history_problems_depression"
     },
     "question": {
-        "en": "Enter any history of problems"
+        "en": "Enter any history of problems\n\n(Legacy)"
     },
     "responseOptions": {
         "valueType": [

@@ -5,7 +5,7 @@
         "en": "financial_assistance_ca"
     },
     "question": {
-        "en": "Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed below."
+        "en": "Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed in the question below."
     },
     "responseOptions": {
         "choices": [

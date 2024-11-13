@@ -1,8 +1,8 @@
 {
-    "id": "live_with_household_4",
+    "id": "grandparent",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "live_with_household_4"
+        "en": "grandparent"
     },
     "question": {
         "en": "One or more grandparent"

@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_4",
+    "id": "trouble_relaxing",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_4"
+        "en": "trouble_relaxing"
     },
     "question": {
         "en": "Trouble relaxing."

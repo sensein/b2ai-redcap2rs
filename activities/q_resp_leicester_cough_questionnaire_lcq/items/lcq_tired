@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_3",
+    "id": "lcq_tired",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_3"
+        "en": "lcq_tired"
     },
     "question": {
         "en": "In the last 2 weeks, have you been tired because of your cough?"

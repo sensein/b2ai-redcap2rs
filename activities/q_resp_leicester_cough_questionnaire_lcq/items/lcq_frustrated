@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_11",
+    "id": "lcq_frustrated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_11"
+        "en": "lcq_frustrated"
     },
     "question": {
         "en": "In the last 2 weeks, my cough has made me feel frustrated."

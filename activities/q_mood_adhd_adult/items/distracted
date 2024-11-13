@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_11",
+    "id": "distracted",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_11"
+        "en": "distracted"
     },
     "question": {
         "en": "How often are you distracted by activity or noise around you?"

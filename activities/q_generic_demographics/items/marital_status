@@ -5,7 +5,7 @@
         "en": "marital_status"
     },
     "question": {
-        "en": "What is your marital status?\nChoose all that apply"
+        "en": "What is your marital status? Choose all that apply"
     },
     "responseOptions": {
         "choices": [

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_10",
+    "id": "illness_not_taken_serious",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_10"
+        "en": "illness_not_taken_serious"
     },
     "question": {
         "en": "Feeling that your illnesses are not being taken seriously enough?"

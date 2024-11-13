@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_4",
+    "id": "ph_problem_join",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_4"
+        "en": "ph_problem_join"
     },
     "question": {
         "en": "How much of a problem did you have joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?"

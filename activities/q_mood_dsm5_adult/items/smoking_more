@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_22",
+    "id": "smoking_more",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_22"
+        "en": "smoking_more"
     },
     "question": {
         "en": "Smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?"

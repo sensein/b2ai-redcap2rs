@@ -1,8 +1,8 @@
 {
-    "id": "ef_resp_dis_3",
+    "id": "ef_chronic_cough",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_resp_dis_3"
+        "en": "ef_chronic_cough"
     },
     "question": {
         "en": "Chronic Cough"

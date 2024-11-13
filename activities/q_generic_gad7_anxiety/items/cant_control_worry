@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_2",
+    "id": "cant_control_worry",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_2"
+        "en": "cant_control_worry"
     },
     "question": {
         "en": "Not being able to stop or control worrying."

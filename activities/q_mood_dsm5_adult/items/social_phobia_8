@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_social_phobia1_8",
+    "id": "social_phobia_8",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_social_phobia1_8"
+        "en": "social_phobia_8"
     },
     "question": {
         "en": "spent a lot of time preparing what to say or how to act in social situations"

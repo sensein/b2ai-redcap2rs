@@ -1,8 +1,8 @@
 {
-    "id": "phq_9_9",
+    "id": "thoughts_death",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "phq_9_9"
+        "en": "thoughts_death"
     },
     "question": {
         "en": "Thoughts that you would be better off dead or of hurting yourself in some way."

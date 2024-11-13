@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_18",
+    "id": "interrupt_others",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_18"
+        "en": "interrupt_others"
     },
     "question": {
         "en": "How often do you interrupt others when they are busy?"

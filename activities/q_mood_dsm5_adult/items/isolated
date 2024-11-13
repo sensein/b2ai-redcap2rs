@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_20",
+    "id": "isolated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_20"
+        "en": "isolated"
     },
     "question": {
         "en": "Not feeling close to other people or enjoying your relationships with them?"

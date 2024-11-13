@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_2",
+    "id": "feeling_down",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_2"
+        "en": "feeling_down"
     },
     "question": {
         "en": "Feeling down, depressed, or hopeless?"

@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_23",
+    "id": "medication_use",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_23"
+        "en": "medication_use"
     },
     "question": {
         "en": "Using any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?"

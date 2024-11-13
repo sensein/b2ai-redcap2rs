@@ -1,11 +1,11 @@
 {
-    "id": "resp_dis_1",
+    "id": "asthma",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Respiratory disorders"
     },
     "prefLabel": {
-        "en": "resp_dis_1"
+        "en": "asthma"
     },
     "question": {
         "en": "Asthma"

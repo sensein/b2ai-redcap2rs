@@ -1,11 +1,11 @@
 {
-    "id": "mood_psych_dis_1",
+    "id": "alcohol_subst_abuse",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Mood and Psychiatric Disorders"
     },
     "prefLabel": {
-        "en": "mood_psych_dis_1"
+        "en": "alcohol_subst_abuse"
     },
     "question": {
         "en": "Alcohol or Substance Use Disorder"

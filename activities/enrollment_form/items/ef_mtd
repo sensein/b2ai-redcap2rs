@@ -1,8 +1,8 @@
 {
-    "id": "ef_voice_disorders_3",
+    "id": "ef_mtd",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_voice_disorders_3"
+        "en": "ef_mtd"
     },
     "question": {
         "en": "Muscle Tension Dysphonia (MTD)"

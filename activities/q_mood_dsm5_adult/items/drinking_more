@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_21",
+    "id": "drinking_more",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_21"
+        "en": "drinking_more"
     },
     "question": {
         "en": "Drinking at least 4 drinks of any kind of alcohol in a single day?"

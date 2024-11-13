@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_8",
+    "id": "heroin",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_8"
+        "en": "heroin"
     },
     "question": {
         "en": "Heroin or other opioids, including synthetic opioids like fentanyl"

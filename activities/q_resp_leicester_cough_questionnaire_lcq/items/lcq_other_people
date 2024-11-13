@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_15",
+    "id": "lcq_other_people",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_15"
+        "en": "lcq_other_people"
     },
     "question": {
         "en": "In the last 2 weeks, have you been concerned that other people think something is wrong with you, because of your cough?"

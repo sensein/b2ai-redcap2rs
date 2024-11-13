@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_11",
+    "id": "relaxed",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_11"
+        "en": "relaxed"
     },
     "question": {
         "en": "Relaxed or calm"

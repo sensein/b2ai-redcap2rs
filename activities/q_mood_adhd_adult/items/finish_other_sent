@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_16",
+    "id": "finish_other_sent",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_16"
+        "en": "finish_other_sent"
     },
     "question": {
         "en": "When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish them themselves?"

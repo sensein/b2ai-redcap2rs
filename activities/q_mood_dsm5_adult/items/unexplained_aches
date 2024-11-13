@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_9",
+    "id": "unexplained_aches",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_9"
+        "en": "unexplained_aches"
     },
     "question": {
         "en": "Unexplained aches and pains (e.g., head, back, joints, abdomen, legs)?"

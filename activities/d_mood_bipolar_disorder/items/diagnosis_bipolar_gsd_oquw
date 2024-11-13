@@ -5,7 +5,7 @@
         "en": "diagnosis_bipolar_gsd_oquw"
     },
     "question": {
-        "en": "Which objective questionnaire was used?"
+        "en": "Which objective questionnaire was used?\n\n(Legacy)"
     },
     "responseOptions": {
         "choices": [

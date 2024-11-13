@@ -1,11 +1,11 @@
 {
-    "id": "leicester_cough_1",
+    "id": "lcq_chest_stomach_pains",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Please answer the following questions using a 1-7 rating scale.\n\n1 = None of the time; 2 = Hardly any of the time; 3 = A little of the time; 4 = Some of the time; 5 = A good bit of the time; 6 = Most of the time; 7 = All of the time"
     },
     "prefLabel": {
-        "en": "leicester_cough_1"
+        "en": "lcq_chest_stomach_pains"
     },
     "question": {
         "en": "In the last 2 weeks, have you had chest or stomach pains as a result of your cough?"

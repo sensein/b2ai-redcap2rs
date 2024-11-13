@@ -1,11 +1,11 @@
 {
-    "id": "phq_9_1",
+    "id": "no_interest",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
     },
     "prefLabel": {
-        "en": "phq_9_1"
+        "en": "no_interest"
     },
     "question": {
         "en": "Little interest or pleasure in doing things."

@@ -5,7 +5,7 @@
         "en": "specify_current_neuro"
     },
     "question": {
-        "en": "Which ones do you currently have? (please specify)"
+        "en": "Which ones do you currently have?"
     },
     "responseOptions": {
         "valueType": [

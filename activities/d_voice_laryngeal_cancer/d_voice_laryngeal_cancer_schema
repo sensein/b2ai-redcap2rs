@@ -4,7 +4,7 @@
     "prefLabel": {
         "en": "d_voice_laryngeal_cancer"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "items/diagnois_lc_gsd_sll",
@@ -117,55 +117,46 @@
             {
                 "isAbout": "items/diagnosis_lc_degree_os_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_os_1"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_os_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_os_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_r_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_r_1"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_r_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_r_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_b_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_b_1"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_b_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_b_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_s_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_s_1"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_s_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_s_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_p_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_p_1"
             },
             {
@@ -176,13 +167,11 @@
             {
                 "isAbout": "items/diagnosis_lc_degree_p_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_p_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_l_1",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_l_1"
             },
             {
@@ -193,19 +182,16 @@
             {
                 "isAbout": "items/diagnosis_lc_degree_l_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_l_2"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_comments",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_comments"
             },
             {
                 "isAbout": "items/diagnosis_lc_degree_comments_other",
                 "isVis": "diagnosis_lc_degree_comments =='other'",
-                "valueRequired": true,
                 "variableName": "diagnosis_lc_degree_comments_other"
             },
             {
@@ -245,6 +231,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.8.0",
+    "version": "3.20.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

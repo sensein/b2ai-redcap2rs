@@ -5,13 +5,13 @@
         "en": "inches"
     },
     "preamble": {
-        "en": "HEIGHT AND WEIGHT"
+        "en": "Height and Weight"
     },
     "prefLabel": {
         "en": "height"
     },
     "question": {
-        "en": "Height (inches)"
+        "en": "Height"
     },
     "responseOptions": {
         "valueType": [

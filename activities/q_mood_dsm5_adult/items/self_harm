@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_11",
+    "id": "self_harm",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_11"
+        "en": "self_harm"
     },
     "question": {
         "en": "Thoughts of actually hurting yourself?"

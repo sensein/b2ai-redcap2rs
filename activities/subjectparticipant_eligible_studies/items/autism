@@ -1,11 +1,11 @@
 {
-    "id": "peds_dis_1",
+    "id": "autism",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Pediatric disorders"
     },
     "prefLabel": {
-        "en": "peds_dis_1"
+        "en": "autism"
     },
     "question": {
         "en": "Autism Spectrum Disorder (ASD)"

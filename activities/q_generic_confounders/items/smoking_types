@@ -5,7 +5,7 @@
         "en": "smoking_types"
     },
     "question": {
-        "en": "Please select smoking types used (Check all that apply)"
+        "en": "[LEGACY]\nChecklist of different types (choose all that apply):"
     },
     "responseOptions": {
         "choices": [
@@ -47,7 +47,7 @@
             },
             {
                 "name": {
-                    "en": "Other (Please specify) "
+                    "en": "Other "
                 },
                 "value": 7
             },

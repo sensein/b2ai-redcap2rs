@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_11",
+    "id": "ph_friendship",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_11"
+        "en": "ph_friendship"
     },
     "question": {
         "en": "Maintaining a friendship?"

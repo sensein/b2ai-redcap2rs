@@ -1,8 +1,8 @@
 {
-    "id": "peds_dis_2",
+    "id": "speech_delay",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "peds_dis_2"
+        "en": "speech_delay"
     },
     "question": {
         "en": "Speech Delay"

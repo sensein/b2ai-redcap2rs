@@ -1,14 +1,14 @@
 {
-    "id": "neuro_neurodeg_dis_1",
+    "id": "alz_dementia_mci",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Neurological and Neurodegenerative Disorders"
     },
     "prefLabel": {
-        "en": "neuro_neurodeg_dis_1"
+        "en": "alz_dementia_mci"
     },
     "question": {
-        "en": "Alzheimer's, dementia, or mild cognitive impairment"
+        "en": "Alzheimer's, Dementia, or Mild Cognitive Impairment"
     },
     "responseOptions": {
         "choices": [

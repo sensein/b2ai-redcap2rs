@@ -1,8 +1,8 @@
 {
-    "id": "live_with_household_5",
+    "id": "other_live_with",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "live_with_household_5"
+        "en": "other_live_with"
     },
     "question": {
         "en": "Other"

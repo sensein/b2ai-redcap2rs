@@ -8,7 +8,7 @@
         "en": "diagnosis_uvfp_ds"
     },
     "question": {
-        "en": "Which side is the paralysis? Choose all that apply"
+        "en": "On which side is the paralysis?"
     },
     "responseOptions": {
         "choices": [
@@ -25,7 +25,6 @@
                 "value": " right"
             }
         ],
-        "multipleChoice": true,
         "valueType": [
             "xsd:string"
         ]

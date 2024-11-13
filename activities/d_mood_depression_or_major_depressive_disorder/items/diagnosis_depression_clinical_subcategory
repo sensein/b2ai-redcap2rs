@@ -5,7 +5,7 @@
         "en": "diagnosis_depression_clinical_subcategory"
     },
     "question": {
-        "en": "Clinical depression (major depressive disorder) Subcategory"
+        "en": "Clinical depression (major depressive disorder) Subcategory\n\n(Legacy)"
     },
     "responseOptions": {
         "choices": [

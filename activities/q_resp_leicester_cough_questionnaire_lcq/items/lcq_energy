@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_19",
+    "id": "lcq_energy",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_19"
+        "en": "lcq_energy"
     },
     "question": {
         "en": "In the last 2 weeks, have you had a lot of energy?"

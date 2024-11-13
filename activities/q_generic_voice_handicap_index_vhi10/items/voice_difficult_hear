@@ -1,11 +1,11 @@
 {
-    "id": "vhi_10_1",
+    "id": "voice_difficult_hear",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Voice Handicap Index (VHI-10)"
     },
     "prefLabel": {
-        "en": "vhi_10_1"
+        "en": "voice_difficult_hear"
     },
     "question": {
         "en": "My voice makes it difficult for people to hear me."

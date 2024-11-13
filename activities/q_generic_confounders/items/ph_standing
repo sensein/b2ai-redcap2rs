@@ -1,11 +1,11 @@
 {
-    "id": "physcial_health_group_1",
+    "id": "ph_standing",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "PHYSICAL HEALTH\n\t\t\nIn the past 30 days, how much difficulty did you have in:"
+        "en": "Physical Health\n\nIn the past 30 days, how much difficulty did you have in:"
     },
     "prefLabel": {
-        "en": "physcial_health_group_1"
+        "en": "ph_standing"
     },
     "question": {
         "en": "Standing for long periods such as 30 minutes?"

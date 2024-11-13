@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_9",
+    "id": "irritable",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_9"
+        "en": "irritable"
     },
     "question": {
         "en": "Being extremely irritable or angry to the point where you yelled at other people, got into fights, or destroyed things?"

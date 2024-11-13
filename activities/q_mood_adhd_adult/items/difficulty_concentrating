@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_9",
+    "id": "difficulty_concentrating",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_9"
+        "en": "difficulty_concentrating"
     },
     "question": {
         "en": "How often do you have difficulty concentrating on what people say to you, even when they are speaking to you directly?"

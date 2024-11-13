@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_2",
+    "id": "lcq_sputum_phlegm",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_2"
+        "en": "lcq_sputum_phlegm"
     },
     "question": {
         "en": "In the last 2 weeks, have you been bothered by sputum (phlegm) production when you cough?"

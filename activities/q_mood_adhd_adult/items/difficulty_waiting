@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_17",
+    "id": "difficulty_waiting",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_17"
+        "en": "difficulty_waiting"
     },
     "question": {
         "en": "How often do you have difficulty waiting your turn in situations when turn taking is required?"

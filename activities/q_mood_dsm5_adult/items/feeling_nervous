@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_6",
+    "id": "feeling_nervous",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_6"
+        "en": "feeling_nervous"
     },
     "question": {
         "en": "Feeling nervous, anxious, frightened, worried, or on edge?"

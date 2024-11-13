@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_6",
+    "id": "energetic",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_6"
+        "en": "energetic"
     },
     "question": {
         "en": "Energetic"

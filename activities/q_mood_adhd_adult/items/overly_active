@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_6",
+    "id": "overly_active",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_6"
+        "en": "overly_active"
     },
     "question": {
         "en": "How often do you feel overly active and compelled to do things, like you were driven by a motor?"

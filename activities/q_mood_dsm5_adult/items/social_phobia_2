@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_social_phobia1_2",
+    "id": "social_phobia_2",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_social_phobia1_2"
+        "en": "social_phobia_2"
     },
     "question": {
         "en": "felt anxious, worried, or nervous about social situations"

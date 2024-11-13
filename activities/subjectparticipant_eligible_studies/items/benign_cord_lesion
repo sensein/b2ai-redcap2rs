@@ -1,8 +1,8 @@
 {
-    "id": "voice_disorders_2",
+    "id": "benign_cord_lesion",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "voice_disorders_2"
+        "en": "benign_cord_lesion"
     },
     "question": {
         "en": "Lesions of the vocal cord (nodule, polyp, cyst)"

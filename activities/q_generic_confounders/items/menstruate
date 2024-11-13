@@ -2,7 +2,7 @@
     "id": "menstruate",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "GYNECOLOGICAL"
+        "en": "Gynecological"
     },
     "prefLabel": {
         "en": "menstruate"
@@ -32,7 +32,7 @@
             },
             {
                 "name": {
-                    "en": "Prefer no to answer"
+                    "en": "Prefer not to answer"
                 },
                 "value": " noAnswer"
             }

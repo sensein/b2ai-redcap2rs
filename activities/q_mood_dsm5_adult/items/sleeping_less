@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_4",
+    "id": "sleeping_less",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_4"
+        "en": "sleeping_less"
     },
     "question": {
         "en": "Sleeping less than usual, but still have a lot of energy?"

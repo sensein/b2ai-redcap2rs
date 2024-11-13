@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_12",
+    "id": "hearing_things",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_12"
+        "en": "hearing_things"
     },
     "question": {
         "en": "Hearing things other people couldn't hear, such as voices even when no one was around?"

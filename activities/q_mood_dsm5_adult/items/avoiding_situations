@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_8",
+    "id": "avoiding_situations",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_8"
+        "en": "avoiding_situations"
     },
     "question": {
         "en": "Avoiding situations that make you anxious?"

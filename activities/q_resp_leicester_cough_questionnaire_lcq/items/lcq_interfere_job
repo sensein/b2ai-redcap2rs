@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_6",
+    "id": "lcq_interfere_job",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_6"
+        "en": "lcq_interfere_job"
     },
     "question": {
         "en": "In the last 2 weeks, my cough has interfered with my job or other daily tasks."

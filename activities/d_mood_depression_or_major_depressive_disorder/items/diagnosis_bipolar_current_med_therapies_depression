@@ -1,14 +1,11 @@
 {
     "id": "diagnosis_bipolar_current_med_therapies_depression",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "6.\tTreatment obtained"
-    },
     "prefLabel": {
         "en": "diagnosis_bipolar_current_med_therapies_depression"
     },
     "question": {
-        "en": "List any current medications/therapies"
+        "en": "List any current medications/therapies\n\n(Legacy)"
     },
     "responseOptions": {
         "valueType": [

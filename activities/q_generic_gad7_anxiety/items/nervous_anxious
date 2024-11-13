@@ -1,11 +1,11 @@
 {
-    "id": "gad_7_anxiety_1",
+    "id": "nervous_anxious",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Over the last two weeks, how often have you been bothered by the following problems?"
     },
     "prefLabel": {
-        "en": "gad_7_anxiety_1"
+        "en": "nervous_anxious"
     },
     "question": {
         "en": "Feeling nervous, anxious, or on edge."

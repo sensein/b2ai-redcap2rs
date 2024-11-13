@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_5",
+    "id": "hard_to_sit_still",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_5"
+        "en": "hard_to_sit_still"
     },
     "question": {
         "en": "Being so restless that it is hard to sit still."

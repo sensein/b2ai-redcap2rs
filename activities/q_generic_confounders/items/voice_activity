@@ -2,13 +2,13 @@
     "id": "voice_activity",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "VOICE ACTIVITY"
+        "en": "Voice Activity"
     },
     "prefLabel": {
         "en": "voice_activity"
     },
     "question": {
-        "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)"
+        "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply"
     },
     "responseOptions": {
         "choices": [
@@ -26,7 +26,7 @@
             },
             {
                 "name": {
-                    "en": "Speaking  (secretary call center attorney salesperson) "
+                    "en": "Speaking (secretary call center attorney salesperson) "
                 },
                 "value": 3
             },

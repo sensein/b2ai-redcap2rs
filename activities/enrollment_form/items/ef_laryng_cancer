@@ -1,14 +1,11 @@
 {
-    "id": "ef_voice_disorders_1",
+    "id": "ef_laryng_cancer",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Do you have any of these conditions, diagnosed by a clinician?\n(Check all that apply if you currently have the condition)Voice Disorders"
-    },
     "prefLabel": {
-        "en": "ef_voice_disorders_1"
+        "en": "ef_laryng_cancer"
     },
     "question": {
-        "en": "Laryngeal cancer"
+        "en": "Laryngeal Cancer"
     },
     "responseOptions": {
         "choices": [

@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_2",
+    "id": "stimulants",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_2"
+        "en": "stimulants"
     },
     "question": {
         "en": "Stimulants (like Ritalin, Adderall)"

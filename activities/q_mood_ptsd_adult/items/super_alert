@@ -1,8 +1,8 @@
 {
-    "id": "ptsd_adult_7",
+    "id": "super_alert",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ptsd_adult_7"
+        "en": "super_alert"
     },
     "question": {
         "en": "Being \"super alert\", on guard, or constantly on the lookout for danger?"

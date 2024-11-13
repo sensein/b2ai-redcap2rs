@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_15",
+    "id": "talking_too_much",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_15"
+        "en": "talking_too_much"
     },
     "question": {
         "en": "How often do you find yourself talking too much when you are in social situations?"

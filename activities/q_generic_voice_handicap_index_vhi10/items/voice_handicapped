@@ -1,8 +1,8 @@
 {
-    "id": "vhi_10_9",
+    "id": "voice_handicapped",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "vhi_10_9"
+        "en": "voice_handicapped"
     },
     "question": {
         "en": "My voice makes me feel handicapped."

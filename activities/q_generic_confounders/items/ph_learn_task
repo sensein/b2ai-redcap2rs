@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_3",
+    "id": "ph_learn_task",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_3"
+        "en": "ph_learn_task"
     },
     "question": {
         "en": "Learning a new task, for example, learning how to get to a new place?"

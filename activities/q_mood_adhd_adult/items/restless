@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_13",
+    "id": "restless",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_13"
+        "en": "restless"
     },
     "question": {
         "en": "How often do you feel restless or fidgety?"

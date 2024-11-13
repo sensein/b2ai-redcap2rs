@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_3",
+    "id": "motivated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_3"
+        "en": "motivated"
     },
     "question": {
         "en": "Motivated or interested"

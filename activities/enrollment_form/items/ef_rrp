@@ -1,11 +1,11 @@
 {
-    "id": "ef_voice_disorders_4",
+    "id": "ef_rrp",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_voice_disorders_4"
+        "en": "ef_rrp"
     },
     "question": {
-        "en": "Recurrent laryngeal papilloma (RRP)"
+        "en": "Recurrent Laryngeal Papilloma (RRP)"
     },
     "responseOptions": {
         "choices": [

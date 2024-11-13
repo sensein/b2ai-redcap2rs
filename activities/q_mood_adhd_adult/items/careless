@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_7",
+    "id": "careless",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_7"
+        "en": "careless"
     },
     "question": {
         "en": "How often do you make careless mistakes when you have to work on a boring or difficult project?"

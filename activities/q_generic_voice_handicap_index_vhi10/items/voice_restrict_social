@@ -1,8 +1,8 @@
 {
-    "id": "vhi_10_3",
+    "id": "voice_restrict_social",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "vhi_10_3"
+        "en": "voice_restrict_social"
     },
     "question": {
         "en": "My voice difficulties restrict personal and social life."

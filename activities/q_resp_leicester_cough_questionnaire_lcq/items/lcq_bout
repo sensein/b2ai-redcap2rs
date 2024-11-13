@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_10",
+    "id": "lcq_bout",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_10"
+        "en": "lcq_bout"
     },
     "question": {
         "en": "In the last 2 weeks, how many times a day have you had a coughing bout?"

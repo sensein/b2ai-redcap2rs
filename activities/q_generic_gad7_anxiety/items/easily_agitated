@@ -1,8 +1,8 @@
 {
-    "id": "gad_7_anxiety_6",
+    "id": "easily_agitated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gad_7_anxiety_6"
+        "en": "easily_agitated"
     },
     "question": {
         "en": "Becoming easily annoyed or irritable."

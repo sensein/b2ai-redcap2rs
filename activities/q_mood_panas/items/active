@@ -1,8 +1,8 @@
 {
-    "id": "panas_10",
+    "id": "active",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "panas_10"
+        "en": "active"
     },
     "question": {
         "en": "Active"

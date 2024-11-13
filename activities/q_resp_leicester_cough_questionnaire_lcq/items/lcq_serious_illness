@@ -1,8 +1,8 @@
 {
-    "id": "leicester_cough_14",
+    "id": "lcq_serious_illness",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "leicester_cough_14"
+        "en": "lcq_serious_illness"
     },
     "question": {
         "en": "In the last 2 weeks, have you worried that your cough may indicate serious illness?"

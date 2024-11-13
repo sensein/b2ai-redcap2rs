@@ -1,8 +1,8 @@
 {
-    "id": "custom_affect_scale_7",
+    "id": "agitated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "custom_affect_scale_7"
+        "en": "agitated"
     },
     "question": {
         "en": "Agitated (restless, fidgety, pacing, cannot sit still)"

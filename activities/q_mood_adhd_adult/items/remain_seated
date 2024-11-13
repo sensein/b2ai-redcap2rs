@@ -1,8 +1,8 @@
 {
-    "id": "adhd_adult_12",
+    "id": "remain_seated",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "adhd_adult_12"
+        "en": "remain_seated"
     },
     "question": {
         "en": "How often do you leave your seat in meetings or other situations in which you are expected to remain seated?"

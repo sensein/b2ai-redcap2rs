@@ -1,8 +1,8 @@
 {
-    "id": "dsm_5_adult_social_phobia1_10",
+    "id": "social_phobia_10",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "dsm_5_adult_social_phobia1_10"
+        "en": "social_phobia_10"
     },
     "question": {
         "en": "needed help to cope with social situations (e.g., alcohol or medications, superstitious objects)"

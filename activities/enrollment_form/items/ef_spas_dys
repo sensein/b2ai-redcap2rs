@@ -1,11 +1,11 @@
 {
-    "id": "ef_voice_disorders_5",
+    "id": "ef_spas_dys",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ef_voice_disorders_5"
+        "en": "ef_spas_dys"
     },
     "question": {
-        "en": "Spasmodic dysphonia / Laryngeal Tremor"
+        "en": "Spasmodic Dysphonia / Laryngeal Tremor"
     },
     "responseOptions": {
         "choices": [
