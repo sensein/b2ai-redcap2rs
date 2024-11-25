@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "In Sparta "
+                    "en": "In Sparta"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "In Troy"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

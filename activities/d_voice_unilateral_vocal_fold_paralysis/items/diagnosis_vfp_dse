@@ -14,19 +14,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "No glottic gap "
+                    "en": "No glottic gap"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Small "
+                    "en": "Small"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
                 "value": 2
             },

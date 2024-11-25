@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Only some "
+                    "en": "Only some"
                 },
                 "value": 2
             },

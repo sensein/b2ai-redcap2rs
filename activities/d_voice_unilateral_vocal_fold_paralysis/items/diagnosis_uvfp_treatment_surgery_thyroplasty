@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gore-Tex "
+                    "en": "Gore-Tex"
                 },
                 "value": "goretex"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Silastic"
                 },
-                "value": " silastic"
+                "value": "silastic"
             }
         ],
         "multipleChoice": true,

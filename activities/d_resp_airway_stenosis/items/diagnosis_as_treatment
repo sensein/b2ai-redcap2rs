@@ -14,21 +14,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "No treatment "
+                    "en": "No treatment"
                 },
                 "value": "no_treatment"
             },
             {
                 "name": {
-                    "en": "Surgery "
+                    "en": "Surgery"
                 },
-                "value": " surgery"
+                "value": "surgery"
             },
             {
                 "name": {
                     "en": "In-office treatment"
                 },
-                "value": " in_office_treatment"
+                "value": "in_office_treatment"
             }
         ],
         "multipleChoice": true,

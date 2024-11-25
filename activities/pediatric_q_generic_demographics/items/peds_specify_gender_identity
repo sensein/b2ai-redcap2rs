@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cis: same gender as the sex assigned at birth "
+                    "en": "Cis: same gender as the sex assigned at birth"
                 },
                 "value": "cis"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Trans"
                 },
-                "value": " trans"
+                "value": "trans"
             }
         ],
         "valueType": [

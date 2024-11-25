@@ -14,33 +14,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Excellent "
+                    "en": "Excellent"
                 },
                 "value": "excellent"
             },
             {
                 "name": {
-                    "en": "Very good "
+                    "en": "Very good"
                 },
-                "value": " veryGood"
+                "value": "veryGood"
             },
             {
                 "name": {
-                    "en": "Good "
+                    "en": "Good"
                 },
-                "value": " good"
+                "value": "good"
             },
             {
                 "name": {
-                    "en": "Fair "
+                    "en": "Fair"
                 },
-                "value": " fair"
+                "value": "fair"
             },
             {
                 "name": {
                     "en": "Poor"
                 },
-                "value": " poor"
+                "value": "poor"
             }
         ],
         "valueType": [

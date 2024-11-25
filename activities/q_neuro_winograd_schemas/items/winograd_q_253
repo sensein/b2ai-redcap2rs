@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Tommy "
+                    "en": "Tommy"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Ollie"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

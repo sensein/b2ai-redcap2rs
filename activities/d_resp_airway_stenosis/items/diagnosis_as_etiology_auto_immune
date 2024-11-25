@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease) "
+                    "en": "Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease)"
                 },
                 "value": "gpa"
             },
             {
                 "name": {
-                    "en": "Relapsing Polychondritis "
+                    "en": "Relapsing Polychondritis"
                 },
-                "value": " relapsingPolychondritis"
+                "value": "relapsingPolychondritis"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

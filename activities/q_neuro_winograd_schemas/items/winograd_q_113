@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "John "
+                    "en": "John"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "The juggler"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

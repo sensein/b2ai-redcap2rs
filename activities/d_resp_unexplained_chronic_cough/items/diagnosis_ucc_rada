@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Positive for reactive airway disease "
+                    "en": "Positive for reactive airway disease"
                 },
                 "value": "positive"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Negative for reactive airway disease"
                 },
-                "value": " negative"
+                "value": "negative"
             }
         ],
         "valueType": [

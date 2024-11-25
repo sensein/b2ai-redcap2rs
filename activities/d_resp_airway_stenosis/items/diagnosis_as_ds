@@ -14,33 +14,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Subglottic Stenosis "
+                    "en": "Subglottic Stenosis"
                 },
                 "value": "subglotticStenosis"
             },
             {
                 "name": {
-                    "en": "Bilateral Vocal fold immobility or Glottic Stenosis "
+                    "en": "Bilateral Vocal fold immobility or Glottic Stenosis"
                 },
-                "value": " bilateralVocalFoldImmobilityGlotticStenosis"
+                "value": "bilateralVocalFoldImmobilityGlotticStenosis"
             },
             {
                 "name": {
-                    "en": "Supraglottic Stenosis "
+                    "en": "Supraglottic Stenosis"
                 },
-                "value": " supraglotticStenosis"
+                "value": "supraglotticStenosis"
             },
             {
                 "name": {
-                    "en": "Tracheal Stenosis "
+                    "en": "Tracheal Stenosis"
                 },
-                "value": " trachealStenosis"
+                "value": "trachealStenosis"
             },
             {
                 "name": {
                     "en": "Multi-Level Upper Airway Stenosis"
                 },
-                "value": " multilevelUpperAirwayStenosis"
+                "value": "multilevelUpperAirwayStenosis"
             }
         ],
         "valueType": [

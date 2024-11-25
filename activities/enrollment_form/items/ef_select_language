@@ -14,13 +14,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Fran\u00e7ais "
+                    "en": "Fran\u00e7ais"
                 },
                 "value": 2
             },

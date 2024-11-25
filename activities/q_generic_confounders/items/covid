@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "COVID in the past year "
+                    "en": "COVID in the past year"
                 },
                 "value": "past_year"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Long COVID (symptoms persisted at least four weeks after initial infection)"
                 },
-                "value": " long"
+                "value": "long"
             }
         ],
         "multipleChoice": true,

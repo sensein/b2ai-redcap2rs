@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Acute Laryngitis (symptoms for less than 3 weeks) "
+                    "en": "Acute Laryngitis (symptoms for less than 3 weeks)"
                 },
                 "value": "acute"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Chronic Laryngitis (symptoms for more than 3 weeks)"
                 },
-                "value": " chronic"
+                "value": "chronic"
             }
         ],
         "valueType": [

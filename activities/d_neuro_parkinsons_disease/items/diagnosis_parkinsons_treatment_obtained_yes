@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Medications "
+                    "en": "Medications"
                 },
                 "value": "medications"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Non-pharmacological interventions"
                 },
-                "value": " npi"
+                "value": "npi"
             }
         ],
         "multipleChoice": true,

@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Active "
+                    "en": "Active"
                 },
                 "value": "active"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Recurrent"
                 },
-                "value": " recurrent"
+                "value": "recurrent"
             }
         ],
         "valueType": [

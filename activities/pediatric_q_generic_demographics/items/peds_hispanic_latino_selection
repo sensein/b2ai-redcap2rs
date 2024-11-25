@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Spaniard "
+                    "en": "Spaniard"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Mexican "
+                    "en": "Mexican"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Central American "
+                    "en": "Central American"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "South American "
+                    "en": "South American"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Latin American "
+                    "en": "Latin American"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Puerto Rican "
+                    "en": "Puerto Rican"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Cuban "
+                    "en": "Cuban"
                 },
                 "value": 7
             },

@@ -11,27 +11,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Viral "
+                    "en": "Viral"
                 },
                 "value": "viral"
             },
             {
                 "name": {
-                    "en": "Bacterial "
+                    "en": "Bacterial"
                 },
-                "value": " bacterial"
+                "value": "bacterial"
             },
             {
                 "name": {
-                    "en": "Fungal "
+                    "en": "Fungal"
                 },
-                "value": " fungal"
+                "value": "fungal"
             },
             {
                 "name": {
                     "en": "Unknown"
                 },
-                "value": " unknown"
+                "value": "unknown"
             }
         ],
         "multipleChoice": true,

@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "His eyes "
+                    "en": "His eyes"
                 },
                 "value": "incorrect"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "His hands"
                 },
-                "value": " correct"
+                "value": "correct"
             }
         ],
         "valueType": [

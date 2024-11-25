@@ -14,27 +14,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Sporadic ALS "
+                    "en": "Sporadic ALS"
                 },
                 "value": "sporadicAls"
             },
             {
                 "name": {
-                    "en": "Familial ALS "
+                    "en": "Familial ALS"
                 },
-                "value": " familialAls"
+                "value": "familialAls"
             },
             {
                 "name": {
-                    "en": "Spinal/limb-onset ALS "
+                    "en": "Spinal/limb-onset ALS"
                 },
-                "value": " spinalAls"
+                "value": "spinalAls"
             },
             {
                 "name": {
                     "en": "Bulbar-onset ALS"
                 },
-                "value": " bulbarAls"
+                "value": "bulbarAls"
             }
         ],
         "valueType": [

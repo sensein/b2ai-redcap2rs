@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The gang "
+                    "en": "The gang"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "The police"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

@@ -14,21 +14,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": "no"
             },
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
-                "value": " yes"
+                "value": "yes"
             },
             {
                 "name": {
                     "en": "Not certain"
                 },
-                "value": " notCertain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

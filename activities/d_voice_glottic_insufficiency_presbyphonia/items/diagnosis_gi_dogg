@@ -14,21 +14,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Small "
+                    "en": "Small"
                 },
                 "value": "small"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
-                "value": " moderate"
+                "value": "moderate"
             },
             {
                 "name": {
                     "en": "Large"
                 },
-                "value": " large"
+                "value": "large"
             }
         ],
         "valueType": [

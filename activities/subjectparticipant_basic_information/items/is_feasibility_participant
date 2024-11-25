@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             }
         ],
         "valueType": [

@@ -11,27 +11,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Thyroplasty "
+                    "en": "Thyroplasty"
                 },
                 "value": "thyroplasty"
             },
             {
                 "name": {
-                    "en": "Vocal fold injection augmentation "
+                    "en": "Vocal fold injection augmentation"
                 },
-                "value": " vocal_fold_injection_augmentation"
+                "value": "vocal_fold_injection_augmentation"
             },
             {
                 "name": {
-                    "en": "Arytenoid adduction "
+                    "en": "Arytenoid adduction"
                 },
-                "value": " arytenoid_adduction"
+                "value": "arytenoid_adduction"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Left "
+                    "en": "Left"
                 },
                 "value": "left"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Right"
                 },
-                "value": " right"
+                "value": "right"
             }
         ],
         "valueType": [

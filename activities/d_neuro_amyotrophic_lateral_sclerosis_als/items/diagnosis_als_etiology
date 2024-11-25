@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Genetic factors "
+                    "en": "Genetic factors"
                 },
                 "value": "genetic_factors"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Environmental factors"
                 },
-                "value": " environmental_factors"
+                "value": "environmental_factors"
             }
         ],
         "multipleChoice": true,

@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bipolar I "
+                    "en": "Bipolar I"
                 },
                 "value": "bipolar_1"
             },
             {
                 "name": {
-                    "en": "Bipolar II "
+                    "en": "Bipolar II"
                 },
-                "value": " bipolar_2"
+                "value": "bipolar_2"
             },
             {
                 "name": {
                     "en": "Other/unspecified"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

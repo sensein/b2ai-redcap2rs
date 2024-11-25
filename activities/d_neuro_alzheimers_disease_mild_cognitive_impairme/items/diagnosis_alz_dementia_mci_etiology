@@ -14,33 +14,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Genetic factors "
+                    "en": "Genetic factors"
                 },
                 "value": "genetic_factors"
             },
             {
                 "name": {
-                    "en": "Age-related changes "
+                    "en": "Age-related changes"
                 },
-                "value": " age_related_changes"
+                "value": "age_related_changes"
             },
             {
                 "name": {
-                    "en": "Other medical conditions (e.g. vascular factors traumatic brain injury) "
+                    "en": "Other medical conditions (e.g., vascular factors, traumatic brain injury)"
                 },
-                "value": " other_medical_conditions"
+                "value": "other_medical_conditions"
             },
             {
                 "name": {
-                    "en": "Substance-related (e.g. alcohol-induced cognitive impairment) "
+                    "en": "Substance-related (e.g., alcohol-induced cognitive impairment)"
                 },
-                "value": " substance_related"
+                "value": "substance_related"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Brain "
+                    "en": "Brain"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Chest "
+                    "en": "Chest"
                 },
                 "value": 2
             },

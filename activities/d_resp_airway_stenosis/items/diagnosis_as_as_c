@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Inspiratory "
+                    "en": "Inspiratory"
                 },
                 "value": "inspiratory"
             },
             {
                 "name": {
-                    "en": "Expiratory "
+                    "en": "Expiratory"
                 },
-                "value": " expiratory"
+                "value": "expiratory"
             },
             {
                 "name": {
                     "en": "Biphasic"
                 },
-                "value": " biphasic"
+                "value": "biphasic"
             }
         ],
         "valueType": [

@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The prehistoric humans "
+                    "en": "The prehistoric humans"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "The archaeologists"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

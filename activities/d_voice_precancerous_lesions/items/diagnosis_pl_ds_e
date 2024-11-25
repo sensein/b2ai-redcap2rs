@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "With dysplasia "
+                    "en": "With dysplasia"
                 },
                 "value": "withDysplasia"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Without dysplasia"
                 },
-                "value": " withoutDysplasia"
+                "value": "withoutDysplasia"
             }
         ],
         "valueType": [

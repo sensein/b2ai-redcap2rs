@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The foxes "
+                    "en": "The foxes"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "The chickens"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Laryngologist "
+                    "en": "Laryngologist"
                 },
                 "value": "laryngologist"
             },
             {
                 "name": {
-                    "en": "Otolaryngologist "
+                    "en": "Otolaryngologist"
                 },
-                "value": " otolaryngologist"
+                "value": "otolaryngologist"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

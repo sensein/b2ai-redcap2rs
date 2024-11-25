@@ -14,31 +14,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Brain tumor "
+                    "en": "Brain tumor"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Dysarthria "
+                    "en": "Dysarthria"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Epilepsy "
+                    "en": "Epilepsy"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Multiple sclerosis "
+                    "en": "Multiple sclerosis"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Traumatic brain injury "
+                    "en": "Traumatic brain injury"
                 },
                 "value": 5
             },

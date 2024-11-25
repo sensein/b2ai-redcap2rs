@@ -11,25 +11,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "MI "
+                    "en": "MI"
                 },
-                "value": 0
+                "value": "MI"
             },
             {
                 "name": {
-                    "en": " MO "
+                    "en": "MO"
                 },
-                "value": 1
+                "value": "MO"
             },
             {
                 "name": {
-                    "en": " SE"
+                    "en": "SE"
                 },
-                "value": 2
+                "value": "SE"
             }
         ],
+        "maxValue": 100,
+        "minValue": 0,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

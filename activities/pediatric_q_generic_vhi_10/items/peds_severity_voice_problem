@@ -11,26 +11,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Normal "
+                    "en": "Normal"
                 },
-                "value": 0
+                "value": "Normal"
             },
             {
                 "name": {
-                    "en": "  "
+                    "en": ""
                 },
-                "value": 1
+                "value": ""
             },
             {
                 "name": {
-                    "en": " Severe"
+                    "en": "Severe"
                 },
-                "value": 2
+                "value": "Severe"
             }
         ],
         "maxValue": 10.0,
+        "minValue": 0,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

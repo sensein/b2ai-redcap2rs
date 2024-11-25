@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chairs "
+                    "en": "Chairs"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Copies of the newsletter"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

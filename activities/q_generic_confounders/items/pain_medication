@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "NSAIDs (ex: Ibuprofen/Advil/Cerebrex) "
+                    "en": "NSAIDs (ex: Ibuprofen/Advil/Cerebrex)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Morphine/Oxycodone "
+                    "en": "Morphine/Oxycodone"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Neuro-modulators (ex: Gabapentin Lyrica)"
+                    "en": "Neuro-modulators (ex: Gabapentin, Lyrica)"
                 },
                 "value": 3
             }

@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not difficult at all "
+                    "en": "Not difficult at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Somewhat difficult "
+                    "en": "Somewhat difficult"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Very difficult "
+                    "en": "Very difficult"
                 },
                 "value": 2
             },

@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Emma's mother "
+                    "en": "Emma's mother"
                 },
                 "value": "incorrect"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Emma"
                 },
-                "value": " correct"
+                "value": "correct"
             }
         ],
         "valueType": [

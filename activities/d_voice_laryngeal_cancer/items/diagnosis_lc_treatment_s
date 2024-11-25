@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Endoscopic laser "
+                    "en": "Endoscopic laser"
                 },
                 "value": "endoscopic_laser"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Partial laryngectomy"
                 },
-                "value": " partial_laryngectomy"
+                "value": "partial_laryngectomy"
             }
         ],
         "multipleChoice": true,

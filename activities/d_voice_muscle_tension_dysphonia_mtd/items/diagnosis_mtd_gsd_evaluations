@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Laryngologist "
+                    "en": "Laryngologist"
                 },
                 "value": "laryngologist"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Speech-Language Pathology"
                 },
-                "value": " speech_language_pathology"
+                "value": "speech_language_pathology"
             }
         ],
         "multipleChoice": true,

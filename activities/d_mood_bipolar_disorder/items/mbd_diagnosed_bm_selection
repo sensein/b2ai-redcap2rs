@@ -11,33 +11,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "6A60 Bipolar type I disorder "
+                    "en": "6A60 Bipolar type I disorder"
                 },
                 "value": "6A60"
             },
             {
                 "name": {
-                    "en": "6A61 Bipolar type II disorder "
+                    "en": "6A61 Bipolar type II disorder"
                 },
-                "value": " 6A61"
+                "value": "6A61"
             },
             {
                 "name": {
-                    "en": "6A62 Cyclothymic disorder "
+                    "en": "6A62 Cyclothymic disorder"
                 },
-                "value": " 6A62"
+                "value": "6A62"
             },
             {
                 "name": {
-                    "en": "6A6Y Other specified bipolar or related disorders "
+                    "en": "6A6Y Other specified bipolar or related disorders"
                 },
-                "value": " 6A6Y"
+                "value": "6A6Y"
             },
             {
                 "name": {
-                    "en": "6A6Z Bipolar or related disorders unspecified"
+                    "en": "6A6Z Bipolar or related disorders, unspecified"
                 },
-                "value": " 6A6Z"
+                "value": "6A6Z"
             }
         ],
         "valueType": [

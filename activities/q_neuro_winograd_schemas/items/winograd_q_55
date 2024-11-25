@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "In the garage "
+                    "en": "In the garage"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "In the house"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

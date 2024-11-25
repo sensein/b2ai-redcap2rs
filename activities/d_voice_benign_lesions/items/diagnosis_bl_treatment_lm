@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "With laser "
+                    "en": "With laser"
                 },
                 "value": "withLaser"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Without laser"
                 },
-                "value": " withoutLaser"
+                "value": "withoutLaser"
             }
         ],
         "valueType": [

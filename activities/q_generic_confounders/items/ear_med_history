@@ -14,13 +14,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chronic ear infection "
+                    "en": "Chronic ear infection"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cochlear implant "
+                    "en": "Cochlear implant"
                 },
                 "value": 2
             },

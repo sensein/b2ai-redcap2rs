@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Unified Parkinson's Disease Rating Scale (UPDRS) "
+                    "en": "Unified Parkinson's Disease Rating Scale (UPDRS)"
                 },
                 "value": "updrs"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Other motor assessment tool"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

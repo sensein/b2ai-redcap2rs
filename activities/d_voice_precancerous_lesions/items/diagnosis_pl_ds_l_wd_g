@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Low grade "
+                    "en": "Low grade"
                 },
                 "value": "lowGrade"
             },
             {
                 "name": {
-                    "en": "Moderate grade "
+                    "en": "Moderate grade"
                 },
-                "value": " moderateGrade"
+                "value": "moderateGrade"
             },
             {
                 "name": {
                     "en": "High grade"
                 },
-                "value": " highGrade"
+                "value": "highGrade"
             }
         ],
         "valueType": [

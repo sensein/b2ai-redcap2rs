@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Primary MTD - neck muscles are tense with no abnormality in the larynx "
+                    "en": "Primary MTD - neck muscles are tense with no abnormality in the larynx"
                 },
                 "value": "primaryMTD"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Secondary MTD - abnormality in larynx causes the patient to overuse other muscles involved in voice production"
                 },
-                "value": " secondaryMTD"
+                "value": "secondaryMTD"
             }
         ],
         "valueType": [

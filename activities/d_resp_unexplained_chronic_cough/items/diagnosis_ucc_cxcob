@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chest X-ray "
+                    "en": "Chest X-ray"
                 },
                 "value": "chest_xray"
             },
             {
                 "name": {
-                    "en": "CT Chest "
+                    "en": "CT Chest"
                 },
-                "value": " ct_chest"
+                "value": "ct_chest"
             },
             {
                 "name": {
                     "en": "Bronchoscopy"
                 },
-                "value": " bronchoscopy"
+                "value": "bronchoscopy"
             }
         ],
         "multipleChoice": true,

@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Anxiety or nervousness "
+                    "en": "Anxiety or nervousness"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Confusion "
+                    "en": "Confusion"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Dizziness "
+                    "en": "Dizziness"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Frequent or severe headache or migraine "
+                    "en": "Frequent or severe headache or migraine"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Sleep disturbance "
+                    "en": "Sleep disturbance"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Speech difficulty "
+                    "en": "Speech difficulty"
                 },
                 "value": 6
             },

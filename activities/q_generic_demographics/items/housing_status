@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Assisted living "
+                    "en": "Assisted living"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Own home "
+                    "en": "Own home"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Rent home "
+                    "en": "Rent home"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Skilled nursing facility/nursing home "
+                    "en": "Skilled nursing facility/nursing home"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Unhoused-temporarily "
+                    "en": "Unhoused-temporarily"
                 },
                 "value": 6
             },

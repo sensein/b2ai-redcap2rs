@@ -11,33 +11,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Almost never "
+                    "en": "Almost never"
                 },
-                "value": " almostNever"
+                "value": "almostNever"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Almost always "
+                    "en": "Almost always"
                 },
-                "value": " almostAlways"
+                "value": "almostAlways"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": " always"
+                "value": "always"
             }
         ],
         "valueType": [

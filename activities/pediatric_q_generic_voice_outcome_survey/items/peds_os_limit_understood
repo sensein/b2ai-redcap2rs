@@ -14,21 +14,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Limited a lot "
+                    "en": "Limited a lot"
                 },
                 "value": "limitedALot"
             },
             {
                 "name": {
-                    "en": "Limited a little "
+                    "en": "Limited a little"
                 },
-                "value": " limitedALittle"
+                "value": "limitedALittle"
             },
             {
                 "name": {
                     "en": "Not limited at all"
                 },
-                "value": " notLimitedAtAll"
+                "value": "notLimitedAtAll"
             }
         ],
         "valueType": [

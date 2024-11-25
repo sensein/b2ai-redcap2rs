@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "European "
+                    "en": "European"
                 },
                 "value": 21089
             },
             {
                 "name": {
-                    "en": "Middle Eastern Or North African "
+                    "en": "Middle Eastern Or North African"
                 },
                 "value": 21188
             },

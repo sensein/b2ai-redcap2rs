@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The cloud "
+                    "en": "The cloud"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "The sun"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

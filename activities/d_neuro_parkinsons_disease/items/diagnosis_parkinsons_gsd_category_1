@@ -14,21 +14,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bradykinesia "
+                    "en": "Bradykinesia"
                 },
                 "value": "bradykinesia"
             },
             {
                 "name": {
-                    "en": "Tremor "
+                    "en": "Tremor"
                 },
-                "value": " tremor"
+                "value": "tremor"
             },
             {
                 "name": {
                     "en": "Rigidity"
                 },
-                "value": " rigidity"
+                "value": "rigidity"
             }
         ],
         "multipleChoice": true,

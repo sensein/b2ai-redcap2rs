@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Tom and Dr. Stewart "
+                    "en": "Tom and Dr. Stewart"
                 },
                 "value": "correct"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Eva and Dr. Stewart"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

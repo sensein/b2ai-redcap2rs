@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Slight Difficulty "
+                    "en": "Slight Difficulty"
                 },
                 "value": "slightDifficulty"
             },
             {
                 "name": {
-                    "en": "Moderate Difficulty "
+                    "en": "Moderate Difficulty"
                 },
-                "value": " moderateDifficulty"
+                "value": "moderateDifficulty"
             },
             {
                 "name": {
                     "en": "Significant Difficulty"
                 },
-                "value": " significantDifficulty"
+                "value": "significantDifficulty"
             }
         ],
         "valueType": [

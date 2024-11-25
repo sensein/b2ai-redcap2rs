@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The city councilmen "
+                    "en": "The city councilmen"
                 },
                 "value": "correct"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "The demonstrators"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

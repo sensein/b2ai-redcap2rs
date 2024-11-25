@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Normal "
+                    "en": "Normal"
                 },
                 "value": "normal"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

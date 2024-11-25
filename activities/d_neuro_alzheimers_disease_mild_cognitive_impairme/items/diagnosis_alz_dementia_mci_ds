@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mild cognitive impairment (MCI) "
+                    "en": "Mild cognitive impairment (MCI)"
                 },
                 "value": "mci"
             },
@@ -22,7 +22,7 @@
                 "name": {
                     "en": "Clinical dementia rating (CDR) staging"
                 },
-                "value": " cdr"
+                "value": "cdr"
             }
         ],
         "multipleChoice": true,

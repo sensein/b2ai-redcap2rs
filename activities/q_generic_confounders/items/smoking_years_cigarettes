@@ -11,21 +11,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Specify "
+                    "en": "Specify"
                 },
                 "value": "specify"
             },
             {
                 "name": {
-                    "en": "Don't know "
+                    "en": "Don't know"
                 },
-                "value": " doNotKnow"
+                "value": "doNotKnow"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -11,7 +11,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Confirmed by bronchoscopy or laryngoscopy "
+                    "en": "Confirmed by bronchoscopy or laryngoscopy"
                 },
                 "value": "bronchoscopy"
             },
@@ -19,7 +19,7 @@
                 "name": {
                     "en": "Confirmed by CT imaging"
                 },
-                "value": " ct"
+                "value": "ct"
             }
         ],
         "multipleChoice": true,

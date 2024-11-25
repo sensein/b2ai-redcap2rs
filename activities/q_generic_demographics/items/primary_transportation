@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Personal vehicle "
+                    "en": "Personal vehicle"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Shared vehicle "
+                    "en": "Shared vehicle"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Public transportation "
+                    "en": "Public transportation"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Ride with someone else "
+                    "en": "Ride with someone else"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Ride service "
+                    "en": "Ride service"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Bicycle/Motorbike "
+                    "en": "Bicycle/Motorbike"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Walking "
+                    "en": "Walking"
                 },
                 "value": 7
             },
