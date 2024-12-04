@@ -1,6 +1,13 @@
 {
     "id": "add_adhd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "add_adhd"
     },

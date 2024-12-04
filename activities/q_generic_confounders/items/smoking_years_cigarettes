@@ -1,6 +1,13 @@
 {
     "id": "smoking_years_cigarettes",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_years_cigarettes"
     },

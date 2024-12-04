@@ -1,6 +1,13 @@
 {
     "id": "illness_not_taken_serious",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "illness_not_taken_serious"
     },

@@ -1,6 +1,13 @@
 {
     "id": "peds_qol_come_out_speaking",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_qol_come_out_speaking"
     },

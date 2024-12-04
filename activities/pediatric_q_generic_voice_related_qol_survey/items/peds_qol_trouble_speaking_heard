@@ -1,6 +1,13 @@
 {
     "id": "peds_qol_trouble_speaking_heard",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Please answer these questions based on what your child's voice (your own voice if you are a teenage respondent) has been like over the last 2 weeks. Consider how severe the problem is, when you get it and how frequently it happens. Please rate each item below on how bad it is (the amount of each problem). Because of my child's voice, how much of a problem is this?"
     },

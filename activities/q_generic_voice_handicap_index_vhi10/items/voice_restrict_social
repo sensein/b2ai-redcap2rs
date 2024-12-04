@@ -1,6 +1,13 @@
 {
     "id": "voice_restrict_social",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "voice_restrict_social"
     },

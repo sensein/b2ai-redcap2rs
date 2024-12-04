@@ -1,6 +1,13 @@
 {
     "id": "ef_enrollment_institution",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_enrollment_institution"
     },

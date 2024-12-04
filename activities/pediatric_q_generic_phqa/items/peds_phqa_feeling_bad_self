@@ -1,6 +1,13 @@
 {
     "id": "peds_phqa_feeling_bad_self",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_phqa_feeling_bad_self"
     },

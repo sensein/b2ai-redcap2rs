@@ -1,6 +1,13 @@
 {
     "id": "cant_control_worry",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "cant_control_worry"
     },

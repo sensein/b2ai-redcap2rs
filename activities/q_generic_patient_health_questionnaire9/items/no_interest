@@ -1,6 +1,13 @@
 {
     "id": "no_interest",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
     },

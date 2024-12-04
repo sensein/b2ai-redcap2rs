@@ -1,6 +1,13 @@
 {
     "id": "lcq_felt_in_control",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "lcq_felt_in_control"
     },

@@ -1,6 +1,13 @@
 {
     "id": "dmdd_see_mental_health_professional",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "dmdd_see_mental_health_professional"
     },

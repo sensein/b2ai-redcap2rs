@@ -1,6 +1,13 @@
 {
     "id": "left_out_convo",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "left_out_convo"
     },

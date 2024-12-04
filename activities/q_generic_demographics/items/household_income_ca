@@ -1,6 +1,13 @@
 {
     "id": "household_income_ca",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "household_income_ca"
     },

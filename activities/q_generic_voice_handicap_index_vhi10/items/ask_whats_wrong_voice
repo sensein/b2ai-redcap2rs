@@ -1,6 +1,13 @@
 {
     "id": "ask_whats_wrong_voice",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ask_whats_wrong_voice"
     },

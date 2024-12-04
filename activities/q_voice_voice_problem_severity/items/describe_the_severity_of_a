@@ -1,6 +1,13 @@
 {
     "id": "describe_the_severity_of_a",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Voice problem severity"
     },
@@ -31,11 +38,11 @@
                 "value": 100
             }
         ],
-        "maxValue": 100,
-        "minValue": 0,
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:integer",
+            "xsd:string"
         ]
     },
     "ui": {

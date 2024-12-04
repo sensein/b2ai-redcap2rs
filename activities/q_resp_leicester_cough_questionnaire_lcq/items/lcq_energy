@@ -1,6 +1,13 @@
 {
     "id": "lcq_energy",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "lcq_energy"
     },

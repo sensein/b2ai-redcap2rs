@@ -1,6 +1,13 @@
 {
     "id": "lcq_other_people",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "lcq_other_people"
     },

@@ -1,6 +1,13 @@
 {
     "id": "ph_standing",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Physical Health\n\nIn the past 30 days, how much difficulty did you have in:"
     },

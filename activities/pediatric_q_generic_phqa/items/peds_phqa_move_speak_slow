@@ -1,6 +1,13 @@
 {
     "id": "peds_phqa_move_speak_slow",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_phqa_move_speak_slow"
     },

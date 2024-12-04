@@ -1,6 +1,13 @@
 {
     "id": "ph_health_problem",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ph_health_problem"
     },

@@ -1,6 +1,13 @@
 {
     "id": "someone_hear_thoughts",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "someone_hear_thoughts"
     },

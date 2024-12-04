@@ -1,6 +1,13 @@
 {
     "id": "peds_dry_raspy_hoarse",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_dry_raspy_hoarse"
     },

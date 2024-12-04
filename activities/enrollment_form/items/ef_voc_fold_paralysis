@@ -1,6 +1,13 @@
 {
     "id": "ef_voc_fold_paralysis",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_voc_fold_paralysis"
     },

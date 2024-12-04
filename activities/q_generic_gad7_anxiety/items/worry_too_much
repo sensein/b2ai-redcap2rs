@@ -1,6 +1,13 @@
 {
     "id": "worry_too_much",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "worry_too_much"
     },

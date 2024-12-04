@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_degree_os_1",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bl_degree_os_1"
     },
@@ -28,8 +35,8 @@
                 "value": "SE"
             }
         ],
-        "maxValue": 100,
-        "minValue": 0,
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:string"
         ]

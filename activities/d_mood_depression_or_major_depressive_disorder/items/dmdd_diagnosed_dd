@@ -1,6 +1,13 @@
 {
     "id": "dmdd_diagnosed_dd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },

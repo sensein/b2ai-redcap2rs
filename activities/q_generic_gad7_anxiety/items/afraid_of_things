@@ -1,6 +1,13 @@
 {
     "id": "afraid_of_things",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "afraid_of_things"
     },

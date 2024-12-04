@@ -1,6 +1,13 @@
 {
     "id": "soc_anx_dis",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "soc_anx_dis"
     },

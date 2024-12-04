@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_disease_subtype",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Type of ALS"
     },

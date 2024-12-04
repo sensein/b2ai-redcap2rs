@@ -1,6 +1,13 @@
 {
     "id": "peds_less_out_going",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_less_out_going"
     },

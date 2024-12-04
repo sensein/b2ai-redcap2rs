@@ -1,6 +1,13 @@
 {
     "id": "sad_or_down",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Thinking about yourself and how you normally feel, to what extent do you generally feel?\n\n0=Not at all, 10=Extremely"
     },

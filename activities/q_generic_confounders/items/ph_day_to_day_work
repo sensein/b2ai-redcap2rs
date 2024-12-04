@@ -1,6 +1,13 @@
 {
     "id": "ph_day_to_day_work",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ph_day_to_day_work"
     },

@@ -1,6 +1,13 @@
 {
     "id": "di_restrict_personal_social_life",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "di_restrict_personal_social_life"
     },

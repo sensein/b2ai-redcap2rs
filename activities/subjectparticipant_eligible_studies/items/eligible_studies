@@ -1,6 +1,13 @@
 {
     "id": "eligible_studies",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Eligible Studies"
     },
@@ -69,8 +76,8 @@
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:integer",
+            "xsd:string"
         ]
     },
     "ui": {

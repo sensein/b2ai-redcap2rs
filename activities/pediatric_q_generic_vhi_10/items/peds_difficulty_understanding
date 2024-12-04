@@ -1,6 +1,13 @@
 {
     "id": "peds_difficulty_understanding",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_difficulty_understanding"
     },

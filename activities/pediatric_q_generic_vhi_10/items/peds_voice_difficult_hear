@@ -1,6 +1,13 @@
 {
     "id": "peds_voice_difficult_hear",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_voice_difficult_hear"
     },

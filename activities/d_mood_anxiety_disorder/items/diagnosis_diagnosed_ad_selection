@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_diagnosed_ad_selection",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_diagnosed_ad_selection"
     },

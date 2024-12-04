@@ -1,6 +1,13 @@
 {
     "id": "nervous_anxious",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Over the last two weeks, how often have you been bothered by the following problems?"
     },

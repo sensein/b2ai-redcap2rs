@@ -1,6 +1,13 @@
 {
     "id": "ef_asthma",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Respiratory Disorders"
     },

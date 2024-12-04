@@ -1,6 +1,13 @@
 {
     "id": "stroop_item_stimulus_3",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Item 3"
     },

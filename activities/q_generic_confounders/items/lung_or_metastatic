@@ -1,6 +1,13 @@
 {
     "id": "lung_or_metastatic",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "lung_or_metastatic"
     },

@@ -1,6 +1,13 @@
 {
     "id": "peds_phqa_no_appetite",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_phqa_no_appetite"
     },

@@ -1,6 +1,13 @@
 {
     "id": "random_item_generation_category",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Random item generation / semantic fluency"
     },

@@ -1,6 +1,13 @@
 {
     "id": "throat_surgical",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "throat_surgical"
     },

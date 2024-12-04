@@ -1,6 +1,13 @@
 {
     "id": "peds_qol_out_of_air",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_qol_out_of_air"
     },
