@@ -76,8 +76,8 @@
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer",
-            "xsd:string"
+            "xsd:string",
+            "xsd:integer"
         ]
     },
     "ui": {
