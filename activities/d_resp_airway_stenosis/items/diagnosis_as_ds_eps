@@ -5,7 +5,7 @@
         {
             "column": "Question Number (surveys only)",
             "source": "redcap",
-            "value": NaN
+            "value": "NaN"
         }
     ],
     "prefLabel": {
@@ -15,8 +15,8 @@
         "en": "How would you subjectively estimate the percent of stenosis from 0 to 100?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
+        "maxValue": "NaN",
+        "minValue": "NaN",
         "valueType": [
             "xsd:decimal"
         ]
