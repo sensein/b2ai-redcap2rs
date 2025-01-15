@@ -5,14 +5,14 @@
         {
             "column": "Question Number (surveys only)",
             "source": "redcap",
-            "value": NaN
+            "value": "NaN"
         }
     ],
     "prefLabel": {
         "en": "smoking_freq"
     },
     "question": {
-        "en": "[LEGACY]\nHow often do/did you smoke?"
+        "en": "How often do/did you smoke?"
     },
     "responseOptions": {
         "choices": [

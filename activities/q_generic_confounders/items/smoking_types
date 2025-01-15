@@ -5,14 +5,14 @@
         {
             "column": "Question Number (surveys only)",
             "source": "redcap",
-            "value": NaN
+            "value": "NaN"
         }
     ],
     "prefLabel": {
         "en": "smoking_types"
     },
     "question": {
-        "en": "[LEGACY]\nChecklist of different types (choose all that apply):"
+        "en": "Checklist of different types (choose all that apply):"
     },
     "responseOptions": {
         "choices": [

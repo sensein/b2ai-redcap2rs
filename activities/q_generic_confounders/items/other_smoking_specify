@@ -5,14 +5,14 @@
         {
             "column": "Question Number (surveys only)",
             "source": "redcap",
-            "value": NaN
+            "value": "NaN"
         }
     ],
     "prefLabel": {
         "en": "other_smoking_specify"
     },
     "question": {
-        "en": "[LEGACY]\nIf you selected \"other\" for smoking type, please specify:"
+        "en": "If you selected \"other\" for smoking type, please specify:"
     },
     "responseOptions": {
         "valueType": [

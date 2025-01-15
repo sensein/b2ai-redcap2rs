@@ -5,18 +5,18 @@
         {
             "column": "Question Number (surveys only)",
             "source": "redcap",
-            "value": NaN
+            "value": "NaN"
         }
     ],
     "prefLabel": {
         "en": "age_stop_smoking"
     },
     "question": {
-        "en": "[LEGACY]\nAt what age did you stop?"
+        "en": "At what age did you stop?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
+        "maxValue": "NaN",
+        "minValue": "NaN",
         "valueType": [
             "xsd:decimal"
         ]
