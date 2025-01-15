@@ -12,7 +12,7 @@
         "en": "age_stop_smoking"
     },
     "question": {
-        "en": "[LEGACY]\nAt what age did you stop?"
+        "en": "At what age did you stop?"
     },
     "responseOptions": {
         "maxValue": "NaN",

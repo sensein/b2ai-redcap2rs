@@ -12,7 +12,7 @@
         "en": "smoking_hx"
     },
     "question": {
-        "en": "[LEGACY]\nHave you ever smoked regularly (more than a few times a month for at least two months)?\nThis includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
+        "en": "Have you ever smoked regularly (more than a few times a month for at least two months)?\nThis includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
     },
     "responseOptions": {
         "choices": [

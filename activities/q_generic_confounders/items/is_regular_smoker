@@ -12,7 +12,7 @@
         "en": "is_regular_smoker"
     },
     "question": {
-        "en": "[LEGACY]\nHave you been a regular smoker or not within the last 3 years?"
+        "en": "Have you been a regular smoker or not within the last 3 years?"
     },
     "responseOptions": {
         "choices": [

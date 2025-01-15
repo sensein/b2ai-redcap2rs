@@ -12,7 +12,7 @@
         "en": "smoking_freq"
     },
     "question": {
-        "en": "[LEGACY]\nHow often do/did you smoke?"
+        "en": "How often do/did you smoke?"
     },
     "responseOptions": {
         "choices": [
