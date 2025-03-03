@@ -33,6 +33,7 @@
             "../activities/d_neuro_alzheimers_disease_mild_cognitive_impairme/d_neuro_alzheimers_disease_mild_cognitive_impairme_schema",
             "../activities/d_neuro_amyotrophic_lateral_sclerosis_als/d_neuro_amyotrophic_lateral_sclerosis_als_schema",
             "../activities/d_neuro_parkinsons_disease/d_neuro_parkinsons_disease_schema",
+            "../activities/d_neuro_huntingtons_disease/d_neuro_huntingtons_disease_schema",
             "../activities/session/session_schema",
             "../activities/acoustic_task/acoustic_task_schema",
             "../activities/recording/recording_schema",
@@ -247,6 +248,14 @@
                     "en": "D Neuro Parkinsons Disease"
                 },
                 "variableName": "d_neuro_parkinsons_disease_schema"
+            },
+            {
+                "isAbout": "../activities/d_neuro_huntingtons_disease/d_neuro_huntingtons_disease_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "D Neuro Huntingtons Disease"
+                },
+                "variableName": "d_neuro_huntingtons_disease_schema"
             },
             {
                 "isAbout": "../activities/session/session_schema",
@@ -483,6 +492,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.22.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

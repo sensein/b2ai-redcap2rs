@@ -1,5 +1,5 @@
 {
-    "id": "describe_the_severity_of_a",
+    "id": "hd_disease_subtype",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
@@ -9,44 +9,53 @@
         }
     ],
     "preamble": {
-        "en": "Voice problem severity"
+        "en": "2. Disease Subtype"
     },
     "prefLabel": {
-        "en": "describe_the_severity_of_a"
+        "en": "hd_disease_subtype"
     },
     "question": {
-        "en": "Describe the severity of auditory-perceptual attributes of a voice problem\n*Overall severity scale (0-100)"
+        "en": "Disease Subtype"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "0"
+                    "en": "Pediatric Onset"
                 },
-                "value": 0
+                "value": "pediatricOnset"
             },
             {
                 "name": {
-                    "en": ""
+                    "en": "Juvenile Onset"
                 },
-                "value": ""
+                "value": "juvenileOnset"
             },
             {
                 "name": {
-                    "en": "100"
+                    "en": "Adult Onset"
                 },
-                "value": 100
+                "value": "adultOnset"
+            },
+            {
+                "name": {
+                    "en": "Late Onset"
+                },
+                "value": "lateOnset"
+            },
+            {
+                "name": {
+                    "en": "Unknown"
+                },
+                "value": "unknown"
             }
         ],
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
-            "xsd:integer",
             "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

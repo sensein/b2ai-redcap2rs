@@ -20,6 +20,7 @@
             "items/voc_fold_paralysis",
             "items/alz_dementia_mci",
             "items/als",
+            "items/huntingtons",
             "items/parkinsons",
             "items/alcohol_subst_abuse",
             "items/gad",
@@ -121,6 +122,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "als"
+            },
+            {
+                "isAbout": "items/huntingtons",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "huntingtons"
             },
             {
                 "isAbout": "items/parkinsons",
@@ -263,6 +270,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.22.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

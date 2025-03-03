@@ -1,0 +1,28 @@
+{
+    "id": "hd_dcl",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
+    "prefLabel": {
+        "en": "hd_dcl"
+    },
+    "question": {
+        "en": "DCL (Diagnostic Confidence Level)"
+    },
+    "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

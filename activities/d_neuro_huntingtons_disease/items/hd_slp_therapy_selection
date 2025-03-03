@@ -1,5 +1,5 @@
 {
-    "id": "describe_the_severity_of_a",
+    "id": "hd_slp_therapy_selection",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
@@ -8,45 +8,34 @@
             "value": NaN
         }
     ],
-    "preamble": {
-        "en": "Voice problem severity"
-    },
     "prefLabel": {
-        "en": "describe_the_severity_of_a"
+        "en": "hd_slp_therapy_selection"
     },
     "question": {
-        "en": "Describe the severity of auditory-perceptual attributes of a voice problem\n*Overall severity scale (0-100)"
+        "en": "Prior or current SLP therapy selected. Please select all that apply:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "0"
+                    "en": "Prior"
                 },
-                "value": 0
+                "value": "prior"
             },
             {
                 "name": {
-                    "en": ""
+                    "en": "Current"
                 },
-                "value": ""
-            },
-            {
-                "name": {
-                    "en": "100"
-                },
-                "value": 100
+                "value": "current"
             }
         ],
-        "maxValue": NaN,
-        "minValue": NaN,
+        "multipleChoice": true,
         "valueType": [
-            "xsd:integer",
             "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

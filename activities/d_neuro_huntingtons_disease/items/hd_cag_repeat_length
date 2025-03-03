@@ -1,0 +1,28 @@
+{
+    "id": "hd_cag_repeat_length",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
+    "prefLabel": {
+        "en": "hd_cag_repeat_length"
+    },
+    "question": {
+        "en": "What is the CAG repeat length?"
+    },
+    "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
