@@ -41,8 +41,8 @@
         "maxValue": NaN,
         "minValue": NaN,
         "valueType": [
-            "xsd:integer",
-            "xsd:string"
+            "xsd:string",
+            "xsd:integer"
         ]
     },
     "ui": {

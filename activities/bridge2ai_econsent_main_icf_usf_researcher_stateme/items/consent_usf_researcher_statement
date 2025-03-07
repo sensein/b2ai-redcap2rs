@@ -1,0 +1,26 @@
+{
+    "id": "consent_usf_researcher_statement",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
+    "prefLabel": {
+        "en": "consent_usf_researcher_statement"
+    },
+    "question": {
+        "en": "Statement of Person Obtaining Informed ConsentI have carefully explained to the person taking part in the study what they can expect from theirparticipation. I confirm that this research participant speaks the language that was used to explain thisresearch and is receiving an informed consent form in their primary language. This research participanthas provided legally effective informed consent."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

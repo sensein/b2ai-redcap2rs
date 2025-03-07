@@ -16,6 +16,9 @@
             "../activities/data_dissemination/data_dissemination_schema",
             "../activities/enrollment_form/enrollment_form_schema",
             "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
+            "../activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
+            "../activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+            "../activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
             "../activities/d_control/d_control_schema",
             "../activities/d_voice_glottic_insufficiency_presbyphonia/d_voice_glottic_insufficiency_presbyphonia_schema",
             "../activities/d_voice_benign_lesions/d_voice_benign_lesions_schema",
@@ -112,6 +115,30 @@
                     "en": "Bridge2Ai Paper Consent All Sites English"
                 },
                 "variableName": "bridge2ai_paper_consent_all_sites_english_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Econsent Main Icf Usf English"
+                },
+                "variableName": "bridge2ai_econsent_main_icf_usf_english_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Econsent Main Icf Usf Researcher Stateme"
+                },
+                "variableName": "bridge2ai_econsent_main_icf_usf_researcher_stateme_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Econsent Combined Pdf Main Icf Usf"
+                },
+                "variableName": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema"
             },
             {
                 "isAbout": "../activities/d_control/d_control_schema",
@@ -492,6 +519,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.22.0",
+    "version": "3.23.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
