@@ -39,13 +39,13 @@
             {
                 "isAbout": "items/phone_number",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "phone_number"
             },
             {
                 "isAbout": "items/email",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "email"
             },
             {
@@ -57,6 +57,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.25.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

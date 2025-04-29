@@ -423,7 +423,7 @@
             {
                 "isAbout": "items/ef_email",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "ef_email"
             },
             {
@@ -495,6 +495,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "3.25.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
