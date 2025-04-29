@@ -3,11 +3,24 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
     "prefLabel": {
         "en": "adhd_duration"
     },
@@ -15,7 +28,7 @@
         "en": "Questionnaire Duration (seconds)"
     },
     "responseOptions": {
-        "maxValue": NaN,
+        "minValue": 0,
         "valueType": [
             "xsd:decimal"
         ]

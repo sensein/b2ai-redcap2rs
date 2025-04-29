@@ -1,13 +1,9 @@
 {
     "id": "mph_describe_psychotherapy",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Treatment Obtained"
+    },
     "prefLabel": {
         "en": "mph_describe_psychotherapy"
     },

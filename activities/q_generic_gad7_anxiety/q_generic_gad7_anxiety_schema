@@ -42,6 +42,7 @@
             {
                 "isAbout": "items/gad_7_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "gad_7_duration"
             },
             {
@@ -89,11 +90,12 @@
             {
                 "isAbout": "items/tough_to_work",
                 "isVis": "nervous_anxious > 0 || cant_control_worry > 0 || worry_too_much > 0 || trouble_relaxing > 0 || hard_to_sit_still > 0 || easily_agitated > 0 || afraid_of_things > 0",
+                "valueRequired": false,
                 "variableName": "tough_to_work"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

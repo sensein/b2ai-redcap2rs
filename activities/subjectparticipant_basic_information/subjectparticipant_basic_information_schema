@@ -3,13 +3,10 @@
     "category": "reproschema:Activity",
     "compute": [
         {
-            "jsExpression": "rounddown((datediff( dob ,'today','y','ymd')),0)",
+            "jsExpression": "rounddown((datediff(dob,'today','y','ymd')),0)",
             "variableName": "age"
         }
     ],
-    "preamble": {
-        "en": "Enrollment Details"
-    },
     "prefLabel": {
         "en": "subjectparticipant_basic_information"
     },
@@ -24,6 +21,7 @@
             "items/withdrawn_consent_reason",
             "items/withdrawn_consent_date",
             "items/is_feasibility_participant",
+            "items/is_remote_data_collection_enabled",
             "items/enrolled",
             "items/enrollment_reason",
             "items/enrollment_institution",
@@ -33,11 +31,13 @@
             {
                 "isAbout": "items/record_id",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "record_id"
             },
             {
                 "isAbout": "items/age",
-                "isVis": true,
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "age"
             },
             {
@@ -67,11 +67,13 @@
             {
                 "isAbout": "items/withdrawn_consent_reason",
                 "isVis": "consent_status == 3",
+                "valueRequired": false,
                 "variableName": "withdrawn_consent_reason"
             },
             {
                 "isAbout": "items/withdrawn_consent_date",
                 "isVis": "consent_status == 3",
+                "valueRequired": false,
                 "variableName": "withdrawn_consent_date"
             },
             {
@@ -79,6 +81,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "is_feasibility_participant"
+            },
+            {
+                "isAbout": "items/is_remote_data_collection_enabled",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "is_remote_data_collection_enabled"
             },
             {
                 "isAbout": "items/enrolled",
@@ -89,6 +97,7 @@
             {
                 "isAbout": "items/enrollment_reason",
                 "isVis": "enrolled == 1",
+                "valueRequired": false,
                 "variableName": "enrollment_reason"
             },
             {
@@ -106,6 +115,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

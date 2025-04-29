@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "peds_vhi_10"
         }
     ],
+    "preamble": {
+        "en": "Pediatric VHI 10 Questionnaire"
+    },
     "prefLabel": {
         "en": "peds_worse_in_evening"
     },

@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Annotation",
             "source": "redcap",
-            "value": NaN
+            "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Winograd Schema Scoring"
+    },
     "prefLabel": {
         "en": "winograd_number_questions"
     },

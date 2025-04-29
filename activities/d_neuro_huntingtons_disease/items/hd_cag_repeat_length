@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
         }
     ],
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis:"
+    },
     "prefLabel": {
         "en": "hd_cag_repeat_length"
     },
@@ -15,8 +18,6 @@
         "en": "What is the CAG repeat length?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

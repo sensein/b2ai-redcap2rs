@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "custom_affect_scale"
         }
     ],
+    "preamble": {
+        "en": "Thinking about yourself and how you normally feel, to what extent do you generally feel?\n\n0=Not at all, 10=Extremely"
+    },
     "prefLabel": {
         "en": "joyful"
     },

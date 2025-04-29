@@ -1,13 +1,6 @@
 {
     "id": "ef_enrollment",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "Review and Enroll"
     },

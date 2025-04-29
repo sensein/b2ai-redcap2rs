@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_l_sd_known",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "2. Disease Subtype"
     },

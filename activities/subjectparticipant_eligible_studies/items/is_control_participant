@@ -1,13 +1,9 @@
 {
     "id": "is_control_participant",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Eligible Studies"
+    },
     "prefLabel": {
         "en": "is_control_participant"
     },

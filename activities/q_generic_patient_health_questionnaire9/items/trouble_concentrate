@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "phq_9"
         }
     ],
+    "preamble": {
+        "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    },
     "prefLabel": {
         "en": "trouble_concentrate"
     },

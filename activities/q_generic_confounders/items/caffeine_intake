@@ -3,9 +3,9 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
         }
     ],
     "preamble": {
@@ -18,8 +18,6 @@
         "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

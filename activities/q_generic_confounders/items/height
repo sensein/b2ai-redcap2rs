@@ -3,14 +3,16 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "inches"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
         }
     ],
-    "description": {
-        "en": "inches"
-    },
     "preamble": {
         "en": "Height and Weight"
     },
@@ -21,8 +23,6 @@
         "en": "Height"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

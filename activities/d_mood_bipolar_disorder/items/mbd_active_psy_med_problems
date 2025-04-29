@@ -1,13 +1,6 @@
 {
     "id": "mbd_active_psy_med_problems",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "2. Medical and Psychiatric comorbidities"
     },

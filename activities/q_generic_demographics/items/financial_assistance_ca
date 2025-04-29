@@ -1,13 +1,9 @@
 {
     "id": "financial_assistance_ca",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Demographics - Optional"
+    },
     "prefLabel": {
         "en": "financial_assistance_ca"
     },

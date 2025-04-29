@@ -43,56 +43,66 @@
             {
                 "isAbout": "items/peds_qol_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "peds_qol_duration"
             },
             {
                 "isAbout": "items/peds_qol_trouble_speaking_heard",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_trouble_speaking_heard"
             },
             {
                 "isAbout": "items/peds_qol_out_of_air",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_out_of_air"
             },
             {
                 "isAbout": "items/peds_qol_come_out_speaking",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_come_out_speaking"
             },
             {
                 "isAbout": "items/peds_qol_anxious_frustrated",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_anxious_frustrated"
             },
             {
                 "isAbout": "items/peds_qol_depressed",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_depressed"
             },
             {
                 "isAbout": "items/peds_qol_trouble_phone_speaking",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_trouble_phone_speaking"
             },
             {
                 "isAbout": "items/peds_qol_trouble_doing_schoolwork",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_trouble_doing_schoolwork"
             },
             {
                 "isAbout": "items/peds_qol_repeat_understood",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_repeat_understood"
             },
             {
                 "isAbout": "items/peds_qol_less_outgoing",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_qol_less_outgoing"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

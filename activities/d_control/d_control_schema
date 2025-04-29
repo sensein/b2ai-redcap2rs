@@ -20,11 +20,12 @@
             {
                 "isAbout": "items/diagnosis_c_ac_specified",
                 "isVis": "diagnosis_c_ac == 'yes'",
+                "valueRequired": false,
                 "variableName": "diagnosis_c_ac_specified"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

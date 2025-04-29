@@ -1,13 +1,9 @@
 {
     "id": "winograd_q_180",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Winograd Questionnaire"
+    },
     "prefLabel": {
         "en": "winograd_q_180"
     },

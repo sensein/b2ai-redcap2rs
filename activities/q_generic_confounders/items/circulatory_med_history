@@ -1,13 +1,9 @@
 {
     "id": "circulatory_med_history",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Circulatory and Other Conditions"
+    },
     "prefLabel": {
         "en": "circulatory_med_history"
     },

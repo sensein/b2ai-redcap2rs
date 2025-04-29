@@ -1,13 +1,9 @@
 {
     "id": "asian_race",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Patient Demographics"
+    },
     "prefLabel": {
         "en": "asian_race"
     },

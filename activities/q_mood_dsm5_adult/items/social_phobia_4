@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "dsm_5_adult_social_phobia1"
         }
     ],
+    "preamble": {
+        "en": "DSM-5 Adult (Social Phobia)\n\nThe following questions ask about thoughts, feelings, and behaviors that you may have had about social situations. Usual social situations include: public speaking, speaking in meetings, attending social events or parties, introducing yourself to others, having conversations, giving and receiving compliments, making requests of others, and eating and writing in public.\n\nDuring the PAST 7 DAYS, I have..."
+    },
     "prefLabel": {
         "en": "social_phobia_4"
     },

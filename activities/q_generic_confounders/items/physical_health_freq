@@ -3,14 +3,21 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "days"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
-    "description": {
-        "en": "days"
-    },
     "prefLabel": {
         "en": "physical_health_freq"
     },
@@ -18,8 +25,6 @@
         "en": "Overall, in the past 30 days, how many days were these difficulties present?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

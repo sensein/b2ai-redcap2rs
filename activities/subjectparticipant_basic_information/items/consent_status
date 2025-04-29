@@ -1,13 +1,6 @@
 {
     "id": "consent_status",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "consent_status"
     },

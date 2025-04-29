@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications_other",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "6. Treatment Obtained"
+    },
     "prefLabel": {
         "en": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications_other"
     },

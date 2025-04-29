@@ -3,13 +3,23 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "###-###-####"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "phone"
+        },
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
         }
     ],
-    "description": {
-        "en": "###-###-####"
+    "preamble": {
+        "en": "Contact Information"
     },
     "prefLabel": {
         "en": "ef_phone_number"

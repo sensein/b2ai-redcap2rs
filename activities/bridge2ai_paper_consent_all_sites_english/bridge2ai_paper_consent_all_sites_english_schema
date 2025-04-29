@@ -1,9 +1,6 @@
 {
     "id": "bridge2ai_paper_consent_all_sites_english_schema",
     "category": "reproschema:Activity",
-    "preamble": {
-        "en": "Paper Consent Form for all Sites"
-    },
     "prefLabel": {
         "en": "bridge2ai_paper_consent_all_sites_english"
     },
@@ -19,6 +16,7 @@
             {
                 "isAbout": "items/paper_consent_notes",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "paper_consent_notes"
             },
             {
@@ -42,6 +40,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

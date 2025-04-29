@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Annotation",
             "source": "redcap",
-            "value": NaN
+            "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
     "prefLabel": {
         "en": "stroop_recording_acoustic_task_id"
     },

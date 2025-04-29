@@ -1,13 +1,6 @@
 {
     "id": "hd_occupation",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "hd_occupation"
     },

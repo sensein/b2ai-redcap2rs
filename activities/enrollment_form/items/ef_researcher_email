@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "email"
+        },
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
         }
     ],
+    "preamble": {
+        "en": "Review and Enroll"
+    },
     "prefLabel": {
         "en": "ef_researcher_email"
     },

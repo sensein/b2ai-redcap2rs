@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "phqa"
         }
     ],
+    "preamble": {
+        "en": "How often have you been bothered by each of the following symptoms during the past two weeks? For each symptom select the answer that best describes how you have been feeling."
+    },
     "prefLabel": {
         "en": "peds_phqa_no_appetite"
     },

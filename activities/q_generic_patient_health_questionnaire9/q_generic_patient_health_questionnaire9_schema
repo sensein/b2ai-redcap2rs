@@ -44,6 +44,7 @@
             {
                 "isAbout": "items/phq_9_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "phq_9_duration"
             },
             {
@@ -103,11 +104,12 @@
             {
                 "isAbout": "items/hard_to_work",
                 "isVis": "no_interest > 0 || feeling_depressed > 0 || trouble_sleeping > 0 || no_energy > 0 || no_appetite > 0 || feeling_bad_self > 0 || trouble_concentrate > 0 || move_speak_slow > 0 || thoughts_death > 0",
+                "valueRequired": false,
                 "variableName": "hard_to_work"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "resp_dis"
         }
     ],
+    "preamble": {
+        "en": "Respiratory disorders"
+    },
     "prefLabel": {
         "en": "chronic_cough"
     },

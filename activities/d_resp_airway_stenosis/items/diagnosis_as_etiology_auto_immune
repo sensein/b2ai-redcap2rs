@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_as_etiology_auto_immune",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "3. Etiology"
+    },
     "prefLabel": {
         "en": "diagnosis_as_etiology_auto_immune"
     },

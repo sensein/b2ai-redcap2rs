@@ -44,18 +44,20 @@
             },
             {
                 "isAbout": "items/dmdd_diagnosed_dd_selection",
-                "isVis": "dmdd_diagnosed_dd =='yes'",
+                "isVis": "dmdd_diagnosed_dd=='yes'",
                 "valueRequired": true,
                 "variableName": "dmdd_diagnosed_dd_selection"
             },
             {
                 "isAbout": "items/diagnosis_depression_gsd",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_depression_gsd"
             },
             {
                 "isAbout": "items/diagnosis_depression_clinical_subcategory",
                 "isVis": "diagnosis_depression_gsd == 'clinical_depression'",
+                "valueRequired": false,
                 "variableName": "diagnosis_depression_clinical_subcategory"
             },
             {
@@ -67,116 +69,138 @@
             {
                 "isAbout": "items/diagnosis_depression_gsd_oqu",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_depression_gsd_oqu"
             },
             {
                 "isAbout": "items/diagnosis_depression_gsd_oquw",
-                "isVis": "diagnosis_depression_gsd_oqu =='1'",
+                "isVis": "diagnosis_depression_gsd_oqu=='1'",
+                "valueRequired": false,
                 "variableName": "diagnosis_depression_gsd_oquw"
             },
             {
                 "isAbout": "items/diagnosis_depression_gsd_oqu_other",
-                "isVis": "diagnosis_depression_gsd_oquw =='other'",
+                "isVis": "diagnosis_depression_gsd_oquw=='other'",
+                "valueRequired": false,
                 "variableName": "diagnosis_depression_gsd_oqu_other"
             },
             {
                 "isAbout": "items/dmdd_active_psy_med_problems",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_active_psy_med_problems"
             },
             {
                 "isAbout": "items/dmdd_active_psy_med_prob_other",
-                "isVis": "dmdd_active_psy_med_problems(other) =='1'",
+                "isVis": "dmdd_active_psy_med_problems(other)=='1'",
+                "valueRequired": false,
                 "variableName": "dmdd_active_psy_med_prob_other"
             },
             {
                 "isAbout": "items/dmdd_hist_psy_med_problems",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_hist_psy_med_problems"
             },
             {
                 "isAbout": "items/dmdd_hist_psy_med_prob_other",
-                "isVis": "dmdd_hist_psy_med_problems(other) =='1'",
+                "isVis": "dmdd_hist_psy_med_problems(other)=='1'",
+                "valueRequired": false,
                 "variableName": "dmdd_hist_psy_med_prob_other"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_active_problems_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_active_problems_depression"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_history_problems_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_history_problems_depression"
             },
             {
                 "isAbout": "items/dmdd_last_depressive_episode",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_last_depressive_episode"
             },
             {
                 "isAbout": "items/dmdd_how_many_depressive_episodes",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_how_many_depressive_episodes"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_subtype_active_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_subtype_active_depression"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_psychotic_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_psychotic_depression"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_etiology_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_etiology_depression"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_severity_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_severity_depression"
             },
             {
                 "isAbout": "items/dmdd_prescribed_medication",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_prescribed_medication"
             },
             {
                 "isAbout": "items/dmdd_current_medication",
-                "isVis": "dmdd_prescribed_medication =='yes'",
+                "isVis": "dmdd_prescribed_medication=='yes'",
+                "valueRequired": false,
                 "variableName": "dmdd_current_medication"
             },
             {
                 "isAbout": "items/dmdd_previous_medication",
-                "isVis": "dmdd_prescribed_medication =='yes'",
+                "isVis": "dmdd_prescribed_medication=='yes'",
+                "valueRequired": false,
                 "variableName": "dmdd_previous_medication"
             },
             {
                 "isAbout": "items/dmdd_see_mental_health_professional",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "dmdd_see_mental_health_professional"
             },
             {
                 "isAbout": "items/dmdd_describe_psychotherapy",
-                "isVis": "dmdd_see_mental_health_professional =='yes'",
+                "isVis": "dmdd_see_mental_health_professional=='yes'",
+                "valueRequired": false,
                 "variableName": "dmdd_describe_psychotherapy"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_current_med_therapies_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_current_med_therapies_depression"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_former_med_therapies_depression",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_bipolar_former_med_therapies_depression"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

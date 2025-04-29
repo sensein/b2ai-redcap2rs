@@ -44,26 +44,30 @@
             {
                 "isAbout": "items/acoustic_task_status",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "acoustic_task_status"
             },
             {
                 "isAbout": "items/acoustic_task_started_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "acoustic_task_started_at"
             },
             {
                 "isAbout": "items/acoustic_task_completed_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "acoustic_task_completed_at"
             },
             {
                 "isAbout": "items/acoustic_task_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "acoustic_task_duration"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

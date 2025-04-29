@@ -3,13 +3,18 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "weeks ago"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
         }
     ],
-    "description": {
-        "en": "weeks ago"
+    "preamble": {
+        "en": "5. Treatment obtained"
     },
     "prefLabel": {
         "en": "diagnosis_ld_treatment_bi_li"
@@ -18,8 +23,6 @@
         "en": "When was the last injection?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

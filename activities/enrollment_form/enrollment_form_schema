@@ -93,6 +93,7 @@
             {
                 "isAbout": "items/ef_vision_a11y_options",
                 "isVis": "ef_any_vision_related_req == '1'",
+                "valueRequired": false,
                 "variableName": "ef_vision_a11y_options"
             },
             {
@@ -104,6 +105,7 @@
             {
                 "isAbout": "items/ef_hearing_a11y_options",
                 "isVis": "ef_any_hearing_related_req == '1'",
+                "valueRequired": false,
                 "variableName": "ef_hearing_a11y_options"
             },
             {
@@ -115,6 +117,7 @@
             {
                 "isAbout": "items/ef_physical_a11y_options",
                 "isVis": "ef_any_physical_challenges == '1'",
+                "valueRequired": false,
                 "variableName": "ef_physical_a11y_options"
             },
             {
@@ -126,11 +129,13 @@
             {
                 "isAbout": "items/ef_cognitive_a11y_options",
                 "isVis": "ef_any_cognitive_challeges == '1'",
+                "valueRequired": false,
                 "variableName": "ef_cognitive_a11y_options"
             },
             {
                 "isAbout": "items/ef_completed_by",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_completed_by"
             },
             {
@@ -142,6 +147,7 @@
             {
                 "isAbout": "items/ef_primary_language_other",
                 "isVis": "ef_primary_language == '4'",
+                "valueRequired": false,
                 "variableName": "ef_primary_language_other"
             },
             {
@@ -153,6 +159,7 @@
             {
                 "isAbout": "items/ef_fluent_language_other",
                 "isVis": "ef_fluent_languages___5 == '1'",
+                "valueRequired": false,
                 "variableName": "ef_fluent_language_other"
             },
             {
@@ -164,6 +171,7 @@
             {
                 "isAbout": "items/ef_cond_prompt",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_cond_prompt"
             },
             {
@@ -379,16 +387,19 @@
             {
                 "isAbout": "items/ef_learn_about_this_study",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_learn_about_this_study"
             },
             {
                 "isAbout": "items/ef_learn_about_this_study_event",
                 "isVis": "ef_learn_about_this_study == 'event'",
+                "valueRequired": false,
                 "variableName": "ef_learn_about_this_study_event"
             },
             {
                 "isAbout": "items/ef_learn_about_this_study_other",
                 "isVis": "ef_learn_about_this_study == 'other'",
+                "valueRequired": false,
                 "variableName": "ef_learn_about_this_study_other"
             },
             {
@@ -406,6 +417,7 @@
             {
                 "isAbout": "items/ef_phone_number",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_phone_number"
             },
             {
@@ -434,48 +446,55 @@
             },
             {
                 "isAbout": "items/ef_reason_decline_enroll",
-                "isVis": "ef_enrollment =='Decline'",
+                "isVis": "ef_enrollment=='Decline'",
                 "valueRequired": true,
                 "variableName": "ef_reason_decline_enroll"
             },
             {
                 "isAbout": "items/ef_other_reason_decline",
-                "isVis": "ef_reason_decline_enroll =='5'",
+                "isVis": "ef_reason_decline_enroll=='5'",
+                "valueRequired": false,
                 "variableName": "ef_other_reason_decline"
             },
             {
                 "isAbout": "items/ef_enrollment_institution",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_enrollment_institution"
             },
             {
                 "isAbout": "items/ef_researcher_email",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "ef_researcher_email"
             },
             {
                 "isAbout": "items/ef_enrollment_origin",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "ef_enrollment_origin"
             },
             {
                 "isAbout": "items/ef_started_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "ef_started_at"
             },
             {
                 "isAbout": "items/ef_completed_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "ef_completed_at"
             },
             {
                 "isAbout": "items/ef_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "ef_duration"
             }
         ],
         "shuffle": false
     },
-    "version": "3.22.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

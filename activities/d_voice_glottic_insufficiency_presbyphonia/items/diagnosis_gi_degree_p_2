@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Custom Alignment",
             "source": "redcap",
-            "value": NaN
+            "value": "RH"
         }
     ],
+    "preamble": {
+        "en": "3. Disease Severity"
+    },
     "prefLabel": {
         "en": "diagnosis_gi_degree_p_2"
     },

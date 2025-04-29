@@ -3,9 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
     "preamble": {
@@ -27,21 +32,14 @@
             },
             {
                 "name": {
-                    "en": ""
-                },
-                "value": ""
-            },
-            {
-                "name": {
                     "en": "100"
                 },
                 "value": 100
             }
         ],
-        "maxValue": NaN,
-        "minValue": NaN,
+        "maxValue": 100,
+        "minValue": 0,
         "valueType": [
-            "xsd:string",
             "xsd:integer"
         ]
     },

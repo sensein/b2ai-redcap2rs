@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_alz_dementia_mci_etiology",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "3. Etiology"
     },

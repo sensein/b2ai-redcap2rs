@@ -3,13 +3,13 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "weeks ago"
         }
     ],
-    "description": {
-        "en": "weeks ago"
+    "preamble": {
+        "en": "5. Treatment obtained"
     },
     "prefLabel": {
         "en": "diagnosis_l_treatment_mt"

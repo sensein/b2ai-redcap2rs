@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "vhi_10"
         }
     ],
+    "preamble": {
+        "en": "Voice Handicap Index (VHI-10)"
+    },
     "prefLabel": {
         "en": "left_out_convo"
     },

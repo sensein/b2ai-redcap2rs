@@ -1,13 +1,9 @@
 {
     "id": "unit",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Height and Weight"
+    },
     "prefLabel": {
         "en": "unit"
     },

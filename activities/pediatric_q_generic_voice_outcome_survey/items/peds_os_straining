@@ -1,13 +1,9 @@
 {
     "id": "peds_os_straining",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Pediatric Voice Outcome Survey"
+    },
     "prefLabel": {
         "en": "peds_os_straining"
     },

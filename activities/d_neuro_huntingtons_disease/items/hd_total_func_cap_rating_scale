@@ -1,13 +1,6 @@
 {
     "id": "hd_total_func_cap_rating_scale",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "hd_total_func_cap_rating_scale"
     },
@@ -20,7 +13,8 @@
         ]
     },
     "ui": {
-        "inputType": "static"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

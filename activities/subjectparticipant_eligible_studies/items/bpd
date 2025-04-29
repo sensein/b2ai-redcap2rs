@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "mood_psych_dis"
         }
     ],
+    "preamble": {
+        "en": "Mood and Psychiatric Disorders"
+    },
     "prefLabel": {
         "en": "bpd"
     },

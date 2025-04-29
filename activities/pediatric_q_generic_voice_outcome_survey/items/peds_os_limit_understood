@@ -1,13 +1,6 @@
 {
     "id": "peds_os_limit_understood",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "Pediatric Voice Outcome Survey"
     },

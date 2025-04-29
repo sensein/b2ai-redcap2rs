@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "date_ymd"
+        },
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
         }
     ],
+    "preamble": {
+        "en": "Tell us about yourself"
+    },
     "prefLabel": {
         "en": "ef_dob"
     },

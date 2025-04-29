@@ -1,19 +1,13 @@
 {
     "id": "diagnosis_mtd_ds",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "2. Disease Subtype"
     },
     "prefLabel": {
         "en": "diagnosis_mtd_ds"
     },
+    "question": null,
     "responseOptions": {
         "choices": [
             {

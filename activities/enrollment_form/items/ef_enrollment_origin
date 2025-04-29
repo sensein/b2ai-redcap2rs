@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Annotation",
             "source": "redcap",
-            "value": NaN
+            "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Review and Enroll"
+    },
     "prefLabel": {
         "en": "ef_enrollment_origin"
     },

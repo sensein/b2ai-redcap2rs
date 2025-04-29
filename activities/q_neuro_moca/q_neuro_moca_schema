@@ -1,9 +1,6 @@
 {
     "id": "q_neuro_moca_schema",
     "category": "reproschema:Activity",
-    "preamble": {
-        "en": "MoCA Test Questionnaire"
-    },
     "prefLabel": {
         "en": "q_neuro_moca"
     },
@@ -18,6 +15,7 @@
             {
                 "isAbout": "items/moca_notes",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "moca_notes"
             },
             {
@@ -35,6 +33,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

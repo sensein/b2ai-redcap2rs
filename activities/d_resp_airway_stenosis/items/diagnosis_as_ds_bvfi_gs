@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_as_ds_bvfi_gs",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
     "prefLabel": {
         "en": "diagnosis_as_ds_bvfi_gs"
     },

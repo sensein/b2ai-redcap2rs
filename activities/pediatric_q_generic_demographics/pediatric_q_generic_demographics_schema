@@ -49,36 +49,43 @@
             {
                 "isAbout": "items/peds_demographics_started_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "peds_demographics_started_at"
             },
             {
                 "isAbout": "items/peds_demographics_completed_at",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "peds_demographics_completed_at"
             },
             {
                 "isAbout": "items/peds_demographics_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "peds_demographics_duration"
             },
             {
                 "isAbout": "items/peds_demographics_completed_by",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_demographics_completed_by"
             },
             {
                 "isAbout": "items/peds_city",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_city"
             },
             {
                 "isAbout": "items/peds_state_province",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_state_province"
             },
             {
                 "isAbout": "items/peds_zipcode",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_zipcode"
             },
             {
@@ -90,16 +97,19 @@
             {
                 "isAbout": "items/peds_gender_identity",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_gender_identity"
             },
             {
                 "isAbout": "items/peds_other_gender_identity",
-                "isVis": "peds_gender_identity =='other'",
+                "isVis": "peds_gender_identity=='other'",
+                "valueRequired": false,
                 "variableName": "peds_other_gender_identity"
             },
             {
                 "isAbout": "items/peds_specify_gender_identity",
-                "isVis": "peds_gender_identity =='female' || peds_gender_identity =='male'",
+                "isVis": "peds_gender_identity=='female' || peds_gender_identity=='male'",
+                "valueRequired": false,
                 "variableName": "peds_specify_gender_identity"
             },
             {
@@ -110,57 +120,68 @@
             },
             {
                 "isAbout": "items/peds_other_sex_orientation",
-                "isVis": "peds_sexual_orientation =='other'",
+                "isVis": "peds_sexual_orientation=='other'",
+                "valueRequired": false,
                 "variableName": "peds_other_sex_orientation"
             },
             {
                 "isAbout": "items/peds_race",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_race"
             },
             {
                 "isAbout": "items/peds_native_american_race",
                 "isVis": "peds_race___1 == '1'",
+                "valueRequired": false,
                 "variableName": "peds_native_american_race"
             },
             {
                 "isAbout": "items/peds_asian_race",
-                "isVis": "peds_race___2 =='1'",
+                "isVis": "peds_race___2=='1'",
+                "valueRequired": false,
                 "variableName": "peds_asian_race"
             },
             {
                 "isAbout": "items/peds_black_race",
-                "isVis": "peds_race___3 =='1'",
+                "isVis": "peds_race___3=='1'",
+                "valueRequired": false,
                 "variableName": "peds_black_race"
             },
             {
                 "isAbout": "items/peds_pacific_islander_race",
-                "isVis": "peds_race___4 =='1'",
+                "isVis": "peds_race___4=='1'",
+                "valueRequired": false,
                 "variableName": "peds_pacific_islander_race"
             },
             {
                 "isAbout": "items/peds_white_race",
-                "isVis": "peds_race___5 =='1'",
+                "isVis": "peds_race___5=='1'",
+                "valueRequired": false,
                 "variableName": "peds_white_race"
             },
             {
                 "isAbout": "items/peds_canadian_race",
-                "isVis": "peds_race___6 =='1'",
+                "isVis": "peds_race___6=='1'",
+                "valueRequired": false,
                 "variableName": "peds_canadian_race"
             },
             {
                 "isAbout": "items/peds_other_race_specify",
                 "isVis": "peds_race___7 == '1'",
+                "valueRequired": false,
                 "variableName": "peds_other_race_specify"
             },
             {
                 "isAbout": "items/peds_ethnicity",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_ethnicity"
             },
             {
                 "isAbout": "items/peds_hispanic_latino_selection",
                 "isVis": "peds_ethnicity == 'yes'",
+                "valueRequired": false,
                 "variableName": "peds_hispanic_latino_selection"
             },
             {
@@ -171,37 +192,43 @@
             },
             {
                 "isAbout": "items/peds_other_edu_level",
-                "isVis": "peds_edu_level =='11'",
+                "isVis": "peds_edu_level=='11'",
+                "valueRequired": false,
                 "variableName": "peds_other_edu_level"
             },
             {
                 "isAbout": "items/peds_hearing",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_hearing"
             },
             {
                 "isAbout": "items/peds_vision",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_vision"
             },
             {
                 "isAbout": "items/peds_cognition",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_cognition"
             },
             {
                 "isAbout": "items/peds_mobility",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_mobility"
             },
             {
                 "isAbout": "items/peds_self_care",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "peds_self_care"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

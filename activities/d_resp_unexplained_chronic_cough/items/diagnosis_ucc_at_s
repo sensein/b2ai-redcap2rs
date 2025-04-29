@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_ucc_at_s",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2. Treatment obtained"
+    },
     "prefLabel": {
         "en": "diagnosis_ucc_at_s"
     },

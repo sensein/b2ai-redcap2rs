@@ -61,6 +61,7 @@
             {
                 "isAbout": "items/cond_sel_prompt",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "cond_sel_prompt"
             },
             {
@@ -270,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.22.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

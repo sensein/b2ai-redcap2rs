@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_ucc_persisted",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "1. Initial screening criteria"
     },

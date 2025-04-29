@@ -3,9 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "10.0"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
     "prefLabel": {
@@ -24,19 +34,13 @@
             },
             {
                 "name": {
-                    "en": ""
-                },
-                "value": ""
-            },
-            {
-                "name": {
                     "en": "Severe"
                 },
                 "value": "Severe"
             }
         ],
-        "maxValue": 10.0,
-        "minValue": NaN,
+        "maxValue": 10,
+        "minValue": 0,
         "valueType": [
             "xsd:string"
         ]

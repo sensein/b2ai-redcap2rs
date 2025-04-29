@@ -3,7 +3,7 @@
     "category": "reproschema:Activity",
     "compute": [
         {
-            "jsExpression": "sum( if( hd_occupation =='unable', 0, if( hd_occupation =='marginalWorkOnly', 1, if( hd_occupation =='reducedCapacityForUsualJob', 2, if( hd_occupation =='normal', 3, 0)))), if( hd_finances == 'unable', 0, if( hd_finances == 'majorAssistance', 1, if( hd_finances == 'slightAssistance', 2, if( hd_finances == 'normal', 3, 0)))), if( hd_domestic_chores =='unable', 0, if( hd_domestic_chores =='impaired', 1, if( hd_domestic_chores =='normal', 2, 0))), if( hd_activities_of_daily_living =='totalCare', 0, if( hd_activities_of_daily_living =='grossTasksOnly', 1, if( hd_activities_of_daily_living =='minimalImpairment', 2, if( hd_activities_of_daily_living =='normal', 3, 0)))), if( hd_care_level =='fullTimeSkilledNursing', 0, if( hd_care_level =='homeOrChronicCare', 1, if( hd_care_level =='home', 2, 0))))",
+            "jsExpression": "sum(if(hd_occupation=='unable',0,if(hd_occupation=='marginalWorkOnly',1,if(hd_occupation=='reducedCapacityForUsualJob',2,if(hd_occupation=='normal',3,0)))),if(hd_finances== 'unable',0,if(hd_finances== 'majorAssistance',1,if(hd_finances== 'slightAssistance',2,if(hd_finances== 'normal',3,0)))),if(hd_domestic_chores=='unable',0,if(hd_domestic_chores=='impaired',1,if(hd_domestic_chores=='normal',2,0))),if(hd_activities_of_daily_living=='totalCare',0,if(hd_activities_of_daily_living=='grossTasksOnly',1,if(hd_activities_of_daily_living=='minimalImpairment',2,if(hd_activities_of_daily_living=='normal',3,0)))),if(hd_care_level=='fullTimeSkilledNursing',0,if(hd_care_level=='homeOrChronicCare',1,if(hd_care_level=='home',2,0))))",
             "variableName": "hd_total"
         }
     ],
@@ -46,18 +46,19 @@
             },
             {
                 "isAbout": "items/hd_cag_repeat_length_known",
-                "isVis": "hd_confirmed_by_genetic_testing =='yes'",
+                "isVis": "hd_confirmed_by_genetic_testing=='yes'",
                 "valueRequired": true,
                 "variableName": "hd_cag_repeat_length_known"
             },
             {
                 "isAbout": "items/hd_cag_repeat_length",
-                "isVis": "hd_cag_repeat_length_known =='yes'",
+                "isVis": "hd_cag_repeat_length_known=='yes'",
+                "valueRequired": false,
                 "variableName": "hd_cag_repeat_length"
             },
             {
                 "isAbout": "items/hd_confirmed_by_consistent_clinical_presentation",
-                "isVis": "hd_confirmed_by_genetic_testing =='no' || hd_confirmed_by_genetic_testing =='notCertain'",
+                "isVis": "hd_confirmed_by_genetic_testing=='no' || hd_confirmed_by_genetic_testing=='notCertain'",
                 "valueRequired": true,
                 "variableName": "hd_confirmed_by_consistent_clinical_presentation"
             },
@@ -70,6 +71,7 @@
             {
                 "isAbout": "items/hd_motor_exam",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "hd_motor_exam"
             },
             {
@@ -99,6 +101,7 @@
             {
                 "isAbout": "items/hd_total_func_cap_rating_scale",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "hd_total_func_cap_rating_scale"
             },
             {
@@ -133,7 +136,8 @@
             },
             {
                 "isAbout": "items/hd_total",
-                "isVis": true,
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "hd_total"
             },
             {
@@ -144,40 +148,43 @@
             },
             {
                 "isAbout": "items/hd_type_of_treatment",
-                "isVis": "hd_any_treatment =='yes'",
+                "isVis": "hd_any_treatment=='yes'",
+                "valueRequired": false,
                 "variableName": "hd_type_of_treatment"
             },
             {
                 "isAbout": "items/hd_medications_selection",
-                "isVis": "hd_type_of_treatment(medications) =='1'",
+                "isVis": "hd_type_of_treatment(medications)=='1'",
+                "valueRequired": false,
                 "variableName": "hd_medications_selection"
             },
             {
                 "isAbout": "items/hd_neuroleptic_specify",
-                "isVis": "hd_medications_selection(neuroleptic) =='1'",
+                "isVis": "hd_medications_selection(neuroleptic)=='1'",
                 "valueRequired": true,
                 "variableName": "hd_neuroleptic_specify"
             },
             {
                 "isAbout": "items/hd_vmat2_inhibitor_specify",
-                "isVis": "hd_medications_selection(vmat2_inhibitor) =='1'",
+                "isVis": "hd_medications_selection(vmat2_inhibitor)=='1'",
                 "valueRequired": true,
                 "variableName": "hd_vmat2_inhibitor_specify"
             },
             {
                 "isAbout": "items/hd_antidepressant_specify",
-                "isVis": "hd_medications_selection(antidepressant) =='1'",
+                "isVis": "hd_medications_selection(antidepressant)=='1'",
                 "valueRequired": true,
                 "variableName": "hd_antidepressant_specify"
             },
             {
                 "isAbout": "items/hd_slp_therapy_selection",
-                "isVis": "hd_type_of_treatment(slp_therapy) =='1'",
+                "isVis": "hd_type_of_treatment(slp_therapy)=='1'",
+                "valueRequired": false,
                 "variableName": "hd_slp_therapy_selection"
             }
         ],
         "shuffle": false
     },
-    "version": "3.22.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

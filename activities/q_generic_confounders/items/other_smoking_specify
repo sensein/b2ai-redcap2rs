@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Custom Alignment",
             "source": "redcap",
-            "value": NaN
+            "value": "RH"
         }
     ],
+    "preamble": {
+        "en": "Smoking"
+    },
     "prefLabel": {
         "en": "other_smoking_specify"
     },

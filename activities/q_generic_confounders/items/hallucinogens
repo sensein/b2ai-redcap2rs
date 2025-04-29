@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "substance_use_options"
         }
     ],
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, about how often did you use any of the following substances or medications for reasons or in doses other than prescribed?"
+    },
     "prefLabel": {
         "en": "hallucinogens"
     },

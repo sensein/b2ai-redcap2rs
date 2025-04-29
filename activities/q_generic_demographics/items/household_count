@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
         }
     ],
+    "preamble": {
+        "en": "Citizenship"
+    },
     "prefLabel": {
         "en": "household_count"
     },
@@ -15,8 +18,6 @@
         "en": "How many people live in your household? Please specify a number"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

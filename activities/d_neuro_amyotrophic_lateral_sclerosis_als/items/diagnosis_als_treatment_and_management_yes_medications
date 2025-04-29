@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_als_treatment_and_management_yes_medications",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "8. Treatment and Management"
+    },
     "prefLabel": {
         "en": "diagnosis_als_treatment_and_management_yes_medications"
     },

@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "ef_resp_dis"
         }
     ],
+    "preamble": {
+        "en": "Respiratory Disorders"
+    },
     "prefLabel": {
         "en": "ef_copd"
     },

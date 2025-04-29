@@ -1,13 +1,9 @@
 {
     "id": "ef_reason_decline_enroll",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Review and Enroll"
+    },
     "prefLabel": {
         "en": "ef_reason_decline_enroll"
     },

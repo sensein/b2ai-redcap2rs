@@ -41,46 +41,54 @@
             {
                 "isAbout": "items/mph_duration",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "mph_duration"
             },
             {
                 "isAbout": "items/mph_active_psy_medical_problems",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "mph_active_psy_medical_problems"
             },
             {
                 "isAbout": "items/mph_hist_psy_medical_problems",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "mph_hist_psy_medical_problems"
             },
             {
                 "isAbout": "items/mph_prescribed_medication",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "mph_prescribed_medication"
             },
             {
                 "isAbout": "items/mph_current_medication",
-                "isVis": "mph_prescribed_medication =='yes'",
+                "isVis": "mph_prescribed_medication=='yes'",
+                "valueRequired": false,
                 "variableName": "mph_current_medication"
             },
             {
                 "isAbout": "items/mph_previous_medication",
-                "isVis": "mph_prescribed_medication =='yes'",
+                "isVis": "mph_prescribed_medication=='yes'",
+                "valueRequired": false,
                 "variableName": "mph_previous_medication"
             },
             {
                 "isAbout": "items/mph_see_mental_health_professional",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "mph_see_mental_health_professional"
             },
             {
                 "isAbout": "items/mph_describe_psychotherapy",
-                "isVis": "mph_see_mental_health_professional =='yes'",
+                "isVis": "mph_see_mental_health_professional=='yes'",
+                "valueRequired": false,
                 "variableName": "mph_describe_psychotherapy"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

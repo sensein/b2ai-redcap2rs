@@ -1,13 +1,9 @@
 {
     "id": "diagnois_pl_gsd_bp",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
     "prefLabel": {
         "en": "diagnois_pl_gsd_bp"
     },

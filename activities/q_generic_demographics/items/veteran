@@ -1,13 +1,9 @@
 {
     "id": "veteran",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Employment Status"
+    },
     "prefLabel": {
         "en": "veteran"
     },

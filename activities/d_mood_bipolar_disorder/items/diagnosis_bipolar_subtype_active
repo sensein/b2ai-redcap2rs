@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_bipolar_subtype_active",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "3. Disease Subtype  \n\n(Legacy)"
     },

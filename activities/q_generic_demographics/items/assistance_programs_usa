@@ -1,13 +1,9 @@
 {
     "id": "assistance_programs_usa",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Demographics - Optional"
+    },
     "prefLabel": {
         "en": "assistance_programs_usa"
     },

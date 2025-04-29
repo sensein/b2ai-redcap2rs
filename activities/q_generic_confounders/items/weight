@@ -3,13 +3,18 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "lbs"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
         }
     ],
-    "description": {
-        "en": "lbs"
+    "preamble": {
+        "en": "Height and Weight"
     },
     "prefLabel": {
         "en": "weight"
@@ -18,8 +23,6 @@
         "en": "Weight"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

@@ -1,13 +1,6 @@
 {
     "id": "hd_activities_of_daily_living",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "hd_activities_of_daily_living"
     },

@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_als_cp",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "4. Clinical Presentation"
     },

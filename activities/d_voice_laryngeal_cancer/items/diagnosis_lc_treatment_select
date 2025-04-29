@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_lc_treatment_select",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "5. Treatment obtained"
+    },
     "prefLabel": {
         "en": "diagnosis_lc_treatment_select"
     },

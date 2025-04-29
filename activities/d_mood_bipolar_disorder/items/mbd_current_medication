@@ -1,13 +1,9 @@
 {
     "id": "mbd_current_medication",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "4. Treatment obtained"
+    },
     "prefLabel": {
         "en": "mbd_current_medication"
     },

@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "date_ymd"
         }
     ],
+    "preamble": {
+        "en": "Severity of Posttraumatic Stress Symptoms - Adult"
+    },
     "prefLabel": {
         "en": "traumatic_event_date"
     },

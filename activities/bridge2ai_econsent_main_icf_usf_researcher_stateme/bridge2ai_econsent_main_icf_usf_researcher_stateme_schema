@@ -17,11 +17,13 @@
             {
                 "isAbout": "items/researcher_statement2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "researcher_statement2"
             },
             {
                 "isAbout": "items/consent_usf_researcher_statement",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "consent_usf_researcher_statement"
             },
             {
@@ -45,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.23.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,13 +1,9 @@
 {
     "id": "vocabulary_item_difficulty_1",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Item 1"
+    },
     "prefLabel": {
         "en": "vocabulary_item_difficulty_1"
     },

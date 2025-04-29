@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "leicester_cough"
         }
     ],
+    "preamble": {
+        "en": "Please answer the following questions using a 1-7 rating scale.\n\n1 = None of the time; 2 = Hardly any of the time; 3 = A little of the time; 4 = Some of the time; 5 = A good bit of the time; 6 = Most of the time; 7 = All of the time"
+    },
     "prefLabel": {
         "en": "lcq_partner"
     },

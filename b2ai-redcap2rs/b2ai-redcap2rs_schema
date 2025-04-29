@@ -7,7 +7,7 @@
     "prefLabel": {
         "en": "Assessment Protocol"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
@@ -519,6 +519,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.23.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

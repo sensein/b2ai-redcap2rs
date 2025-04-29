@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
     "prefLabel": {
         "en": "diagnosis_bl_degree_s_1"
     },
@@ -35,8 +43,8 @@
                 "value": "SE"
             }
         ],
-        "maxValue": NaN,
-        "minValue": NaN,
+        "maxValue": 100,
+        "minValue": 0,
         "valueType": [
             "xsd:string"
         ]

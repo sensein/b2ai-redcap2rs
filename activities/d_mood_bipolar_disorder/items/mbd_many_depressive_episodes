@@ -1,13 +1,9 @@
 {
     "id": "mbd_many_depressive_episodes",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "3. Bipolar History"
+    },
     "prefLabel": {
         "en": "mbd_many_depressive_episodes"
     },

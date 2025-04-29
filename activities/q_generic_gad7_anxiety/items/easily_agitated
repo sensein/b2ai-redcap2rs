@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "gad_7_anxiety"
         }
     ],
+    "preamble": {
+        "en": "Over the last two weeks, how often have you been bothered by the following problems?"
+    },
     "prefLabel": {
         "en": "easily_agitated"
     },

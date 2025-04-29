@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_ad_hist_psy_med_prob_other",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2.\tMedical and Psychiatric comorbidities"
+    },
     "prefLabel": {
         "en": "diagnosis_ad_hist_psy_med_prob_other"
     },

@@ -3,14 +3,16 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "###-###-####"
+        },
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
         }
     ],
-    "description": {
-        "en": "###-###-####"
-    },
     "prefLabel": {
         "en": "phone_number"
     },

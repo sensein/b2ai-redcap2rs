@@ -64,6 +64,7 @@
             {
                 "isAbout": "items/diagnosis_uvfp_etiology_other",
                 "isVis": "diagnosis_vfp_etiology == 5",
+                "valueRequired": false,
                 "variableName": "diagnosis_uvfp_etiology_other"
             },
             {
@@ -74,7 +75,8 @@
             },
             {
                 "isAbout": "items/diagnosis_uvfp_latrogenic_other",
-                "isVis": "diagnosis_vfp_iatrogenic ==7",
+                "isVis": "diagnosis_vfp_iatrogenic==7",
+                "valueRequired": false,
                 "variableName": "diagnosis_uvfp_latrogenic_other"
             },
             {
@@ -92,96 +94,115 @@
             {
                 "isAbout": "items/diagnosis_vfp_degree_text",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_vfp_degree_text"
             },
             {
                 "isAbout": "items/diagnosis_vfp_degree_legend",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_vfp_degree_legend"
             },
             {
                 "isAbout": "items/diagnosis_degree_os",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_os"
             },
             {
                 "isAbout": "items/diagnosis_degree_os_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_os_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_r",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_r"
             },
             {
                 "isAbout": "items/diagnosis_degree_r_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_r_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_b",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_b"
             },
             {
                 "isAbout": "items/diagnosis_degree_b_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_b_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_s",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_s"
             },
             {
                 "isAbout": "items/diagnosis_degree_s_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_s_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_p",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_p"
             },
             {
                 "isAbout": "items/diagnosis_degree_p_nature",
                 "isVis": "diagnosis_degree_p > 0",
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_p_nature"
             },
             {
                 "isAbout": "items/diagnosis_degree_p_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_p_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_l",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_l"
             },
             {
                 "isAbout": "items/diagnosis_degree_l_nature",
                 "isVis": "diagnosis_degree_l > 0",
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_l_nature"
             },
             {
                 "isAbout": "items/diagnosis_degree_l_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_l_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_comments",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_comments"
             },
             {
                 "isAbout": "items/diagnosis_degree_comments_other",
                 "isVis": "diagnosis_degree_comments == 2",
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_comments_other"
             },
             {
                 "isAbout": "items/diagnosis_degree_comments_other_2",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_degree_comments_other_2"
             },
             {
@@ -192,40 +213,43 @@
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_select",
-                "isVis": "diagnosis_uvfp_treatment =='yes'",
+                "isVis": "diagnosis_uvfp_treatment=='yes'",
+                "valueRequired": false,
                 "variableName": "diagnosis_uvfp_treatment_select"
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_other",
-                "isVis": "diagnosis_uvfp_treatment_select(other) =='1'",
+                "isVis": "diagnosis_uvfp_treatment_select(other)=='1'",
+                "valueRequired": false,
                 "variableName": "diagnosis_uvfp_treatment_other"
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_surgery",
-                "isVis": "diagnosis_uvfp_treatment_select(surgery) =='1'",
+                "isVis": "diagnosis_uvfp_treatment_select(surgery)=='1'",
                 "valueRequired": true,
                 "variableName": "diagnosis_uvfp_treatment_surgery"
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_surgery_other",
-                "isVis": "diagnosis_uvfp_treatment_surgery(other) =='1'",
+                "isVis": "diagnosis_uvfp_treatment_surgery(other)=='1'",
+                "valueRequired": false,
                 "variableName": "diagnosis_uvfp_treatment_surgery_other"
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_surgery_thyroplasty",
-                "isVis": "diagnosis_uvfp_treatment_surgery(thyroplasty) =='1'",
+                "isVis": "diagnosis_uvfp_treatment_surgery(thyroplasty)=='1'",
                 "valueRequired": true,
                 "variableName": "diagnosis_uvfp_treatment_surgery_thyroplasty"
             },
             {
                 "isAbout": "items/diagnosis_uvfp_treatment_surgery_vfia",
-                "isVis": "diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation) =='1'",
+                "isVis": "diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation)=='1'",
                 "valueRequired": true,
                 "variableName": "diagnosis_uvfp_treatment_surgery_vfia"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

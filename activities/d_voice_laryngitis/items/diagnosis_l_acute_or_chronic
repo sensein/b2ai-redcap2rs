@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_l_acute_or_chronic",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
     "prefLabel": {
         "en": "diagnosis_l_acute_or_chronic"
     },

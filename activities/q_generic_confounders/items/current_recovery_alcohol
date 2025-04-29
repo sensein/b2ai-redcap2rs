@@ -1,13 +1,9 @@
 {
     "id": "current_recovery_alcohol",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Alcohol consumption"
+    },
     "prefLabel": {
         "en": "current_recovery_alcohol"
     },

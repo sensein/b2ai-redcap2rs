@@ -3,14 +3,16 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "days"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
-    "description": {
-        "en": "days"
-    },
     "prefLabel": {
         "en": "phys_health_limited"
     },

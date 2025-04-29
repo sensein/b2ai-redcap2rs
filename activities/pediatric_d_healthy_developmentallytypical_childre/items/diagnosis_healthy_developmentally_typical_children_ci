@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_healthy_developmentally_typical_children_ci",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "diagnosis_healthy_developmentally_typical_children_ci"
     },

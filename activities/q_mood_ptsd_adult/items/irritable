@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "ptsd_adult"
         }
     ],
+    "preamble": {
+        "en": "People sometimes have problems after extremely stressful events or experiences. How much have you been bothered during the PAST SEVEN (7) DAYS by each of the following problems that occurred or became worse after an extremely stressful event/experience?\n\n0=Not at all, 1=A little bit, 2=Moderately, 3=Quite a bit, 4=Extremely\""
+    },
     "prefLabel": {
         "en": "irritable"
     },

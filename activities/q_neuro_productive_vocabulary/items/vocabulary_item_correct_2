@@ -1,13 +1,9 @@
 {
     "id": "vocabulary_item_correct_2",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Item 2"
+    },
     "prefLabel": {
         "en": "vocabulary_item_correct_2"
     },

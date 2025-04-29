@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "di"
         }
     ],
+    "preamble": {
+        "en": "Please answer the following questions using a 0-4 rating scale.\n\n0 = Never; 1 = Almost never; 2 = Sometimes; 3 = Almost always; 4 = Always"
+    },
     "prefLabel": {
         "en": "di_breathing_stresses_me"
     },

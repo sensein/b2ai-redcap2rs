@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "ef_voice_disorders"
         }
     ],
+    "preamble": {
+        "en": "Voice Disorders"
+    },
     "prefLabel": {
         "en": "ef_benign_cord_lesion"
     },

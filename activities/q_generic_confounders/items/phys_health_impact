@@ -3,14 +3,21 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Note",
             "source": "redcap",
-            "value": NaN
+            "value": "days"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
-    "description": {
-        "en": "days"
-    },
     "prefLabel": {
         "en": "phys_health_impact"
     },
@@ -18,8 +25,6 @@
         "en": "In the past 30 days, for how many days were you totally unable to carry out your usual activities or work because of any health condition?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

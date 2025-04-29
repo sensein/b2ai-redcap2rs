@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_bl_degree_comments_other",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
     "prefLabel": {
         "en": "diagnosis_bl_degree_comments_other"
     },

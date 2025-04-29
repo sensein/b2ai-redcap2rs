@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Identifier?",
             "source": "redcap",
-            "value": NaN
+            "value": "y"
         }
     ],
+    "preamble": {
+        "en": "Address Information"
+    },
     "prefLabel": {
         "en": "peds_zipcode"
     },

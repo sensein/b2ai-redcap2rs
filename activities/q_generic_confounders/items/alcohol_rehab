@@ -1,13 +1,9 @@
 {
     "id": "alcohol_rehab",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Alcohol consumption"
+    },
     "prefLabel": {
         "en": "alcohol_rehab"
     },

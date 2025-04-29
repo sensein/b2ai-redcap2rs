@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_bipolar_active_problems_depression",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2.\tMedical and Psychiatric comorbidities"
+    },
     "prefLabel": {
         "en": "diagnosis_bipolar_active_problems_depression"
     },

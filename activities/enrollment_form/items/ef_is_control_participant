@@ -1,13 +1,9 @@
 {
     "id": "ef_is_control_participant",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Review and Enroll"
+    },
     "prefLabel": {
         "en": "ef_is_control_participant"
     },

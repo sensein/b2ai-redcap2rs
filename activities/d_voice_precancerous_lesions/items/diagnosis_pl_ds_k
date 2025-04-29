@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_pl_ds_k",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
     "prefLabel": {
         "en": "diagnosis_pl_ds_k"
     },

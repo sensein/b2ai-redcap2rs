@@ -1,13 +1,9 @@
 {
     "id": "mph_hist_psy_medical_problems",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Medical and Psychiatric comorbidities"
+    },
     "prefLabel": {
         "en": "mph_hist_psy_medical_problems"
     },

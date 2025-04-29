@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Matrix Group Name",
             "source": "redcap",
-            "value": NaN
+            "value": "physcial_health_group"
         }
     ],
+    "preamble": {
+        "en": "Physical Health\n\nIn the past 30 days, how much difficulty did you have in:"
+    },
     "prefLabel": {
         "en": "ph_walking"
     },

@@ -1,13 +1,6 @@
 {
     "id": "diagnosis_bl_ds_ll",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "preamble": {
         "en": "4. Disease Severity"
     },

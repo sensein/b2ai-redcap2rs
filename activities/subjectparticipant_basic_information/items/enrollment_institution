@@ -1,13 +1,9 @@
 {
     "id": "enrollment_institution",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Enrollment Details"
+    },
     "prefLabel": {
         "en": "enrollment_institution"
     },

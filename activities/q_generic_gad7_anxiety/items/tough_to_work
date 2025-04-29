@@ -1,13 +1,6 @@
 {
     "id": "tough_to_work",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
     "prefLabel": {
         "en": "tough_to_work"
     },

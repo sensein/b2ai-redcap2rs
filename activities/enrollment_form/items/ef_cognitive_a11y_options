@@ -1,13 +1,9 @@
 {
     "id": "ef_cognitive_a11y_options",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Let's customize your experience"
+    },
     "prefLabel": {
         "en": "ef_cognitive_a11y_options"
     },

@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_als_etiology_genetic_factors",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "3. Etiology"
+    },
     "prefLabel": {
         "en": "diagnosis_als_etiology_genetic_factors"
     },

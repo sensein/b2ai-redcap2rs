@@ -38,21 +38,25 @@
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_gsd_clinical_history",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_gsd_clinical_history"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_gsd_functional_inventory",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_gsd_functional_inventory"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_gsd_cognitive_testing",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_gsd_cognitive_testing"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_gsd_other_investigations",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_gsd_other_investigations"
             },
             {
@@ -118,31 +122,37 @@
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_rudas_score",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_rudas_score"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_mmse_score",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_mmse_score"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_moca_score",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_moca_score"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_adas_cog_score",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_adas_cog_score"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_other",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_other"
             },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_ca_other_score",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_alz_dementia_mci_ca_other_score"
             },
             {
@@ -184,6 +194,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

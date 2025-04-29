@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Identifier?",
             "source": "redcap",
-            "value": NaN
+            "value": "y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Questionnaire - Metadata"
+    },
     "prefLabel": {
         "en": "peds_os_started_at"
     },

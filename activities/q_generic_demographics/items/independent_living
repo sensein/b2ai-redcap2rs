@@ -1,13 +1,9 @@
 {
     "id": "independent_living",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "Disability Questions"
+    },
     "prefLabel": {
         "en": "independent_living"
     },

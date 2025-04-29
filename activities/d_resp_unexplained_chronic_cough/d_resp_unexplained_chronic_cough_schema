@@ -41,6 +41,7 @@
             {
                 "isAbout": "items/diagnosis_ucc_hspd",
                 "isVis": true,
+                "valueRequired": false,
                 "variableName": "diagnosis_ucc_hspd"
             },
             {
@@ -123,12 +124,13 @@
             },
             {
                 "isAbout": "items/diagnosis_ucc_at_s_other",
-                "isVis": "diagnosis_ucc_at_s(other) =='1'",
+                "isVis": "diagnosis_ucc_at_s(other)=='1'",
+                "valueRequired": false,
                 "variableName": "diagnosis_ucc_at_s_other"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

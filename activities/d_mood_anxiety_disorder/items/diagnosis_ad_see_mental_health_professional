@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_ad_see_mental_health_professional",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "4. Treatment obtained"
+    },
     "prefLabel": {
         "en": "diagnosis_ad_see_mental_health_professional"
     },

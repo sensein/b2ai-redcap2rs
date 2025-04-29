@@ -47,6 +47,7 @@
             {
                 "isAbout": "items/custom_affect_scale_duration",
                 "isVis": false,
+                "valueRequired": false,
                 "variableName": "custom_affect_scale_duration"
             },
             {
@@ -130,6 +131,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.24.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

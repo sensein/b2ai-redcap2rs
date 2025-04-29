@@ -1,13 +1,9 @@
 {
     "id": "diagnosis_uvfp_treatment_surgery_vfia",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": NaN
-        }
-    ],
+    "preamble": {
+        "en": "5. Treatment obtained"
+    },
     "prefLabel": {
         "en": "diagnosis_uvfp_treatment_surgery_vfia"
     },

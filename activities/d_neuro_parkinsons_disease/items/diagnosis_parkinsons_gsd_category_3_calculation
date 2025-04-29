@@ -3,16 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Field Annotation",
             "source": "redcap",
-            "value": NaN
+            "value": "@CALCTEXT(if([diagnosis_parkinsons_gsd_category_3(response_dopaminergic_therapy)] + [diagnosis_parkinsons_gsd_category_3(levodopa_induced_dyskinesia)] + [diagnosis_parkinsons_gsd_category_3(rest_tremor)] + [diagnosis_parkinsons_gsd_category_3(mibg)] > 1, 'Yes', 'No'))"
         }
     ],
+    "description": {
+        "en": "Category 3 Criteria Met"
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis\nDoes the patient meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:"
+    },
     "prefLabel": {
         "en": "diagnosis_parkinsons_gsd_category_3_calculation"
-    },
-    "question": {
-        "en": "Category 3 Criteria Met"
     },
     "responseOptions": {
         "valueType": [

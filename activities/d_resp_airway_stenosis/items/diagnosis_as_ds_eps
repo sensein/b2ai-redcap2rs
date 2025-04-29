@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": NaN
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
         }
     ],
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
     "prefLabel": {
         "en": "diagnosis_as_ds_eps"
     },
@@ -15,8 +23,6 @@
         "en": "How would you subjectively estimate the percent of stenosis from 0 to 100?"
     },
     "responseOptions": {
-        "maxValue": NaN,
-        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

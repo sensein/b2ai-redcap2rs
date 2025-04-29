@@ -3,11 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Question Number (surveys only)",
+            "column": "Custom Alignment",
             "source": "redcap",
-            "value": NaN
+            "value": "LV"
         }
     ],
+    "preamble": {
+        "en": "Winograd Questionnaire"
+    },
     "prefLabel": {
         "en": "winograd_q_53"
     },
