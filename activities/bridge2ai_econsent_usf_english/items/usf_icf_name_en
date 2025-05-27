@@ -1,18 +1,23 @@
 {
-    "id": "combined_pdf_main_icf_usf",
+    "id": "usf_icf_name_en",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Identifier?",
             "source": "redcap",
             "value": "y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY-FORM"
         }
     ],
     "prefLabel": {
-        "en": "combined_pdf_main_icf_usf"
+        "en": "usf_icf_name_en"
     },
     "question": {
-        "en": "Combined PDF - Main ICF (USF)"
+        "en": "Printed Name of Person Taking Part in Study"
     },
     "responseOptions": {
         "valueType": [
@@ -20,7 +25,8 @@
         ]
     },
     "ui": {
-        "inputType": "documentUpload"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

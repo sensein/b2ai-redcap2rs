@@ -1,11 +1,11 @@
 {
-    "id": "consent_usf_signature",
+    "id": "mit_icf_date_en",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": "signature"
+            "value": "date_ymd"
         },
         {
             "column": "Identifier?",
@@ -19,18 +19,18 @@
         }
     ],
     "prefLabel": {
-        "en": "consent_usf_signature"
+        "en": "mit_icf_date_en"
     },
     "question": {
-        "en": "Signature of Person Taking Part in Study\n[Authorization]"
+        "en": "Date"
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:date"
         ]
     },
     "ui": {
-        "inputType": "documentUpload",
+        "inputType": "date",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

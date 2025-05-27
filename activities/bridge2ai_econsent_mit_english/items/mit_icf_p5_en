@@ -1,8 +1,8 @@
 {
-    "id": "page2",
+    "id": "mit_icf_p5_en",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "page2"
+        "en": "mit_icf_p5_en"
     },
     "question": null,
     "responseOptions": {

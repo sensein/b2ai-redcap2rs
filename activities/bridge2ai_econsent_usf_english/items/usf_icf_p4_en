@@ -1,8 +1,8 @@
 {
-    "id": "researcher_statement2",
+    "id": "usf_icf_p4_en",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "researcher_statement2"
+        "en": "usf_icf_p4_en"
     },
     "question": null,
     "responseOptions": {

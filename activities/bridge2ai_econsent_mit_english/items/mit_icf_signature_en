@@ -1,5 +1,5 @@
 {
-    "id": "researcher_signature",
+    "id": "mit_icf_signature_en",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
@@ -11,13 +11,18 @@
             "column": "Identifier?",
             "source": "redcap",
             "value": "y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY-FORM"
         }
     ],
     "prefLabel": {
-        "en": "researcher_signature"
+        "en": "mit_icf_signature_en"
     },
     "question": {
-        "en": "Signature of Person Obtaining Informed Consent"
+        "en": "Signature of Person Taking Part in Study\n[Authorization]"
     },
     "responseOptions": {
         "valueType": [
@@ -25,7 +30,8 @@
         ]
     },
     "ui": {
-        "inputType": "documentUpload"
+        "inputType": "documentUpload",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

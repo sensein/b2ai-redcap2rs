@@ -1,5 +1,5 @@
 {
-    "id": "consent_usf_date",
+    "id": "usf_icf_date_en",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
@@ -19,7 +19,7 @@
         }
     ],
     "prefLabel": {
-        "en": "consent_usf_date"
+        "en": "usf_icf_date_en"
     },
     "question": {
         "en": "Date"
