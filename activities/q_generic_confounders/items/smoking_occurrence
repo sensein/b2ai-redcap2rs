@@ -2,13 +2,13 @@
     "id": "smoking_occurrence",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_occurrence"
     },
     "question": {
-        "en": "Do you now smoke cigarettes every day, some days, or not at all?"
+        "en": "[DEPRECATED] Do you now smoke cigarettes every day, some days, or not at all?"
     },
     "responseOptions": {
         "choices": [

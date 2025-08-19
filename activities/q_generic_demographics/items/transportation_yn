@@ -5,7 +5,7 @@
         "en": "transportation_yn"
     },
     "question": {
-        "en": "Do you have a reliable mode of transportation?"
+        "en": "[DEPRECATED] Do you have a reliable mode of transportation?"
     },
     "responseOptions": {
         "choices": [

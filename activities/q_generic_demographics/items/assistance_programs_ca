@@ -8,7 +8,7 @@
         "en": "assistance_programs_ca"
     },
     "question": {
-        "en": "Do you take advantage of any of the following programs? Choose all that apply"
+        "en": "Do you take advantage of any of the following programs? Choose all that apply\n\n[Deprecated in Protocol v4]"
     },
     "responseOptions": {
         "choices": [

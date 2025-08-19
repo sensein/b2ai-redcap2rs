@@ -20,13 +20,13 @@
             },
             {
                 "name": {
-                    "en": "Heterosexual"
+                    "en": "Heterosexual (straight)"
                 },
                 "value": "heterosexual"
             },
             {
                 "name": {
-                    "en": "Homosexual"
+                    "en": "Homosexual (e.g. gay, lesbian)"
                 },
                 "value": "homosexual"
             },

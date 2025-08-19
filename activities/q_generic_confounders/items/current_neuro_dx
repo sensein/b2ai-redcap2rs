@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "Neurological Medical History\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+        "en": "[DEPRECATED]  Neurological Medical History\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
     },
     "prefLabel": {
         "en": "current_neuro_dx"
     },
     "question": {
-        "en": "Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
+        "en": "[DEPRECATED]  Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
     },
     "responseOptions": {
         "choices": [

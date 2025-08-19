@@ -15,7 +15,7 @@
         "en": "city"
     },
     "question": {
-        "en": "City"
+        "en": "City \n[Deprecated in Protocol v4]"
     },
     "responseOptions": {
         "valueType": [

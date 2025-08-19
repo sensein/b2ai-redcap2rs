@@ -2,13 +2,13 @@
     "id": "lung_or_metastatic",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "prefLabel": {
         "en": "lung_or_metastatic"
     },
     "question": {
-        "en": "Cancer (lung or metastatic)"
+        "en": "[DEPRECATED]  Cancer (lung or metastatic)"
     },
     "responseOptions": {
         "choices": [

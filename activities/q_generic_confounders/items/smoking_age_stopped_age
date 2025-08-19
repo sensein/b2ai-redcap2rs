@@ -19,13 +19,13 @@
         }
     ],
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_age_stopped_age"
     },
     "question": {
-        "en": "Age when you stopped smoking:"
+        "en": "[DEPRECATED] Age when you stopped smoking:"
     },
     "responseOptions": {
         "maxValue": 125,

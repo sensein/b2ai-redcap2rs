@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Number"
+        },
+        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
@@ -15,7 +20,7 @@
         "en": "hydration"
     },
     "question": {
-        "en": "How many small (8oz or 230ml) cups of water do you drink on a typical day?"
+        "en": "On a typical day, how many small (8oz or 230mL) cups of water do you drink?"
     },
     "responseOptions": {
         "valueType": [

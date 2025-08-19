@@ -2,13 +2,13 @@
     "id": "cough_today",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
     },
     "prefLabel": {
         "en": "cough_today"
     },
     "question": {
-        "en": "Are you coughing today?"
+        "en": "[DEPRECATED]  Are you coughing today?"
     },
     "responseOptions": {
         "choices": [

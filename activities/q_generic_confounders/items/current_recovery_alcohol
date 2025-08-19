@@ -8,7 +8,7 @@
         "en": "current_recovery_alcohol"
     },
     "question": {
-        "en": "Are you currently in recovery for alcohol use?"
+        "en": "[DEPRECATED] Are you currently in recovery for alcohol use?\n\n\nNOTE: Added \"Prefer not to answer\" the data need to map to new \"current_recovery_alcoho_usel\""
     },
     "responseOptions": {
         "choices": [

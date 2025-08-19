@@ -2,13 +2,13 @@
     "id": "covid",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "prefLabel": {
         "en": "covid"
     },
     "question": {
-        "en": "Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)"
+        "en": "[DEPRECATED]  Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)"
     },
     "responseOptions": {
         "choices": [

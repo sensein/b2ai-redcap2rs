@@ -8,7 +8,7 @@
         "en": "alcohol_rehab"
     },
     "question": {
-        "en": "Have you ever been in rehab or counseling for heavy alcohol use?"
+        "en": "[DEPRECATED] Have you ever been in rehab or counseling for heavy alcohol use?"
     },
     "responseOptions": {
         "choices": [

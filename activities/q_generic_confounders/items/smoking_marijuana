@@ -2,13 +2,13 @@
     "id": "smoking_marijuana",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_marijuana"
     },
     "question": {
-        "en": "In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?"
+        "en": "[DEPRECATED] In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?"
     },
     "responseOptions": {
         "choices": [

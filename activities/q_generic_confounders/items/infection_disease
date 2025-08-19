@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "Circulatory and Other Conditions"
+        "en": "[DEPRECATED] Circulatory and Other Conditions"
     },
     "prefLabel": {
         "en": "infection_disease"
     },
     "question": {
-        "en": "Infectious disease"
+        "en": "[DEPRECATED] Infectious disease"
     },
     "responseOptions": {
         "valueType": [

@@ -1,0 +1,49 @@
+{
+    "id": "diagnosis_ca_inhaler",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "4. Treatment obtained"
+    },
+    "prefLabel": {
+        "en": "diagnosis_ca_inhaler"
+    },
+    "question": {
+        "en": "Which inhaler is the patient using, either on their own or in combination through combination inhaler therapy? (Select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "LABA"
+                },
+                "value": "laba"
+            },
+            {
+                "name": {
+                    "en": "LAMA"
+                },
+                "value": "lama"
+            },
+            {
+                "name": {
+                    "en": "SABA"
+                },
+                "value": "saba"
+            },
+            {
+                "name": {
+                    "en": "SAMA"
+                },
+                "value": "sama"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

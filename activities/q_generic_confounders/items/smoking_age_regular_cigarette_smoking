@@ -2,13 +2,13 @@
     "id": "smoking_age_regular_cigarette_smoking",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_age_regular_cigarette_smoking"
     },
     "question": {
-        "en": "How old were you when you first started regular cigarette smoking?"
+        "en": "[DEPRECATED] How old were you when you first started regular cigarette smoking?"
     },
     "responseOptions": {
         "choices": [

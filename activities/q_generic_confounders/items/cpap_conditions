@@ -2,13 +2,13 @@
     "id": "cpap_conditions",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "prefLabel": {
         "en": "cpap_conditions"
     },
     "question": {
-        "en": "Are you currently using CPAP or supplemental oxygen? (check all that apply)"
+        "en": "[DEPRECATED] Are you currently using CPAP or supplemental oxygen? (check all that apply)"
     },
     "responseOptions": {
         "choices": [

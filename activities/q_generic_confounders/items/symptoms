@@ -2,13 +2,13 @@
     "id": "symptoms",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Symptoms"
+        "en": "[DEPRECATED] Symptoms"
     },
     "prefLabel": {
         "en": "symptoms"
     },
     "question": {
-        "en": "There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply."
+        "en": "[DEPRECATED] There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply."
     },
     "responseOptions": {
         "choices": [

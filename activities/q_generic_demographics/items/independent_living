@@ -2,7 +2,7 @@
     "id": "independent_living",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Disability Questions"
+        "en": "Employment Status"
     },
     "prefLabel": {
         "en": "independent_living"

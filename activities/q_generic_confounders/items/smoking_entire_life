@@ -2,13 +2,13 @@
     "id": "smoking_entire_life",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_entire_life"
     },
     "question": {
-        "en": "Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)?"
+        "en": "[DEPRECATED] Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)?"
     },
     "responseOptions": {
         "choices": [

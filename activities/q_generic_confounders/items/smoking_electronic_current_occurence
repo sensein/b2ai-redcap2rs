@@ -2,13 +2,13 @@
     "id": "smoking_electronic_current_occurence",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_electronic_current_occurence"
     },
     "question": {
-        "en": "Do you now use electronic nicotine products?"
+        "en": "[DEPRECATED] Do you now use electronic nicotine products?"
     },
     "responseOptions": {
         "choices": [

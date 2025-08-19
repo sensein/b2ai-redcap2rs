@@ -8,7 +8,7 @@
         "en": "hispanic_latino_selection"
     },
     "question": {
-        "en": "Check all that apply"
+        "en": "Check all that apply\n\nNOTE: Once the options completed map to new options, the following options [Deprecated in Protocol v4]\n2, Mexican\n5, Latin American\n6, Puerto Rican\n7, Cuban\n8, Dominican"
     },
     "responseOptions": {
         "choices": [
@@ -59,6 +59,12 @@
                     "en": "Dominican"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "Caribbean"
+                },
+                "value": 9
             }
         ],
         "multipleChoice": true,

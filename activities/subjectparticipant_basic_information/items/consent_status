@@ -26,6 +26,12 @@
                     "en": "Withdrawn Consent"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "Removed From Eligibility"
+                },
+                "value": 4
             }
         ],
         "valueType": [

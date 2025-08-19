@@ -2,13 +2,13 @@
     "id": "pain_medication",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Medications"
+        "en": "[DEPRECATED] Medications"
     },
     "prefLabel": {
         "en": "pain_medication"
     },
     "question": {
-        "en": "Chronic Pain medication"
+        "en": "[DEPRECATED] Chronic Pain medication"
     },
     "responseOptions": {
         "choices": [

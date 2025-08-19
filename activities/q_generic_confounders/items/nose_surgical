@@ -2,13 +2,13 @@
     "id": "nose_surgical",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
     },
     "prefLabel": {
         "en": "nose_surgical"
     },
     "question": {
-        "en": "Nose"
+        "en": "[DEPRECATED]  Nose"
     },
     "responseOptions": {
         "choices": [

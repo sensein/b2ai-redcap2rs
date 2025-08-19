@@ -2,7 +2,7 @@
     "id": "marital_status",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Citizenship"
+        "en": "Citizenship\n[Deprecated in Protocol v4]"
     },
     "prefLabel": {
         "en": "marital_status"

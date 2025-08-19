@@ -2,13 +2,13 @@
     "id": "respiratory_conditions",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "prefLabel": {
         "en": "respiratory_conditions"
     },
     "question": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "responseOptions": {
         "choices": [

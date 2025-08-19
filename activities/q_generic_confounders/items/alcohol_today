@@ -8,7 +8,7 @@
         "en": "alcohol_today"
     },
     "question": {
-        "en": "Have you drunk alcohol today?"
+        "en": "[DEPRECATED] Have you drunk alcohol today?\n\nNOTE: Added \"Prefer not to answer\" the data need to map to new \"drink_alcohol_today\""
     },
     "responseOptions": {
         "choices": [

@@ -15,6 +15,7 @@
         "order": [
             "items/record_id",
             "items/selected_language",
+            "items/selected_language_2",
             "items/consent_status",
             "items/contact_participant",
             "items/consent_method",
@@ -25,7 +26,8 @@
             "items/enrolled",
             "items/enrollment_reason",
             "items/enrollment_institution",
-            "items/researcher_email"
+            "items/researcher_email",
+            "items/api_updates_on_behalf_of"
         ],
         "addProperties": [
             {
@@ -47,6 +49,12 @@
                 "variableName": "selected_language"
             },
             {
+                "isAbout": "items/selected_language_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "selected_language_2"
+            },
+            {
                 "isAbout": "items/consent_status",
                 "isVis": true,
                 "valueRequired": true,
@@ -55,7 +63,7 @@
             {
                 "isAbout": "items/contact_participant",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "contact_participant"
             },
             {
@@ -111,10 +119,16 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "researcher_email"
+            },
+            {
+                "isAbout": "items/api_updates_on_behalf_of",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "api_updates_on_behalf_of"
             }
         ],
         "shuffle": false
     },
-    "version": "3.27.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

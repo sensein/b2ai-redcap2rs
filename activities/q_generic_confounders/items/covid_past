@@ -2,13 +2,13 @@
     "id": "covid_past",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Respiratory Conditions"
+        "en": "[DEPRECATED]  Respiratory Conditions"
     },
     "prefLabel": {
         "en": "covid_past"
     },
     "question": {
-        "en": "Have you had COVID in the past month?"
+        "en": "[DEPRECATED] Have you had COVID in the past month?"
     },
     "responseOptions": {
         "choices": [

@@ -2,13 +2,13 @@
     "id": "dental_tx",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Dental problems"
+        "en": "[DEPRECATED] Dental problems"
     },
     "prefLabel": {
         "en": "dental_tx"
     },
     "question": {
-        "en": "Do you currently have any tooth loss, dentures, retainers or braces?"
+        "en": "[DEPRECATED] Do you currently have any tooth loss, dentures, retainers or braces?"
     },
     "responseOptions": {
         "valueType": [

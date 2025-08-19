@@ -19,13 +19,13 @@
         }
     ],
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_age_regular_cigarette_smoking_age"
     },
     "question": {
-        "en": "Age:"
+        "en": "[DEPRECATED] Age:"
     },
     "responseOptions": {
         "maxValue": 125,

@@ -8,7 +8,7 @@
         "en": "state_province"
     },
     "question": {
-        "en": "State/Province"
+        "en": "State/Province\n[Deprecated in Protocol v4]"
     },
     "responseOptions": {
         "valueType": [

@@ -2,13 +2,13 @@
     "id": "smoking_age_stopped",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_age_stopped"
     },
     "question": {
-        "en": "If you have completely stopped smoking cigarettes, about how old were you when you stopped?"
+        "en": "[DEPRECATED] If you have completely stopped smoking cigarettes, about how old were you when you stopped?"
     },
     "responseOptions": {
         "choices": [

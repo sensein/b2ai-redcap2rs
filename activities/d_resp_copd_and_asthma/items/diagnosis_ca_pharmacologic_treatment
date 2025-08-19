@@ -1,0 +1,97 @@
+{
+    "id": "diagnosis_ca_pharmacologic_treatment",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "4. Treatment obtained"
+    },
+    "prefLabel": {
+        "en": "diagnosis_ca_pharmacologic_treatment"
+    },
+    "question": {
+        "en": "What pharmacologic treatment is the patient currently receiving? (Select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "LABA"
+                },
+                "value": "laba"
+            },
+            {
+                "name": {
+                    "en": "SABA"
+                },
+                "value": "saba"
+            },
+            {
+                "name": {
+                    "en": "ICS"
+                },
+                "value": "ics"
+            },
+            {
+                "name": {
+                    "en": "PDE 4 inhib"
+                },
+                "value": "pde_4"
+            },
+            {
+                "name": {
+                    "en": "Methylxan"
+                },
+                "value": "methylxan"
+            },
+            {
+                "name": {
+                    "en": "Biologics"
+                },
+                "value": "biologics"
+            },
+            {
+                "name": {
+                    "en": "Systemic steroids"
+                },
+                "value": "systemic_steroids"
+            },
+            {
+                "name": {
+                    "en": "Antibiotics"
+                },
+                "value": "antibiotics"
+            },
+            {
+                "name": {
+                    "en": "Mycolitics"
+                },
+                "value": "mucolytics"
+            },
+            {
+                "name": {
+                    "en": "PDE 3 and Inhibitor"
+                },
+                "value": "pde_3"
+            },
+            {
+                "name": {
+                    "en": "Leukotrien Inhibitors"
+                },
+                "value": "leukotrien_inhibitors"
+            },
+            {
+                "name": {
+                    "en": "Others"
+                },
+                "value": "others"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "Circulatory and Other Conditions"
+        "en": "[DEPRECATED] Circulatory and Other Conditions"
     },
     "prefLabel": {
         "en": "cardiac_condition"
     },
     "question": {
-        "en": "Cardiac condition"
+        "en": "[DEPRECATED] Cardiac condition"
     },
     "responseOptions": {
         "valueType": [

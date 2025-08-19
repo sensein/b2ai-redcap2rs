@@ -32,6 +32,12 @@
             },
             {
                 "name": {
+                    "en": "Not certain"
+                },
+                "value": "notCertain"
+            },
+            {
+                "name": {
                     "en": "Prefer not to answer"
                 },
                 "value": "noAnswer"

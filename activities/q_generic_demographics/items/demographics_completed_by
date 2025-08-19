@@ -8,7 +8,7 @@
         "en": "demographics_completed_by"
     },
     "question": {
-        "en": "Who is completing this survey?"
+        "en": "Who is completing this survey? \n[Deprecated in Protocol v4]"
     },
     "responseOptions": {
         "choices": [

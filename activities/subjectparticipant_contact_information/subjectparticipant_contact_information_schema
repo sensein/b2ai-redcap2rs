@@ -10,6 +10,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/participant_study_id",
             "items/first_name",
             "items/last_name",
             "items/dob",
@@ -19,21 +20,27 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/participant_study_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "participant_study_id"
+            },
+            {
                 "isAbout": "items/first_name",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "first_name"
             },
             {
                 "isAbout": "items/last_name",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "last_name"
             },
             {
                 "isAbout": "items/dob",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "dob"
             },
             {
@@ -51,12 +58,12 @@
             {
                 "isAbout": "items/contact_info_stored",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "contact_info_stored"
             }
         ],
         "shuffle": false
     },
-    "version": "3.25.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

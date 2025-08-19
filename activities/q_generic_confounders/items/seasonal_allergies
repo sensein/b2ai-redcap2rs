@@ -2,13 +2,13 @@
     "id": "seasonal_allergies",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Allergies or cold symptoms"
+        "en": "[DEPRECATED]. Allergies or cold symptoms"
     },
     "prefLabel": {
         "en": "seasonal_allergies"
     },
     "question": {
-        "en": "Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?"
+        "en": "[DEPRECATED] Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?"
     },
     "responseOptions": {
         "choices": [

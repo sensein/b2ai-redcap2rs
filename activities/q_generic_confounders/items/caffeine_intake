@@ -3,9 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Number"
+        },
+        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0.0"
         }
     ],
     "preamble": {
@@ -15,9 +25,10 @@
         "en": "caffeine_intake"
     },
     "question": {
-        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?"
+        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?  \n\n[CHANGED TO] ==> \n\nOn a typical day, how many servings of these caffeinated products do you typically consume? \nOne serving is 8 oz or 240 mL of coffee, tea, or energy drinks, 1 oz or 30 mL of espresso, 12 oz or 360 mL of soda"
     },
     "responseOptions": {
+        "minValue": 0,
         "valueType": [
             "xsd:decimal"
         ]

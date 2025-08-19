@@ -1,14 +1,11 @@
 {
     "id": "substance_use_recovery",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Substance use"
-    },
     "prefLabel": {
         "en": "substance_use_recovery"
     },
     "question": {
-        "en": "Are you currently in recovery for substance use?"
+        "en": "[DEPRECATED] Are you currently in recovery for substance use?\n\nAdded  \"Prefer not to answer\" to \"current_substance_use_recovery\""
     },
     "responseOptions": {
         "choices": [

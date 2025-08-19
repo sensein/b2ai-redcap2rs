@@ -2,7 +2,7 @@
     "id": "ef_completed_by",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Who is participating in completing this survey?"
+        "en": "Who is participating in completing this survey?\n[Deprecated in Protocol v4]"
     },
     "prefLabel": {
         "en": "ef_completed_by"

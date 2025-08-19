@@ -2,13 +2,13 @@
     "id": "circulatory_med_history",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Circulatory and Other Conditions"
+        "en": "[DEPRECATED] Circulatory and Other Conditions"
     },
     "prefLabel": {
         "en": "circulatory_med_history"
     },
     "question": {
-        "en": "Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)"
+        "en": "[DEPRECATED] Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)"
     },
     "responseOptions": {
         "choices": [

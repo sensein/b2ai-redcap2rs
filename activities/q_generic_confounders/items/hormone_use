@@ -2,13 +2,13 @@
     "id": "hormone_use",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Medications"
+        "en": "[DEPRECATED] Medications"
     },
     "prefLabel": {
         "en": "hormone_use"
     },
     "question": {
-        "en": "Hormone use"
+        "en": "[DEPRECATED] Hormone use"
     },
     "responseOptions": {
         "choices": [

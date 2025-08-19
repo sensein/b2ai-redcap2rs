@@ -2,7 +2,7 @@
     "id": "hearing",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Disability Questions"
+        "en": "Employment Status"
     },
     "prefLabel": {
         "en": "hearing"

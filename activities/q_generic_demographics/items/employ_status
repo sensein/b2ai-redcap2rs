@@ -65,6 +65,30 @@
                     "en": "Other"
                 },
                 "value": 9
+            },
+            {
+                "name": {
+                    "en": "Stay-at-home parent or guardian"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Caregiver"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Disabled"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Between jobs"
+                },
+                "value": 13
             }
         ],
         "multipleChoice": true,

@@ -11,26 +11,16 @@
             "items/peds_demographics_started_at",
             "items/peds_demographics_completed_at",
             "items/peds_demographics_duration",
-            "items/peds_demographics_completed_by",
-            "items/peds_city",
-            "items/peds_state_province",
             "items/peds_zipcode",
             "items/peds_country",
             "items/peds_gender_identity",
             "items/peds_other_gender_identity",
-            "items/peds_specify_gender_identity",
-            "items/peds_sexual_orientation",
-            "items/peds_other_sex_orientation",
             "items/peds_race",
-            "items/peds_native_american_race",
-            "items/peds_asian_race",
-            "items/peds_black_race",
-            "items/peds_pacific_islander_race",
-            "items/peds_white_race",
-            "items/peds_canadian_race",
             "items/peds_other_race_specify",
-            "items/peds_ethnicity",
-            "items/peds_hispanic_latino_selection",
+            "items/peds_primary_language",
+            "items/peds_other_primary_language",
+            "items/peds_first_language",
+            "items/peds_other_first_language",
             "items/peds_edu_level",
             "items/peds_other_edu_level",
             "items/peds_hearing",
@@ -65,24 +55,6 @@
                 "variableName": "peds_demographics_duration"
             },
             {
-                "isAbout": "items/peds_demographics_completed_by",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "peds_demographics_completed_by"
-            },
-            {
-                "isAbout": "items/peds_city",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "peds_city"
-            },
-            {
-                "isAbout": "items/peds_state_province",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "peds_state_province"
-            },
-            {
                 "isAbout": "items/peds_zipcode",
                 "isVis": true,
                 "valueRequired": false,
@@ -107,64 +79,10 @@
                 "variableName": "peds_other_gender_identity"
             },
             {
-                "isAbout": "items/peds_specify_gender_identity",
-                "isVis": "peds_gender_identity=='female' || peds_gender_identity=='male'",
-                "valueRequired": false,
-                "variableName": "peds_specify_gender_identity"
-            },
-            {
-                "isAbout": "items/peds_sexual_orientation",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "peds_sexual_orientation"
-            },
-            {
-                "isAbout": "items/peds_other_sex_orientation",
-                "isVis": "peds_sexual_orientation=='other'",
-                "valueRequired": false,
-                "variableName": "peds_other_sex_orientation"
-            },
-            {
                 "isAbout": "items/peds_race",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "peds_race"
-            },
-            {
-                "isAbout": "items/peds_native_american_race",
-                "isVis": "peds_race___1 == '1'",
-                "valueRequired": false,
-                "variableName": "peds_native_american_race"
-            },
-            {
-                "isAbout": "items/peds_asian_race",
-                "isVis": "peds_race___2=='1'",
-                "valueRequired": false,
-                "variableName": "peds_asian_race"
-            },
-            {
-                "isAbout": "items/peds_black_race",
-                "isVis": "peds_race___3=='1'",
-                "valueRequired": false,
-                "variableName": "peds_black_race"
-            },
-            {
-                "isAbout": "items/peds_pacific_islander_race",
-                "isVis": "peds_race___4=='1'",
-                "valueRequired": false,
-                "variableName": "peds_pacific_islander_race"
-            },
-            {
-                "isAbout": "items/peds_white_race",
-                "isVis": "peds_race___5=='1'",
-                "valueRequired": false,
-                "variableName": "peds_white_race"
-            },
-            {
-                "isAbout": "items/peds_canadian_race",
-                "isVis": "peds_race___6=='1'",
-                "valueRequired": false,
-                "variableName": "peds_canadian_race"
             },
             {
                 "isAbout": "items/peds_other_race_specify",
@@ -173,16 +91,28 @@
                 "variableName": "peds_other_race_specify"
             },
             {
-                "isAbout": "items/peds_ethnicity",
+                "isAbout": "items/peds_primary_language",
                 "isVis": true,
-                "valueRequired": false,
-                "variableName": "peds_ethnicity"
+                "valueRequired": true,
+                "variableName": "peds_primary_language"
             },
             {
-                "isAbout": "items/peds_hispanic_latino_selection",
-                "isVis": "peds_ethnicity == 'yes'",
-                "valueRequired": false,
-                "variableName": "peds_hispanic_latino_selection"
+                "isAbout": "items/peds_other_primary_language",
+                "isVis": "peds_primary_language=='other'",
+                "valueRequired": true,
+                "variableName": "peds_other_primary_language"
+            },
+            {
+                "isAbout": "items/peds_first_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "peds_first_language"
+            },
+            {
+                "isAbout": "items/peds_other_first_language",
+                "isVis": "peds_first_language=='other'",
+                "valueRequired": true,
+                "variableName": "peds_other_first_language"
             },
             {
                 "isAbout": "items/peds_edu_level",
@@ -229,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

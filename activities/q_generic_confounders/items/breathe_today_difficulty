@@ -2,13 +2,13 @@
     "id": "breathe_today_difficulty",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
     },
     "prefLabel": {
         "en": "breathe_today_difficulty"
     },
     "question": {
-        "en": "Please specify the level of difficulty"
+        "en": "[DEPRECATED] Please specify the level of difficulty"
     },
     "responseOptions": {
         "choices": [

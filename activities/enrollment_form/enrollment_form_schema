@@ -61,6 +61,7 @@
             "items/ef_learn_about_this_study",
             "items/ef_learn_about_this_study_event",
             "items/ef_learn_about_this_study_other",
+            "items/ef_participant_study_id",
             "items/ef_first_name",
             "items/ef_last_name",
             "items/ef_phone_number",
@@ -403,15 +404,21 @@
                 "variableName": "ef_learn_about_this_study_other"
             },
             {
+                "isAbout": "items/ef_participant_study_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ef_participant_study_id"
+            },
+            {
                 "isAbout": "items/ef_first_name",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "ef_first_name"
             },
             {
                 "isAbout": "items/ef_last_name",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "ef_last_name"
             },
             {
@@ -429,7 +436,7 @@
             {
                 "isAbout": "items/ef_contact_info_stored",
                 "isVis": true,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "ef_contact_info_stored"
             },
             {
@@ -495,6 +502,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.25.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

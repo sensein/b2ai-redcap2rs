@@ -2,7 +2,7 @@
     "id": "housing_status",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Citizenship"
+        "en": "Citizenship\n[Deprecated in Protocol v4]"
     },
     "prefLabel": {
         "en": "housing_status"
@@ -47,6 +47,24 @@
                     "en": "Unhoused-permanently"
                 },
                 "value": 7
+            },
+            {
+                "name": {
+                    "en": "Long-term care facility"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Retirement community"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Live with family"
+                },
+                "value": 10
             }
         ],
         "valueType": [

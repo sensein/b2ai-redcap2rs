@@ -1,6 +1,23 @@
 {
     "id": "caffeine_intake_today",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Number"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0.0"
+        }
+    ],
     "preamble": {
         "en": "Caffeine intake"
     },
@@ -8,15 +25,16 @@
         "en": "caffeine_intake_today"
     },
     "question": {
-        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?"
+        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?\n\n[CHANGED TO] ==>\n\nHow many servings of these caffeinated products have you had today?"
     },
     "responseOptions": {
+        "minValue": 0,
         "valueType": [
-            "xsd:string"
+            "xsd:decimal"
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "float"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -2,13 +2,13 @@
     "id": "voice_activity",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Voice Activity"
+        "en": "DAY TO DAY ACTIVITIES\n\nThings you do on a daily basis (including your job, work environment, hydration, etc.) can affect the sound of your voice OR affect the way you complete the tasks in this study. This section asks questions about some of these factors. \n\n\nVoice  Use"
     },
     "prefLabel": {
         "en": "voice_activity"
     },
     "question": {
-        "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply"
+        "en": "[DEPRECATED] Do you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply"
     },
     "responseOptions": {
         "choices": [

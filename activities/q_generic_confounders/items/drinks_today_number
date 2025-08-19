@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Number"
+        },
+        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
@@ -15,7 +20,7 @@
         "en": "drinks_today_number"
     },
     "question": {
-        "en": "How many drinks did you have?"
+        "en": "How many drinks have you had today?"
     },
     "responseOptions": {
         "valueType": [

@@ -8,6 +8,11 @@
             "value": "days"
         },
         {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
             "column": "Custom Alignment",
             "source": "redcap",
             "value": "RH"
@@ -21,11 +26,11 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "number"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

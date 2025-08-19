@@ -2,13 +2,13 @@
     "id": "seasonal_allergies_options",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Allergies or cold symptoms"
+        "en": "[DEPRECATED]. Allergies or cold symptoms"
     },
     "prefLabel": {
         "en": "seasonal_allergies_options"
     },
     "question": {
-        "en": "Check all that apply:"
+        "en": "[DEPRECATED] Check all that apply:"
     },
     "responseOptions": {
         "choices": [

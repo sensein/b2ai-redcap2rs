@@ -10,7 +10,8 @@
             "items/exclude_participant",
             "items/exclude_reason",
             "items/exclude_reason_other",
-            "items/exclusion_date"
+            "items/exclusion_date",
+            "items/inclusion_date"
         ],
         "addProperties": [
             {
@@ -36,10 +37,16 @@
                 "isVis": "exclude_participant == 'yes'",
                 "valueRequired": true,
                 "variableName": "exclusion_date"
+            },
+            {
+                "isAbout": "items/inclusion_date",
+                "isVis": "exclude_participant == 'no'",
+                "valueRequired": true,
+                "variableName": "inclusion_date"
             }
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

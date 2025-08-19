@@ -1,0 +1,22 @@
+{
+    "id": "diagnosis_ca_significant_inhalation_exposure_history_explanation",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "3. Current symptoms and patient history"
+    },
+    "prefLabel": {
+        "en": "diagnosis_ca_significant_inhalation_exposure_history_explanation"
+    },
+    "question": {
+        "en": "Please explain (optional):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

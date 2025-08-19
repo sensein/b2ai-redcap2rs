@@ -2,13 +2,13 @@
     "id": "smoking_electronic",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "smoking_electronic"
     },
     "question": {
-        "en": "Have you ever used an electronic nicotine product, even one or two times?\n(Electronic nicotine products include e- cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
+        "en": "[DEPRECATED] Have you ever used an electronic nicotine product, even one or two times?\n(Electronic nicotine products include e- cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
     },
     "responseOptions": {
         "choices": [

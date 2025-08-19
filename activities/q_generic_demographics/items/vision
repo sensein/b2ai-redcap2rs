@@ -2,7 +2,7 @@
     "id": "vision",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Disability Questions"
+        "en": "Employment Status"
     },
     "prefLabel": {
         "en": "vision"

@@ -32,6 +32,7 @@
             "../activities/d_mood_depression_or_major_depressive_disorder/d_mood_depression_or_major_depressive_disorder_schema",
             "../activities/d_mood_anxiety_disorder/d_mood_anxiety_disorder_schema",
             "../activities/d_resp_airway_stenosis/d_resp_airway_stenosis_schema",
+            "../activities/d_resp_copd_and_asthma/d_resp_copd_and_asthma_schema",
             "../activities/d_resp_unexplained_chronic_cough/d_resp_unexplained_chronic_cough_schema",
             "../activities/d_neuro_alzheimers_disease_mild_cognitive_impairme/d_neuro_alzheimers_disease_mild_cognitive_impairme_schema",
             "../activities/d_neuro_amyotrophic_lateral_sclerosis_als/d_neuro_amyotrophic_lateral_sclerosis_als_schema",
@@ -42,6 +43,7 @@
             "../activities/recording/recording_schema",
             "../activities/q_generic_demographics/q_generic_demographics_schema",
             "../activities/q_generic_confounders/q_generic_confounders_schema",
+            "../activities/q_generic_harvard_sentences/q_generic_harvard_sentences_schema",
             "../activities/q_generic_voice_perception/q_generic_voice_perception_schema",
             "../activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
             "../activities/q_generic_patient_health_questionnaire9/q_generic_patient_health_questionnaire9_schema",
@@ -65,7 +67,8 @@
             "../activities/pediatric_q_generic_vhi_10/pediatric_q_generic_vhi_10_schema",
             "../activities/pediatric_q_generic_voice_outcome_survey/pediatric_q_generic_voice_outcome_survey_schema",
             "../activities/pediatric_q_generic_voice_related_qol_survey/pediatric_q_generic_voice_related_qol_survey_schema",
-            "../activities/pediatric_q_generic_phqa/pediatric_q_generic_phqa_schema"
+            "../activities/pediatric_q_generic_phqa/pediatric_q_generic_phqa_schema",
+            "../activities/pediatric_q_generic_medical_conditions/pediatric_q_generic_medical_conditions_schema"
         ],
         "addProperties": [
             {
@@ -245,6 +248,14 @@
                 "variableName": "d_resp_airway_stenosis_schema"
             },
             {
+                "isAbout": "../activities/d_resp_copd_and_asthma/d_resp_copd_and_asthma_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "D Resp Copd And Asthma"
+                },
+                "variableName": "d_resp_copd_and_asthma_schema"
+            },
+            {
                 "isAbout": "../activities/d_resp_unexplained_chronic_cough/d_resp_unexplained_chronic_cough_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -323,6 +334,14 @@
                     "en": "Q Generic Confounders"
                 },
                 "variableName": "q_generic_confounders_schema"
+            },
+            {
+                "isAbout": "../activities/q_generic_harvard_sentences/q_generic_harvard_sentences_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Q Generic Harvard Sentences"
+                },
+                "variableName": "q_generic_harvard_sentences_schema"
             },
             {
                 "isAbout": "../activities/q_generic_voice_perception/q_generic_voice_perception_schema",
@@ -515,10 +534,18 @@
                     "en": "Pediatric Q Generic Phqa"
                 },
                 "variableName": "pediatric_q_generic_phqa_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_medical_conditions/pediatric_q_generic_medical_conditions_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Medical Conditions"
+                },
+                "variableName": "pediatric_q_generic_medical_conditions_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "3.27.0",
+    "version": "4.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

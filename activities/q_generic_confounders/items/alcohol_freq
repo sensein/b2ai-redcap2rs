@@ -8,7 +8,7 @@
         "en": "alcohol_freq"
     },
     "question": {
-        "en": "How often do you have at least one drink containing alcohol?\nDrinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor"
+        "en": "[DEPRECATED] How often do you have at least one drink containing alcohol?\n\nNote:  Replaced with string value instead number value"
     },
     "responseOptions": {
         "choices": [

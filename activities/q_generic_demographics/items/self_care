@@ -2,7 +2,7 @@
     "id": "self_care",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Disability Questions"
+        "en": "Employment Status"
     },
     "prefLabel": {
         "en": "self_care"

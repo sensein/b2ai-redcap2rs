@@ -9,7 +9,7 @@
         }
     ],
     "preamble": {
-        "en": "Smoking"
+        "en": "[DEPRECATED] Smoking"
     },
     "prefLabel": {
         "en": "age_start_smoking"
