@@ -20,9 +20,21 @@
             },
             {
                 "name": {
+                    "en": "LAMA"
+                },
+                "value": "lama"
+            },
+            {
+                "name": {
                     "en": "SABA"
                 },
                 "value": "saba"
+            },
+            {
+                "name": {
+                    "en": "SAMA"
+                },
+                "value": "sama"
             },
             {
                 "name": {
@@ -32,15 +44,15 @@
             },
             {
                 "name": {
-                    "en": "PDE 4 inhib"
+                    "en": "PDE 4 inhibitor"
                 },
                 "value": "pde_4"
             },
             {
                 "name": {
-                    "en": "Methylxan"
+                    "en": "Methylxanthines"
                 },
-                "value": "methylxan"
+                "value": "methylxanthines"
             },
             {
                 "name": {
@@ -62,7 +74,7 @@
             },
             {
                 "name": {
-                    "en": "Mycolitics"
+                    "en": "Mucolytics"
                 },
                 "value": "mucolytics"
             },
@@ -74,9 +86,9 @@
             },
             {
                 "name": {
-                    "en": "Leukotrien Inhibitors"
+                    "en": "Leukotriene Inhibitors"
                 },
-                "value": "leukotrien_inhibitors"
+                "value": "leukotriene_inhibitors"
             },
             {
                 "name": {

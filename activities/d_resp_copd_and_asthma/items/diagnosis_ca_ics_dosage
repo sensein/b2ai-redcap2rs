@@ -29,6 +29,12 @@
                     "en": "High dose"
                 },
                 "value": "high"
+            },
+            {
+                "name": {
+                    "en": "Not Certain"
+                },
+                "value": "notCertain"
             }
         ],
         "multipleChoice": true,

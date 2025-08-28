@@ -18,7 +18,6 @@
             "items/diagnosis_ca_restrictive",
             "items/diagnosis_ca_responsiveness_criteria",
             "items/diagnosis_ca_asthma",
-            "items/diagnosis_ca_bronchodilator_testing_criteria",
             "items/diagnosis_ca_copd",
             "items/diagnosis_ca_copd_subtype",
             "items/diagnosis_ca_mmrc_grade_score",
@@ -27,6 +26,7 @@
             "items/diagnosis_ca_asthma_probability",
             "items/diagnosis_ca_asthma_has_subtype",
             "items/diagnosis_ca_asthma_subtype",
+            "items/diagnosis_ca_asthma_subtype_other",
             "items/diagnosis_ca_feno_within_12_months",
             "items/diagnosis_ca_feno_value",
             "items/part_asthmaeosinop_hil",
@@ -43,7 +43,6 @@
             "items/diagnosis_ca_significant_inhalation_exposure_history_explanation",
             "items/diagnosis_ca_enviromental_allergy_history",
             "items/diagnosis_ca_pharmacologic_treatment",
-            "items/diagnosis_ca_inhaler",
             "items/diagnosis_ca_ics_dosage"
         ],
         "addProperties": [
@@ -114,12 +113,6 @@
                 "variableName": "diagnosis_ca_asthma"
             },
             {
-                "isAbout": "items/diagnosis_ca_bronchodilator_testing_criteria",
-                "isVis": "(diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_asthma_copd' ||(diagnosis_ca_copd_asthma=='neither')&& diagnosis_ca_spirometry_ce=='no')",
-                "valueRequired": false,
-                "variableName": "diagnosis_ca_bronchodilator_testing_criteria"
-            },
-            {
                 "isAbout": "items/diagnosis_ca_copd",
                 "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='both_asthma_copd' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
@@ -166,6 +159,12 @@
                 "isVis": "diagnosis_ca_asthma_has_subtype=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_asthma_subtype"
+            },
+            {
+                "isAbout": "items/diagnosis_ca_asthma_subtype_other",
+                "isVis": "diagnosis_ca_asthma_subtype(other)=='1'",
+                "valueRequired": false,
+                "variableName": "diagnosis_ca_asthma_subtype_other"
             },
             {
                 "isAbout": "items/diagnosis_ca_feno_within_12_months",
@@ -264,12 +263,6 @@
                 "variableName": "diagnosis_ca_pharmacologic_treatment"
             },
             {
-                "isAbout": "items/diagnosis_ca_inhaler",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "diagnosis_ca_inhaler"
-            },
-            {
                 "isAbout": "items/diagnosis_ca_ics_dosage",
                 "isVis": "diagnosis_ca_pharmacologic_treatment(ics)=='1'",
                 "valueRequired": false,
@@ -278,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.0.0",
+    "version": "4.0.1",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

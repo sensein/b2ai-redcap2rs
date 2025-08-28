@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_responsiveness_criteria"
     },
     "question": {
-        "en": "Did the patient meet the criteria forresponsiveness on bronchodilator testing?"
+        "en": "Did the patient meet the criteria for responsiveness on bronchodilator testing?\n\n(Increase in FEV1 or FVC by 200ml and 12 % from baseline with bronchodilators)?"
     },
     "responseOptions": {
         "choices": [
@@ -23,6 +23,12 @@
                     "en": "No"
                 },
                 "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Not Certain"
+                },
+                "value": "notCertain"
             }
         ],
         "valueType": [

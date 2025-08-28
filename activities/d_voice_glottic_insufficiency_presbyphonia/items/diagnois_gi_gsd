@@ -8,7 +8,7 @@
         "en": "diagnois_gi_gsd"
     },
     "question": {
-        "en": "Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?"
+        "en": "Does the patient have glottic insufficiency confirmed by laryngoscopy/stroboscopy?"
     },
     "responseOptions": {
         "choices": [

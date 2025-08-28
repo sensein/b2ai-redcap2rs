@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_ats_ers_criteria_fvc"
     },
     "question": {
-        "en": "FVC < 0.7?"
+        "en": "FVC < 0.7 OR z score \u2264 -1.65 ?"
     },
     "responseOptions": {
         "choices": [

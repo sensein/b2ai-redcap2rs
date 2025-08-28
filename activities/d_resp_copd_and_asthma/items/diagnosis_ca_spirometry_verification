@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_spirometry_verification"
     },
     "question": {
-        "en": "Please select one of the two options below forverification of the spirometry test. \n\nIf both are available, please select ATS/ERS"
+        "en": "Please select one of the two options below for verification of the spirometry test. \n\nIf both are available, please select ATS/ERS"
     },
     "responseOptions": {
         "choices": [
@@ -20,7 +20,7 @@
             },
             {
                 "name": {
-                    "en": "GOLD criteria reported: FEV1/FVC < 0.7 (postbronchodilator, orprebronchodilator ifpostbronchodilator not available"
+                    "en": "GOLD criteria reported: FEV1/FVC < 0.7 (postbronchodilator, or prebronchodilator if postbronchodilator not available"
                 },
                 "value": "goldCriteria"
             }
