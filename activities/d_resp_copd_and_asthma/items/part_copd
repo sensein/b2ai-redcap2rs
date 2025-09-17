@@ -2,7 +2,7 @@
     "id": "part_copd",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "3. Current symptoms and participant history"
     },
     "prefLabel": {
         "en": "part_copd"

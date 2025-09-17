@@ -5,7 +5,7 @@
         "en": "diagnosis_c_ac"
     },
     "question": {
-        "en": "Based on the assessment you made of the patient, and by hearing their voice, do you think this patient has any condition affecting their speech or voice?"
+        "en": "Based on the assessment you made of the participant, and by hearing their voice, do you think this participant has any condition affecting their speech or voice?"
     },
     "responseOptions": {
         "choices": [

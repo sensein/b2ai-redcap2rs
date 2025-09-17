@@ -7,6 +7,9 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_alz_dementia_mci_gsd",
+            "items/diagnosis_alz_dementia_mci_gsd_confirmation_method",
+            "items/diagnosis_alz_dementia_mci_gsd_confirmation_method_other",
             "items/diagnosis_alz_dementia_mci_gsd_clinical_history",
             "items/diagnosis_alz_dementia_mci_gsd_functional_inventory",
             "items/diagnosis_alz_dementia_mci_gsd_cognitive_testing",
@@ -35,6 +38,24 @@
             "items/diagnosis_alz_dementia_mci_treatment_obtained_yes_npi_other"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/diagnosis_alz_dementia_mci_gsd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_alz_dementia_mci_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_alz_dementia_mci_gsd_confirmation_method",
+                "isVis": "diagnosis_alz_dementia_mci_gsd=='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_alz_dementia_mci_gsd_confirmation_method"
+            },
+            {
+                "isAbout": "items/diagnosis_alz_dementia_mci_gsd_confirmation_method_other",
+                "isVis": "diagnosis_alz_dementia_mci_gsd_confirmation_method(other)=='1'",
+                "valueRequired": true,
+                "variableName": "diagnosis_alz_dementia_mci_gsd_confirmation_method_other"
+            },
             {
                 "isAbout": "items/diagnosis_alz_dementia_mci_gsd_clinical_history",
                 "isVis": true,
@@ -194,6 +215,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

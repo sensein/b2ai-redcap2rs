@@ -8,7 +8,7 @@
         "en": "hd_any_treatment"
     },
     "question": {
-        "en": "Has the patient undergone any treatment for Huntington's disease?"
+        "en": "Has the participant undergone any treatment for Huntington's disease?"
     },
     "responseOptions": {
         "choices": [

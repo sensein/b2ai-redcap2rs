@@ -2,13 +2,13 @@
     "id": "diagnosis_ca_pulmonary_symptoms",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "3. Current symptoms and participant history"
     },
     "prefLabel": {
         "en": "diagnosis_ca_pulmonary_symptoms"
     },
     "question": {
-        "en": "Does the patient have any of the following pulmonary symptoms? (Check all that apply)"
+        "en": "Does the participant have any of the following pulmonary symptoms? (Check all that apply)"
     },
     "responseOptions": {
         "choices": [
@@ -35,12 +35,6 @@
                     "en": "Wheezing"
                 },
                 "value": "wheezing"
-            },
-            {
-                "name": {
-                    "en": "None"
-                },
-                "value": "none"
             }
         ],
         "multipleChoice": true,

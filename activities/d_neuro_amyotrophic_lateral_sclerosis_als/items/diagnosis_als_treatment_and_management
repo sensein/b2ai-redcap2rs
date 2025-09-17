@@ -8,7 +8,7 @@
         "en": "diagnosis_als_treatment_and_management"
     },
     "question": {
-        "en": "Has the patient undergone any treatment or interventions for ALS?"
+        "en": "Has the participant undergone any treatment or interventions for ALS?"
     },
     "responseOptions": {
         "choices": [

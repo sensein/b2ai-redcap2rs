@@ -1,14 +1,14 @@
 {
-    "id": "diagnosis_ca_enviromental_allergy_history",
+    "id": "diagnosis_alz_dementia_mci_gsd",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "1. Gold Standard Diagnosis"
     },
     "prefLabel": {
-        "en": "diagnosis_ca_enviromental_allergy_history"
+        "en": "diagnosis_alz_dementia_mci_gsd"
     },
     "question": {
-        "en": "Does the patient have a strong environmental allergy history?"
+        "en": "Does the participant have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia?"
     },
     "responseOptions": {
         "choices": [
@@ -26,9 +26,9 @@
             },
             {
                 "name": {
-                    "en": "Not Certain"
+                    "en": "Not certain"
                 },
-                "value": "not_certain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

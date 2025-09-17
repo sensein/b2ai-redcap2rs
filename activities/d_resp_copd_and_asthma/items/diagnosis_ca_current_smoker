@@ -2,13 +2,13 @@
     "id": "diagnosis_ca_current_smoker",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "3. Current symptoms and participant history"
     },
     "prefLabel": {
         "en": "diagnosis_ca_current_smoker"
     },
     "question": {
-        "en": "Is patient a current smoker?"
+        "en": "Is participant a current smoker?"
     },
     "responseOptions": {
         "choices": [
@@ -28,7 +28,7 @@
                 "name": {
                     "en": "Not Certain"
                 },
-                "value": "not_certain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

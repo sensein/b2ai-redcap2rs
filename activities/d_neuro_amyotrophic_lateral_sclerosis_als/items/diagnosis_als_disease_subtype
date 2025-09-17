@@ -8,7 +8,7 @@
         "en": "diagnosis_als_disease_subtype"
     },
     "question": {
-        "en": "Specify the type of ALS in the patient:"
+        "en": "Specify the type of ALS in the participant:"
     },
     "responseOptions": {
         "choices": [

@@ -8,7 +8,7 @@
         "en": "diagnois_bl_gsd"
     },
     "question": {
-        "en": "Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?"
+        "en": "Does the participant have a benign lesion confirmed by laryngoscopy/stroboscopy?"
     },
     "responseOptions": {
         "choices": [

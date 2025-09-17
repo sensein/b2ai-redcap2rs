@@ -8,7 +8,7 @@
         "en": "diagnosis_lc_gsd_uots"
     },
     "question": {
-        "en": "Did the patient undergo other types of scans?\n(Select all that apply)."
+        "en": "Did the participant undergo other types of scans?\n(Select all that apply)."
     },
     "responseOptions": {
         "choices": [

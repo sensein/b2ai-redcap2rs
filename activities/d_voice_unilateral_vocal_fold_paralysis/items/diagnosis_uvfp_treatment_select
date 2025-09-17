@@ -8,7 +8,7 @@
         "en": "diagnosis_uvfp_treatment_select"
     },
     "question": {
-        "en": "Select all that apply:"
+        "en": "What treatments did the participant undergo? (Select all that apply):"
     },
     "responseOptions": {
         "choices": [

@@ -14,15 +14,15 @@
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

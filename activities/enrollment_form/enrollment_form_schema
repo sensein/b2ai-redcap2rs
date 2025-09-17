@@ -68,6 +68,7 @@
             "items/ef_email",
             "items/ef_contact_info_stored",
             "items/ef_enrollment",
+            "items/ef_remote_collection_agreement_terms",
             "items/ef_is_control_participant",
             "items/ef_reason_decline_enroll",
             "items/ef_other_reason_decline",
@@ -446,6 +447,12 @@
                 "variableName": "ef_enrollment"
             },
             {
+                "isAbout": "items/ef_remote_collection_agreement_terms",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ef_remote_collection_agreement_terms"
+            },
+            {
                 "isAbout": "items/ef_is_control_participant",
                 "isVis": true,
                 "valueRequired": true,
@@ -502,6 +509,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.0.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

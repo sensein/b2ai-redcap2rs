@@ -2,13 +2,13 @@
     "id": "diagnosis_ca_significant_inhalation_exposure_history",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "3. Current symptoms and participant history"
     },
     "prefLabel": {
         "en": "diagnosis_ca_significant_inhalation_exposure_history"
     },
     "question": {
-        "en": "Does the patient have any other significant inhalation exposure history?"
+        "en": "Does the participant have any other significant inhalation exposure history?"
     },
     "responseOptions": {
         "choices": [
@@ -28,7 +28,7 @@
                 "name": {
                     "en": "Not Certain"
                 },
-                "value": "not_certain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

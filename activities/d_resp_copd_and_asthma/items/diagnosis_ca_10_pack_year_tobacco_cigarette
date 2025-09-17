@@ -2,13 +2,13 @@
     "id": "diagnosis_ca_10_pack_year_tobacco_cigarette",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Current symptoms and patient history"
+        "en": "3. Current symptoms and participant history"
     },
     "prefLabel": {
         "en": "diagnosis_ca_10_pack_year_tobacco_cigarette"
     },
     "question": {
-        "en": "Does the patient have at least a 10 pack year tobacco cigarette history?"
+        "en": "Does the participant have at least a 10 pack year tobacco cigarette history?"
     },
     "responseOptions": {
         "choices": [
@@ -28,7 +28,7 @@
                 "name": {
                     "en": "Not Certain"
                 },
-                "value": "not_certain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

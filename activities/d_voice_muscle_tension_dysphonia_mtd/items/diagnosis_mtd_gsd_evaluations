@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_mtd_gsd_evaluations",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
@@ -8,7 +15,7 @@
         "en": "diagnosis_mtd_gsd_evaluations"
     },
     "question": {
-        "en": "Does the patient have MTD as determined by qualitative expert team evaluations? (Select all that apply)"
+        "en": "[DEPRECATED]\nDetermined by (Select all that apply):"
     },
     "responseOptions": {
         "choices": [
@@ -31,7 +38,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

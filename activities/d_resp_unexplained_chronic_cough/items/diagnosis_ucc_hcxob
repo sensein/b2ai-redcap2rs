@@ -8,21 +8,21 @@
         "en": "diagnosis_ucc_hcxob"
     },
     "question": {
-        "en": "Has the patient had a chest x-ray, CT chest or bronchoscopy?"
+        "en": "Has the participant had a chest x-ray, CT chest or bronchoscopy?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

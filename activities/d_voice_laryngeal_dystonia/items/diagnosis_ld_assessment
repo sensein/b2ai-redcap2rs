@@ -8,7 +8,7 @@
         "en": "diagnosis_ld_assessment"
     },
     "question": {
-        "en": "Did the patient have the following assessment?\n(Select all that apply)."
+        "en": "Did the participant have the following assessment?\n(Select all that apply)."
     },
     "responseOptions": {
         "choices": [

@@ -7,6 +7,8 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_pl_gsd",
+            "items/diagnosis_pl_gsd_confirmation_method",
             "items/diagnois_pl_gsd_ls",
             "items/diagnois_pl_gsd_bp",
             "items/diagnosis_pl_ds",
@@ -45,15 +47,27 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/diagnois_pl_gsd_ls",
+                "isAbout": "items/diagnosis_pl_gsd",
                 "isVis": true,
                 "valueRequired": true,
+                "variableName": "diagnosis_pl_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_pl_gsd_confirmation_method",
+                "isVis": "diagnosis_pl_gsd=='yes'",
+                "valueRequired": false,
+                "variableName": "diagnosis_pl_gsd_confirmation_method"
+            },
+            {
+                "isAbout": "items/diagnois_pl_gsd_ls",
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "diagnois_pl_gsd_ls"
             },
             {
                 "isAbout": "items/diagnois_pl_gsd_bp",
-                "isVis": true,
-                "valueRequired": true,
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "diagnois_pl_gsd_bp"
             },
             {
@@ -257,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

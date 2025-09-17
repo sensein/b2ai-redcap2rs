@@ -7,8 +7,10 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/diagnois_lc_gsd_sll",
+            "items/diagnosis_lc_gsd",
+            "items/diagnosis_lc_gsd_confirmation_method",
             "items/diagnosis_lc_gsd_bpr",
+            "items/diagnois_lc_gsd_sll",
             "items/diagnosis_lc_gsd_uots",
             "items/diagnosis_lc_ds",
             "items/diagnosis_lc_etiology",
@@ -45,16 +47,28 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/diagnois_lc_gsd_sll",
+                "isAbout": "items/diagnosis_lc_gsd",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "diagnois_lc_gsd_sll"
+                "variableName": "diagnosis_lc_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_lc_gsd_confirmation_method",
+                "isVis": "diagnosis_lc_gsd=='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_lc_gsd_confirmation_method"
             },
             {
                 "isAbout": "items/diagnosis_lc_gsd_bpr",
-                "isVis": true,
-                "valueRequired": true,
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "diagnosis_lc_gsd_bpr"
+            },
+            {
+                "isAbout": "items/diagnois_lc_gsd_sll",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "diagnois_lc_gsd_sll"
             },
             {
                 "isAbout": "items/diagnosis_lc_gsd_uots",
@@ -257,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

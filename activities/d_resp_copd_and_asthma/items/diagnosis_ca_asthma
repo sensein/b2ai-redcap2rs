@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_asthma"
     },
     "question": {
-        "en": "Does the patient have a history of confirmed expiratory airflow variability?\n\n(Increase in FEV1 or FVC by \u2265200ml and \u226512 % from baseline with bronchodilators or ICS after 4 weeks therapy; or positive bronchial challenge testing)?"
+        "en": "Does the participant have a history of confirmed expiratory airflow variability?\n\n(Increase in FEV1 or FVC by \u2265200ml and \u226512 % from baseline with bronchodilators or ICS after 4 weeks therapy; or positive bronchial challenge testing)?"
     },
     "responseOptions": {
         "choices": [

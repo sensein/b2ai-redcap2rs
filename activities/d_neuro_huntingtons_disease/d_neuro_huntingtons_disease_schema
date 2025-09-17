@@ -13,6 +13,8 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_hd_gsd",
+            "items/diagnosis_hd_gsd_confirmation_method",
             "items/hd_confirmed_by_genetic_testing",
             "items/hd_cag_repeat_length_known",
             "items/hd_cag_repeat_length",
@@ -39,14 +41,26 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/hd_confirmed_by_genetic_testing",
+                "isAbout": "items/diagnosis_hd_gsd",
                 "isVis": true,
                 "valueRequired": true,
+                "variableName": "diagnosis_hd_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_hd_gsd_confirmation_method",
+                "isVis": "diagnosis_hd_gsd=='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_hd_gsd_confirmation_method"
+            },
+            {
+                "isAbout": "items/hd_confirmed_by_genetic_testing",
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "hd_confirmed_by_genetic_testing"
             },
             {
                 "isAbout": "items/hd_cag_repeat_length_known",
-                "isVis": "hd_confirmed_by_genetic_testing=='yes'",
+                "isVis": "diagnosis_hd_gsd_confirmation_method(genetic_testing)=='1'",
                 "valueRequired": true,
                 "variableName": "hd_cag_repeat_length_known"
             },
@@ -58,8 +72,8 @@
             },
             {
                 "isAbout": "items/hd_confirmed_by_consistent_clinical_presentation",
-                "isVis": "hd_confirmed_by_genetic_testing=='no' || hd_confirmed_by_genetic_testing=='notCertain'",
-                "valueRequired": true,
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "hd_confirmed_by_consistent_clinical_presentation"
             },
             {
@@ -185,6 +199,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

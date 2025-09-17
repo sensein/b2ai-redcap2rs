@@ -1,6 +1,13 @@
 {
     "id": "diagnois_pl_gsd_ls",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
@@ -8,7 +15,7 @@
         "en": "diagnois_pl_gsd_ls"
     },
     "question": {
-        "en": "Does the patient have a precancerous vocal fold lesion confirmed by laryngoscopy/stroboscopy?"
+        "en": "[DEPRECATED]\nDoes the participant have a precancerous vocal fold lesion confirmed by laryngoscopy/stroboscopy?"
     },
     "responseOptions": {
         "choices": [
@@ -36,7 +43,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

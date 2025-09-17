@@ -8,7 +8,7 @@
         "en": "diagnosis_parkinsons_disease_subtype"
     },
     "question": {
-        "en": "Specify the subtype of Parkinson's Disease in the patient:"
+        "en": "Specify the subtype of Parkinson's Disease in the participant:"
     },
     "responseOptions": {
         "choices": [

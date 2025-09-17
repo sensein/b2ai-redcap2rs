@@ -23,8 +23,24 @@
         "en": "How would you subjectively estimate the percent of stenosis from 0 to 100?"
     },
     "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "100"
+                },
+                "value": 100
+            }
+        ],
+        "maxValue": 100,
+        "minValue": 0,
         "valueType": [
-            "xsd:decimal"
+            "xsd:integer"
         ]
     },
     "ui": {

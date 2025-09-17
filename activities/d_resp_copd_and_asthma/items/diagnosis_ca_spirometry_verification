@@ -20,7 +20,7 @@
             },
             {
                 "name": {
-                    "en": "GOLD criteria reported: FEV1/FVC < 0.7 (postbronchodilator, or prebronchodilator if postbronchodilator not available"
+                    "en": "GOLD criteria reported: FEV1/FVC < 0.7 (postbronchodilator, or prebronchodilator if postbronchodilator not available)"
                 },
                 "value": "goldCriteria"
             }

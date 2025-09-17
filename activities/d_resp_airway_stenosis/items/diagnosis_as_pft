@@ -8,21 +8,21 @@
         "en": "diagnosis_as_pft"
     },
     "question": {
-        "en": "Has the patient had pulmonary function testing within the past 3 months?"
+        "en": "Has the participant had pulmonary function testing within the past 3 months?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

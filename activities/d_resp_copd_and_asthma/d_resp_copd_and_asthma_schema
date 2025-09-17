@@ -30,6 +30,7 @@
             "items/diagnosis_ca_feno_within_12_months",
             "items/diagnosis_ca_feno_value",
             "items/part_asthmaeosinop_hil",
+            "items/diagnosis_ca_absolute_eosinophil_count",
             "items/diagnosis_ca_act_score",
             "items/diagnosis_ca_pft_within_6_months",
             "items/diagnosis_ca_pft_file",
@@ -41,7 +42,8 @@
             "items/diagnosis_ca_10_pack_year_tobacco_cigarette",
             "items/diagnosis_ca_significant_inhalation_exposure_history",
             "items/diagnosis_ca_significant_inhalation_exposure_history_explanation",
-            "items/diagnosis_ca_enviromental_allergy_history",
+            "items/diagnosis_ca_significant_inhalation_exposure_history_explanation_other",
+            "items/diagnosis_ca_environmental_allergy_history",
             "items/diagnosis_ca_pharmacologic_treatment",
             "items/diagnosis_ca_ics_dosage"
         ],
@@ -108,13 +110,13 @@
             },
             {
                 "isAbout": "items/diagnosis_ca_asthma",
-                "isVis": "(diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_asthma_copd' ||(diagnosis_ca_copd_asthma=='neither')&& diagnosis_ca_spirometry_ce=='yes')",
+                "isVis": "(diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma' ||(diagnosis_ca_copd_asthma=='neitherCopdAsthma')&& diagnosis_ca_spirometry_ce=='yes')",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_asthma"
             },
             {
                 "isAbout": "items/diagnosis_ca_copd",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='both_asthma_copd' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_copd"
             },
@@ -126,31 +128,31 @@
             },
             {
                 "isAbout": "items/diagnosis_ca_mmrc_grade_score",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='both_asthma_copd' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_mmrc_grade_score"
             },
             {
                 "isAbout": "items/diagnosis_ca_cat_score",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='both_asthma_copd' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_cat_score"
             },
             {
                 "isAbout": "items/diagnosis_ca_gold_group",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='both_asthma_copd' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_gold_group"
             },
             {
                 "isAbout": "items/diagnosis_ca_asthma_probability",
-                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_asthma_copd'",
+                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_asthma_probability"
             },
             {
                 "isAbout": "items/diagnosis_ca_asthma_has_subtype",
-                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_asthma_copd'",
+                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_asthma_has_subtype"
             },
@@ -168,7 +170,7 @@
             },
             {
                 "isAbout": "items/diagnosis_ca_feno_within_12_months",
-                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_asthma_copd'",
+                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_feno_within_12_months"
             },
@@ -180,13 +182,19 @@
             },
             {
                 "isAbout": "items/part_asthmaeosinop_hil",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_copd_asthma'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "part_asthmaeosinop_hil"
             },
             {
+                "isAbout": "items/diagnosis_ca_absolute_eosinophil_count",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma'",
+                "valueRequired": false,
+                "variableName": "diagnosis_ca_absolute_eosinophil_count"
+            },
+            {
                 "isAbout": "items/diagnosis_ca_act_score",
-                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_copd_asthma'",
+                "isVis": "diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_act_score"
             },
@@ -204,13 +212,13 @@
             },
             {
                 "isAbout": "items/diagnosis_ca_moderate_exacerbations_count",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_copd_asthma' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_moderate_exacerbations_count"
             },
             {
                 "isAbout": "items/diagnosis_ca_severe_exacerbations_count",
-                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='both_copd_asthma' || diagnosis_ca_spirometry_ce=='yes'",
+                "isVis": "diagnosis_ca_copd_asthma=='copd' || diagnosis_ca_copd_asthma=='asthma' || diagnosis_ca_copd_asthma=='bothCopdAsthma' || diagnosis_ca_spirometry_ce=='yes'",
                 "valueRequired": false,
                 "variableName": "diagnosis_ca_severe_exacerbations_count"
             },
@@ -251,10 +259,16 @@
                 "variableName": "diagnosis_ca_significant_inhalation_exposure_history_explanation"
             },
             {
-                "isAbout": "items/diagnosis_ca_enviromental_allergy_history",
+                "isAbout": "items/diagnosis_ca_significant_inhalation_exposure_history_explanation_other",
+                "isVis": "diagnosis_ca_significant_inhalation_exposure_history_explanation(other)=='1'",
+                "valueRequired": false,
+                "variableName": "diagnosis_ca_significant_inhalation_exposure_history_explanation_other"
+            },
+            {
+                "isAbout": "items/diagnosis_ca_environmental_allergy_history",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "diagnosis_ca_enviromental_allergy_history"
+                "variableName": "diagnosis_ca_environmental_allergy_history"
             },
             {
                 "isAbout": "items/diagnosis_ca_pharmacologic_treatment",
@@ -271,6 +285,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.0.1",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -8,7 +8,7 @@
         "en": "diagnosis_as_as"
     },
     "question": {
-        "en": "Does this patient have audible stridor at rest or when talking?"
+        "en": "Does this participant have audible stridor at rest or when talking?"
     },
     "responseOptions": {
         "choices": [

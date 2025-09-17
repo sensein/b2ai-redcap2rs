@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_pharmacologic_treatment"
     },
     "question": {
-        "en": "What pharmacologic treatment is the patient currently receiving? (Select all that apply)"
+        "en": "What pharmacologic treatment is the participant currently receiving? (Select all that apply)"
     },
     "responseOptions": {
         "choices": [
@@ -46,7 +46,7 @@
                 "name": {
                     "en": "PDE 4 inhibitor"
                 },
-                "value": "pde_4"
+                "value": "pde4"
             },
             {
                 "name": {
@@ -82,7 +82,7 @@
                 "name": {
                     "en": "PDE 3 and Inhibitor"
                 },
-                "value": "pde_3"
+                "value": "pde3"
             },
             {
                 "name": {

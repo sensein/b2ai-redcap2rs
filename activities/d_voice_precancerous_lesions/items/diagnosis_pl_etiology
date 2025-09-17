@@ -8,7 +8,7 @@
         "en": "diagnosis_pl_etiology"
     },
     "question": {
-        "en": "Does the patient have the following risk factors?\n(Select all that apply)."
+        "en": "Does the participant have the following risk factors?\n(Select all that apply)."
     },
     "responseOptions": {
         "choices": [

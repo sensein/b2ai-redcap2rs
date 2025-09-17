@@ -8,7 +8,7 @@
         "en": "diagnosis_ld_treatment"
     },
     "question": {
-        "en": "Has the patient undergone any treatment for their condition?"
+        "en": "Has the participant undergone any treatment for this condition?"
     },
     "responseOptions": {
         "choices": [

@@ -79,67 +79,67 @@
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_gsd"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd_interview",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_gsd_interview"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd_oqu",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_gsd_oqu"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd_oquw",
-                "isVis": "diagnosis_bipolar_gsd_oqu=='1'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_gsd_oquw"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd_oqu_other",
-                "isVis": "diagnosis_bipolar_gsd_oquw=='other'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_gsd_oqu_other"
             },
             {
                 "isAbout": "items/mbd_active_psy_med_problems",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_active_psy_med_problems"
             },
             {
                 "isAbout": "items/mbd_active_psy_med_prob_other",
-                "isVis": "mbd_active_psy_med_problems(other)=='1'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_active_psy_med_prob_other"
             },
             {
                 "isAbout": "items/mbd_hist_psy_med_problems",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_hist_psy_med_problems"
             },
             {
                 "isAbout": "items/mbd_hist_psy_med_prob_other",
-                "isVis": "mbd_hist_psy_med_problems(other)=='1'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_hist_psy_med_prob_other"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_active_problems",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_active_problems"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_history_problems",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_history_problems"
             },
@@ -169,73 +169,73 @@
             },
             {
                 "isAbout": "items/diagnosis_bipolar_subtype_active",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_subtype_active"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_psychotic",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_psychotic"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_etiology",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_etiology"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_severity",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_bipolar_severity"
             },
             {
                 "isAbout": "items/mbd_prescribed_medication",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_prescribed_medication"
             },
             {
                 "isAbout": "items/mbd_current_medication",
-                "isVis": "mbd_prescribed_medication=='yes'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_current_medication"
             },
             {
                 "isAbout": "items/mbd_previous_medication",
-                "isVis": "mbd_prescribed_medication=='yes'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_previous_medication"
             },
             {
                 "isAbout": "items/mbd_see_mental_health_professional",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_see_mental_health_professional"
             },
             {
                 "isAbout": "items/mbd_describe_psychotherapy",
-                "isVis": "mbd_see_mental_health_professional=='yes'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mbd_describe_psychotherapy"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_current_med_therapies",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_current_med_therapies"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_former_med_therapies",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_former_med_therapies"
             }
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -8,7 +8,7 @@
         "en": "diagnosis_alz_dementia_mci_dt"
     },
     "question": {
-        "en": "Specify the disease type in the patient:"
+        "en": "Specify the disease type in the participant:"
     },
     "responseOptions": {
         "choices": [

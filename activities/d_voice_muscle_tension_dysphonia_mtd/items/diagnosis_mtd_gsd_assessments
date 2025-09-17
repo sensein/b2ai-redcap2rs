@@ -8,7 +8,7 @@
         "en": "diagnosis_mtd_gsd_assessments"
     },
     "question": {
-        "en": "Did the patient have any of the following assessments? (Select all that apply)"
+        "en": "Did the participant have any of the following assessments? (Select all that apply)"
     },
     "responseOptions": {
         "choices": [

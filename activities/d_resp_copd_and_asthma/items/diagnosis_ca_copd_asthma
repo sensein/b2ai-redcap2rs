@@ -5,7 +5,7 @@
         "en": "diagnosis_ca_copd_asthma"
     },
     "question": {
-        "en": "Does the patient have COPD, asthma, or both?"
+        "en": "Does the participant have COPD, asthma, or both?"
     },
     "responseOptions": {
         "choices": [

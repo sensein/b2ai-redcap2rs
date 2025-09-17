@@ -9,10 +9,10 @@
         }
     ],
     "description": {
-        "en": "Does the patient meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on the criteria above?"
+        "en": "Does the participant meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on the criteria above?"
     },
     "preamble": {
-        "en": "1. Gold Standard Diagnosis\nDoes the patient meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on:"
+        "en": "Does the participant meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on:"
     },
     "prefLabel": {
         "en": "diagnosis_als_gsd_calculation"

@@ -8,7 +8,7 @@
         "en": "diagnosis_ld_etiology_cc"
     },
     "question": {
-        "en": "Does the patient have any of the following concomitant conditions?\n(Select all that apply)."
+        "en": "Does the participant have any of the following concomitant conditions?\n(Select all that apply)."
     },
     "responseOptions": {
         "choices": [

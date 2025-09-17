@@ -5,7 +5,7 @@
         "en": "diagnosis_ca_spirometry_test"
     },
     "question": {
-        "en": "Has the patient had a spirometry test?"
+        "en": "Has the participant had a spirometry test?"
     },
     "responseOptions": {
         "choices": [

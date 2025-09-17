@@ -7,6 +7,8 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_mtd_gsd",
+            "items/diagnosis_mtd_gsd_evaluations_2",
             "items/diagnosis_mtd_gsd_evaluations",
             "items/diagnosis_mtd_gsd_assessments",
             "items/diagnosis_mtd_ds",
@@ -37,9 +39,21 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/diagnosis_mtd_gsd_evaluations",
+                "isAbout": "items/diagnosis_mtd_gsd",
                 "isVis": true,
                 "valueRequired": true,
+                "variableName": "diagnosis_mtd_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_mtd_gsd_evaluations_2",
+                "isVis": "diagnosis_mtd_gsd=='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_mtd_gsd_evaluations_2"
+            },
+            {
+                "isAbout": "items/diagnosis_mtd_gsd_evaluations",
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "diagnosis_mtd_gsd_evaluations"
             },
             {
@@ -201,6 +215,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

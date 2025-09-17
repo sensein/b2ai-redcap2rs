@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_copd"
     },
     "question": {
-        "en": "Does the patient have disease subtype for COPD?"
+        "en": "Does the participant have disease subtype for COPD?"
     },
     "responseOptions": {
         "choices": [

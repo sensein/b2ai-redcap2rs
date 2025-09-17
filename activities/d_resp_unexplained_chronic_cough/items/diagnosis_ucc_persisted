@@ -8,21 +8,21 @@
         "en": "diagnosis_ucc_persisted"
     },
     "question": {
-        "en": "Has the cough persisted longer than eight weeks?"
+        "en": "Does the participant have Unxeplained Chronic Cough for  longer than eight weeks?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

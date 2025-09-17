@@ -8,7 +8,7 @@
         "en": "diagnosis_als_cp"
     },
     "question": {
-        "en": "Describe the clinical features and symptoms of ALS in the patient:"
+        "en": "Describe the clinical features and symptoms of ALS in the participant:"
     },
     "responseOptions": {
         "choices": [

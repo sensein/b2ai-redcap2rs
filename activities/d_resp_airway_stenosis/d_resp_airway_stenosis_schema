@@ -7,10 +7,10 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/diagnosis_as_pft",
-            "items/diagnosis_as_pft_document",
             "items/diagnosis_as_gsd",
             "items/diagnosis_as_gsd_yes",
+            "items/diagnosis_as_pft",
+            "items/diagnosis_as_pft_document",
             "items/diagnosis_as_ds",
             "items/diagnosis_as_ds_bvfi_gs",
             "items/diagnosis_as_ds_bvfi_gs_other",
@@ -39,18 +39,6 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/diagnosis_as_pft",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "diagnosis_as_pft"
-            },
-            {
-                "isAbout": "items/diagnosis_as_pft_document",
-                "isVis": "diagnosis_as_pft == 'yes'",
-                "valueRequired": false,
-                "variableName": "diagnosis_as_pft_document"
-            },
-            {
                 "isAbout": "items/diagnosis_as_gsd",
                 "isVis": true,
                 "valueRequired": true,
@@ -61,6 +49,18 @@
                 "isVis": "diagnosis_as_gsd == 'yes'",
                 "valueRequired": true,
                 "variableName": "diagnosis_as_gsd_yes"
+            },
+            {
+                "isAbout": "items/diagnosis_as_pft",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_as_pft"
+            },
+            {
+                "isAbout": "items/diagnosis_as_pft_document",
+                "isVis": "diagnosis_as_pft == 'yes'",
+                "valueRequired": false,
+                "variableName": "diagnosis_as_pft_document"
             },
             {
                 "isAbout": "items/diagnosis_as_ds",
@@ -215,6 +215,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

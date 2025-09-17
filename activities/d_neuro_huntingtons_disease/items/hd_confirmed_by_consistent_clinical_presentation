@@ -1,6 +1,13 @@
 {
     "id": "hd_confirmed_by_consistent_clinical_presentation",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis:"
     },
@@ -8,7 +15,7 @@
         "en": "hd_confirmed_by_consistent_clinical_presentation"
     },
     "question": {
-        "en": "Does the patient have Huntington's disease confirmed by consistent clinical presentation with genetically\nconfirmed family history?"
+        "en": "[DEPRECATED]\nDoes the participant have Huntington's disease confirmed by consistent clinical presentation with genetically\nconfirmed family history?"
     },
     "responseOptions": {
         "choices": [
@@ -36,7 +43,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

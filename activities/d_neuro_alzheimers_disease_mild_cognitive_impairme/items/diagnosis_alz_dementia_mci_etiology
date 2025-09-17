@@ -8,7 +8,7 @@
         "en": "diagnosis_alz_dementia_mci_etiology"
     },
     "question": {
-        "en": "What is the suspected or known etiology in the patient?"
+        "en": "What is the suspected or known etiology in the participant?"
     },
     "responseOptions": {
         "choices": [

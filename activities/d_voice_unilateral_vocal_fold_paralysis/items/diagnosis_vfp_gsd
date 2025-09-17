@@ -8,31 +8,31 @@
         "en": "diagnosis_vfp_gsd"
     },
     "question": {
-        "en": "Does the patient have VFP confirmed by laryngoscopy/stroboscopy?"
+        "en": "Does the participant have Unilateral Vocal Fold Paralysis (UVFP) confirmed by laryngoscopy/stroboscopy?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": 0
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "yes"
             },
             {
                 "name": {
-                    "en": "Not certain"
+                    "en": "No"
                 },
-                "value": 2
+                "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Not Certain"
+                },
+                "value": "notCertain"
             }
         ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

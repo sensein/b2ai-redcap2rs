@@ -8,21 +8,21 @@
         "en": "diagnosis_ucc_huse"
     },
     "question": {
-        "en": "Has the patient undergone spirometry evaluation (pulmonary function tests)?"
+        "en": "Has the participant undergone spirometry evaluation (pulmonary function tests)?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

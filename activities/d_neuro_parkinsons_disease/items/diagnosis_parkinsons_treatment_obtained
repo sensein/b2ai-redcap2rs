@@ -8,7 +8,7 @@
         "en": "diagnosis_parkinsons_treatment_obtained"
     },
     "question": {
-        "en": "Has the patient undergone any treatment for Parkinson's disease?"
+        "en": "Has the participant undergone any treatment for Parkinson's disease?"
     },
     "responseOptions": {
         "choices": [

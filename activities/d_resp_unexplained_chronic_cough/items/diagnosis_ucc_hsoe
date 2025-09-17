@@ -8,21 +8,21 @@
         "en": "diagnosis_ucc_hsoe"
     },
     "question": {
-        "en": "Does the patient have a history of smoking or occupational exposures?"
+        "en": "Does the participant have a history of smoking or occupational exposures?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

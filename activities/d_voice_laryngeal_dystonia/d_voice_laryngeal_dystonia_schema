@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_ld_gsd",
             "items/diagnosis_ld_qete",
             "items/diagnosis_ld_assessment",
             "items/diagnosis_ld_ds",
@@ -40,9 +41,15 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/diagnosis_ld_qete",
+                "isAbout": "items/diagnosis_ld_gsd",
                 "isVis": true,
                 "valueRequired": true,
+                "variableName": "diagnosis_ld_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_ld_qete",
+                "isVis": false,
+                "valueRequired": false,
                 "variableName": "diagnosis_ld_qete"
             },
             {
@@ -222,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

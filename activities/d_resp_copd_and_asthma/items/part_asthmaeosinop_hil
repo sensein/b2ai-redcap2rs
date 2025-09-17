@@ -21,6 +21,11 @@
             "column": "Custom Alignment",
             "source": "redcap",
             "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -30,7 +35,7 @@
         "en": "part_asthmaeosinop_hil"
     },
     "question": {
-        "en": "Absolute eosinophil count in last 12 months (highest value - cells per microliter (\u00b5L)?"
+        "en": "[DEPRECATED]\nAbsolute eosinophil count in last 12 months (highest value - cells per microliter (\u00b5L)?"
     },
     "responseOptions": {
         "minValue": 0,
@@ -39,7 +44,8 @@
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "float",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -8,7 +8,7 @@
         "en": "diagnosis_parkinsons_non_motor_symptoms"
     },
     "question": {
-        "en": "Are there significant non-motor symptoms associated with Parkinson's disease in the patient?"
+        "en": "Are there significant non-motor symptoms associated with Parkinson's disease in the participant?"
     },
     "responseOptions": {
         "choices": [

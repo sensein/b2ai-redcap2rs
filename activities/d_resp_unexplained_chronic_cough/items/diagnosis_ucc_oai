@@ -8,21 +8,21 @@
         "en": "diagnosis_ucc_oai"
     },
     "question": {
-        "en": "Is the patient on ACE-inhibitors (example: lisinopril; captopril)?"
+        "en": "Is the participant on ACE-inhibitors (example: lisinopril; captopril)?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No"
-                },
-                "value": "no"
-            },
-            {
-                "name": {
                     "en": "Yes"
                 },
                 "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
             },
             {
                 "name": {

@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_pft_within_6_months"
     },
     "question": {
-        "en": "Has the patient had PFT within the past 6 months?"
+        "en": "Has the participant had PFT within the past 6 months?"
     },
     "responseOptions": {
         "choices": [

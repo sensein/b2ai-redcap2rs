@@ -14,6 +14,42 @@
         "choices": [
             {
                 "name": {
+                    "en": "Anterior glottic web"
+                },
+                "value": "anteriorGlotticWeb"
+            },
+            {
+                "name": {
+                    "en": "Fibrous masse (s)"
+                },
+                "value": "fibrousMasses"
+            },
+            {
+                "name": {
+                    "en": "Recurrent respiratory papilloma"
+                },
+                "value": "recurrentRespiratoryPapilloma"
+            },
+            {
+                "name": {
+                    "en": "Reinke's edema"
+                },
+                "value": "reinkesEdema"
+            },
+            {
+                "name": {
+                    "en": "Rheumatoid nodules"
+                },
+                "value": "rheumatoidNodules"
+            },
+            {
+                "name": {
+                    "en": "Vocal fold cyst"
+                },
+                "value": "vocalFoldCyst"
+            },
+            {
+                "name": {
                     "en": "Vocal fold nodules"
                 },
                 "value": "vocalFoldNodules"
@@ -26,39 +62,15 @@
             },
             {
                 "name": {
-                    "en": "Vocal fold cyst"
+                    "en": "Vocal fold scarring"
                 },
-                "value": "vocalFoldCyst"
-            },
-            {
-                "name": {
-                    "en": "Reinke's edema"
-                },
-                "value": "reinkesEdema"
+                "value": "vocalFoldScarring"
             },
             {
                 "name": {
                     "en": "Vocal fold ulcers"
                 },
                 "value": "vocalFoldUlcers"
-            },
-            {
-                "name": {
-                    "en": "Recurrent respiratory papilloma"
-                },
-                "value": "recurrentRespiratoryPapilloma"
-            },
-            {
-                "name": {
-                    "en": "Fibrous masse (s)"
-                },
-                "value": "fibrousMasses"
-            },
-            {
-                "name": {
-                    "en": "Rheumatoid nodules"
-                },
-                "value": "rheumatoidNodules"
             },
             {
                 "name": {

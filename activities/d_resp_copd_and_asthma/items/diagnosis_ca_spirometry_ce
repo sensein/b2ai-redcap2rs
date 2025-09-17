@@ -8,7 +8,7 @@
         "en": "diagnosis_ca_spirometry_ce"
     },
     "question": {
-        "en": "Does the patient have clinical evidence of obstruction as diagnosed by spirometry?"
+        "en": "Does the participant have clinical evidence of obstruction as diagnosed by spirometry?"
     },
     "responseOptions": {
         "choices": [

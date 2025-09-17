@@ -25,6 +25,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/diagnosis_parkinsons_gsd",
             "items/diagnosis_parkinsons_gsd_category_1",
             "items/diagnosis_parkinsons_gsd_category_2",
             "items/diagnosis_parkinsons_gsd_category_3",
@@ -51,6 +52,12 @@
             "items/diagnosis_parkinsons_treatment_obtained_yes_npi_other"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/diagnosis_parkinsons_gsd",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "diagnosis_parkinsons_gsd"
+            },
             {
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_1",
                 "isVis": true,
@@ -222,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.24.0",
+    "version": "4.1.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
