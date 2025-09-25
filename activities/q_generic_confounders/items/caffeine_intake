@@ -25,7 +25,7 @@
         "en": "caffeine_intake"
     },
     "question": {
-        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?  \n\n[CHANGED TO] ==> \n\nOn a typical day, how many servings of these caffeinated products do you typically consume? \nOne serving is 8 oz or 240 mL of coffee, tea, or energy drinks, 1 oz or 30 mL of espresso, 12 oz or 360 mL of soda"
+        "en": "On a typical day, how many servings of these caffeinated products do you typically consume? \nOne serving is 8 oz or 240 mL of coffee, tea, or energy drinks, 1 oz or 30 mL of espresso, 12 oz or 360 mL of soda"
     },
     "responseOptions": {
         "minValue": 0,

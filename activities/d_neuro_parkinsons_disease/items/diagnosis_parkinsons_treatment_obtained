@@ -1,14 +1,21 @@
 {
     "id": "diagnosis_parkinsons_treatment_obtained",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "7. Treatment Obtained"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_parkinsons_treatment_obtained"
     },
     "question": {
-        "en": "Has the participant undergone any treatment for Parkinson's disease?"
+        "en": "[DEPRECATED]\nHas the participant undergone any treatment for Parkinson's disease?"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,14 +1,21 @@
 {
     "id": "alcohol_freq",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "Alcohol consumption"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "alcohol_freq"
     },
     "question": {
-        "en": "[DEPRECATED] How often do you have at least one drink containing alcohol?\n\nNote:  Replaced with string value instead number value"
+        "en": "[DEPRECATED]\nHow often do you have at least one drink containing alcohol?"
     },
     "responseOptions": {
         "choices": [
@@ -48,7 +55,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -44,6 +44,14 @@
             "items/diagnosis_parkinsons_ma_other",
             "items/diagnosis_parkinsons_non_motor_symptoms",
             "items/diagnosis_parkinsons_non_motor_symptoms_yes",
+            "items/diagnosis_parkinsons_current_treatment_obtained",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_medications",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_medications_other",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_other",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs",
+            "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs_other",
             "items/diagnosis_parkinsons_treatment_obtained",
             "items/diagnosis_parkinsons_treatment_obtained_yes",
             "items/diagnosis_parkinsons_treatment_obtained_yes_medications",
@@ -191,44 +199,92 @@
                 "variableName": "diagnosis_parkinsons_non_motor_symptoms_yes"
             },
             {
-                "isAbout": "items/diagnosis_parkinsons_treatment_obtained",
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_medications",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(medications) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_medications"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_medications_other",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(medications) == 1 && diagnosis_parkinsons_current_treatment_obtained_yes_medications(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_medications_other"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(npi) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_npi"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_other",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_current_treatment_obtained_yes_npi(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_npi_other"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_current_treatment_obtained_yes_npi(dbs) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs_other",
+                "isVis": "diagnosis_parkinsons_current_treatment_obtained == 'yes' && diagnosis_parkinsons_current_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_current_treatment_obtained_yes_npi(dbs) == 1 && diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs(other) == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_parkinsons_current_treatment_obtained_yes_npi_dbs_other"
+            },
+            {
+                "isAbout": "items/diagnosis_parkinsons_treatment_obtained",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained_yes"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_medications",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_medications_other",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(medications) == 1 && diagnosis_parkinsons_treatment_obtained_yes_medications(other) == 1",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained_yes_medications_other"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_npi",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_treatment_obtained_yes_npi_other",
-                "isVis": "diagnosis_parkinsons_treatment_obtained == 'yes' && diagnosis_parkinsons_treatment_obtained_yes(npi) == 1 && diagnosis_parkinsons_treatment_obtained_yes_npi(other) == 1",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "diagnosis_parkinsons_treatment_obtained_yes_npi_other"
             }
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

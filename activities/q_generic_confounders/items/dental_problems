@@ -1,14 +1,21 @@
 {
     "id": "dental_problems",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Dental problems"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "dental_problems"
     },
     "question": {
-        "en": "[DEPRECATED] Do you have any dental problems that might affect speech?"
+        "en": "[DEPRECATED]\nDo you have any dental problems that might affect speech?"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

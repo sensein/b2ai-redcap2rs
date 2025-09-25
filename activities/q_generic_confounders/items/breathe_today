@@ -1,14 +1,21 @@
 {
     "id": "breathe_today",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "breathe_today"
     },
     "question": {
-        "en": "[DEPRECATED] Are you having difficulty breathing today?"
+        "en": "[DEPRECATED]\nAre you having difficulty breathing today?"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

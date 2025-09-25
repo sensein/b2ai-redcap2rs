@@ -6,16 +6,21 @@
             "column": "Custom Alignment",
             "source": "redcap",
             "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "[DEPRECATED] Circulatory and Other Conditions"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "cardiac_condition"
     },
     "question": {
-        "en": "[DEPRECATED] Cardiac condition"
+        "en": "[DEPRECATED]\nCardiac condition"
     },
     "responseOptions": {
         "valueType": [
@@ -23,7 +28,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

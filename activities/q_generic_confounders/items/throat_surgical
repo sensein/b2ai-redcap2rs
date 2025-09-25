@@ -1,14 +1,21 @@
 {
     "id": "throat_surgical",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "throat_surgical"
     },
     "question": {
-        "en": "[DEPRECATED]  Throat"
+        "en": "[DEPRECATED]\nThroat"
     },
     "responseOptions": {
         "choices": [
@@ -43,7 +50,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

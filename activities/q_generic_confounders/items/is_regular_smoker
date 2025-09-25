@@ -1,14 +1,21 @@
 {
     "id": "is_regular_smoker",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "is_regular_smoker"
     },
     "question": {
-        "en": "[LEGACY]\nHave you been a regular smoker or not within the last 3 years?"
+        "en": "[DEPRECATED]\nHave you been a regular smoker or not within the last 3 years?"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

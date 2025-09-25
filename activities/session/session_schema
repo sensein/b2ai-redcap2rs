@@ -14,7 +14,8 @@
             "items/session_completed_at",
             "items/session_duration",
             "items/session_site",
-            "items/session_completed_by"
+            "items/session_completed_by",
+            "items/session_assigned_tasks"
         ],
         "addProperties": [
             {
@@ -64,10 +65,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "session_completed_by"
+            },
+            {
+                "isAbout": "items/session_assigned_tasks",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "session_assigned_tasks"
             }
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

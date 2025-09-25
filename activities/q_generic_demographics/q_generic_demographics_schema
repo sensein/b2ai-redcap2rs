@@ -11,9 +11,6 @@
             "items/demographics_started_at",
             "items/demographics_completed_at",
             "items/demographics_duration",
-            "items/demographics_completed_by",
-            "items/city",
-            "items/state_province",
             "items/zipcode",
             "items/country",
             "items/gender_identity",
@@ -48,11 +45,8 @@
             "items/veteran",
             "items/household_income_usa",
             "items/financial_assistance_usa",
-            "items/assistance_programs_usa",
             "items/household_income_ca",
             "items/financial_assistance_ca",
-            "items/assistance_programs_ca",
-            "items/citizen",
             "items/marital_status",
             "items/housing_status",
             "items/live_by_yourself",
@@ -65,9 +59,15 @@
             "items/other_live_with",
             "items/others_household_specify",
             "items/transportation",
-            "items/transportation_yn",
             "items/primary_transportation",
-            "items/other_transportation"
+            "items/other_transportation",
+            "items/demographics_completed_by",
+            "items/city",
+            "items/state_province",
+            "items/assistance_programs_usa",
+            "items/assistance_programs_ca",
+            "items/citizen",
+            "items/transportation_yn"
         ],
         "addProperties": [
             {
@@ -93,24 +93,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "demographics_duration"
-            },
-            {
-                "isAbout": "items/demographics_completed_by",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "demographics_completed_by"
-            },
-            {
-                "isAbout": "items/city",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "city"
-            },
-            {
-                "isAbout": "items/state_province",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "state_province"
             },
             {
                 "isAbout": "items/zipcode",
@@ -317,12 +299,6 @@
                 "variableName": "financial_assistance_usa"
             },
             {
-                "isAbout": "items/assistance_programs_usa",
-                "isVis": "country =='1'",
-                "valueRequired": false,
-                "variableName": "assistance_programs_usa"
-            },
-            {
                 "isAbout": "items/household_income_ca",
                 "isVis": "country=='2'",
                 "valueRequired": false,
@@ -333,18 +309,6 @@
                 "isVis": "country=='2'",
                 "valueRequired": false,
                 "variableName": "financial_assistance_ca"
-            },
-            {
-                "isAbout": "items/assistance_programs_ca",
-                "isVis": "country=='2'",
-                "valueRequired": false,
-                "variableName": "assistance_programs_ca"
-            },
-            {
-                "isAbout": "items/citizen",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "citizen"
             },
             {
                 "isAbout": "items/marital_status",
@@ -419,12 +383,6 @@
                 "variableName": "transportation"
             },
             {
-                "isAbout": "items/transportation_yn",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "transportation_yn"
-            },
-            {
                 "isAbout": "items/primary_transportation",
                 "isVis": "transportation=='yes'",
                 "valueRequired": false,
@@ -435,10 +393,52 @@
                 "isVis": "primary_transportation=='8'",
                 "valueRequired": false,
                 "variableName": "other_transportation"
+            },
+            {
+                "isAbout": "items/demographics_completed_by",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demographics_completed_by"
+            },
+            {
+                "isAbout": "items/city",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "city"
+            },
+            {
+                "isAbout": "items/state_province",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "state_province"
+            },
+            {
+                "isAbout": "items/assistance_programs_usa",
+                "isVis": "country =='1'",
+                "valueRequired": false,
+                "variableName": "assistance_programs_usa"
+            },
+            {
+                "isAbout": "items/assistance_programs_ca",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "assistance_programs_ca"
+            },
+            {
+                "isAbout": "items/citizen",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "citizen"
+            },
+            {
+                "isAbout": "items/transportation_yn",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "transportation_yn"
             }
         ],
         "shuffle": false
     },
-    "version": "4.0.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

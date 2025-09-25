@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "1. Gold Standard Diagnosis"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_gsd"
     },
     "question": {
-        "en": "Diagnosis\n\n(Legacy)"
+        "en": "[DEPRECATED]\nDiagnosis"
     },
     "responseOptions": {
         "choices": [

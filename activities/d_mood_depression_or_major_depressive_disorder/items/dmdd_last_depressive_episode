@@ -9,7 +9,7 @@
         }
     ],
     "preamble": {
-        "en": "3. Depression History"
+        "en": "2. Depression History"
     },
     "prefLabel": {
         "en": "dmdd_last_depressive_episode"

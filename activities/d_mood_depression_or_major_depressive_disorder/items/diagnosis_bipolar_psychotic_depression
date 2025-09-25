@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "3.\tDisease Subtype\n\n(Legacy)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_psychotic_depression"
     },
     "question": {
-        "en": "Psychotic Symptoms\n\n(Legacy)"
+        "en": "[DEPRECATED]\nPsychotic Symptoms"
     },
     "responseOptions": {
         "choices": [

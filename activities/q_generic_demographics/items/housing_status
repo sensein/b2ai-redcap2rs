@@ -2,7 +2,7 @@
     "id": "housing_status",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Citizenship\n[Deprecated in Protocol v4]"
+        "en": "Demographics - Optional"
     },
     "prefLabel": {
         "en": "housing_status"

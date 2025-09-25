@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "4. Treatment obtained"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_current_med_therapies"
     },
     "question": {
-        "en": "List any current medications/therapies\n\n(Legacy)"
+        "en": "[DEPRECATED]\nList any current medications/therapies"
     },
     "responseOptions": {
         "valueType": [

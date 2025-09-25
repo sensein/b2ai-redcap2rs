@@ -2,13 +2,13 @@
     "id": "assistance_programs_usa",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Demographics - Optional"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "assistance_programs_usa"
     },
     "question": {
-        "en": "Do you take advantage of any of the following programs? Choose all that apply\n[Deprecated in Protocol v4]"
+        "en": "[DEPRECATED]\nDo you take advantage of any of the following programs? Choose all that apply"
     },
     "responseOptions": {
         "choices": [

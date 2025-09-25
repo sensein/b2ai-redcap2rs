@@ -9,8 +9,6 @@
         "order": [
             "items/diagnosis_lc_gsd",
             "items/diagnosis_lc_gsd_confirmation_method",
-            "items/diagnosis_lc_gsd_bpr",
-            "items/diagnois_lc_gsd_sll",
             "items/diagnosis_lc_gsd_uots",
             "items/diagnosis_lc_ds",
             "items/diagnosis_lc_etiology",
@@ -43,7 +41,9 @@
             "items/diagnosis_lc_treatment",
             "items/diagnosis_lc_treatment_select",
             "items/diagnosis_lc_treatment_s",
-            "items/diagnosis_lc_treatment_other"
+            "items/diagnosis_lc_treatment_other",
+            "items/diagnosis_lc_gsd_bpr",
+            "items/diagnois_lc_gsd_sll"
         ],
         "addProperties": [
             {
@@ -57,18 +57,6 @@
                 "isVis": "diagnosis_lc_gsd=='yes'",
                 "valueRequired": true,
                 "variableName": "diagnosis_lc_gsd_confirmation_method"
-            },
-            {
-                "isAbout": "items/diagnosis_lc_gsd_bpr",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "diagnosis_lc_gsd_bpr"
-            },
-            {
-                "isAbout": "items/diagnois_lc_gsd_sll",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "diagnois_lc_gsd_sll"
             },
             {
                 "isAbout": "items/diagnosis_lc_gsd_uots",
@@ -267,10 +255,22 @@
                 "isVis": "diagnosis_lc_treatment_select(other)=='1'",
                 "valueRequired": false,
                 "variableName": "diagnosis_lc_treatment_other"
+            },
+            {
+                "isAbout": "items/diagnosis_lc_gsd_bpr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "diagnosis_lc_gsd_bpr"
+            },
+            {
+                "isAbout": "items/diagnois_lc_gsd_sll",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "diagnois_lc_gsd_sll"
             }
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -25,7 +25,7 @@
         "en": "caffeine_intake_today"
     },
     "question": {
-        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?\n\n[CHANGED TO] ==>\n\nHow many servings of these caffeinated products have you had today?"
+        "en": "How many servings of these caffeinated products have you had today?"
     },
     "responseOptions": {
         "minValue": 0,

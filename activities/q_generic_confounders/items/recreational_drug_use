@@ -1,14 +1,21 @@
 {
     "id": "recreational_drug_use",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "Other Substance use"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "recreational_drug_use"
     },
     "question": {
-        "en": "[DEPRECATED] How many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?\nRecreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).\nMore than one"
+        "en": "[DEPRECATED]\nHow many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?\nRecreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).\nMore than one"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

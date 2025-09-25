@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "1. Gold Standard Diagnosis"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_depression_clinical_subcategory"
     },
     "question": {
-        "en": "Clinical depression (major depressive disorder) Subcategory\n\n(Legacy)"
+        "en": "[DEPRECATED]\nClinical depression (major depressive disorder) Subcategory"
     },
     "responseOptions": {
         "choices": [

@@ -6,16 +6,21 @@
             "column": "Custom Alignment",
             "source": "redcap",
             "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "[DEPRECATED]  Neurological Medical History\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "current_neuro_dx"
     },
     "question": {
-        "en": "[DEPRECATED]  Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
+        "en": "[DEPRECATED]\nDo you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
     },
     "responseOptions": {
         "choices": [
@@ -43,7 +48,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

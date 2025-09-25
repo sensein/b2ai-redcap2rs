@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "1. Gold Standard Diagnosis"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_gsd_interview"
     },
     "question": {
-        "en": "Was a structured clinical interview done?\n\n(Legacy)"
+        "en": "[DEPRECATED]\nWas a structured clinical interview done?"
     },
     "responseOptions": {
         "choices": [

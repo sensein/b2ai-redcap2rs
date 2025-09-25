@@ -2,7 +2,7 @@
     "id": "mbd_many_manic_episodes",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Bipolar History"
+        "en": "2. Bipolar History"
     },
     "prefLabel": {
         "en": "mbd_many_manic_episodes"

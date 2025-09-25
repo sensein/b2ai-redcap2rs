@@ -2,13 +2,13 @@
     "id": "demographics_completed_by",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Questionnaire - Metadata"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "demographics_completed_by"
     },
     "question": {
-        "en": "Who is completing this survey? \n[Deprecated in Protocol v4]"
+        "en": "[DEPRECATED]\nWho is completing this survey?"
     },
     "responseOptions": {
         "choices": [

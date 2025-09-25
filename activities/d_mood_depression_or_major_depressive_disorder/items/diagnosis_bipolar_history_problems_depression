@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "2.\tMedical and Psychiatric comorbidities"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_history_problems_depression"
     },
     "question": {
-        "en": "Enter any history of problems\n\n(Legacy)"
+        "en": "[DEPRECATED]\nEnter any history of problems"
     },
     "responseOptions": {
         "valueType": [

@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "5.\tDisease Severity\n\n(Legacy)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_severity_depression"
     },
     "question": {
-        "en": "Disease Severity\n\n(Legacy)"
+        "en": "[DEPRECATED]\nDisease Severity"
     },
     "responseOptions": {
         "choices": [

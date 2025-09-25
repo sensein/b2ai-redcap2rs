@@ -13,6 +13,10 @@
             "items/mbd_diagnosed_other",
             "items/mbd_ever_seen_heard",
             "items/mbd_had_manic_episode",
+            "items/mbd_last_depressive_episode",
+            "items/mbd_many_depressive_episodes",
+            "items/mbd_last_manic_episode",
+            "items/mbd_many_manic_episodes",
             "items/diagnosis_bipolar_gsd",
             "items/diagnosis_bipolar_gsd_interview",
             "items/diagnosis_bipolar_gsd_oqu",
@@ -24,10 +28,6 @@
             "items/mbd_hist_psy_med_prob_other",
             "items/diagnosis_bipolar_active_problems",
             "items/diagnosis_bipolar_history_problems",
-            "items/mbd_last_depressive_episode",
-            "items/mbd_many_depressive_episodes",
-            "items/mbd_last_manic_episode",
-            "items/mbd_many_manic_episodes",
             "items/diagnosis_bipolar_subtype_active",
             "items/diagnosis_bipolar_psychotic",
             "items/diagnosis_bipolar_etiology",
@@ -76,6 +76,30 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mbd_had_manic_episode"
+            },
+            {
+                "isAbout": "items/mbd_last_depressive_episode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mbd_last_depressive_episode"
+            },
+            {
+                "isAbout": "items/mbd_many_depressive_episodes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mbd_many_depressive_episodes"
+            },
+            {
+                "isAbout": "items/mbd_last_manic_episode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mbd_last_manic_episode"
+            },
+            {
+                "isAbout": "items/mbd_many_manic_episodes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mbd_many_manic_episodes"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_gsd",
@@ -142,30 +166,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_bipolar_history_problems"
-            },
-            {
-                "isAbout": "items/mbd_last_depressive_episode",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mbd_last_depressive_episode"
-            },
-            {
-                "isAbout": "items/mbd_many_depressive_episodes",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mbd_many_depressive_episodes"
-            },
-            {
-                "isAbout": "items/mbd_last_manic_episode",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mbd_last_manic_episode"
-            },
-            {
-                "isAbout": "items/mbd_many_manic_episodes",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mbd_many_manic_episodes"
             },
             {
                 "isAbout": "items/diagnosis_bipolar_subtype_active",
@@ -236,6 +236,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

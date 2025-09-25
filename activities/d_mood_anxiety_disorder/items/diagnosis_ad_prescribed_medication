@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "4. Treatment obtained"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_ad_prescribed_medication"
     },
     "question": {
-        "en": "Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?\n\nMOVED IT TO \"Q - Mood - Participant History\""
+        "en": "[DEPRECATED]\nHave you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "choices": [

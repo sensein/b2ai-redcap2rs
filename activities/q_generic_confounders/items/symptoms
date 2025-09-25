@@ -1,14 +1,21 @@
 {
     "id": "symptoms",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Symptoms"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "symptoms"
     },
     "question": {
-        "en": "[DEPRECATED] There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply."
+        "en": "[DEPRECATED]\nThere are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply."
     },
     "responseOptions": {
         "choices": [
@@ -61,7 +68,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

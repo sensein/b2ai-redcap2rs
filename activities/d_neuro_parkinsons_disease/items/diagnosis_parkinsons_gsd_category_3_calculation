@@ -12,7 +12,7 @@
         "en": "Category 3 Criteria Met"
     },
     "preamble": {
-        "en": "Does the participant meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:"
+        "en": "Has the participant met the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:"
     },
     "prefLabel": {
         "en": "diagnosis_parkinsons_gsd_category_3_calculation"

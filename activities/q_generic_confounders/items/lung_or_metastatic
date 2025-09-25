@@ -1,14 +1,21 @@
 {
     "id": "lung_or_metastatic",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Respiratory Conditions"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "lung_or_metastatic"
     },
     "question": {
-        "en": "[DEPRECATED]  Cancer (lung or metastatic)"
+        "en": "[DEPRECATED]\nCancer (lung or metastatic)"
     },
     "responseOptions": {
         "choices": [
@@ -31,7 +38,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

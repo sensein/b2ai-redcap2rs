@@ -9,11 +9,11 @@
         "order": [
             "items/diagnosis_diagnosed_ad",
             "items/diagnosis_diagnosed_ad_selection",
+            "items/diagnosis_ad_last_anxious_episode",
             "items/diagnosis_ad_active_psy_med_problems",
             "items/diagnosis_ad_active_psy_med_prob_other",
             "items/diagnosis_ad_hist_psy_med_problems",
             "items/diagnosis_ad_hist_psy_med_prob_other",
-            "items/diagnosis_ad_last_anxious_episode",
             "items/diagnosis_ad_prescribed_medication",
             "items/diagnosis_ad_current_medication",
             "items/diagnosis_ad_previous_medication",
@@ -32,6 +32,12 @@
                 "isVis": "diagnosis_diagnosed_ad=='yes'",
                 "valueRequired": true,
                 "variableName": "diagnosis_diagnosed_ad_selection"
+            },
+            {
+                "isAbout": "items/diagnosis_ad_last_anxious_episode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "diagnosis_ad_last_anxious_episode"
             },
             {
                 "isAbout": "items/diagnosis_ad_active_psy_med_problems",
@@ -56,12 +62,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "diagnosis_ad_hist_psy_med_prob_other"
-            },
-            {
-                "isAbout": "items/diagnosis_ad_last_anxious_episode",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "diagnosis_ad_last_anxious_episode"
             },
             {
                 "isAbout": "items/diagnosis_ad_prescribed_medication",
@@ -96,6 +96,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

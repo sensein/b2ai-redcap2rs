@@ -6,15 +6,10 @@
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "date_ymd"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "3. Anxiety History"
+        "en": "2. Anxiety History"
     },
     "prefLabel": {
         "en": "diagnosis_ad_last_anxious_episode"
@@ -28,8 +23,7 @@
         ]
     },
     "ui": {
-        "inputType": "date",
-        "readonlyValue": true
+        "inputType": "date"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

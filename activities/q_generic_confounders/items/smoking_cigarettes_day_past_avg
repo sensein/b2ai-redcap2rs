@@ -1,14 +1,21 @@
 {
     "id": "smoking_cigarettes_day_past_avg",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "smoking_cigarettes_day_past_avg"
     },
     "question": {
-        "en": "[DEPRECATED] On average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)"
+        "en": "[DEPRECATED]\nOn average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)"
     },
     "responseOptions": {
         "choices": [
@@ -36,7 +43,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

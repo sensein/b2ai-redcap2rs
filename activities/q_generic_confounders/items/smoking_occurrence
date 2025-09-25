@@ -1,14 +1,21 @@
 {
     "id": "smoking_occurrence",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "smoking_occurrence"
     },
     "question": {
-        "en": "[DEPRECATED] Do you now smoke cigarettes every day, some days, or not at all?"
+        "en": "[DEPRECATED]\nDo you now smoke cigarettes every day, some days, or not at all?"
     },
     "responseOptions": {
         "choices": [
@@ -48,7 +55,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

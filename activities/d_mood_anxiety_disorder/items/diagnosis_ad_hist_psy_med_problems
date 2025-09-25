@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "2.\tMedical and Psychiatric comorbidities"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_ad_hist_psy_med_problems"
     },
     "question": {
-        "en": "Please select any historical psychiatric problems and medical problems (select all that apply).\n\nMOVED IT TO \"Q - Mood - Participant History\""
+        "en": "[DEPRECATED]\nPlease select any historical psychiatric problems and medical problems (select all that apply).\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "choices": [

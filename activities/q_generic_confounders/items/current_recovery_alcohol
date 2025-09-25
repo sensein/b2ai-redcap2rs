@@ -1,14 +1,21 @@
 {
     "id": "current_recovery_alcohol",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "Alcohol consumption"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "current_recovery_alcohol"
     },
     "question": {
-        "en": "[DEPRECATED] Are you currently in recovery for alcohol use?\n\n\nNOTE: Added \"Prefer not to answer\" the data need to map to new \"current_recovery_alcoho_usel\""
+        "en": "[DEPRECATED]\nAre you currently in recovery for alcohol use?"
     },
     "responseOptions": {
         "choices": [
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

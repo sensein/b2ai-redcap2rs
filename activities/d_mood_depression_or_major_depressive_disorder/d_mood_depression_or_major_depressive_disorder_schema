@@ -9,6 +9,8 @@
         "order": [
             "items/dmdd_diagnosed_dd",
             "items/dmdd_diagnosed_dd_selection",
+            "items/dmdd_last_depressive_episode",
+            "items/dmdd_how_many_depressive_episodes",
             "items/diagnosis_depression_gsd",
             "items/diagnosis_depression_clinical_subcategory",
             "items/diagnosis_depression_gsd_interview",
@@ -21,8 +23,6 @@
             "items/dmdd_hist_psy_med_prob_other",
             "items/diagnosis_bipolar_active_problems_depression",
             "items/diagnosis_bipolar_history_problems_depression",
-            "items/dmdd_last_depressive_episode",
-            "items/dmdd_how_many_depressive_episodes",
             "items/diagnosis_bipolar_subtype_active_depression",
             "items/diagnosis_bipolar_psychotic_depression",
             "items/diagnosis_bipolar_etiology_depression",
@@ -47,6 +47,18 @@
                 "isVis": "dmdd_diagnosed_dd=='yes'",
                 "valueRequired": true,
                 "variableName": "dmdd_diagnosed_dd_selection"
+            },
+            {
+                "isAbout": "items/dmdd_last_depressive_episode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "dmdd_last_depressive_episode"
+            },
+            {
+                "isAbout": "items/dmdd_how_many_depressive_episodes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "dmdd_how_many_depressive_episodes"
             },
             {
                 "isAbout": "items/diagnosis_depression_gsd",
@@ -121,18 +133,6 @@
                 "variableName": "diagnosis_bipolar_history_problems_depression"
             },
             {
-                "isAbout": "items/dmdd_last_depressive_episode",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "dmdd_last_depressive_episode"
-            },
-            {
-                "isAbout": "items/dmdd_how_many_depressive_episodes",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "dmdd_how_many_depressive_episodes"
-            },
-            {
                 "isAbout": "items/diagnosis_bipolar_subtype_active_depression",
                 "isVis": false,
                 "valueRequired": false,
@@ -201,6 +201,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

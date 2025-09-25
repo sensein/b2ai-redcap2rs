@@ -1,14 +1,21 @@
 {
     "id": "neurological_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Neurological Medical History\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "neurological_history"
     },
     "question": {
-        "en": "[DEPRECATED]  Neurological Medical History"
+        "en": "[DEPRECATED]\nNeurological Medical History"
     },
     "responseOptions": {
         "choices": [
@@ -55,7 +62,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

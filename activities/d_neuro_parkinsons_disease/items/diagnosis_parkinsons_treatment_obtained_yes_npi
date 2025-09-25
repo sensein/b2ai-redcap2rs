@@ -1,14 +1,21 @@
 {
     "id": "diagnosis_parkinsons_treatment_obtained_yes_npi",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "7. Treatment Obtained"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_parkinsons_treatment_obtained_yes_npi"
     },
     "question": {
-        "en": "Non-pharmacological interventions:"
+        "en": "[DEPRECATED]\nNon-pharmacological interventions:"
     },
     "responseOptions": {
         "choices": [
@@ -49,7 +56,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

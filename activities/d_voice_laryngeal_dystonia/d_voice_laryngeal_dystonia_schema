@@ -8,7 +8,6 @@
     "ui": {
         "order": [
             "items/diagnosis_ld_gsd",
-            "items/diagnosis_ld_qete",
             "items/diagnosis_ld_assessment",
             "items/diagnosis_ld_ds",
             "items/diagnosis_ld_etiology",
@@ -37,7 +36,8 @@
             "items/diagnosis_ld_treatment",
             "items/diagnosis_ld_treatment_select",
             "items/diagnosis_ld_treatment_bi_li",
-            "items/diagnosis_ld_treatment_other"
+            "items/diagnosis_ld_treatment_other",
+            "items/diagnosis_ld_qete"
         ],
         "addProperties": [
             {
@@ -45,12 +45,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "diagnosis_ld_gsd"
-            },
-            {
-                "isAbout": "items/diagnosis_ld_qete",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "diagnosis_ld_qete"
             },
             {
                 "isAbout": "items/diagnosis_ld_assessment",
@@ -225,10 +219,16 @@
                 "isVis": "diagnosis_ld_treatment_select(other)=='1'",
                 "valueRequired": true,
                 "variableName": "diagnosis_ld_treatment_other"
+            },
+            {
+                "isAbout": "items/diagnosis_ld_qete",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "diagnosis_ld_qete"
             }
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

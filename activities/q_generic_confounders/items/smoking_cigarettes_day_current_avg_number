@@ -16,16 +16,21 @@
             "column": "Text Validation Max",
             "source": "redcap",
             "value": "1000.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "smoking_cigarettes_day_current_avg_number"
     },
     "question": {
-        "en": "[DEPRECATED] Number of cigarettes per day:"
+        "en": "[DEPRECATED]\nNumber of cigarettes per day:"
     },
     "responseOptions": {
         "maxValue": 1000,
@@ -35,7 +40,8 @@
         ]
     },
     "ui": {
-        "inputType": "number"
+        "inputType": "number",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

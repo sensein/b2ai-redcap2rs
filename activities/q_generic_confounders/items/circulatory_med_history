@@ -1,14 +1,21 @@
 {
     "id": "circulatory_med_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Circulatory and Other Conditions"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "circulatory_med_history"
     },
     "question": {
-        "en": "[DEPRECATED] Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)"
+        "en": "[DEPRECATED]\nSome other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)"
     },
     "responseOptions": {
         "choices": [
@@ -49,7 +56,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

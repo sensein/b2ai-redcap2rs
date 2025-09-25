@@ -9,7 +9,6 @@
         "order": [
             "items/diagnosis_mtd_gsd",
             "items/diagnosis_mtd_gsd_evaluations_2",
-            "items/diagnosis_mtd_gsd_evaluations",
             "items/diagnosis_mtd_gsd_assessments",
             "items/diagnosis_mtd_ds",
             "items/diagnosis_mtd_etiology",
@@ -35,7 +34,8 @@
             "items/diagnosis_mtd_degree_comments_other_2",
             "items/diagnosis_mtd_treatment",
             "items/diagnosis_mtd_treatment_select",
-            "items/diagnosis_mtd_treatment_other"
+            "items/diagnosis_mtd_treatment_other",
+            "items/diagnosis_mtd_gsd_evaluations"
         ],
         "addProperties": [
             {
@@ -49,12 +49,6 @@
                 "isVis": "diagnosis_mtd_gsd=='yes'",
                 "valueRequired": true,
                 "variableName": "diagnosis_mtd_gsd_evaluations_2"
-            },
-            {
-                "isAbout": "items/diagnosis_mtd_gsd_evaluations",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "diagnosis_mtd_gsd_evaluations"
             },
             {
                 "isAbout": "items/diagnosis_mtd_gsd_assessments",
@@ -211,10 +205,16 @@
                 "isVis": "diagnosis_mtd_treatment_select(other)=='1'",
                 "valueRequired": false,
                 "variableName": "diagnosis_mtd_treatment_other"
+            },
+            {
+                "isAbout": "items/diagnosis_mtd_gsd_evaluations",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "diagnosis_mtd_gsd_evaluations"
             }
         ],
         "shuffle": false
     },
-    "version": "4.1.0",
+    "version": "4.2.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

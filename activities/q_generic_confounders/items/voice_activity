@@ -1,14 +1,21 @@
 {
     "id": "voice_activity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "DAY TO DAY ACTIVITIES\n\nThings you do on a daily basis (including your job, work environment, hydration, etc.) can affect the sound of your voice OR affect the way you complete the tasks in this study. This section asks questions about some of these factors. \n\n\nVoice  Use"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "voice_activity"
     },
     "question": {
-        "en": "[DEPRECATED] Do you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply"
+        "en": "[DEPRECATED]\nDo you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply"
     },
     "responseOptions": {
         "choices": [
@@ -61,7 +68,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,14 +1,21 @@
 {
     "id": "resp_medical_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "resp_medical_history"
     },
     "question": {
-        "en": "[DEPRECATED]  Respiratory medical history"
+        "en": "[DEPRECATED]\nRespiratory medical history"
     },
     "responseOptions": {
         "choices": [
@@ -43,7 +50,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

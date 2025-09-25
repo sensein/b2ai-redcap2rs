@@ -9,7 +9,7 @@
         }
     ],
     "preamble": {
-        "en": "1. Gold Standard Diagnosis:"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "hd_confirmed_by_genetic_testing"

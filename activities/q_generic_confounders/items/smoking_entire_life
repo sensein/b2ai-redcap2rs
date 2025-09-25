@@ -1,14 +1,21 @@
 {
     "id": "smoking_entire_life",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "smoking_entire_life"
     },
     "question": {
-        "en": "[DEPRECATED] Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)?"
+        "en": "[DEPRECATED]\nHave you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)?"
     },
     "responseOptions": {
         "choices": [
@@ -42,7 +49,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

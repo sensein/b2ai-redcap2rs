@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "2.\tMedical and Psychiatric comorbidities"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_ad_hist_psy_med_prob_other"
     },
     "question": {
-        "en": "Please specify\n\nMOVED IT TO \"Q - Mood - Participant History\""
+        "en": "[DEPRECATED]\nPlease specify\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "valueType": [

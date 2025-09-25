@@ -1,14 +1,21 @@
 {
     "id": "pain_medication",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED] Medications"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "pain_medication"
     },
     "question": {
-        "en": "[DEPRECATED] Chronic Pain medication"
+        "en": "[DEPRECATED]\nChronic Pain medication"
     },
     "responseOptions": {
         "choices": [
@@ -37,7 +44,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

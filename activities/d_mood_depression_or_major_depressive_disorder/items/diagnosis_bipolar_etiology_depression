@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "4.\tEtiology\n\n(Legacy)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "diagnosis_bipolar_etiology_depression"
     },
     "question": {
-        "en": "Describe life events that may relate to the diagnosis\n\n(Legacy)"
+        "en": "[DEPRECATED]\nDescribe life events that may relate to the diagnosis"
     },
     "responseOptions": {
         "valueType": [

@@ -1,14 +1,21 @@
 {
     "id": "cough_today_severity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "[DEPRECATED]  Have you had any of the interventions mentioned below? (check all that apply)"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "cough_today_severity"
     },
     "question": {
-        "en": "[DEPRECATED] What is the severity of your cough?"
+        "en": "[DEPRECATED]\nWhat is the severity of your cough?"
     },
     "responseOptions": {
         "choices": [
@@ -78,7 +85,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -8,7 +8,7 @@
         "en": "reading_aloud"
     },
     "question": {
-        "en": "How good do you think you are at reading out loud in [English/Spanish/French], - that is, reading out loud at a normal rate without making mistakes and understanding what you read?"
+        "en": "How good do you think you are at reading out loud in [English/Spanish], - that is, reading out loud at a normal rate without making mistakes and understanding what you read?"
     },
     "responseOptions": {
         "choices": [

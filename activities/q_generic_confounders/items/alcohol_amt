@@ -1,14 +1,21 @@
 {
     "id": "alcohol_amt",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "Alcohol consumption"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "alcohol_amt"
     },
     "question": {
-        "en": "[DEPRECATED] How many drinks containing alcohol do you have on a typical day when you are drinking?\nOne drink is 12 oz. or 330 mL of beer, 5 oz. or 150 mL of wine, 1.5 oz. or 45mL (one shot) of liquor\n\nNote:  Replaced with string value instead number value"
+        "en": "[DEPRECATED]\nHow many drinks containing alcohol do you have on a typical day when you are drinking?\nOne drink is 12 oz. or 330 mL of beer, 5 oz. or 150 mL of wine, 1.5 oz. or 45mL (one shot) of liquor"
     },
     "responseOptions": {
         "choices": [
@@ -54,7 +61,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

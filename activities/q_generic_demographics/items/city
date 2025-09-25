@@ -9,13 +9,13 @@
         }
     ],
     "preamble": {
-        "en": "Address Information"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "city"
     },
     "question": {
-        "en": "City \n[Deprecated in Protocol v4]"
+        "en": "[DEPRECATED]\nCity"
     },
     "responseOptions": {
         "valueType": [

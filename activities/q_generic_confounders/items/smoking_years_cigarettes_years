@@ -16,16 +16,21 @@
             "column": "Text Validation Max",
             "source": "redcap",
             "value": "125.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "[DEPRECATED] Smoking"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "smoking_years_cigarettes_years"
     },
     "question": {
-        "en": "[DEPRECATED] Number of years:"
+        "en": "[DEPRECATED]\nNumber of years:"
     },
     "responseOptions": {
         "maxValue": 125,
@@ -35,7 +40,8 @@
         ]
     },
     "ui": {
-        "inputType": "number"
+        "inputType": "number",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,14 +1,21 @@
 {
     "id": "assistance_programs_ca",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
-        "en": "Demographics - Optional"
+        "en": "Deprecated Fields"
     },
     "prefLabel": {
         "en": "assistance_programs_ca"
     },
     "question": {
-        "en": "Do you take advantage of any of the following programs? Choose all that apply\n\n[Deprecated in Protocol v4]"
+        "en": "[DEPRECATED]\nDo you take advantage of any of the following programs? Choose all that apply"
     },
     "responseOptions": {
         "choices": [
@@ -49,7 +56,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
