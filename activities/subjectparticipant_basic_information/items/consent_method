@@ -20,12 +20,6 @@
                     "en": "eConsent"
                 },
                 "value": "econsent"
-            },
-            {
-                "name": {
-                    "en": "Video Consent"
-                },
-                "value": "e_video_consent"
             }
         ],
         "valueType": [

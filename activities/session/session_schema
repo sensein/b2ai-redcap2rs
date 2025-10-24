@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/session_id",
+            "items/session_record_id",
             "items/session_status",
             "items/session_started_at",
             "items/session_is_control_participant",
@@ -23,6 +24,12 @@
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "session_id"
+            },
+            {
+                "isAbout": "items/session_record_id",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "session_record_id"
             },
             {
                 "isAbout": "items/session_status",
@@ -75,6 +82,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.2.0",
+    "version": "4.3.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
