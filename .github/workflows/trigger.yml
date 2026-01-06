@@ -1,0 +1,24 @@
+name: Trigger ReproSchema2rs to b2aiprep workflow
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger workflow to build ReproSchema from RedCap
+        run: |
+          # Generate a unique branch name
+          BRANCH_NAME="ReproSchema2rs-$(date +%Y%m%d%H%M%S)"
+          echo "Triggering b2aiprep workflow on branch $BRANCH_NAME"
+
+          # Trigger the b2aiprep workflow
+          curl --request POST \
+            --header "Authorization: token ${{ secrets.B2AI_REDCAP2RS_PAT }}" \
+            --header "Accept: application/vnd.github.v3+json" \
+            --url https://api.github.com/repos/Evan8456/b2aiprep/actions/workflows/deploy.yml/dispatches \
+            --data '{"ref": "main", "inputs": {"branch_name": "'"$BRANCH_NAME"'"}}'
