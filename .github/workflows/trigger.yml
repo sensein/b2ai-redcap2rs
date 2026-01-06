@@ -1,9 +1,7 @@
 name: Trigger ReproSchema2rs to b2aiprep workflow
 
 on:
-  push:
-    tags:
-      - '*'
+  push
 
 jobs:
   trigger:
