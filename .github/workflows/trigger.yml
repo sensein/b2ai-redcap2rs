@@ -18,5 +18,5 @@ jobs:
           curl --request POST \
             --header "Authorization: token ${{ secrets.B2AI_REDCAP2RS_PAT }}" \
             --header "Accept: application/vnd.github.v3+json" \
-            --url https://api.github.com/repos/Evan8456/b2aiprep/actions/workflows/deploy.yml/dispatches \
+            --url https://api.github.com/repos/Evan8456/b2aiprep/actions/workflows/pipeline_trigger.yml/dispatches \
             --data '{"ref": "main", "inputs": {"branch_name": "'"$BRANCH_NAME"'"}}'
