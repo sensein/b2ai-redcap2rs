@@ -1,22 +1,35 @@
 name: Trigger ReproSchema2rs to b2aiprep workflow
 
 on:
-  push
+  push:
+    tags:
+      - '*'
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0)
+          TIMESTAMP=$(date +%Y%m%d%H%M%S)
+          BRANCH_NAME="redcap2rs-${LATEST_TAG}-${TIMESTAMP}"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+      
       - name: Trigger workflow to build ReproSchema from RedCap
         run: |
-          # Generate a unique branch name
-          BRANCH_NAME="ReproSchema2rs-$(date +%Y%m%d%H%M%S)"
           echo "Triggering b2aiprep workflow on branch $BRANCH_NAME"
 
           # Trigger the b2aiprep workflow
           curl --request POST \
             --header "Authorization: token ${{ secrets.AUTH }}" \
             --header "Accept: application/vnd.github.v3+json" \
-            --url https://api.github.com/repos/sensein/b2aiprep/actions/workflows/pipeline_trigger.yml/dispatches \
+            --url https://api.github.com/repos/Evan8456/b2aiprep/actions/workflows/pipeline_trigger.yml/dispatches \
             --data '{"ref": "main", "inputs": {"branch_name": "'"$BRANCH_NAME"'"}}'
