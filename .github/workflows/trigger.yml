@@ -15,6 +15,8 @@ jobs:
         with:
           app-id: ${{ vars.BRIDGE_APP_ID }}
           private-key: ${{ secrets.BRIDGE_APP_PRIVATE_KEY }}
+          owner: Evan8456 
+          repositories: b2aiprep
 
       - name: Checkout repository
         uses: actions/checkout@v4
