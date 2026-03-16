@@ -8,7 +8,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.BRIDGE_APP_ID }}
+          private-key: ${{ secrets.BRIDGE_APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@v4
+        token: ${{ steps.app-token.outputs.token }}
 
       - uses: actions/setup-python@v5
         with:
@@ -86,3 +93,7 @@ jobs:
         run: |
           git tag $VERSION_TAG
           git push origin $VERSION_TAG
+        env:
+          GIT_ASKPASS: echo
+          GIT_USERNAME: x-access-token
+          GIT_PASSWORD: ${{ steps.app-token.outputs.token }}
