@@ -33,7 +33,7 @@
             },
             {
                 "isAbout": "items/session_status",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "session_status"
             },
@@ -75,13 +75,13 @@
             },
             {
                 "isAbout": "items/session_assigned_tasks",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "session_assigned_tasks"
             }
         ],
         "shuffle": false
     },
-    "version": "4.4.0",
+    "version": "4.3.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
