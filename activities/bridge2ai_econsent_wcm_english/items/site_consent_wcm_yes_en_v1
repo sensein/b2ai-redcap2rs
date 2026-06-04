@@ -1,11 +1,18 @@
 {
-    "id": "diagnosis_healthy_developmentally_typical_children_ci",
+    "id": "site_consent_wcm_yes_en_v1",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
     "prefLabel": {
-        "en": "diagnosis_healthy_developmentally_typical_children_ci"
+        "en": "site_consent_wcm_yes_en_v1"
     },
     "question": {
-        "en": "Can you confirm that based on the current clinical status this child is healthy and developmentally-typical at this time? (e.g., could this code (ICD 10 Z00. 129) be applied for a visit at this time)"
+        "en": "YES,I give permission for my voice, speech, and respiratory sound data, demographic data,previously completed imaging data, and survey and/or validated questionnaire answers to bestored for future research. I understand that the data and/or samples will be stored indefinitely"
     },
     "responseOptions": {
         "choices": [
