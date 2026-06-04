@@ -48,7 +48,10 @@ jobs:
 
       - name: Get redcap csv
         run: |
-          cp bridge2ai-redcap/data/bridge2ai_voice_project_data_dictionary.csv ./
+          # Match whatever the dictionary CSV is named upstream (the prefix has
+          # changed across releases, e.g. bridge2ai_voice_project_* ->
+          # bridge2ai_voice_redcap_project_*) and normalize to a stable name.
+          cp bridge2ai-redcap/data/*data_dictionary.csv ./data_dictionary.csv
       
       - name: Set up config 
         run: |
@@ -69,10 +72,10 @@ jobs:
           rm -r b2ai-redcap2rs
           rm -r activities
           mkdir output
-          cp bridge2ai_voice_project_data_dictionary.csv output
+          cp data_dictionary.csv output
           cp protocol.yaml output
           cd output
-          reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
+          reproschema redcap2reproschema data_dictionary.csv protocol.yaml
           cp -r b2ai-redcap2rs/* ..
           cd ..
 
@@ -92,8 +95,13 @@ jobs:
       
       - name: Add Tag
         run: |
-          git tag $VERSION_TAG
-          git push origin $VERSION_TAG
+          # Make tagging idempotent: a previous failed run may have left this
+          # tag on the remote, which would make a plain `git tag`/`git push`
+          # fail ("already exists" / non-fast-forward). Re-point the tag at the
+          # commit we just pushed and force-update it. Updating the tag ref
+          # still fires the downstream push-on-tag workflow (trigger.yml).
+          git tag -f "$VERSION_TAG"
+          git push --force origin "refs/tags/$VERSION_TAG"
         env:
           GIT_ASKPASS: echo
           GIT_USERNAME: x-access-token
