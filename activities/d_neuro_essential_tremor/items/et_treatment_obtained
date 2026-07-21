@@ -8,7 +8,7 @@
         "en": "et_treatment_obtained"
     },
     "question": {
-        "en": "Has the participant ever had deep brain stimulation, forced ultrasound, or\nsurgery as treatment for essential tremor?"
+        "en": "Has the participant ever had deep brain stimulation, focused ultrasound, or\nsurgery as treatment for essential tremor?"
     },
     "responseOptions": {
         "choices": [
