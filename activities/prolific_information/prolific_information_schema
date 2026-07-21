@@ -17,7 +17,7 @@
         "addProperties": [
             {
                 "isAbout": "items/is_prolific",
-                "isVis": false,
+                "isVis": true,
                 "valueRequired": false,
                 "variableName": "is_prolific"
             },
@@ -36,6 +36,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.8.0",
+    "version": "4.9.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

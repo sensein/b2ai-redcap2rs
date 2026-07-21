@@ -43,6 +43,8 @@
             "../activities/d_resp_unexplained_chronic_cough/d_resp_unexplained_chronic_cough_schema",
             "../activities/d_neuro_alzheimers_disease_mild_cognitive_impairme/d_neuro_alzheimers_disease_mild_cognitive_impairme_schema",
             "../activities/d_neuro_amyotrophic_lateral_sclerosis_als/d_neuro_amyotrophic_lateral_sclerosis_als_schema",
+            "../activities/d_neuro_ataxia/d_neuro_ataxia_schema",
+            "../activities/d_neuro_essential_tremor/d_neuro_essential_tremor_schema",
             "../activities/d_neuro_parkinsons_disease/d_neuro_parkinsons_disease_schema",
             "../activities/d_neuro_huntingtons_disease/d_neuro_huntingtons_disease_schema",
             "../activities/session/session_schema",
@@ -342,6 +344,22 @@
                 "variableName": "d_neuro_amyotrophic_lateral_sclerosis_als_schema"
             },
             {
+                "isAbout": "../activities/d_neuro_ataxia/d_neuro_ataxia_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "D Neuro Ataxia"
+                },
+                "variableName": "d_neuro_ataxia_schema"
+            },
+            {
+                "isAbout": "../activities/d_neuro_essential_tremor/d_neuro_essential_tremor_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "D Neuro Essential Tremor"
+                },
+                "variableName": "d_neuro_essential_tremor_schema"
+            },
+            {
                 "isAbout": "../activities/d_neuro_parkinsons_disease/d_neuro_parkinsons_disease_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -600,6 +618,6 @@
         ],
         "shuffle": false
     },
-    "version": "4.8.0",
+    "version": "4.9.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
