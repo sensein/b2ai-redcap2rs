@@ -89,6 +89,11 @@ jobs:
           reproschema validate activities
           git add b2ai-redcap2rs
           git add activities
+          # Also version the dictionary the reproschema was generated from. The
+          # conversion drops information consumers need (literal checkbox option
+          # codes such as `2029_7`, the Identifier? flag, text validation types),
+          # so downstream tools vendor this file alongside the reproschema.
+          git add data_dictionary.csv
           git commit -a -m "$(date): update reproschema with redcap $VERSION_TAG"
           git push
           
